@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="440" viewBox="0 0 800 440"
+     font-family="'Apple SD Gothic Neo', 'Malgun Gothic', Arial, sans-serif">
+  <rect width="800" height="440" fill="#f8f9fa" rx="12"/>
+  <text x="400" y="36" text-anchor="middle" font-size="17" font-weight="bold" fill="#2c3e50">금융위 벤처 투자 면책 특례 — 커뮤니티 반응</text>
+  <text x="400" y="54" text-anchor="middle" font-size="11" fill="#7f8c8d">클리앙 · 루리웹 · 에펨코리아 | 2026-03-11 KST</text>
+  <rect x="490" y="66" width="12" height="12" fill="#27ae60" rx="2"/>
+  <text x="506" y="77" font-size="11" fill="#2c3e50">긍정</text>
+  <rect x="548" y="66" width="12" height="12" fill="#e74c3c" rx="2"/>
+  <text x="564" y="77" font-size="11" fill="#2c3e50">부정</text>
+  <rect x="606" y="66" width="12" height="12" fill="#95a5a6" rx="2"/>
+  <text x="622" y="77" font-size="11" fill="#2c3e50">중립</text>
+
+  <text x="60" y="100" font-size="13" font-weight="bold" fill="#2c3e50">클리앙 — 긍정 128건 / 부정 56건 / 중립 14건</text>
+  <rect x="60" y="110" width="440" height="28" fill="#27ae60" rx="3"/>
+  <rect x="500" y="110" width="192" height="28" fill="#e74c3c" rx="3"/>
+  <rect x="692" y="110" width="48" height="28" fill="#95a5a6" rx="3"/>
+  <text x="60" y="152" text-anchor="start" font-size="11" fill="#27ae60">긍정 65%</text>
+  <text x="400" y="152" text-anchor="middle" font-size="11" fill="#e74c3c">부정 28%</text>
+  <text x="740" y="152" text-anchor="end" font-size="11" fill="#7f8c8d">중립 7%</text>
+
+  <text x="60" y="220" font-size="13" font-weight="bold" fill="#2c3e50">루리웹 — 긍정 70건 / 부정 33건 / 중립 9건</text>
+  <rect x="60" y="230" width="425" height="28" fill="#27ae60" rx="3"/>
+  <rect x="485" y="230" width="200" height="28" fill="#e74c3c" rx="3"/>
+  <rect x="685" y="230" width="55" height="28" fill="#95a5a6" rx="3"/>
+  <text x="60" y="272" text-anchor="start" font-size="11" fill="#27ae60">긍정 62%</text>
+  <text x="400" y="272" text-anchor="middle" font-size="11" fill="#e74c3c">부정 29%</text>
+  <text x="740" y="272" text-anchor="end" font-size="11" fill="#7f8c8d">중립 9%</text>
+
+  <text x="60" y="340" font-size="13" font-weight="bold" fill="#2c3e50">에펨코리아 — 긍정 54건 / 부정 23건 / 중립 11건</text>
+  <rect x="60" y="350" width="417" height="28" fill="#27ae60" rx="3"/>
+  <rect x="477" y="350" width="178" height="28" fill="#e74c3c" rx="3"/>
+  <rect x="655" y="350" width="85" height="28" fill="#95a5a6" rx="3"/>
+  <text x="60" y="392" text-anchor="start" font-size="11" fill="#27ae60">긍정 61%</text>
+  <text x="400" y="392" text-anchor="middle" font-size="11" fill="#e74c3c">부정 26%</text>
+  <text x="740" y="392" text-anchor="end" font-size="11" fill="#7f8c8d">중립 13%</text>
+
+  <text x="400" y="426" text-anchor="middle" font-size="10" fill="#bdc3c7">* 수치는 집계된 공감/반응 신호 기반 추산 | paperWanderer</text>
+</svg>

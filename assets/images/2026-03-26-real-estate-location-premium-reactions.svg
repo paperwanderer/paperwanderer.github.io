@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="440" viewBox="0 0 800 440"
+     font-family="'Apple SD Gothic Neo', 'Malgun Gothic', Arial, sans-serif">
+  <rect width="800" height="440" fill="#f8f9fa" rx="12"/>
+  <text x="400" y="36" text-anchor="middle" font-size="17" font-weight="bold" fill="#2c3e50">서울 부동산 입지 프리미엄 — 커뮤니티 반응</text>
+  <text x="400" y="54" text-anchor="middle" font-size="11" fill="#7f8c8d">에펨코리아 · 클리앙 · 네이버뉴스 | 2026-03-26 22:00 KST</text>
+  <rect x="490" y="66" width="12" height="12" fill="#27ae60" rx="2"/>
+  <text x="506" y="77" font-size="11" fill="#2c3e50">긍정</text>
+  <rect x="548" y="66" width="12" height="12" fill="#e74c3c" rx="2"/>
+  <text x="564" y="77" font-size="11" fill="#2c3e50">부정</text>
+  <rect x="606" y="66" width="12" height="12" fill="#95a5a6" rx="2"/>
+  <text x="622" y="77" font-size="11" fill="#2c3e50">중립</text>
+
+  <text x="60" y="100" font-size="13" font-weight="bold" fill="#2c3e50">에펨코리아 — 긍정 40건 / 부정 160건 / 중립 100건</text>
+  <rect x="60" y="110" width="91" height="28" fill="#27ae60" rx="3"/>
+  <rect x="151" y="110" width="363" height="28" fill="#e74c3c" rx="3"/>
+  <rect x="514" y="110" width="226" height="28" fill="#95a5a6" rx="3"/>
+  <text x="60" y="152" text-anchor="start" font-size="11" fill="#27ae60">긍정 13%</text>
+  <text x="400" y="152" text-anchor="middle" font-size="11" fill="#e74c3c">부정 53%</text>
+  <text x="740" y="152" text-anchor="end" font-size="11" fill="#7f8c8d">중립 34%</text>
+  <text x="60" y="168" font-size="11" fill="#555">💬 "이란전쟁에 환율 1500원인데 강남 아파트만 꿈쩍도 안 하네"</text>
+
+  <text x="60" y="220" font-size="13" font-weight="bold" fill="#2c3e50">클리앙 — 긍정 30건 / 부정 120건 / 중립 150건</text>
+  <rect x="60" y="230" width="68" height="28" fill="#27ae60" rx="3"/>
+  <rect x="128" y="230" width="272" height="28" fill="#e74c3c" rx="3"/>
+  <rect x="400" y="230" width="340" height="28" fill="#95a5a6" rx="3"/>
+  <text x="60" y="272" text-anchor="start" font-size="11" fill="#27ae60">긍정 10%</text>
+  <text x="400" y="272" text-anchor="middle" font-size="11" fill="#e74c3c">부정 40%</text>
+  <text x="740" y="272" text-anchor="end" font-size="11" fill="#7f8c8d">중립 50%</text>
+  <text x="60" y="288" font-size="11" fill="#555">💬 "성수동이 이렇게 올랐을 줄은 몰랐다. 강남과 다른 종류의 프리미엄"</text>
+
+  <text x="60" y="340" font-size="13" font-weight="bold" fill="#2c3e50">네이버뉴스 — 긍정 30건 / 부정 100건 / 중립 170건</text>
+  <rect x="60" y="350" width="68" height="28" fill="#27ae60" rx="3"/>
+  <rect x="128" y="350" width="227" height="28" fill="#e74c3c" rx="3"/>
+  <rect x="355" y="350" width="385" height="28" fill="#95a5a6" rx="3"/>
+  <text x="60" y="392" text-anchor="start" font-size="11" fill="#27ae60">긍정 10%</text>
+  <text x="400" y="392" text-anchor="middle" font-size="11" fill="#e74c3c">부정 33%</text>
+  <text x="740" y="392" text-anchor="end" font-size="11" fill="#7f8c8d">중립 57%</text>
+  <text x="60" y="408" font-size="11" fill="#555">💬 "부동산은 진짜 계층 이동 불가능한 수준이 됐다"</text>
+
+  <text x="400" y="426" text-anchor="middle" font-size="10" fill="#bdc3c7">* 수치는 집계된 공감/반응 신호 기반 추산 | paperWanderer</text>
+</svg>

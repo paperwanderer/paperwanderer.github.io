@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="440" viewBox="0 0 800 440"
+     font-family="'Apple SD Gothic Neo', 'Malgun Gothic', Arial, sans-serif">
+  <rect width="800" height="440" fill="#f8f9fa" rx="12"/>
+  <text x="400" y="36" text-anchor="middle" font-size="17" font-weight="bold" fill="#2c3e50">산체스 MLB 개막전 10K — 커뮤니티 반응</text>
+  <text x="400" y="54" text-anchor="middle" font-size="11" fill="#7f8c8d">스타뉴스·스포츠경향 · 필리스 팬·MLB · FanGraphs·MLB TR | 2026-03-27 KST</text>
+  <rect x="490" y="66" width="12" height="12" fill="#27ae60" rx="2"/>
+  <text x="506" y="77" font-size="11" fill="#2c3e50">긍정</text>
+  <rect x="548" y="66" width="12" height="12" fill="#e74c3c" rx="2"/>
+  <text x="564" y="77" font-size="11" fill="#2c3e50">부정</text>
+  <rect x="606" y="66" width="12" height="12" fill="#95a5a6" rx="2"/>
+  <text x="622" y="77" font-size="11" fill="#2c3e50">중립</text>
+
+  <text x="60" y="100" font-size="13" font-weight="bold" fill="#2c3e50">스타뉴스·스포츠경향 (한국 팬) — 긍정 20% / 부정 55% / 중립 25%</text>
+  <rect x="60" y="110" width="136" height="28" fill="#27ae60" rx="3"/>
+  <rect x="196" y="110" width="374" height="28" fill="#e74c3c" rx="3"/>
+  <rect x="570" y="110" width="170" height="28" fill="#95a5a6" rx="3"/>
+  <text x="60" y="152" text-anchor="start" font-size="11" fill="#27ae60">긍정 20%</text>
+  <text x="400" y="152" text-anchor="middle" font-size="11" fill="#e74c3c">부정 55%</text>
+  <text x="740" y="152" text-anchor="end" font-size="11" fill="#7f8c8d">중립 25%</text>
+  <text x="60" y="168" font-size="11" fill="#555">💬 "한국 타자 삼진 잡은 거 기분 묘하다" — 씁쓸함 섞인 반응 다수</text>
+
+  <text x="60" y="220" font-size="13" font-weight="bold" fill="#2c3e50">필리스 팬·MLB 커뮤니티 — 긍정 80% / 부정 5% / 중립 15%</text>
+  <rect x="60" y="230" width="544" height="28" fill="#27ae60" rx="3"/>
+  <rect x="604" y="230" width="34" height="28" fill="#e74c3c" rx="3"/>
+  <rect x="638" y="230" width="102" height="28" fill="#95a5a6" rx="3"/>
+  <text x="60" y="272" text-anchor="start" font-size="11" fill="#27ae60">긍정 80%</text>
+  <text x="400" y="272" text-anchor="middle" font-size="11" fill="#e74c3c">부정 5%</text>
+  <text x="740" y="272" text-anchor="end" font-size="11" fill="#7f8c8d">중립 15%</text>
+  <text x="60" y="288" font-size="11" fill="#555">💬 "3억 달러 계약, 오늘 10K로 증명했다" — 필리스 팬 환호</text>
+
+  <text x="60" y="340" font-size="13" font-weight="bold" fill="#2c3e50">FanGraphs·MLB Trade Rumors — 긍정 70% / 부정 10% / 중립 20%</text>
+  <rect x="60" y="350" width="476" height="28" fill="#27ae60" rx="3"/>
+  <rect x="536" y="350" width="68" height="28" fill="#e74c3c" rx="3"/>
+  <rect x="604" y="350" width="136" height="28" fill="#95a5a6" rx="3"/>
+  <text x="60" y="392" text-anchor="start" font-size="11" fill="#27ae60">긍정 70%</text>
+  <text x="400" y="392" text-anchor="middle" font-size="11" fill="#e74c3c">부정 10%</text>
+  <text x="740" y="392" text-anchor="end" font-size="11" fill="#7f8c8d">중립 20%</text>
+  <text x="60" y="408" font-size="11" fill="#555">💬 "10K는 표본 부족이나 구위 자체는 역대급 — FV 분석 일치"</text>
+
+  <text x="400" y="426" text-anchor="middle" font-size="10" fill="#bdc3c7">* 수치는 집계된 공감/반응 신호 기반 추산 | paperWanderer</text>
+</svg>

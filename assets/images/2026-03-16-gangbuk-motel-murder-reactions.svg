@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="440" viewBox="0 0 800 440"
+     font-family="'Apple SD Gothic Neo', 'Malgun Gothic', Arial, sans-serif">
+  <rect width="800" height="440" fill="#f8f9fa" rx="12"/>
+  <text x="400" y="36" text-anchor="middle" font-size="17" font-weight="bold" fill="#2c3e50">강북 모텔 연쇄살인 — 커뮤니티 반응</text>
+  <text x="400" y="54" text-anchor="middle" font-size="11" fill="#7f8c8d">네이버 뉴스 댓글 · FM코리아 · 전체 합산 | 2026-03-16 21:00 KST</text>
+  <rect x="490" y="66" width="12" height="12" fill="#27ae60" rx="2"/>
+  <text x="506" y="77" font-size="11" fill="#2c3e50">긍정</text>
+  <rect x="548" y="66" width="12" height="12" fill="#e74c3c" rx="2"/>
+  <text x="564" y="77" font-size="11" fill="#2c3e50">부정</text>
+  <rect x="606" y="66" width="12" height="12" fill="#95a5a6" rx="2"/>
+  <text x="622" y="77" font-size="11" fill="#2c3e50">중립</text>
+
+  <text x="60" y="100" font-size="13" font-weight="bold" fill="#2c3e50">네이버 뉴스 댓글 — 긍정 110건 / 부정 760건 / 중립 110건</text>
+  <rect x="60" y="110" width="77" height="28" fill="#27ae60" rx="3"/>
+  <rect x="137" y="110" width="531" height="28" fill="#e74c3c" rx="3"/>
+  <rect x="668" y="110" width="72" height="28" fill="#95a5a6" rx="3"/>
+  <text x="60" y="152" text-anchor="start" font-size="11" fill="#27ae60">긍정 11%</text>
+  <text x="400" y="152" text-anchor="middle" font-size="11" fill="#e74c3c">부정 78%</text>
+  <text x="740" y="152" text-anchor="end" font-size="11" fill="#7f8c8d">중립 11%</text>
+  <text x="60" y="168" font-size="11" fill="#555">💬 "추가 피해자가 3명이나 더 나왔는데 초기 수사 왜 이렇게 늦었나" (비공감 312)</text>
+
+  <text x="60" y="220" font-size="13" font-weight="bold" fill="#2c3e50">FM코리아 — 긍정 70건 / 부정 480건 / 중립 270건</text>
+  <rect x="60" y="230" width="58" height="28" fill="#27ae60" rx="3"/>
+  <rect x="118" y="230" width="398" height="28" fill="#e74c3c" rx="3"/>
+  <rect x="516" y="230" width="224" height="28" fill="#95a5a6" rx="3"/>
+  <text x="60" y="272" text-anchor="start" font-size="11" fill="#27ae60">긍정 9%</text>
+  <text x="400" y="272" text-anchor="middle" font-size="11" fill="#e74c3c">부정 59%</text>
+  <text x="740" y="272" text-anchor="end" font-size="11" fill="#7f8c8d">중립 32%</text>
+  <text x="60" y="288" font-size="11" fill="#555">💬 "20살이 이런 범행을 저질렀다는 게 충격이다 사회가 어떻게 된 건지" (비공감 198)</text>
+
+  <text x="60" y="340" font-size="13" font-weight="bold" fill="#2c3e50">전체 합산 — 긍정 180건 / 부정 1,240건 / 중립 380건</text>
+  <rect x="60" y="350" width="68" height="28" fill="#27ae60" rx="3"/>
+  <rect x="128" y="350" width="468" height="28" fill="#e74c3c" rx="3"/>
+  <rect x="596" y="350" width="144" height="28" fill="#95a5a6" rx="3"/>
+  <text x="60" y="392" text-anchor="start" font-size="11" fill="#27ae60">긍정 10%</text>
+  <text x="400" y="392" text-anchor="middle" font-size="11" fill="#e74c3c">부정 69%</text>
+  <text x="740" y="392" text-anchor="end" font-size="11" fill="#7f8c8d">중립 21%</text>
+  <text x="60" y="408" font-size="11" fill="#555">💬 "부실 수사 책임자도 처벌받아야 한다" (비공감 278)</text>
+
+  <text x="400" y="426" text-anchor="middle" font-size="10" fill="#bdc3c7">* 수치는 집계된 공감/반응 신호 기반 추산 | paperWanderer</text>
+</svg>

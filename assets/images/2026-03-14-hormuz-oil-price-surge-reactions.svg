@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="440" viewBox="0 0 800 440"
+     font-family="'Apple SD Gothic Neo', 'Malgun Gothic', Arial, sans-serif">
+  <rect width="800" height="440" fill="#f8f9fa" rx="12"/>
+  <text x="400" y="36" text-anchor="middle" font-size="17" font-weight="bold" fill="#2c3e50">호르무즈 위기·유가 급등 — 커뮤니티 반응</text>
+  <text x="400" y="54" text-anchor="middle" font-size="11" fill="#7f8c8d">FM코리아 · 클리앙 · 네이버뉴스 | 2026-03-14 KST</text>
+  <rect x="490" y="66" width="12" height="12" fill="#27ae60" rx="2"/>
+  <text x="506" y="77" font-size="11" fill="#2c3e50">긍정</text>
+  <rect x="548" y="66" width="12" height="12" fill="#e74c3c" rx="2"/>
+  <text x="564" y="77" font-size="11" fill="#2c3e50">부정</text>
+  <rect x="606" y="66" width="12" height="12" fill="#95a5a6" rx="2"/>
+  <text x="622" y="77" font-size="11" fill="#2c3e50">중립</text>
+
+  <text x="60" y="100" font-size="13" font-weight="bold" fill="#2c3e50">FM코리아 — 긍정 30건 / 부정 320건 / 중립 150건</text>
+  <rect x="60" y="110" width="41" height="28" fill="#27ae60" rx="3"/>
+  <rect x="101" y="110" width="435" height="28" fill="#e74c3c" rx="3"/>
+  <rect x="536" y="110" width="204" height="28" fill="#95a5a6" rx="3"/>
+  <text x="60" y="152" text-anchor="start" font-size="11" fill="#27ae60">긍정 6%</text>
+  <text x="400" y="152" text-anchor="middle" font-size="11" fill="#e74c3c">부정 64%</text>
+  <text x="740" y="152" text-anchor="end" font-size="11" fill="#7f8c8d">중립 30%</text>
+  <text x="60" y="168" font-size="11" fill="#555">💬 "기름값에 환율까지... 이중 압박 실화냐. 자동차 기름 넣기가 무섭다"</text>
+
+  <text x="60" y="220" font-size="13" font-weight="bold" fill="#2c3e50">클리앙 — 긍정 20건 / 부정 180건 / 중립 80건</text>
+  <rect x="60" y="230" width="49" height="28" fill="#27ae60" rx="3"/>
+  <rect x="109" y="230" width="437" height="28" fill="#e74c3c" rx="3"/>
+  <rect x="546" y="230" width="194" height="28" fill="#95a5a6" rx="3"/>
+  <text x="60" y="272" text-anchor="start" font-size="11" fill="#27ae60">긍정 7%</text>
+  <text x="400" y="272" text-anchor="middle" font-size="11" fill="#e74c3c">부정 64%</text>
+  <text x="740" y="272" text-anchor="end" font-size="11" fill="#7f8c8d">중립 29%</text>
+  <text x="60" y="288" font-size="11" fill="#555">💬 "호르무즈 봉쇄되면 한국이 제일 먼저 타격받는다, 비축유 괜찮나"</text>
+
+  <text x="60" y="340" font-size="13" font-weight="bold" fill="#2c3e50">네이버뉴스 — 긍정 50건 / 부정 480건 / 중립 170건</text>
+  <rect x="60" y="350" width="49" height="28" fill="#27ae60" rx="3"/>
+  <rect x="109" y="350" width="466" height="28" fill="#e74c3c" rx="3"/>
+  <rect x="575" y="350" width="165" height="28" fill="#95a5a6" rx="3"/>
+  <text x="60" y="392" text-anchor="start" font-size="11" fill="#27ae60">긍정 7%</text>
+  <text x="400" y="392" text-anchor="middle" font-size="11" fill="#e74c3c">부정 69%</text>
+  <text x="740" y="392" text-anchor="end" font-size="11" fill="#7f8c8d">중립 24%</text>
+  <text x="60" y="408" font-size="11" fill="#555">💬 "스태그플레이션 오나... 물가 잡으려니 성장률이 걱정된다"</text>
+
+  <text x="400" y="426" text-anchor="middle" font-size="10" fill="#bdc3c7">* 수치는 집계된 공감/반응 신호 기반 추산 | paperWanderer</text>
+</svg>

@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="440" viewBox="0 0 800 440"
+     font-family="'Apple SD Gothic Neo', 'Malgun Gothic', Arial, sans-serif">
+  <rect width="800" height="440" fill="#f8f9fa" rx="12"/>
+  <text x="400" y="36" text-anchor="middle" font-size="17" font-weight="bold" fill="#2c3e50">FIVE O ONE 컴백 — 커뮤니티 반응</text>
+  <text x="400" y="54" text-anchor="middle" font-size="11" fill="#7f8c8d">에펨코리아 · 트위터/X · 팬카페 | 2026-03-07 22:00 KST</text>
+  <rect x="490" y="66" width="12" height="12" fill="#27ae60" rx="2"/>
+  <text x="506" y="77" font-size="11" fill="#2c3e50">긍정</text>
+  <rect x="548" y="66" width="12" height="12" fill="#e74c3c" rx="2"/>
+  <text x="564" y="77" font-size="11" fill="#2c3e50">부정</text>
+  <rect x="606" y="66" width="12" height="12" fill="#95a5a6" rx="2"/>
+  <text x="622" y="77" font-size="11" fill="#2c3e50">중립</text>
+
+  <text x="60" y="100" font-size="13" font-weight="bold" fill="#2c3e50">에펨코리아 — 긍정 840건 / 부정 310건 / 중립 400건</text>
+  <rect x="60" y="110" width="370" height="28" fill="#27ae60" rx="3"/>
+  <rect x="430" y="110" width="137" height="28" fill="#e74c3c" rx="3"/>
+  <rect x="567" y="110" width="173" height="28" fill="#95a5a6" rx="3"/>
+  <text x="60" y="152" text-anchor="start" font-size="11" fill="#27ae60">긍정 54%</text>
+  <text x="400" y="152" text-anchor="middle" font-size="11" fill="#e74c3c">부정 20%</text>
+  <text x="740" y="152" text-anchor="end" font-size="11" fill="#7f8c8d">중립 26%</text>
+  <text x="60" y="168" font-size="11" fill="#555">💬 "SS501 멤버들 목소리는 여전하다. 감동이다"</text>
+
+  <text x="60" y="220" font-size="13" font-weight="bold" fill="#2c3e50">트위터/X — 긍정 1,080건 / 부정 70건 / 중립 350건</text>
+  <rect x="60" y="230" width="489" height="28" fill="#27ae60" rx="3"/>
+  <rect x="549" y="230" width="32" height="28" fill="#e74c3c" rx="3"/>
+  <rect x="581" y="230" width="159" height="28" fill="#95a5a6" rx="3"/>
+  <text x="60" y="272" text-anchor="start" font-size="11" fill="#27ae60">긍정 72%</text>
+  <text x="400" y="272" text-anchor="middle" font-size="11" fill="#e74c3c">부정 5%</text>
+  <text x="740" y="272" text-anchor="end" font-size="11" fill="#7f8c8d">중립 23%</text>
+  <text x="60" y="288" font-size="11" fill="#555">💬 "허영생 목소리 그대로다. 눈물 날 것 같다"</text>
+
+  <text x="60" y="340" font-size="13" font-weight="bold" fill="#2c3e50">팬카페 — 긍정 780건 / 부정 40건 / 중립 180건</text>
+  <rect x="60" y="350" width="530" height="28" fill="#27ae60" rx="3"/>
+  <rect x="590" y="350" width="27" height="28" fill="#e74c3c" rx="3"/>
+  <rect x="617" y="350" width="123" height="28" fill="#95a5a6" rx="3"/>
+  <text x="60" y="392" text-anchor="start" font-size="11" fill="#27ae60">긍정 78%</text>
+  <text x="400" y="392" text-anchor="middle" font-size="11" fill="#e74c3c">부정 4%</text>
+  <text x="740" y="392" text-anchor="end" font-size="11" fill="#7f8c8d">중립 18%</text>
+  <text x="60" y="408" font-size="11" fill="#555">💬 "20년을 기다린 팬입니다. 오늘 진짜 감격이다"</text>
+
+  <text x="400" y="426" text-anchor="middle" font-size="10" fill="#bdc3c7">* 수치는 집계된 공감/반응 신호 기반 추산 | paperWanderer</text>
+</svg>

@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="322" viewBox="0 0 800 322"
+     font-family="'Apple SD Gothic Neo', 'Malgun Gothic', Arial, sans-serif">
+  <rect width="800" height="322" fill="#f8f9fa" rx="12"/>
+  <text x="400" y="36" text-anchor="middle" font-size="17" font-weight="bold" fill="#2c3e50">프로젝트 헤일메리 — 커뮤니티 반응</text>
+  <text x="400" y="54" text-anchor="middle" font-size="11" fill="#7f8c8d">네이트 연예 · 에펨코리아 | 2026-03-19 18:00 KST</text>
+  <rect x="490" y="66" width="12" height="12" fill="#27ae60" rx="2"/>
+  <text x="506" y="77" font-size="11" fill="#2c3e50">긍정</text>
+  <rect x="548" y="66" width="12" height="12" fill="#e74c3c" rx="2"/>
+  <text x="564" y="77" font-size="11" fill="#2c3e50">부정</text>
+  <rect x="606" y="66" width="12" height="12" fill="#95a5a6" rx="2"/>
+  <text x="622" y="77" font-size="11" fill="#2c3e50">중립</text>
+
+  <text x="60" y="100" font-size="13" font-weight="bold" fill="#2c3e50">네이트 연예 — 긍정 1,600건 / 부정 100건 / 중립 280건</text>
+  <rect x="60" y="110" width="549" height="28" fill="#27ae60" rx="3"/>
+  <rect x="609" y="110" width="34" height="28" fill="#e74c3c" rx="3"/>
+  <rect x="643" y="110" width="97" height="28" fill="#95a5a6" rx="3"/>
+  <text x="60" y="152" text-anchor="start" font-size="11" fill="#27ae60">긍정 81%</text>
+  <text x="400" y="152" text-anchor="middle" font-size="11" fill="#e74c3c">부정 5%</text>
+  <text x="740" y="152" text-anchor="end" font-size="11" fill="#7f8c8d">중립 14%</text>
+  <text x="60" y="168" font-size="11" fill="#555">💬 "원작 팬인데 영화도 진짜 좋았다. 로키 나오는 장면에서 눈물 펑펑" (공감 634)</text>
+
+  <text x="60" y="220" font-size="13" font-weight="bold" fill="#2c3e50">에펨코리아 — 긍정 500건 / 부정 40건 / 중립 130건</text>
+  <rect x="60" y="230" width="507" height="28" fill="#27ae60" rx="3"/>
+  <rect x="567" y="230" width="41" height="28" fill="#e74c3c" rx="3"/>
+  <rect x="608" y="230" width="132" height="28" fill="#95a5a6" rx="3"/>
+  <text x="60" y="272" text-anchor="start" font-size="11" fill="#27ae60">긍정 75%</text>
+  <text x="400" y="272" text-anchor="middle" font-size="11" fill="#e74c3c">부정 6%</text>
+  <text x="740" y="272" text-anchor="end" font-size="11" fill="#7f8c8d">중립 19%</text>
+  <text x="60" y="288" font-size="11" fill="#555">💬 "이동진 평론가도 좋은 평 줬고 대중 반응도 좋고 진짜 오랜만에 SF 명작 나왔다" (공감 213)</text>
+
+  <text x="400" y="308" text-anchor="middle" font-size="10" fill="#bdc3c7">* 수치는 집계된 공감/반응 신호 기반 추산 | paperWanderer</text>
+</svg>

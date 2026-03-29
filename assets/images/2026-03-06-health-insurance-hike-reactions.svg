@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="440" viewBox="0 0 800 440"
+     font-family="'Apple SD Gothic Neo', 'Malgun Gothic', Arial, sans-serif">
+  <rect width="800" height="440" fill="#f8f9fa" rx="12"/>
+  <text x="400" y="36" text-anchor="middle" font-size="17" font-weight="bold" fill="#2c3e50">건강보험료 7.19% 인상 — 커뮤니티 반응</text>
+  <text x="400" y="54" text-anchor="middle" font-size="11" fill="#7f8c8d">에펨코리아 · 디시인사이드 · 네이버 뉴스 | 2026-03-06 KST</text>
+  <rect x="490" y="66" width="12" height="12" fill="#27ae60" rx="2"/>
+  <text x="506" y="77" font-size="11" fill="#2c3e50">긍정</text>
+  <rect x="548" y="66" width="12" height="12" fill="#e74c3c" rx="2"/>
+  <text x="564" y="77" font-size="11" fill="#2c3e50">부정</text>
+  <rect x="606" y="66" width="12" height="12" fill="#95a5a6" rx="2"/>
+  <text x="622" y="77" font-size="11" fill="#2c3e50">중립</text>
+
+  <text x="60" y="100" font-size="13" font-weight="bold" fill="#2c3e50">에펨코리아 — 긍정 12건 / 부정 97건 / 중립 44건</text>
+  <rect x="60" y="110" width="53" height="28" fill="#27ae60" rx="3"/>
+  <rect x="113" y="110" width="431" height="28" fill="#e74c3c" rx="3"/>
+  <rect x="544" y="110" width="196" height="28" fill="#95a5a6" rx="3"/>
+  <text x="60" y="152" text-anchor="start" font-size="11" fill="#27ae60">긍정 8%</text>
+  <text x="400" y="152" text-anchor="middle" font-size="11" fill="#e74c3c">부정 63%</text>
+  <text x="740" y="152" text-anchor="end" font-size="11" fill="#7f8c8d">중립 29%</text>
+  <text x="60" y="168" font-size="11" fill="#555">💬 "월급은 그대로인데 건보료·국민연금 다 올라서 실수령액 줄었음"</text>
+
+  <text x="60" y="220" font-size="13" font-weight="bold" fill="#2c3e50">디시인사이드 — 긍정 8건 / 부정 74건 / 중립 31건</text>
+  <rect x="60" y="230" width="48" height="28" fill="#27ae60" rx="3"/>
+  <rect x="108" y="230" width="445" height="28" fill="#e74c3c" rx="3"/>
+  <rect x="553" y="230" width="187" height="28" fill="#95a5a6" rx="3"/>
+  <text x="60" y="272" text-anchor="start" font-size="11" fill="#27ae60">긍정 7%</text>
+  <text x="400" y="272" text-anchor="middle" font-size="11" fill="#e74c3c">부정 65%</text>
+  <text x="740" y="272" text-anchor="end" font-size="11" fill="#7f8c8d">중립 28%</text>
+  <text x="60" y="288" font-size="11" fill="#555">💬 "매년 올리는데 건강보험 재정 진짜 괜찮은 건지 모르겠음"</text>
+
+  <text x="60" y="340" font-size="13" font-weight="bold" fill="#2c3e50">네이버 뉴스 — 긍정 19건 / 부정 143건 / 중립 68건</text>
+  <rect x="60" y="350" width="56" height="28" fill="#27ae60" rx="3"/>
+  <rect x="116" y="350" width="423" height="28" fill="#e74c3c" rx="3"/>
+  <rect x="539" y="350" width="201" height="28" fill="#95a5a6" rx="3"/>
+  <text x="60" y="392" text-anchor="start" font-size="11" fill="#27ae60">긍정 8%</text>
+  <text x="400" y="392" text-anchor="middle" font-size="11" fill="#e74c3c">부정 62%</text>
+  <text x="740" y="392" text-anchor="end" font-size="11" fill="#7f8c8d">중립 30%</text>
+  <text x="60" y="408" font-size="11" fill="#555">💬 "물가 오르는 속도보다 보험료 오르는 속도가 더 빠른 것 같음"</text>
+
+  <text x="400" y="426" text-anchor="middle" font-size="10" fill="#bdc3c7">* 수치는 집계된 공감/반응 신호 기반 추산 | paperWanderer</text>
+</svg>

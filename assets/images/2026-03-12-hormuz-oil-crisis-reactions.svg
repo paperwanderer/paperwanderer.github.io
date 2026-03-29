@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="440" viewBox="0 0 800 440"
+     font-family="'Apple SD Gothic Neo', 'Malgun Gothic', Arial, sans-serif">
+  <rect width="800" height="440" fill="#f8f9fa" rx="12"/>
+  <text x="400" y="36" text-anchor="middle" font-size="17" font-weight="bold" fill="#2c3e50">호르무즈 해협 위기 — 커뮤니티 반응</text>
+  <text x="400" y="54" text-anchor="middle" font-size="11" fill="#7f8c8d">에콘밍글 · 네이버 뉴스 · 클리앙/루리웹 | 2026-03-12 KST</text>
+  <rect x="490" y="66" width="12" height="12" fill="#27ae60" rx="2"/>
+  <text x="506" y="77" font-size="11" fill="#2c3e50">긍정</text>
+  <rect x="548" y="66" width="12" height="12" fill="#e74c3c" rx="2"/>
+  <text x="564" y="77" font-size="11" fill="#2c3e50">부정</text>
+  <rect x="606" y="66" width="12" height="12" fill="#95a5a6" rx="2"/>
+  <text x="622" y="77" font-size="11" fill="#2c3e50">중립</text>
+
+  <text x="60" y="100" font-size="13" font-weight="bold" fill="#2c3e50">에콘밍글 — 긍정 30건 / 부정 90건 / 중립 30건</text>
+  <rect x="60" y="110" width="136" height="28" fill="#27ae60" rx="3"/>
+  <rect x="196" y="110" width="408" height="28" fill="#e74c3c" rx="3"/>
+  <rect x="604" y="110" width="136" height="28" fill="#95a5a6" rx="3"/>
+  <text x="60" y="152" text-anchor="start" font-size="11" fill="#27ae60">긍정 20%</text>
+  <text x="400" y="152" text-anchor="middle" font-size="11" fill="#e74c3c">부정 60%</text>
+  <text x="740" y="152" text-anchor="end" font-size="11" fill="#7f8c8d">중립 20%</text>
+  <text x="60" y="168" font-size="11" fill="#555">💬 "한국이 호르무즈 막히면 에너지 자립도 제로... 구조적 문제가 터졌다"</text>
+
+  <text x="60" y="220" font-size="13" font-weight="bold" fill="#2c3e50">네이버 뉴스 — 긍정 25건 / 부정 110건 / 중립 40건</text>
+  <rect x="60" y="230" width="97" height="28" fill="#27ae60" rx="3"/>
+  <rect x="157" y="230" width="427" height="28" fill="#e74c3c" rx="3"/>
+  <rect x="584" y="230" width="156" height="28" fill="#95a5a6" rx="3"/>
+  <text x="60" y="272" text-anchor="start" font-size="11" fill="#27ae60">긍정 14%</text>
+  <text x="400" y="272" text-anchor="middle" font-size="11" fill="#e74c3c">부정 63%</text>
+  <text x="740" y="272" text-anchor="end" font-size="11" fill="#7f8c8d">중립 23%</text>
+  <text x="60" y="288" font-size="11" fill="#555">💬 "주유비 2300원 가면 서민 경제 완전히 무너진다"</text>
+
+  <text x="60" y="340" font-size="13" font-weight="bold" fill="#2c3e50">클리앙/루리웹 — 긍정 15건 / 부정 45건 / 중립 20건</text>
+  <rect x="60" y="350" width="128" height="28" fill="#27ae60" rx="3"/>
+  <rect x="188" y="350" width="383" height="28" fill="#e74c3c" rx="3"/>
+  <rect x="571" y="350" width="169" height="28" fill="#95a5a6" rx="3"/>
+  <text x="60" y="392" text-anchor="start" font-size="11" fill="#27ae60">긍정 19%</text>
+  <text x="400" y="392" text-anchor="middle" font-size="11" fill="#e74c3c">부정 56%</text>
+  <text x="740" y="392" text-anchor="end" font-size="11" fill="#7f8c8d">중립 25%</text>
+  <text x="60" y="408" font-size="11" fill="#555">💬 "IEA가 4억 배럴 풀었는데도 100달러 돌파... 이건 재고 문제가 아니라 전쟁"</text>
+
+  <text x="400" y="426" text-anchor="middle" font-size="10" fill="#bdc3c7">* 수치는 집계된 공감/반응 신호 기반 추산 | paperWanderer</text>
+</svg>

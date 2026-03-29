@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="440" viewBox="0 0 800 440"
+     font-family="'Apple SD Gothic Neo', 'Malgun Gothic', Arial, sans-serif">
+  <rect width="800" height="440" fill="#f8f9fa" rx="12"/>
+  <text x="400" y="36" text-anchor="middle" font-size="17" font-weight="bold" fill="#2c3e50">늘봄학교 전국 확대 — 커뮤니티 반응</text>
+  <text x="400" y="54" text-anchor="middle" font-size="11" fill="#7f8c8d">네이버/맘카페 · 교사 커뮤니티 · 전체 합산 | 2026-03-16 21:00 KST</text>
+  <rect x="490" y="66" width="12" height="12" fill="#27ae60" rx="2"/>
+  <text x="506" y="77" font-size="11" fill="#2c3e50">긍정</text>
+  <rect x="548" y="66" width="12" height="12" fill="#e74c3c" rx="2"/>
+  <text x="564" y="77" font-size="11" fill="#2c3e50">부정</text>
+  <rect x="606" y="66" width="12" height="12" fill="#95a5a6" rx="2"/>
+  <text x="622" y="77" font-size="11" fill="#2c3e50">중립</text>
+
+  <text x="60" y="100" font-size="13" font-weight="bold" fill="#2c3e50">네이버/맘카페 — 긍정 480건 / 부정 188건 / 중립 92건</text>
+  <rect x="60" y="110" width="430" height="28" fill="#27ae60" rx="3"/>
+  <rect x="490" y="110" width="168" height="28" fill="#e74c3c" rx="3"/>
+  <rect x="658" y="110" width="82" height="28" fill="#95a5a6" rx="3"/>
+  <text x="60" y="152" text-anchor="start" font-size="11" fill="#27ae60">긍정 63%</text>
+  <text x="400" y="152" text-anchor="middle" font-size="11" fill="#e74c3c">부정 25%</text>
+  <text x="740" y="152" text-anchor="end" font-size="11" fill="#7f8c8d">중립 12%</text>
+  <text x="60" y="168" font-size="11" fill="#555">💬 "맞벌이 부부한테는 정말 필요한 정책 진심으로 감사하다" (공감 246)</text>
+
+  <text x="60" y="220" font-size="13" font-weight="bold" fill="#2c3e50">교사 커뮤니티 — 긍정 260건 / 부정 122건 / 중립 318건</text>
+  <rect x="60" y="230" width="253" height="28" fill="#27ae60" rx="3"/>
+  <rect x="313" y="230" width="119" height="28" fill="#e74c3c" rx="3"/>
+  <rect x="432" y="230" width="308" height="28" fill="#95a5a6" rx="3"/>
+  <text x="60" y="272" text-anchor="start" font-size="11" fill="#27ae60">긍정 37%</text>
+  <text x="400" y="272" text-anchor="middle" font-size="11" fill="#e74c3c">부정 18%</text>
+  <text x="740" y="272" text-anchor="end" font-size="11" fill="#7f8c8d">중립 45%</text>
+  <text x="60" y="288" font-size="11" fill="#555">💬 "돌봄 전담사 인력 충원 없이 교사한테 떠넘기는 구조가 될까봐 걱정이다" (비공감 86)</text>
+
+  <text x="60" y="340" font-size="13" font-weight="bold" fill="#2c3e50">전체 합산 — 긍정 740건 / 부정 310건 / 중립 410건</text>
+  <rect x="60" y="350" width="345" height="28" fill="#27ae60" rx="3"/>
+  <rect x="405" y="350" width="144" height="28" fill="#e74c3c" rx="3"/>
+  <rect x="549" y="350" width="191" height="28" fill="#95a5a6" rx="3"/>
+  <text x="60" y="392" text-anchor="start" font-size="11" fill="#27ae60">긍정 51%</text>
+  <text x="400" y="392" text-anchor="middle" font-size="11" fill="#e74c3c">부정 21%</text>
+  <text x="740" y="392" text-anchor="end" font-size="11" fill="#7f8c8d">중립 28%</text>
+  <text x="60" y="408" font-size="11" fill="#555">💬 "아침 7시부터 저녁 8시까지면 진짜 방과후 걱정이 많이 줄어든다" (공감 186)</text>
+
+  <text x="400" y="426" text-anchor="middle" font-size="10" fill="#bdc3c7">* 수치는 집계된 공감/반응 신호 기반 추산 | paperWanderer</text>
+</svg>

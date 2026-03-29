@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="440" viewBox="0 0 800 440"
+     font-family="'Apple SD Gothic Neo', 'Malgun Gothic', Arial, sans-serif">
+  <rect width="800" height="440" fill="#f8f9fa" rx="12"/>
+  <text x="400" y="36" text-anchor="middle" font-size="17" font-weight="bold" fill="#2c3e50">코스피 5,549 마감 GTC 랠리 — 커뮤니티 반응</text>
+  <text x="400" y="54" text-anchor="middle" font-size="11" fill="#7f8c8d">주식 커뮤니티/주갤 · 네이버 뉴스 댓글 · 전체 합산 | 2026-03-16 20:00 KST</text>
+  <rect x="490" y="66" width="12" height="12" fill="#27ae60" rx="2"/>
+  <text x="506" y="77" font-size="11" fill="#2c3e50">긍정</text>
+  <rect x="548" y="66" width="12" height="12" fill="#e74c3c" rx="2"/>
+  <text x="564" y="77" font-size="11" fill="#2c3e50">부정</text>
+  <rect x="606" y="66" width="12" height="12" fill="#95a5a6" rx="2"/>
+  <text x="622" y="77" font-size="11" fill="#2c3e50">중립</text>
+
+  <text x="60" y="100" font-size="13" font-weight="bold" fill="#2c3e50">주식 커뮤니티/주갤 — 긍정 540건 / 부정 164건 / 중립 156건</text>
+  <rect x="60" y="110" width="425" height="28" fill="#27ae60" rx="3"/>
+  <rect x="485" y="110" width="129" height="28" fill="#e74c3c" rx="3"/>
+  <rect x="614" y="110" width="126" height="28" fill="#95a5a6" rx="3"/>
+  <text x="60" y="152" text-anchor="start" font-size="11" fill="#27ae60">긍정 62%</text>
+  <text x="400" y="152" text-anchor="middle" font-size="11" fill="#e74c3c">부정 19%</text>
+  <text x="740" y="152" text-anchor="end" font-size="11" fill="#7f8c8d">중립 19%</text>
+  <text x="60" y="168" font-size="11" fill="#555">💬 "하이닉스 7% 진짜 엄청나다 GTC 마법" (공감 246)</text>
+
+  <text x="60" y="220" font-size="13" font-weight="bold" fill="#2c3e50">네이버 뉴스 댓글 — 긍정 330건 / 부정 116건 / 중립 334건</text>
+  <rect x="60" y="230" width="288" height="28" fill="#27ae60" rx="3"/>
+  <rect x="348" y="230" width="101" height="28" fill="#e74c3c" rx="3"/>
+  <rect x="449" y="230" width="291" height="28" fill="#95a5a6" rx="3"/>
+  <text x="60" y="272" text-anchor="start" font-size="11" fill="#27ae60">긍정 42%</text>
+  <text x="400" y="272" text-anchor="middle" font-size="11" fill="#e74c3c">부정 15%</text>
+  <text x="740" y="272" text-anchor="end" font-size="11" fill="#7f8c8d">중립 43%</text>
+  <text x="60" y="288" font-size="11" fill="#555">💬 "반도체 없으면 코스피 어디 갔을까 다행이다" (공감 156)</text>
+
+  <text x="60" y="340" font-size="13" font-weight="bold" fill="#2c3e50">전체 합산 — 긍정 870건 / 부정 280건 / 중립 490건</text>
+  <rect x="60" y="350" width="361" height="28" fill="#27ae60" rx="3"/>
+  <rect x="421" y="350" width="116" height="28" fill="#e74c3c" rx="3"/>
+  <rect x="537" y="350" width="203" height="28" fill="#95a5a6" rx="3"/>
+  <text x="60" y="392" text-anchor="start" font-size="11" fill="#27ae60">긍정 53%</text>
+  <text x="400" y="392" text-anchor="middle" font-size="11" fill="#e74c3c">부정 17%</text>
+  <text x="740" y="392" text-anchor="end" font-size="11" fill="#7f8c8d">중립 30%</text>
+  <text x="60" y="408" font-size="11" fill="#555">💬 "GTC 이후 더 오를 것 같아서 추가매수 들어간다" (공감 112)</text>
+
+  <text x="400" y="426" text-anchor="middle" font-size="10" fill="#bdc3c7">* 수치는 집계된 공감/반응 신호 기반 추산 | paperWanderer</text>
+</svg>

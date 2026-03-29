@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="440" viewBox="0 0 800 440"
+     font-family="'Apple SD Gothic Neo', 'Malgun Gothic', Arial, sans-serif">
+  <rect width="800" height="440" fill="#f8f9fa" rx="12"/>
+  <text x="400" y="36" text-anchor="middle" font-size="17" font-weight="bold" fill="#2c3e50">3월 25일 온라인 커뮤니티 트렌드 — 종합 반응</text>
+  <text x="400" y="54" text-anchor="middle" font-size="11" fill="#7f8c8d">에펨코리아 · 루리웹 · 더쿠 · 클리앙 | 2026-03-25 20:30 KST</text>
+  <rect x="490" y="66" width="12" height="12" fill="#27ae60" rx="2"/>
+  <text x="506" y="77" font-size="11" fill="#2c3e50">긍정</text>
+  <rect x="548" y="66" width="12" height="12" fill="#e74c3c" rx="2"/>
+  <text x="564" y="77" font-size="11" fill="#2c3e50">부정</text>
+  <rect x="606" y="66" width="12" height="12" fill="#95a5a6" rx="2"/>
+  <text x="622" y="77" font-size="11" fill="#2c3e50">중립</text>
+
+  <text x="60" y="100" font-size="13" font-weight="bold" fill="#2c3e50">에펨코리아 — 긍정 580건 / 부정 180건 / 중립 120건</text>
+  <rect x="60" y="110" width="448" height="28" fill="#27ae60" rx="3"/>
+  <rect x="508" y="110" width="139" height="28" fill="#e74c3c" rx="3"/>
+  <rect x="647" y="110" width="93" height="28" fill="#95a5a6" rx="3"/>
+  <text x="60" y="152" text-anchor="start" font-size="11" fill="#27ae60">긍정 66%</text>
+  <text x="400" y="152" text-anchor="middle" font-size="11" fill="#e74c3c">부정 20%</text>
+  <text x="740" y="152" text-anchor="end" font-size="11" fill="#7f8c8d">중립 14%</text>
+  <text x="60" y="168" font-size="11" fill="#555">💬 "강백호 한화에서 잘해줘라 진심으로 응원한다"</text>
+
+  <text x="60" y="220" font-size="13" font-weight="bold" fill="#2c3e50">루리웹 — AI 저작권·반도체 테크 토론</text>
+  <rect x="60" y="230" width="408" height="28" fill="#27ae60" rx="3"/>
+  <rect x="468" y="230" width="136" height="28" fill="#e74c3c" rx="3"/>
+  <rect x="604" y="230" width="136" height="28" fill="#95a5a6" rx="3"/>
+  <text x="60" y="272" text-anchor="start" font-size="11" fill="#27ae60">긍정 60%</text>
+  <text x="400" y="272" text-anchor="middle" font-size="11" fill="#e74c3c">부정 20%</text>
+  <text x="740" y="272" text-anchor="end" font-size="11" fill="#7f8c8d">중립 20%</text>
+  <text x="60" y="288" font-size="11" fill="#555">💬 "AI로 만든 곡에 저작권이라니 상식적으로 말이 안 된다"</text>
+
+  <text x="60" y="340" font-size="13" font-weight="bold" fill="#2c3e50">더쿠·클리앙 — 연예+경제 혼재</text>
+  <rect x="60" y="350" width="425" height="28" fill="#27ae60" rx="3"/>
+  <rect x="485" y="350" width="170" height="28" fill="#e74c3c" rx="3"/>
+  <rect x="655" y="350" width="85" height="28" fill="#95a5a6" rx="3"/>
+  <text x="60" y="392" text-anchor="start" font-size="11" fill="#27ae60">긍정 62%</text>
+  <text x="400" y="392" text-anchor="middle" font-size="11" fill="#e74c3c">부정 25%</text>
+  <text x="740" y="392" text-anchor="end" font-size="11" fill="#7f8c8d">중립 13%</text>
+  <text x="60" y="408" font-size="11" fill="#555">💬 "전지현 11년 만의 복귀 기다렸어요"</text>
+
+  <text x="400" y="426" text-anchor="middle" font-size="10" fill="#bdc3c7">* 수치는 집계된 공감/반응 신호 기반 추산 | paperWanderer</text>
+</svg>

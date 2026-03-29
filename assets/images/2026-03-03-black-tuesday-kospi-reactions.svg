@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="440" viewBox="0 0 800 440"
+     font-family="'Apple SD Gothic Neo', 'Malgun Gothic', Arial, sans-serif">
+  <rect width="800" height="440" fill="#f8f9fa" rx="12"/>
+  <text x="400" y="36" text-anchor="middle" font-size="17" font-weight="bold" fill="#2c3e50">코스피 폭락 충격 — 커뮤니티 반응</text>
+  <text x="400" y="54" text-anchor="middle" font-size="11" fill="#7f8c8d">DC인사이드 · FM코리아 · 네이버뉴스 | 2026-03-03 KST</text>
+  <rect x="490" y="66" width="12" height="12" fill="#27ae60" rx="2"/>
+  <text x="506" y="77" font-size="11" fill="#2c3e50">긍정</text>
+  <rect x="548" y="66" width="12" height="12" fill="#e74c3c" rx="2"/>
+  <text x="564" y="77" font-size="11" fill="#2c3e50">부정</text>
+  <rect x="606" y="66" width="12" height="12" fill="#95a5a6" rx="2"/>
+  <text x="622" y="77" font-size="11" fill="#2c3e50">중립</text>
+
+  <text x="60" y="100" font-size="13" font-weight="bold" fill="#2c3e50">DC인사이드 — 매수 50건 / 패닉 160건 / 관망 100건</text>
+  <rect x="60" y="110" width="110" height="28" fill="#27ae60" rx="3"/>
+  <rect x="170" y="110" width="351" height="28" fill="#e74c3c" rx="3"/>
+  <rect x="521" y="110" width="219" height="28" fill="#95a5a6" rx="3"/>
+  <text x="60" y="152" text-anchor="start" font-size="11" fill="#27ae60">긍정 16%</text>
+  <text x="400" y="152" text-anchor="middle" font-size="11" fill="#e74c3c">부정 52%</text>
+  <text x="740" y="152" text-anchor="end" font-size="11" fill="#7f8c8d">중립 32%</text>
+  <text x="60" y="168" font-size="11" fill="#555">💬 "국장 진짜 지옥이다 이란전쟁 + 코스피 폭락"</text>
+
+  <text x="60" y="220" font-size="13" font-weight="bold" fill="#2c3e50">FM코리아 — 매수 40건 / 패닉 120건 / 관망 80건</text>
+  <rect x="60" y="230" width="113" height="28" fill="#27ae60" rx="3"/>
+  <rect x="173" y="230" width="340" height="28" fill="#e74c3c" rx="3"/>
+  <rect x="513" y="230" width="227" height="28" fill="#95a5a6" rx="3"/>
+  <text x="60" y="272" text-anchor="start" font-size="11" fill="#27ae60">긍정 17%</text>
+  <text x="400" y="272" text-anchor="middle" font-size="11" fill="#e74c3c">부정 50%</text>
+  <text x="740" y="272" text-anchor="end" font-size="11" fill="#7f8c8d">중립 33%</text>
+  <text x="60" y="288" font-size="11" fill="#555">💬 "빚투한 사람들 오늘 다 날아갔겠네 ㄷㄷ"</text>
+
+  <text x="60" y="340" font-size="13" font-weight="bold" fill="#2c3e50">네이버뉴스 댓글 — 매수 80건 / 패닉 300건 / 관망 120건</text>
+  <rect x="60" y="350" width="109" height="28" fill="#27ae60" rx="3"/>
+  <rect x="169" y="350" width="408" height="28" fill="#e74c3c" rx="3"/>
+  <rect x="577" y="350" width="163" height="28" fill="#95a5a6" rx="3"/>
+  <text x="60" y="392" text-anchor="start" font-size="11" fill="#27ae60">긍정 16%</text>
+  <text x="400" y="392" text-anchor="middle" font-size="11" fill="#e74c3c">부정 60%</text>
+  <text x="740" y="392" text-anchor="end" font-size="11" fill="#7f8c8d">중립 24%</text>
+  <text x="60" y="408" font-size="11" fill="#555">💬 "유가 100달러에 코스피 폭락 다음은 환율 1,500원이냐"</text>
+
+  <text x="400" y="426" text-anchor="middle" font-size="10" fill="#bdc3c7">* 수치는 집계된 공감/반응 신호 기반 추산 | paperWanderer</text>
+</svg>

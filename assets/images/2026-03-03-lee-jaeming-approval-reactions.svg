@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="440" viewBox="0 0 800 440"
+     font-family="'Apple SD Gothic Neo', 'Malgun Gothic', Arial, sans-serif">
+  <rect width="800" height="440" fill="#f8f9fa" rx="12"/>
+  <text x="400" y="36" text-anchor="middle" font-size="17" font-weight="bold" fill="#2c3e50">이재명 지지율 65% — 커뮤니티 반응</text>
+  <text x="400" y="54" text-anchor="middle" font-size="11" fill="#7f8c8d">DC인사이드 · FM코리아 · 네이버뉴스 | 2026-03-03 KST</text>
+  <rect x="490" y="66" width="12" height="12" fill="#27ae60" rx="2"/>
+  <text x="506" y="77" font-size="11" fill="#2c3e50">긍정</text>
+  <rect x="548" y="66" width="12" height="12" fill="#e74c3c" rx="2"/>
+  <text x="564" y="77" font-size="11" fill="#2c3e50">부정</text>
+  <rect x="606" y="66" width="12" height="12" fill="#95a5a6" rx="2"/>
+  <text x="622" y="77" font-size="11" fill="#2c3e50">중립</text>
+
+  <text x="60" y="100" font-size="13" font-weight="bold" fill="#2c3e50">DC인사이드 — 긍정 180건 / 부정 60건 / 중립 66건</text>
+  <rect x="60" y="110" width="400" height="28" fill="#27ae60" rx="3"/>
+  <rect x="460" y="110" width="133" height="28" fill="#e74c3c" rx="3"/>
+  <rect x="593" y="110" width="147" height="28" fill="#95a5a6" rx="3"/>
+  <text x="60" y="152" text-anchor="start" font-size="11" fill="#27ae60">긍정 59%</text>
+  <text x="400" y="152" text-anchor="middle" font-size="11" fill="#e74c3c">부정 20%</text>
+  <text x="740" y="152" text-anchor="end" font-size="11" fill="#7f8c8d">중립 21%</text>
+  <text x="60" y="168" font-size="11" fill="#555">💬 "갤럽 65%면 역대급이네, 정권 초반이라 그런가"</text>
+
+  <text x="60" y="220" font-size="13" font-weight="bold" fill="#2c3e50">FM코리아 — 긍정 80건 / 부정 20건 / 중립 14건</text>
+  <rect x="60" y="230" width="477" height="28" fill="#27ae60" rx="3"/>
+  <rect x="537" y="230" width="119" height="28" fill="#e74c3c" rx="3"/>
+  <rect x="656" y="230" width="84" height="28" fill="#95a5a6" rx="3"/>
+  <text x="60" y="272" text-anchor="start" font-size="11" fill="#27ae60">긍정 70%</text>
+  <text x="400" y="272" text-anchor="middle" font-size="11" fill="#e74c3c">부정 18%</text>
+  <text x="740" y="272" text-anchor="end" font-size="11" fill="#7f8c8d">중립 12%</text>
+  <text x="60" y="288" font-size="11" fill="#555">💬 "중동 위기 속에서도 지지율 올라가는 거 신기함"</text>
+
+  <text x="60" y="340" font-size="13" font-weight="bold" fill="#2c3e50">네이버뉴스 댓글 — 긍정 260건 / 부정 140건 / 중립 50건</text>
+  <rect x="60" y="350" width="393" height="28" fill="#27ae60" rx="3"/>
+  <rect x="453" y="350" width="212" height="28" fill="#e74c3c" rx="3"/>
+  <rect x="665" y="350" width="75" height="28" fill="#95a5a6" rx="3"/>
+  <text x="60" y="392" text-anchor="start" font-size="11" fill="#27ae60">긍정 58%</text>
+  <text x="400" y="392" text-anchor="middle" font-size="11" fill="#e74c3c">부정 31%</text>
+  <text x="740" y="392" text-anchor="end" font-size="11" fill="#7f8c8d">중립 11%</text>
+  <text x="60" y="408" font-size="11" fill="#555">💬 "TK에서도 긍정이 더 많다니 진짜 달라진 분위기"</text>
+
+  <text x="400" y="426" text-anchor="middle" font-size="10" fill="#bdc3c7">* 수치는 집계된 공감/반응 신호 기반 추산 | paperWanderer</text>
+</svg>

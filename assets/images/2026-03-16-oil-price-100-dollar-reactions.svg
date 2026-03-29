@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="440" viewBox="0 0 800 440"
+     font-family="'Apple SD Gothic Neo', 'Malgun Gothic', Arial, sans-serif">
+  <rect width="800" height="440" fill="#f8f9fa" rx="12"/>
+  <text x="400" y="36" text-anchor="middle" font-size="17" font-weight="bold" fill="#2c3e50">유가 100달러 돌파 — 커뮤니티 반응</text>
+  <text x="400" y="54" text-anchor="middle" font-size="11" fill="#7f8c8d">네이버 뉴스 댓글 · 클리앙 · 자동차 커뮤니티 | 2026-03-16 21:00 KST</text>
+  <rect x="490" y="66" width="12" height="12" fill="#27ae60" rx="2"/>
+  <text x="506" y="77" font-size="11" fill="#2c3e50">긍정</text>
+  <rect x="548" y="66" width="12" height="12" fill="#e74c3c" rx="2"/>
+  <text x="564" y="77" font-size="11" fill="#2c3e50">부정</text>
+  <rect x="606" y="66" width="12" height="12" fill="#95a5a6" rx="2"/>
+  <text x="622" y="77" font-size="11" fill="#2c3e50">중립</text>
+
+  <text x="60" y="100" font-size="13" font-weight="bold" fill="#2c3e50">네이버 뉴스 댓글 — 긍정 110건 / 부정 590건 / 중립 180건</text>
+  <rect x="60" y="110" width="76" height="28" fill="#27ae60" rx="3"/>
+  <rect x="136" y="110" width="395" height="28" fill="#e74c3c" rx="3"/>
+  <rect x="531" y="110" width="209" height="28" fill="#95a5a6" rx="3"/>
+  <text x="60" y="152" text-anchor="start" font-size="11" fill="#27ae60">긍정 11%</text>
+  <text x="400" y="152" text-anchor="middle" font-size="11" fill="#e74c3c">부정 58%</text>
+  <text x="740" y="152" text-anchor="end" font-size="11" fill="#7f8c8d">중립 31%</text>
+  <text x="60" y="168" font-size="11" fill="#555">💬 "1,800원이면 주유비가 너무 부담된다 출퇴근 차 쓰기 겁난다"</text>
+
+  <text x="60" y="220" font-size="13" font-weight="bold" fill="#2c3e50">클리앙 — 긍정 40건 / 부정 240건 / 중립 140건</text>
+  <rect x="60" y="230" width="65" height="28" fill="#27ae60" rx="3"/>
+  <rect x="125" y="230" width="390" height="28" fill="#e74c3c" rx="3"/>
+  <rect x="515" y="230" width="225" height="28" fill="#95a5a6" rx="3"/>
+  <text x="60" y="272" text-anchor="start" font-size="11" fill="#27ae60">긍정 10%</text>
+  <text x="400" y="272" text-anchor="middle" font-size="11" fill="#e74c3c">부정 57%</text>
+  <text x="740" y="272" text-anchor="end" font-size="11" fill="#7f8c8d">중립 33%</text>
+  <text x="60" y="288" font-size="11" fill="#555">💬 "중동 전쟁을 왜 우리가 고스란히 피해 봐야 하나"</text>
+
+  <text x="60" y="340" font-size="13" font-weight="bold" fill="#2c3e50">자동차 커뮤니티 — 긍정 30건 / 부정 110건 / 중립 80건</text>
+  <rect x="60" y="350" width="93" height="28" fill="#27ae60" rx="3"/>
+  <rect x="153" y="350" width="341" height="28" fill="#e74c3c" rx="3"/>
+  <rect x="494" y="350" width="246" height="28" fill="#95a5a6" rx="3"/>
+  <text x="60" y="392" text-anchor="start" font-size="11" fill="#27ae60">긍정 14%</text>
+  <text x="400" y="392" text-anchor="middle" font-size="11" fill="#e74c3c">부정 50%</text>
+  <text x="740" y="392" text-anchor="end" font-size="11" fill="#7f8c8d">중립 36%</text>
+  <text x="60" y="408" font-size="11" fill="#555">💬 "이럴 때 전기차가 훨씬 경쟁력 있다 충전비 비교가 안 된다"</text>
+
+  <text x="400" y="426" text-anchor="middle" font-size="10" fill="#bdc3c7">* 수치는 집계된 공감/반응 신호 기반 추산 | paperWanderer</text>
+</svg>

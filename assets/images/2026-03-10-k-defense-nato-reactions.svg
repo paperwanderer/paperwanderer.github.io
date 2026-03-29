@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="440" viewBox="0 0 800 440"
+     font-family="'Apple SD Gothic Neo', 'Malgun Gothic', Arial, sans-serif">
+  <rect width="800" height="440" fill="#f8f9fa" rx="12"/>
+  <text x="400" y="36" text-anchor="middle" font-size="17" font-weight="bold" fill="#2c3e50">K-방산 NATO 2위 — 커뮤니티 반응</text>
+  <text x="400" y="54" text-anchor="middle" font-size="11" fill="#7f8c8d">FM코리아 · 네이트뉴스 · 방산 커뮤니티 | 2026-03-09 KST</text>
+  <rect x="490" y="66" width="12" height="12" fill="#27ae60" rx="2"/>
+  <text x="506" y="77" font-size="11" fill="#2c3e50">긍정</text>
+  <rect x="548" y="66" width="12" height="12" fill="#e74c3c" rx="2"/>
+  <text x="564" y="77" font-size="11" fill="#2c3e50">부정</text>
+  <rect x="606" y="66" width="12" height="12" fill="#95a5a6" rx="2"/>
+  <text x="622" y="77" font-size="11" fill="#2c3e50">중립</text>
+
+  <text x="60" y="100" font-size="13" font-weight="bold" fill="#2c3e50">FM코리아 — 긍정 약 85% / 부정 약 8% / 중립 약 7%</text>
+  <rect x="60" y="110" width="578" height="28" fill="#27ae60" rx="3"/>
+  <rect x="638" y="110" width="54" height="28" fill="#e74c3c" rx="3"/>
+  <rect x="692" y="110" width="48" height="28" fill="#95a5a6" rx="3"/>
+  <text x="60" y="152" text-anchor="start" font-size="11" fill="#27ae60">긍정 85%</text>
+  <text x="400" y="152" text-anchor="middle" font-size="11" fill="#e74c3c">부정 8%</text>
+  <text x="740" y="152" text-anchor="end" font-size="11" fill="#7f8c8d">중립 7%</text>
+  <text x="60" y="168" font-size="11" fill="#555">💬 "K2전차, K9자주포 유럽 석권… 진짜 국뽕 아니고 사실임"</text>
+
+  <text x="60" y="220" font-size="13" font-weight="bold" fill="#2c3e50">네이트뉴스 댓글 — 긍정 약 80% / 부정 약 12% / 중립 약 8%</text>
+  <rect x="60" y="230" width="544" height="28" fill="#27ae60" rx="3"/>
+  <rect x="604" y="230" width="82" height="28" fill="#e74c3c" rx="3"/>
+  <rect x="686" y="230" width="54" height="28" fill="#95a5a6" rx="3"/>
+  <text x="60" y="272" text-anchor="start" font-size="11" fill="#27ae60">긍정 80%</text>
+  <text x="400" y="272" text-anchor="middle" font-size="11" fill="#e74c3c">부정 12%</text>
+  <text x="740" y="272" text-anchor="end" font-size="11" fill="#7f8c8d">중립 8%</text>
+  <text x="60" y="288" font-size="11" fill="#555">💬 "폴란드가 미국 대신 우리 걸 선택한 이유가 있지"</text>
+
+  <text x="60" y="340" font-size="13" font-weight="bold" fill="#2c3e50">방산 커뮤니티 — 긍정 약 82% / 부정 약 10% / 중립 약 8%</text>
+  <rect x="60" y="350" width="558" height="28" fill="#27ae60" rx="3"/>
+  <rect x="618" y="350" width="68" height="28" fill="#e74c3c" rx="3"/>
+  <rect x="686" y="350" width="54" height="28" fill="#95a5a6" rx="3"/>
+  <text x="60" y="392" text-anchor="start" font-size="11" fill="#27ae60">긍정 82%</text>
+  <text x="400" y="392" text-anchor="middle" font-size="11" fill="#e74c3c">부정 10%</text>
+  <text x="740" y="392" text-anchor="end" font-size="11" fill="#7f8c8d">중립 8%</text>
+  <text x="60" y="408" font-size="11" fill="#555">💬 "MRO·후속지원 체계 못 갖추면 반짝 성공에 그칠 수도"</text>
+
+  <text x="400" y="426" text-anchor="middle" font-size="10" fill="#bdc3c7">* 수치는 집계된 공감/반응 신호 기반 추산 | paperWanderer</text>
+</svg>

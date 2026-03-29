@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="440" viewBox="0 0 800 440"
+     font-family="'Apple SD Gothic Neo', 'Malgun Gothic', Arial, sans-serif">
+  <rect width="800" height="440" fill="#f8f9fa" rx="12"/>
+  <text x="400" y="36" text-anchor="middle" font-size="17" font-weight="bold" fill="#2c3e50">주담대 6.5% 영끌 이자 부담 — 커뮤니티 반응</text>
+  <text x="400" y="54" text-anchor="middle" font-size="11" fill="#7f8c8d">네이버 뉴스 · 클리앙/부동산커뮤 · 전체 합산 | 2026-03-16 22:00 KST</text>
+  <rect x="490" y="66" width="12" height="12" fill="#27ae60" rx="2"/>
+  <text x="506" y="77" font-size="11" fill="#2c3e50">긍정</text>
+  <rect x="548" y="66" width="12" height="12" fill="#e74c3c" rx="2"/>
+  <text x="564" y="77" font-size="11" fill="#2c3e50">부정</text>
+  <rect x="606" y="66" width="12" height="12" fill="#95a5a6" rx="2"/>
+  <text x="622" y="77" font-size="11" fill="#2c3e50">중립</text>
+
+  <text x="60" y="100" font-size="13" font-weight="bold" fill="#2c3e50">네이버 뉴스 댓글 — 긍정 130건 / 부정 510건 / 중립 200건</text>
+  <rect x="60" y="110" width="105" height="28" fill="#27ae60" rx="3"/>
+  <rect x="165" y="110" width="413" height="28" fill="#e74c3c" rx="3"/>
+  <rect x="578" y="110" width="162" height="28" fill="#95a5a6" rx="3"/>
+  <text x="60" y="152" text-anchor="start" font-size="11" fill="#27ae60">긍정 15%</text>
+  <text x="400" y="152" text-anchor="middle" font-size="11" fill="#e74c3c">부정 61%</text>
+  <text x="740" y="152" text-anchor="end" font-size="11" fill="#7f8c8d">중립 24%</text>
+  <text x="60" y="168" font-size="11" fill="#555">💬 "은행만 배불리는 구조 정부는 뭐 하냐 서민 살기가 너무 힘들다" (비공감 196)</text>
+
+  <text x="60" y="220" font-size="13" font-weight="bold" fill="#2c3e50">클리앙/부동산커뮤 — 긍정 80건 / 부정 340건 / 중립 190건</text>
+  <rect x="60" y="230" width="90" height="28" fill="#27ae60" rx="3"/>
+  <rect x="150" y="230" width="381" height="28" fill="#e74c3c" rx="3"/>
+  <rect x="531" y="230" width="209" height="28" fill="#95a5a6" rx="3"/>
+  <text x="60" y="272" text-anchor="start" font-size="11" fill="#27ae60">긍정 13%</text>
+  <text x="400" y="272" text-anchor="middle" font-size="11" fill="#e74c3c">부정 56%</text>
+  <text x="740" y="272" text-anchor="end" font-size="11" fill="#7f8c8d">중립 31%</text>
+  <text x="60" y="288" font-size="11" fill="#555">💬 "매달 이자만 300만 원이면 집이 아니라 은행 빚 갚는 기계가 된 것" (비공감 148)</text>
+
+  <text x="60" y="340" font-size="13" font-weight="bold" fill="#2c3e50">전체 합산 — 긍정 210건 / 부정 850건 / 중립 390건</text>
+  <rect x="60" y="350" width="98" height="28" fill="#27ae60" rx="3"/>
+  <rect x="158" y="350" width="399" height="28" fill="#e74c3c" rx="3"/>
+  <rect x="557" y="350" width="183" height="28" fill="#95a5a6" rx="3"/>
+  <text x="60" y="392" text-anchor="start" font-size="11" fill="#27ae60">긍정 14%</text>
+  <text x="400" y="392" text-anchor="middle" font-size="11" fill="#e74c3c">부정 59%</text>
+  <text x="740" y="392" text-anchor="end" font-size="11" fill="#7f8c8d">중립 27%</text>
+  <text x="60" y="408" font-size="11" fill="#555">💬 "지금이라도 고정금리로 갈아타는 게 답이다" (공감 78)</text>
+
+  <text x="400" y="426" text-anchor="middle" font-size="10" fill="#bdc3c7">* 수치는 집계된 공감/반응 신호 기반 추산 | paperWanderer</text>
+</svg>

@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="440" viewBox="0 0 800 440"
+     font-family="'Apple SD Gothic Neo', 'Malgun Gothic', Arial, sans-serif">
+  <rect width="800" height="440" fill="#f8f9fa" rx="12"/>
+  <text x="400" y="36" text-anchor="middle" font-size="17" font-weight="bold" fill="#2c3e50">김지연 16kg 감량 — 커뮤니티 반응</text>
+  <text x="400" y="54" text-anchor="middle" font-size="11" fill="#7f8c8d">에펨코리아 · 네이트연예 · 트위터/X | 2026-03-26 22:00 KST</text>
+  <rect x="490" y="66" width="12" height="12" fill="#27ae60" rx="2"/>
+  <text x="506" y="77" font-size="11" fill="#2c3e50">긍정</text>
+  <rect x="548" y="66" width="12" height="12" fill="#e74c3c" rx="2"/>
+  <text x="564" y="77" font-size="11" fill="#2c3e50">부정</text>
+  <rect x="606" y="66" width="12" height="12" fill="#95a5a6" rx="2"/>
+  <text x="622" y="77" font-size="11" fill="#2c3e50">중립</text>
+
+  <text x="60" y="100" font-size="13" font-weight="bold" fill="#2c3e50">에펨코리아 — 긍정 250건 / 부정 7건 / 중립 143건</text>
+  <rect x="60" y="110" width="425" height="28" fill="#27ae60" rx="3"/>
+  <rect x="485" y="110" width="12" height="28" fill="#e74c3c" rx="3"/>
+  <rect x="497" y="110" width="243" height="28" fill="#95a5a6" rx="3"/>
+  <text x="60" y="152" text-anchor="start" font-size="11" fill="#27ae60">긍정 62%</text>
+  <text x="400" y="152" text-anchor="middle" font-size="11" fill="#e74c3c">부정 2%</text>
+  <text x="740" y="152" text-anchor="end" font-size="11" fill="#7f8c8d">중립 36%</text>
+  <text x="60" y="168" font-size="11" fill="#555">💬 "47세에 이 몸매면 진짜 대단한 거다"</text>
+
+  <text x="60" y="220" font-size="13" font-weight="bold" fill="#2c3e50">네이트연예 — 긍정 230건 / 부정 5건 / 중립 165건</text>
+  <rect x="60" y="230" width="391" height="28" fill="#27ae60" rx="3"/>
+  <rect x="451" y="230" width="8" height="28" fill="#e74c3c" rx="3"/>
+  <rect x="459" y="230" width="281" height="28" fill="#95a5a6" rx="3"/>
+  <text x="60" y="272" text-anchor="start" font-size="11" fill="#27ae60">긍정 57%</text>
+  <text x="400" y="272" text-anchor="middle" font-size="11" fill="#e74c3c">부정 1%</text>
+  <text x="740" y="272" text-anchor="end" font-size="11" fill="#7f8c8d">중립 42%</text>
+  <text x="60" y="288" font-size="11" fill="#555">💬 "5개월에 16kg이면 건강하게 뺀 거다. 응원한다"</text>
+
+  <text x="60" y="340" font-size="13" font-weight="bold" fill="#2c3e50">트위터/X — 긍정 140건 / 부정 3건 / 중립 157건</text>
+  <rect x="60" y="350" width="317" height="28" fill="#27ae60" rx="3"/>
+  <rect x="377" y="350" width="7" height="28" fill="#e74c3c" rx="3"/>
+  <rect x="384" y="350" width="356" height="28" fill="#95a5a6" rx="3"/>
+  <text x="60" y="392" text-anchor="start" font-size="11" fill="#27ae60">긍정 47%</text>
+  <text x="400" y="392" text-anchor="middle" font-size="11" fill="#e74c3c">부정 1%</text>
+  <text x="740" y="392" text-anchor="end" font-size="11" fill="#7f8c8d">중립 52%</text>
+  <text x="60" y="408" font-size="11" fill="#555">💬 "미스코리아 진 출신다운 관리력, 굶지 않고 뺐다는 게 인상적"</text>
+
+  <text x="400" y="426" text-anchor="middle" font-size="10" fill="#bdc3c7">* 수치는 집계된 공감/반응 신호 기반 추산 | paperWanderer</text>
+</svg>

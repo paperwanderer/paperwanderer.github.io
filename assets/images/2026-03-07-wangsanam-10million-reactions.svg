@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="440" viewBox="0 0 800 440"
+     font-family="'Apple SD Gothic Neo', 'Malgun Gothic', Arial, sans-serif">
+  <rect width="800" height="440" fill="#f8f9fa" rx="12"/>
+  <text x="400" y="36" text-anchor="middle" font-size="17" font-weight="bold" fill="#2c3e50">왕과 사는 남자 천만 돌파 — 커뮤니티 반응</text>
+  <text x="400" y="54" text-anchor="middle" font-size="11" fill="#7f8c8d">에펨코리아 · 루리웹 · 씨네21 | 2026-03-07 22:00 KST</text>
+  <rect x="490" y="66" width="12" height="12" fill="#27ae60" rx="2"/>
+  <text x="506" y="77" font-size="11" fill="#2c3e50">긍정</text>
+  <rect x="548" y="66" width="12" height="12" fill="#e74c3c" rx="2"/>
+  <text x="564" y="77" font-size="11" fill="#2c3e50">부정</text>
+  <rect x="606" y="66" width="12" height="12" fill="#95a5a6" rx="2"/>
+  <text x="622" y="77" font-size="11" fill="#2c3e50">중립</text>
+
+  <text x="60" y="100" font-size="13" font-weight="bold" fill="#2c3e50">에펨코리아 — 긍정 580건 / 부정 80건 / 중립 1,340건</text>
+  <rect x="60" y="110" width="197" height="28" fill="#27ae60" rx="3"/>
+  <rect x="257" y="110" width="27" height="28" fill="#e74c3c" rx="3"/>
+  <rect x="284" y="110" width="456" height="28" fill="#95a5a6" rx="3"/>
+  <text x="60" y="152" text-anchor="start" font-size="11" fill="#27ae60">긍정 29%</text>
+  <text x="400" y="152" text-anchor="middle" font-size="11" fill="#e74c3c">부정 4%</text>
+  <text x="740" y="152" text-anchor="end" font-size="11" fill="#7f8c8d">중립 67%</text>
+  <text x="60" y="168" font-size="11" fill="#555">💬 "유해진 연기 레전드. 이 영화 보고 울었다"</text>
+
+  <text x="60" y="220" font-size="13" font-weight="bold" fill="#2c3e50">루리웹 — 긍정 420건 / 부정 60건 / 중립 1,020건</text>
+  <rect x="60" y="230" width="190" height="28" fill="#27ae60" rx="3"/>
+  <rect x="250" y="230" width="27" height="28" fill="#e74c3c" rx="3"/>
+  <rect x="277" y="230" width="463" height="28" fill="#95a5a6" rx="3"/>
+  <text x="60" y="272" text-anchor="start" font-size="11" fill="#27ae60">긍정 28%</text>
+  <text x="400" y="272" text-anchor="middle" font-size="11" fill="#e74c3c">부정 4%</text>
+  <text x="740" y="272" text-anchor="end" font-size="11" fill="#7f8c8d">중립 68%</text>
+  <text x="60" y="288" font-size="11" fill="#555">💬 "바이럴 영화라고 생각했는데 직접 보고 반성했다"</text>
+
+  <text x="60" y="340" font-size="13" font-weight="bold" fill="#2c3e50">씨네21/극장 관객평 — 긍정 310건 / 부정 90건 / 중립 600건</text>
+  <rect x="60" y="350" width="211" height="28" fill="#27ae60" rx="3"/>
+  <rect x="271" y="350" width="61" height="28" fill="#e74c3c" rx="3"/>
+  <rect x="332" y="350" width="408" height="28" fill="#95a5a6" rx="3"/>
+  <text x="60" y="392" text-anchor="start" font-size="11" fill="#27ae60">긍정 31%</text>
+  <text x="400" y="392" text-anchor="middle" font-size="11" fill="#e74c3c">부정 9%</text>
+  <text x="740" y="392" text-anchor="end" font-size="11" fill="#7f8c8d">중립 60%</text>
+  <text x="60" y="408" font-size="11" fill="#555">💬 "단종 서사를 이렇게 따뜻하게 풀어낸 영화가 또 있을까"</text>
+
+  <text x="400" y="426" text-anchor="middle" font-size="10" fill="#bdc3c7">* 수치는 집계된 공감/반응 신호 기반 추산 | paperWanderer</text>
+</svg>

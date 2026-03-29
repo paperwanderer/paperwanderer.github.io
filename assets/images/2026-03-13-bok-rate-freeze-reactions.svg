@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="440" viewBox="0 0 800 440"
+     font-family="'Apple SD Gothic Neo', 'Malgun Gothic', Arial, sans-serif">
+  <rect width="800" height="440" fill="#f8f9fa" rx="12"/>
+  <text x="400" y="36" text-anchor="middle" font-size="17" font-weight="bold" fill="#2c3e50">한국은행 기준금리 동결 — 커뮤니티 반응</text>
+  <text x="400" y="54" text-anchor="middle" font-size="11" fill="#7f8c8d">네이버 뉴스 댓글 · 클리앙 · FM코리아 | 2026-03-13 KST</text>
+  <rect x="490" y="66" width="12" height="12" fill="#27ae60" rx="2"/>
+  <text x="506" y="77" font-size="11" fill="#2c3e50">긍정</text>
+  <rect x="548" y="66" width="12" height="12" fill="#e74c3c" rx="2"/>
+  <text x="564" y="77" font-size="11" fill="#2c3e50">부정</text>
+  <rect x="606" y="66" width="12" height="12" fill="#95a5a6" rx="2"/>
+  <text x="622" y="77" font-size="11" fill="#2c3e50">중립</text>
+
+  <text x="60" y="100" font-size="13" font-weight="bold" fill="#2c3e50">네이버 뉴스 댓글 — 긍정 200건 / 부정 300건 / 중립 180건</text>
+  <rect x="60" y="110" width="200" height="28" fill="#27ae60" rx="3"/>
+  <rect x="260" y="110" width="300" height="28" fill="#e74c3c" rx="3"/>
+  <rect x="560" y="110" width="180" height="28" fill="#95a5a6" rx="3"/>
+  <text x="60" y="152" text-anchor="start" font-size="11" fill="#27ae60">긍정 29%</text>
+  <text x="400" y="152" text-anchor="middle" font-size="11" fill="#e74c3c">부정 44%</text>
+  <text x="740" y="152" text-anchor="end" font-size="11" fill="#7f8c8d">중립 27%</text>
+  <text x="60" y="168" font-size="11" fill="#555">💬 "금리 인하도 못 하면 부동산 대출 이자 언제까지 버텨야 하나"</text>
+
+  <text x="60" y="220" font-size="13" font-weight="bold" fill="#2c3e50">클리앙 — 긍정 180건 / 부정 260건 / 중립 240건</text>
+  <rect x="60" y="230" width="180" height="28" fill="#27ae60" rx="3"/>
+  <rect x="240" y="230" width="260" height="28" fill="#e74c3c" rx="3"/>
+  <rect x="500" y="230" width="240" height="28" fill="#95a5a6" rx="3"/>
+  <text x="60" y="272" text-anchor="start" font-size="11" fill="#27ae60">긍정 26%</text>
+  <text x="400" y="272" text-anchor="middle" font-size="11" fill="#e74c3c">부정 38%</text>
+  <text x="740" y="272" text-anchor="end" font-size="11" fill="#7f8c8d">중립 36%</text>
+  <text x="60" y="288" font-size="11" fill="#555">💬 "호르무즈 위기에 환율까지 불안한데 금리 인하는 당분간 없겠다"</text>
+
+  <text x="60" y="340" font-size="13" font-weight="bold" fill="#2c3e50">FM코리아 — 긍정 220건 / 부정 280건 / 중립 180건</text>
+  <rect x="60" y="350" width="220" height="28" fill="#27ae60" rx="3"/>
+  <rect x="280" y="350" width="280" height="28" fill="#e74c3c" rx="3"/>
+  <rect x="560" y="350" width="180" height="28" fill="#95a5a6" rx="3"/>
+  <text x="60" y="392" text-anchor="start" font-size="11" fill="#27ae60">긍정 32%</text>
+  <text x="400" y="392" text-anchor="middle" font-size="11" fill="#e74c3c">부정 41%</text>
+  <text x="740" y="392" text-anchor="end" font-size="11" fill="#7f8c8d">중립 27%</text>
+  <text x="60" y="408" font-size="11" fill="#555">💬 "집값 더 오를까봐 동결한 거 같은데 실제 민생은 갈수록 쪼들려"</text>
+
+  <text x="400" y="426" text-anchor="middle" font-size="10" fill="#bdc3c7">* 수치는 집계된 공감/반응 신호 기반 추산 | paperWanderer</text>
+</svg>

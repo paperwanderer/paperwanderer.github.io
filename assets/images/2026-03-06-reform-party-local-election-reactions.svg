@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="440" viewBox="0 0 800 440"
+     font-family="'Apple SD Gothic Neo', 'Malgun Gothic', Arial, sans-serif">
+  <rect width="800" height="440" fill="#f8f9fa" rx="12"/>
+  <text x="400" y="36" text-anchor="middle" font-size="17" font-weight="bold" fill="#2c3e50">개혁신당 지방선거 전략 — 커뮤니티 반응</text>
+  <text x="400" y="54" text-anchor="middle" font-size="11" fill="#7f8c8d">에펨코리아 · 디시인사이드 · 네이버 뉴스 | 2026-03-06 KST</text>
+  <rect x="490" y="66" width="12" height="12" fill="#27ae60" rx="2"/>
+  <text x="506" y="77" font-size="11" fill="#2c3e50">긍정</text>
+  <rect x="548" y="66" width="12" height="12" fill="#e74c3c" rx="2"/>
+  <text x="564" y="77" font-size="11" fill="#2c3e50">부정</text>
+  <rect x="606" y="66" width="12" height="12" fill="#95a5a6" rx="2"/>
+  <text x="622" y="77" font-size="11" fill="#2c3e50">중립</text>
+
+  <text x="60" y="100" font-size="13" font-weight="bold" fill="#2c3e50">에펨코리아 — 긍정 56건 / 부정 48건 / 중립 39건</text>
+  <rect x="60" y="110" width="266" height="28" fill="#27ae60" rx="3"/>
+  <rect x="326" y="110" width="228" height="28" fill="#e74c3c" rx="3"/>
+  <rect x="554" y="110" width="186" height="28" fill="#95a5a6" rx="3"/>
+  <text x="60" y="152" text-anchor="start" font-size="11" fill="#27ae60">긍정 39%</text>
+  <text x="400" y="152" text-anchor="middle" font-size="11" fill="#e74c3c">부정 34%</text>
+  <text x="740" y="152" text-anchor="end" font-size="11" fill="#7f8c8d">중립 27%</text>
+  <text x="60" y="168" font-size="11" fill="#555">💬 "개혁신당 지방선거 핸드북 아이디어 자체는 신선함"</text>
+
+  <text x="60" y="220" font-size="13" font-weight="bold" fill="#2c3e50">디시인사이드 — 긍정 43건 / 부정 67건 / 중립 34건</text>
+  <rect x="60" y="230" width="203" height="28" fill="#27ae60" rx="3"/>
+  <rect x="263" y="230" width="316" height="28" fill="#e74c3c" rx="3"/>
+  <rect x="579" y="230" width="161" height="28" fill="#95a5a6" rx="3"/>
+  <text x="60" y="272" text-anchor="start" font-size="11" fill="#27ae60">긍정 30%</text>
+  <text x="400" y="272" text-anchor="middle" font-size="11" fill="#e74c3c">부정 46%</text>
+  <text x="740" y="272" text-anchor="end" font-size="11" fill="#7f8c8d">중립 24%</text>
+  <text x="60" y="288" font-size="11" fill="#555">💬 "지지율 2%로 지방선거 제3정당? 쉽지 않을 듯"</text>
+
+  <text x="60" y="340" font-size="13" font-weight="bold" fill="#2c3e50">네이버 뉴스 — 긍정 87건 / 부정 78건 / 중립 56건</text>
+  <rect x="60" y="350" width="268" height="28" fill="#27ae60" rx="3"/>
+  <rect x="328" y="350" width="240" height="28" fill="#e74c3c" rx="3"/>
+  <rect x="568" y="350" width="172" height="28" fill="#95a5a6" rx="3"/>
+  <text x="60" y="392" text-anchor="start" font-size="11" fill="#27ae60">긍정 39%</text>
+  <text x="400" y="392" text-anchor="middle" font-size="11" fill="#e74c3c">부정 35%</text>
+  <text x="740" y="392" text-anchor="end" font-size="11" fill="#7f8c8d">중립 26%</text>
+  <text x="60" y="408" font-size="11" fill="#555">💬 "중도층이 실망한 양당의 빈자리를 채울 수 있을지 주목"</text>
+
+  <text x="400" y="426" text-anchor="middle" font-size="10" fill="#bdc3c7">* 수치는 집계된 공감/반응 신호 기반 추산 | paperWanderer</text>
+</svg>

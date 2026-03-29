@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="440" viewBox="0 0 800 440"
+     font-family="'Apple SD Gothic Neo', 'Malgun Gothic', Arial, sans-serif">
+  <rect width="800" height="440" fill="#f8f9fa" rx="12"/>
+  <text x="400" y="36" text-anchor="middle" font-size="17" font-weight="bold" fill="#2c3e50">프로젝트 헤일메리 원작 — 커뮤니티 반응</text>
+  <text x="400" y="54" text-anchor="middle" font-size="11" fill="#7f8c8d">에펨코리아 · 클리앙 · 책갤러리 | 2026-03-17 KST</text>
+  <rect x="490" y="66" width="12" height="12" fill="#27ae60" rx="2"/>
+  <text x="506" y="77" font-size="11" fill="#2c3e50">긍정</text>
+  <rect x="548" y="66" width="12" height="12" fill="#e74c3c" rx="2"/>
+  <text x="564" y="77" font-size="11" fill="#2c3e50">부정</text>
+  <rect x="606" y="66" width="12" height="12" fill="#95a5a6" rx="2"/>
+  <text x="622" y="77" font-size="11" fill="#2c3e50">중립</text>
+
+  <text x="60" y="100" font-size="13" font-weight="bold" fill="#2c3e50">에펨코리아 — 긍정 222건 / 부정 16건 / 중립 62건</text>
+  <rect x="60" y="110" width="503" height="28" fill="#27ae60" rx="3"/>
+  <rect x="563" y="110" width="36" height="28" fill="#e74c3c" rx="3"/>
+  <rect x="599" y="110" width="141" height="28" fill="#95a5a6" rx="3"/>
+  <text x="60" y="152" text-anchor="start" font-size="11" fill="#27ae60">긍정 74%</text>
+  <text x="400" y="152" text-anchor="middle" font-size="11" fill="#e74c3c">부정 5%</text>
+  <text x="740" y="152" text-anchor="end" font-size="11" fill="#7f8c8d">중립 21%</text>
+  <text x="60" y="168" font-size="11" fill="#555">💬 "원작 너무 재밌다, 영화 기다리는 내내 다시 읽었다"</text>
+
+  <text x="60" y="220" font-size="13" font-weight="bold" fill="#2c3e50">클리앙 — 긍정 196건 / 부정 14건 / 중립 40건</text>
+  <rect x="60" y="230" width="533" height="28" fill="#27ae60" rx="3"/>
+  <rect x="593" y="230" width="38" height="28" fill="#e74c3c" rx="3"/>
+  <rect x="631" y="230" width="109" height="28" fill="#95a5a6" rx="3"/>
+  <text x="60" y="272" text-anchor="start" font-size="11" fill="#27ae60">긍정 78%</text>
+  <text x="400" y="272" text-anchor="middle" font-size="11" fill="#e74c3c">부정 6%</text>
+  <text x="740" y="272" text-anchor="end" font-size="11" fill="#7f8c8d">중립 16%</text>
+  <text x="60" y="288" font-size="11" fill="#555">💬 "록키가 그렇게 귀여울 수 있다는 게 믿기지 않는다"</text>
+
+  <text x="60" y="340" font-size="13" font-weight="bold" fill="#2c3e50">책갤러리 — 긍정 142건 / 부정 10건 / 중립 48건</text>
+  <rect x="60" y="350" width="483" height="28" fill="#27ae60" rx="3"/>
+  <rect x="543" y="350" width="34" height="28" fill="#e74c3c" rx="3"/>
+  <rect x="577" y="350" width="163" height="28" fill="#95a5a6" rx="3"/>
+  <text x="60" y="392" text-anchor="start" font-size="11" fill="#27ae60">긍정 71%</text>
+  <text x="400" y="392" text-anchor="middle" font-size="11" fill="#e74c3c">부정 5%</text>
+  <text x="740" y="392" text-anchor="end" font-size="11" fill="#7f8c8d">중립 24%</text>
+  <text x="60" y="408" font-size="11" fill="#555">💬 "원작 분위기를 영화로 살릴 수 있을지 걱정이다"</text>
+
+  <text x="400" y="426" text-anchor="middle" font-size="10" fill="#bdc3c7">* 수치는 집계된 공감/반응 신호 기반 추산 | paperWanderer</text>
+</svg>

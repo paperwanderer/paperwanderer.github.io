@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="440" viewBox="0 0 800 440"
+     font-family="'Apple SD Gothic Neo', 'Malgun Gothic', Arial, sans-serif">
+  <rect width="800" height="440" fill="#f8f9fa" rx="12"/>
+  <text x="400" y="36" text-anchor="middle" font-size="17" font-weight="bold" fill="#2c3e50">아파트 공시가격 9.16% 상승 — 커뮤니티 반응</text>
+  <text x="400" y="54" text-anchor="middle" font-size="11" fill="#7f8c8d">네이버뉴스 · 부동산 커뮤니티 | 2026-03-05 20:00 KST</text>
+  <rect x="490" y="66" width="12" height="12" fill="#27ae60" rx="2"/>
+  <text x="506" y="77" font-size="11" fill="#2c3e50">긍정</text>
+  <rect x="548" y="66" width="12" height="12" fill="#e74c3c" rx="2"/>
+  <text x="564" y="77" font-size="11" fill="#2c3e50">부정</text>
+  <rect x="606" y="66" width="12" height="12" fill="#95a5a6" rx="2"/>
+  <text x="622" y="77" font-size="11" fill="#2c3e50">중립</text>
+
+  <text x="60" y="100" font-size="13" font-weight="bold" fill="#2c3e50">서울 보유자 — 세금 부담 분노</text>
+  <rect x="60" y="110" width="68" height="28" fill="#27ae60" rx="3"/>
+  <rect x="128" y="110" width="476" height="28" fill="#e74c3c" rx="3"/>
+  <rect x="604" y="110" width="136" height="28" fill="#95a5a6" rx="3"/>
+  <text x="60" y="152" text-anchor="start" font-size="11" fill="#27ae60">긍정 10%</text>
+  <text x="400" y="152" text-anchor="middle" font-size="11" fill="#e74c3c">부정 70%</text>
+  <text x="740" y="152" text-anchor="end" font-size="11" fill="#7f8c8d">중립 20%</text>
+  <text x="60" y="168" font-size="11" fill="#555">💬 "서울 18% 올랐다고 세금도 올리면 누가 서울에 살겠냐"</text>
+
+  <text x="60" y="220" font-size="13" font-weight="bold" fill="#2c3e50">지방 거주자 — 이중고 불만</text>
+  <rect x="60" y="230" width="54" height="28" fill="#27ae60" rx="3"/>
+  <rect x="114" y="230" width="510" height="28" fill="#e74c3c" rx="3"/>
+  <rect x="624" y="230" width="116" height="28" fill="#95a5a6" rx="3"/>
+  <text x="60" y="272" text-anchor="start" font-size="11" fill="#27ae60">긍정 8%</text>
+  <text x="400" y="272" text-anchor="middle" font-size="11" fill="#e74c3c">부정 75%</text>
+  <text x="740" y="272" text-anchor="end" font-size="11" fill="#7f8c8d">중립 17%</text>
+  <text x="60" y="288" font-size="11" fill="#555">💬 "지방은 집값도 떨어지는데 세금만 남는 꼴"</text>
+
+  <text x="60" y="340" font-size="13" font-weight="bold" fill="#2c3e50">전체 종합 — 부정 압도</text>
+  <rect x="60" y="350" width="61" height="28" fill="#27ae60" rx="3"/>
+  <rect x="121" y="350" width="490" height="28" fill="#e74c3c" rx="3"/>
+  <rect x="611" y="350" width="129" height="28" fill="#95a5a6" rx="3"/>
+  <text x="60" y="392" text-anchor="start" font-size="11" fill="#27ae60">긍정 9%</text>
+  <text x="400" y="392" text-anchor="middle" font-size="11" fill="#e74c3c">부정 72%</text>
+  <text x="740" y="392" text-anchor="end" font-size="11" fill="#7f8c8d">중립 19%</text>
+  <text x="60" y="408" font-size="11" fill="#555">💬 "경기 불안한데 공시가격 오른다니 보유자도 팔아야 하나 고민된다"</text>
+
+  <text x="400" y="426" text-anchor="middle" font-size="10" fill="#bdc3c7">* 수치는 집계된 공감/반응 신호 기반 추산 | paperWanderer</text>
+</svg>

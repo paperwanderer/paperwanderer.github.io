@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="440" viewBox="0 0 800 440"
+     font-family="'Apple SD Gothic Neo', 'Malgun Gothic', Arial, sans-serif">
+  <rect width="800" height="440" fill="#f8f9fa" rx="12"/>
+  <text x="400" y="36" text-anchor="middle" font-size="17" font-weight="bold" fill="#2c3e50">더불어민주연합 출범 — 커뮤니티 반응</text>
+  <text x="400" y="54" text-anchor="middle" font-size="11" fill="#7f8c8d">에펨코리아 · 디시인사이드 · 네이버 뉴스 | 2026-03-06 KST</text>
+  <rect x="490" y="66" width="12" height="12" fill="#27ae60" rx="2"/>
+  <text x="506" y="77" font-size="11" fill="#2c3e50">긍정</text>
+  <rect x="548" y="66" width="12" height="12" fill="#e74c3c" rx="2"/>
+  <text x="564" y="77" font-size="11" fill="#2c3e50">부정</text>
+  <rect x="606" y="66" width="12" height="12" fill="#95a5a6" rx="2"/>
+  <text x="622" y="77" font-size="11" fill="#2c3e50">중립</text>
+
+  <text x="60" y="100" font-size="13" font-weight="bold" fill="#2c3e50">에펨코리아 — 긍정 42건 / 부정 67건 / 중립 38건</text>
+  <rect x="60" y="110" width="194" height="28" fill="#27ae60" rx="3"/>
+  <rect x="254" y="110" width="310" height="28" fill="#e74c3c" rx="3"/>
+  <rect x="564" y="110" width="176" height="28" fill="#95a5a6" rx="3"/>
+  <text x="60" y="152" text-anchor="start" font-size="11" fill="#27ae60">긍정 29%</text>
+  <text x="400" y="152" text-anchor="middle" font-size="11" fill="#e74c3c">부정 46%</text>
+  <text x="740" y="152" text-anchor="end" font-size="11" fill="#7f8c8d">중립 25%</text>
+  <text x="60" y="168" font-size="11" fill="#555">💬 "위성정당 또 만든다고? 이거 계속 반복이네"</text>
+
+  <text x="60" y="220" font-size="13" font-weight="bold" fill="#2c3e50">디시인사이드 — 긍정 38건 / 부정 54건 / 중립 29건</text>
+  <rect x="60" y="230" width="214" height="28" fill="#27ae60" rx="3"/>
+  <rect x="274" y="230" width="303" height="28" fill="#e74c3c" rx="3"/>
+  <rect x="577" y="230" width="163" height="28" fill="#95a5a6" rx="3"/>
+  <text x="60" y="272" text-anchor="start" font-size="11" fill="#27ae60">긍정 31%</text>
+  <text x="400" y="272" text-anchor="middle" font-size="11" fill="#e74c3c">부정 45%</text>
+  <text x="740" y="272" text-anchor="end" font-size="11" fill="#7f8c8d">중립 24%</text>
+  <text x="60" y="288" font-size="11" fill="#555">💬 "비례대표 30석 확보 전략이라는 건 맞는데 유권자를 우롱하는 건지"</text>
+
+  <text x="60" y="340" font-size="13" font-weight="bold" fill="#2c3e50">네이버 뉴스 — 긍정 51건 / 부정 89건 / 중립 47건</text>
+  <rect x="60" y="350" width="185" height="28" fill="#27ae60" rx="3"/>
+  <rect x="245" y="350" width="324" height="28" fill="#e74c3c" rx="3"/>
+  <rect x="569" y="350" width="171" height="28" fill="#95a5a6" rx="3"/>
+  <text x="60" y="392" text-anchor="start" font-size="11" fill="#27ae60">긍정 27%</text>
+  <text x="400" y="392" text-anchor="middle" font-size="11" fill="#e74c3c">부정 48%</text>
+  <text x="740" y="392" text-anchor="end" font-size="11" fill="#7f8c8d">중립 25%</text>
+  <text x="60" y="408" font-size="11" fill="#555">💬 "야권 단합이 필요한 시점이다 vs 위성정당은 민주주의 훼손"</text>
+
+  <text x="400" y="426" text-anchor="middle" font-size="10" fill="#bdc3c7">* 수치는 집계된 공감/반응 신호 기반 추산 | paperWanderer</text>
+</svg>

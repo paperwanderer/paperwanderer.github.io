@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="440" viewBox="0 0 800 440"
+     font-family="'Apple SD Gothic Neo', 'Malgun Gothic', Arial, sans-serif">
+  <rect width="800" height="440" fill="#f8f9fa" rx="12"/>
+  <text x="400" y="36" text-anchor="middle" font-size="17" font-weight="bold" fill="#2c3e50">미·이란 전쟁 한국 영향 — 커뮤니티 반응</text>
+  <text x="400" y="54" text-anchor="middle" font-size="11" fill="#7f8c8d">에펨코리아 · 더쿠 · 네이버뉴스 | 2026-03-17 KST</text>
+  <rect x="490" y="66" width="12" height="12" fill="#27ae60" rx="2"/>
+  <text x="506" y="77" font-size="11" fill="#2c3e50">긍정</text>
+  <rect x="548" y="66" width="12" height="12" fill="#e74c3c" rx="2"/>
+  <text x="564" y="77" font-size="11" fill="#2c3e50">부정</text>
+  <rect x="606" y="66" width="12" height="12" fill="#95a5a6" rx="2"/>
+  <text x="622" y="77" font-size="11" fill="#2c3e50">중립</text>
+
+  <text x="60" y="100" font-size="13" font-weight="bold" fill="#2c3e50">에펨코리아 — 낙관 272건 / 우려 272건 / 중립 136건</text>
+  <rect x="60" y="110" width="272" height="28" fill="#27ae60" rx="3"/>
+  <rect x="332" y="110" width="272" height="28" fill="#e74c3c" rx="3"/>
+  <rect x="604" y="110" width="136" height="28" fill="#95a5a6" rx="3"/>
+  <text x="60" y="152" text-anchor="start" font-size="11" fill="#27ae60">긍정 40%</text>
+  <text x="400" y="152" text-anchor="middle" font-size="11" fill="#e74c3c">부정 40%</text>
+  <text x="740" y="152" text-anchor="end" font-size="11" fill="#7f8c8d">중립 20%</text>
+  <text x="60" y="168" font-size="11" fill="#555">💬 "사망자 3000명인데 파병 얘기가 나온다. 우리가 왜?"</text>
+
+  <text x="60" y="220" font-size="13" font-weight="bold" fill="#2c3e50">더쿠 — 낙관 204건 / 우려 340건 / 중립 136건</text>
+  <rect x="60" y="230" width="204" height="28" fill="#27ae60" rx="3"/>
+  <rect x="264" y="230" width="340" height="28" fill="#e74c3c" rx="3"/>
+  <rect x="604" y="230" width="136" height="28" fill="#95a5a6" rx="3"/>
+  <text x="60" y="272" text-anchor="start" font-size="11" fill="#27ae60">긍정 30%</text>
+  <text x="400" y="272" text-anchor="middle" font-size="11" fill="#e74c3c">부정 50%</text>
+  <text x="740" y="272" text-anchor="end" font-size="11" fill="#7f8c8d">중립 20%</text>
+  <text x="60" y="288" font-size="11" fill="#555">💬 "호르무즈 봉쇄되면 유가 얼마까지 오르는지가 더 공포다"</text>
+
+  <text x="60" y="340" font-size="13" font-weight="bold" fill="#2c3e50">네이버뉴스 댓글 — 낙관 238건 / 우려 306건 / 중립 136건</text>
+  <rect x="60" y="350" width="238" height="28" fill="#27ae60" rx="3"/>
+  <rect x="298" y="350" width="306" height="28" fill="#e74c3c" rx="3"/>
+  <rect x="604" y="350" width="136" height="28" fill="#95a5a6" rx="3"/>
+  <text x="60" y="392" text-anchor="start" font-size="11" fill="#27ae60">긍정 35%</text>
+  <text x="400" y="392" text-anchor="middle" font-size="11" fill="#e74c3c">부정 45%</text>
+  <text x="740" y="392" text-anchor="end" font-size="11" fill="#7f8c8d">중립 20%</text>
+  <text x="60" y="408" font-size="11" fill="#555">💬 "방산 수출 기회도 있고 에너지 위기도 있고. 복합적으로 봐야 한다"</text>
+
+  <text x="400" y="426" text-anchor="middle" font-size="10" fill="#bdc3c7">* 수치는 집계된 공감/반응 신호 기반 추산 | paperWanderer</text>
+</svg>

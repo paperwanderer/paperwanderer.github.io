@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="440" viewBox="0 0 800 440"
+     font-family="'Apple SD Gothic Neo', 'Malgun Gothic', Arial, sans-serif">
+  <rect width="800" height="440" fill="#f8f9fa" rx="12"/>
+  <text x="400" y="36" text-anchor="middle" font-size="17" font-weight="bold" fill="#2c3e50">삼성·SK하이닉스 HBM4 패권 — 커뮤니티 반응</text>
+  <text x="400" y="54" text-anchor="middle" font-size="11" fill="#7f8c8d">루리웹 · 에펨코리아 · 클리앙 | 2026-03-11 KST</text>
+  <rect x="490" y="66" width="12" height="12" fill="#27ae60" rx="2"/>
+  <text x="506" y="77" font-size="11" fill="#2c3e50">긍정</text>
+  <rect x="548" y="66" width="12" height="12" fill="#e74c3c" rx="2"/>
+  <text x="564" y="77" font-size="11" fill="#2c3e50">부정</text>
+  <rect x="606" y="66" width="12" height="12" fill="#95a5a6" rx="2"/>
+  <text x="622" y="77" font-size="11" fill="#2c3e50">중립</text>
+
+  <text x="60" y="100" font-size="13" font-weight="bold" fill="#2c3e50">루리웹 — 긍정 234건 / 부정 48건 / 중립 85건</text>
+  <rect x="60" y="110" width="434" height="28" fill="#27ae60" rx="3"/>
+  <rect x="494" y="110" width="89" height="28" fill="#e74c3c" rx="3"/>
+  <rect x="583" y="110" width="157" height="28" fill="#95a5a6" rx="3"/>
+  <text x="60" y="152" text-anchor="start" font-size="11" fill="#27ae60">긍정 64%</text>
+  <text x="400" y="152" text-anchor="middle" font-size="11" fill="#e74c3c">부정 13%</text>
+  <text x="740" y="152" text-anchor="end" font-size="11" fill="#7f8c8d">중립 23%</text>
+
+  <text x="60" y="220" font-size="13" font-weight="bold" fill="#2c3e50">에펨코리아 — 긍정 133건 / 부정 30건 / 중립 28건</text>
+  <rect x="60" y="230" width="474" height="28" fill="#27ae60" rx="3"/>
+  <rect x="534" y="230" width="107" height="28" fill="#e74c3c" rx="3"/>
+  <rect x="641" y="230" width="99" height="28" fill="#95a5a6" rx="3"/>
+  <text x="60" y="272" text-anchor="start" font-size="11" fill="#27ae60">긍정 70%</text>
+  <text x="400" y="272" text-anchor="middle" font-size="11" fill="#e74c3c">부정 16%</text>
+  <text x="740" y="272" text-anchor="end" font-size="11" fill="#7f8c8d">중립 14%</text>
+
+  <text x="60" y="340" font-size="13" font-weight="bold" fill="#2c3e50">클리앙 — 긍정 78건 / 부정 23건 / 중립 19건</text>
+  <rect x="60" y="350" width="442" height="28" fill="#27ae60" rx="3"/>
+  <rect x="502" y="350" width="130" height="28" fill="#e74c3c" rx="3"/>
+  <rect x="632" y="350" width="108" height="28" fill="#95a5a6" rx="3"/>
+  <text x="60" y="392" text-anchor="start" font-size="11" fill="#27ae60">긍정 65%</text>
+  <text x="400" y="392" text-anchor="middle" font-size="11" fill="#e74c3c">부정 19%</text>
+  <text x="740" y="392" text-anchor="end" font-size="11" fill="#7f8c8d">중립 16%</text>
+
+  <text x="400" y="426" text-anchor="middle" font-size="10" fill="#bdc3c7">* 수치는 집계된 공감/반응 신호 기반 추산 | paperWanderer</text>
+</svg>

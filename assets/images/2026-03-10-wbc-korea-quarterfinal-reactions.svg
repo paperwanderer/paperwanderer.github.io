@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="440" viewBox="0 0 800 440"
+     font-family="'Apple SD Gothic Neo', 'Malgun Gothic', Arial, sans-serif">
+  <rect width="800" height="440" fill="#f8f9fa" rx="12"/>
+  <text x="400" y="36" text-anchor="middle" font-size="17" font-weight="bold" fill="#2c3e50">WBC 한국 8강 진출 — 커뮤니티 반응</text>
+  <text x="400" y="54" text-anchor="middle" font-size="11" fill="#7f8c8d">에펨코리아 · 뉴스1 댓글 · 한국경제 댓글 | 2026-03-10 KST</text>
+  <rect x="490" y="66" width="12" height="12" fill="#27ae60" rx="2"/>
+  <text x="506" y="77" font-size="11" fill="#2c3e50">긍정</text>
+  <rect x="548" y="66" width="12" height="12" fill="#e74c3c" rx="2"/>
+  <text x="564" y="77" font-size="11" fill="#2c3e50">부정</text>
+  <rect x="606" y="66" width="12" height="12" fill="#95a5a6" rx="2"/>
+  <text x="622" y="77" font-size="11" fill="#2c3e50">중립</text>
+
+  <text x="60" y="100" font-size="13" font-weight="bold" fill="#2c3e50">에펨코리아 — 긍정 304건 / 부정 12건 / 중립 64건</text>
+  <rect x="60" y="110" width="544" height="28" fill="#27ae60" rx="3"/>
+  <rect x="604" y="110" width="21" height="28" fill="#e74c3c" rx="3"/>
+  <rect x="625" y="110" width="115" height="28" fill="#95a5a6" rx="3"/>
+  <text x="60" y="152" text-anchor="start" font-size="11" fill="#27ae60">긍정 80%</text>
+  <text x="400" y="152" text-anchor="middle" font-size="11" fill="#e74c3c">부정 3%</text>
+  <text x="740" y="152" text-anchor="end" font-size="11" fill="#7f8c8d">중립 17%</text>
+  <text x="60" y="168" font-size="11" fill="#555">💬 "17년 만이다... 진짜 기적이네 도쿄의 기적" (공감 312)</text>
+
+  <text x="60" y="220" font-size="13" font-weight="bold" fill="#2c3e50">뉴스1 댓글 — 긍정 78건 / 부정 5건 / 중립 17건</text>
+  <rect x="60" y="230" width="530" height="28" fill="#27ae60" rx="3"/>
+  <rect x="590" y="230" width="34" height="28" fill="#e74c3c" rx="3"/>
+  <rect x="624" y="230" width="116" height="28" fill="#95a5a6" rx="3"/>
+  <text x="60" y="272" text-anchor="start" font-size="11" fill="#27ae60">긍정 78%</text>
+  <text x="400" y="272" text-anchor="middle" font-size="11" fill="#e74c3c">부정 5%</text>
+  <text x="740" y="272" text-anchor="end" font-size="11" fill="#7f8c8d">중립 17%</text>
+  <text x="60" y="288" font-size="11" fill="#555">💬 "문보경 11타점 대회 전체 1위ㄷㄷ 진짜 해결사네" (공감 156)</text>
+
+  <text x="60" y="340" font-size="13" font-weight="bold" fill="#2c3e50">한국경제 댓글 — 긍정 52건 / 부정 20건 / 중립 28건</text>
+  <rect x="60" y="350" width="354" height="28" fill="#27ae60" rx="3"/>
+  <rect x="414" y="350" width="136" height="28" fill="#e74c3c" rx="3"/>
+  <rect x="550" y="350" width="190" height="28" fill="#95a5a6" rx="3"/>
+  <text x="60" y="392" text-anchor="start" font-size="11" fill="#27ae60">긍정 52%</text>
+  <text x="400" y="392" text-anchor="middle" font-size="11" fill="#e74c3c">부정 20%</text>
+  <text x="740" y="392" text-anchor="end" font-size="11" fill="#7f8c8d">중립 28%</text>
+  <text x="60" y="408" font-size="11" fill="#555">💬 "경우의 수 뚫고 올라왔다, 이제 마이애미서 제대로 보여주자" (공감 89)</text>
+
+  <text x="400" y="426" text-anchor="middle" font-size="10" fill="#bdc3c7">* 수치는 집계된 공감/반응 신호 기반 추산 | paperWanderer</text>
+</svg>

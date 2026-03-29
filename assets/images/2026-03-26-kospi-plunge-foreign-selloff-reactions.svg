@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="440" viewBox="0 0 800 440"
+     font-family="'Apple SD Gothic Neo', 'Malgun Gothic', Arial, sans-serif">
+  <rect width="800" height="440" fill="#f8f9fa" rx="12"/>
+  <text x="400" y="36" text-anchor="middle" font-size="17" font-weight="bold" fill="#2c3e50">코스피 급락·외국인 매도 — 커뮤니티 반응</text>
+  <text x="400" y="54" text-anchor="middle" font-size="11" fill="#7f8c8d">에펨코리아 · 클리앙 · 트위터/X | 2026-03-26 22:00 KST</text>
+  <rect x="490" y="66" width="12" height="12" fill="#27ae60" rx="2"/>
+  <text x="506" y="77" font-size="11" fill="#2c3e50">긍정</text>
+  <rect x="548" y="66" width="12" height="12" fill="#e74c3c" rx="2"/>
+  <text x="564" y="77" font-size="11" fill="#2c3e50">부정</text>
+  <rect x="606" y="66" width="12" height="12" fill="#95a5a6" rx="2"/>
+  <text x="622" y="77" font-size="11" fill="#2c3e50">중립</text>
+
+  <text x="60" y="100" font-size="13" font-weight="bold" fill="#2c3e50">에펨코리아 — 긍정 20건 / 부정 220건 / 중립 160건</text>
+  <rect x="60" y="110" width="34" height="28" fill="#27ae60" rx="3"/>
+  <rect x="94" y="110" width="374" height="28" fill="#e74c3c" rx="3"/>
+  <rect x="468" y="110" width="272" height="28" fill="#95a5a6" rx="3"/>
+  <text x="60" y="152" text-anchor="start" font-size="11" fill="#27ae60">긍정 5%</text>
+  <text x="400" y="152" text-anchor="middle" font-size="11" fill="#e74c3c">부정 55%</text>
+  <text x="740" y="152" text-anchor="end" font-size="11" fill="#7f8c8d">중립 40%</text>
+  <text x="60" y="168" font-size="11" fill="#555">💬 "외국인이 3월에만 30조를 팔았다는 게 진짜 충격이다"</text>
+
+  <text x="60" y="220" font-size="13" font-weight="bold" fill="#2c3e50">클리앙 — 긍정 15건 / 부정 180건 / 중립 205건</text>
+  <rect x="60" y="230" width="26" height="28" fill="#27ae60" rx="3"/>
+  <rect x="86" y="230" width="306" height="28" fill="#e74c3c" rx="3"/>
+  <rect x="392" y="230" width="348" height="28" fill="#95a5a6" rx="3"/>
+  <text x="60" y="272" text-anchor="start" font-size="11" fill="#27ae60">긍정 4%</text>
+  <text x="400" y="272" text-anchor="middle" font-size="11" fill="#e74c3c">부정 45%</text>
+  <text x="740" y="272" text-anchor="end" font-size="11" fill="#7f8c8d">중립 51%</text>
+  <text x="60" y="288" font-size="11" fill="#555">💬 "이란 협상 소식 나왔다 취소됐다 반복될 때마다 시장이 요동치니 답이 없다"</text>
+
+  <text x="60" y="340" font-size="13" font-weight="bold" fill="#2c3e50">트위터/X — 긍정 15건 / 부정 120건 / 중립 265건</text>
+  <rect x="60" y="350" width="26" height="28" fill="#27ae60" rx="3"/>
+  <rect x="86" y="350" width="204" height="28" fill="#e74c3c" rx="3"/>
+  <rect x="290" y="350" width="450" height="28" fill="#95a5a6" rx="3"/>
+  <text x="60" y="392" text-anchor="start" font-size="11" fill="#27ae60">긍정 4%</text>
+  <text x="400" y="392" text-anchor="middle" font-size="11" fill="#e74c3c">부정 30%</text>
+  <text x="740" y="392" text-anchor="end" font-size="11" fill="#7f8c8d">중립 66%</text>
+  <text x="60" y="408" font-size="11" fill="#555">💬 "코스피 5000선이 위협받는 날이 오는 거 아니냐"</text>
+
+  <text x="400" y="426" text-anchor="middle" font-size="10" fill="#bdc3c7">* 수치는 집계된 공감/반응 신호 기반 추산 | paperWanderer</text>
+</svg>

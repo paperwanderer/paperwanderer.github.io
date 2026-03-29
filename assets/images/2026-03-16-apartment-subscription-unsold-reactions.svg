@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="440" viewBox="0 0 800 440"
+     font-family="'Apple SD Gothic Neo', 'Malgun Gothic', Arial, sans-serif">
+  <rect width="800" height="440" fill="#f8f9fa" rx="12"/>
+  <text x="400" y="36" text-anchor="middle" font-size="17" font-weight="bold" fill="#2c3e50">아파트 청약 미달 — 커뮤니티 반응</text>
+  <text x="400" y="54" text-anchor="middle" font-size="11" fill="#7f8c8d">네이버 뉴스 댓글 · 부동산 커뮤니티 · 클리앙 | 2026-03-16 19:30 KST</text>
+  <rect x="490" y="66" width="12" height="12" fill="#27ae60" rx="2"/>
+  <text x="506" y="77" font-size="11" fill="#2c3e50">긍정</text>
+  <rect x="548" y="66" width="12" height="12" fill="#e74c3c" rx="2"/>
+  <text x="564" y="77" font-size="11" fill="#2c3e50">부정</text>
+  <rect x="606" y="66" width="12" height="12" fill="#95a5a6" rx="2"/>
+  <text x="622" y="77" font-size="11" fill="#2c3e50">중립</text>
+
+  <text x="60" y="100" font-size="13" font-weight="bold" fill="#2c3e50">네이버 뉴스 댓글 — 긍정 140건 / 부정 360건 / 중립 80건</text>
+  <rect x="60" y="110" width="164" height="28" fill="#27ae60" rx="3"/>
+  <rect x="224" y="110" width="421" height="28" fill="#e74c3c" rx="3"/>
+  <rect x="645" y="110" width="95" height="28" fill="#95a5a6" rx="3"/>
+  <text x="60" y="152" text-anchor="start" font-size="11" fill="#27ae60">긍정 24%</text>
+  <text x="400" y="152" text-anchor="middle" font-size="11" fill="#e74c3c">부정 62%</text>
+  <text x="740" y="152" text-anchor="end" font-size="11" fill="#7f8c8d">중립 14%</text>
+  <text x="60" y="168" font-size="11" fill="#555">💬 "분양가가 이렇게 비싸면 누가 사냐 미달 당연한 거다"</text>
+
+  <text x="60" y="220" font-size="13" font-weight="bold" fill="#2c3e50">부동산 커뮤니티 — 긍정 60건 / 부정 140건 / 중립 180건</text>
+  <rect x="60" y="230" width="108" height="28" fill="#27ae60" rx="3"/>
+  <rect x="168" y="230" width="253" height="28" fill="#e74c3c" rx="3"/>
+  <rect x="421" y="230" width="319" height="28" fill="#95a5a6" rx="3"/>
+  <text x="60" y="272" text-anchor="start" font-size="11" fill="#27ae60">긍정 16%</text>
+  <text x="400" y="272" text-anchor="middle" font-size="11" fill="#e74c3c">부정 37%</text>
+  <text x="740" y="272" text-anchor="end" font-size="11" fill="#7f8c8d">중립 47%</text>
+  <text x="60" y="288" font-size="11" fill="#555">💬 "미달이 나야 분양가 거품이 빠진다 이게 정상화다"</text>
+
+  <text x="60" y="340" font-size="13" font-weight="bold" fill="#2c3e50">클리앙 — 긍정 20건 / 부정 60건 / 중립 60건</text>
+  <rect x="60" y="350" width="96" height="28" fill="#27ae60" rx="3"/>
+  <rect x="156" y="350" width="288" height="28" fill="#e74c3c" rx="3"/>
+  <rect x="444" y="350" width="296" height="28" fill="#95a5a6" rx="3"/>
+  <text x="60" y="392" text-anchor="start" font-size="11" fill="#27ae60">긍정 14%</text>
+  <text x="400" y="392" text-anchor="middle" font-size="11" fill="#e74c3c">부정 42%</text>
+  <text x="740" y="392" text-anchor="end" font-size="11" fill="#7f8c8d">중립 44%</text>
+  <text x="60" y="408" font-size="11" fill="#555">💬 "집값은 천장인데 금리도 높고 서민은 어디서 집을 사나"</text>
+
+  <text x="400" y="426" text-anchor="middle" font-size="10" fill="#bdc3c7">* 수치는 집계된 공감/반응 신호 기반 추산 | paperWanderer</text>
+</svg>

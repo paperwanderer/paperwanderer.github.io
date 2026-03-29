@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="440" viewBox="0 0 800 440"
+     font-family="'Apple SD Gothic Neo', 'Malgun Gothic', Arial, sans-serif">
+  <rect width="800" height="440" fill="#f8f9fa" rx="12"/>
+  <text x="400" y="36" text-anchor="middle" font-size="17" font-weight="bold" fill="#2c3e50">다음 실검 부활 — 커뮤니티 반응</text>
+  <text x="400" y="54" text-anchor="middle" font-size="11" fill="#7f8c8d">루리웹 · ZDNet 댓글 · 미디어오늘 댓글 | 2026-03-04 KST</text>
+  <rect x="490" y="66" width="12" height="12" fill="#27ae60" rx="2"/>
+  <text x="506" y="77" font-size="11" fill="#2c3e50">긍정</text>
+  <rect x="548" y="66" width="12" height="12" fill="#e74c3c" rx="2"/>
+  <text x="564" y="77" font-size="11" fill="#2c3e50">부정</text>
+  <rect x="606" y="66" width="12" height="12" fill="#95a5a6" rx="2"/>
+  <text x="622" y="77" font-size="11" fill="#2c3e50">중립</text>
+
+  <text x="60" y="100" font-size="13" font-weight="bold" fill="#2c3e50">루리웹 — 긍정 20건 / 부정 180건 / 중립 60건</text>
+  <rect x="60" y="110" width="52" height="28" fill="#27ae60" rx="3"/>
+  <rect x="112" y="110" width="471" height="28" fill="#e74c3c" rx="3"/>
+  <rect x="583" y="110" width="157" height="28" fill="#95a5a6" rx="3"/>
+  <text x="60" y="152" text-anchor="start" font-size="11" fill="#27ae60">긍정 8%</text>
+  <text x="400" y="152" text-anchor="middle" font-size="11" fill="#e74c3c">부정 69%</text>
+  <text x="740" y="152" text-anchor="end" font-size="11" fill="#7f8c8d">중립 23%</text>
+  <text x="60" y="168" font-size="11" fill="#555">💬 "다음 이용자가 아주 적은데 여론조작 한다고 먹힐까.."</text>
+
+  <text x="60" y="220" font-size="13" font-weight="bold" fill="#2c3e50">ZDNet 댓글 — 긍정 50건 / 부정 120건 / 중립 80건</text>
+  <rect x="60" y="230" width="136" height="28" fill="#27ae60" rx="3"/>
+  <rect x="196" y="230" width="326" height="28" fill="#e74c3c" rx="3"/>
+  <rect x="522" y="230" width="218" height="28" fill="#95a5a6" rx="3"/>
+  <text x="60" y="272" text-anchor="start" font-size="11" fill="#27ae60">긍정 20%</text>
+  <text x="400" y="272" text-anchor="middle" font-size="11" fill="#e74c3c">부정 48%</text>
+  <text x="740" y="272" text-anchor="end" font-size="11" fill="#7f8c8d">중립 32%</text>
+  <text x="60" y="288" font-size="11" fill="#555">💬 "이슈 실시간 확인 편해졌다. 안전장치 강화된 건 맞지"</text>
+
+  <text x="60" y="340" font-size="13" font-weight="bold" fill="#2c3e50">미디어오늘 댓글 — 긍정 40건 / 부정 110건 / 중립 60건</text>
+  <rect x="60" y="350" width="130" height="28" fill="#27ae60" rx="3"/>
+  <rect x="190" y="350" width="356" height="28" fill="#e74c3c" rx="3"/>
+  <rect x="546" y="350" width="194" height="28" fill="#95a5a6" rx="3"/>
+  <text x="60" y="392" text-anchor="start" font-size="11" fill="#27ae60">긍정 19%</text>
+  <text x="400" y="392" text-anchor="middle" font-size="11" fill="#e74c3c">부정 52%</text>
+  <text x="740" y="392" text-anchor="end" font-size="11" fill="#7f8c8d">중립 29%</text>
+  <text x="60" y="408" font-size="11" fill="#555">💬 "故설리·구하라 기억 못하나... 실검 폐단 다시 올 것"</text>
+
+  <text x="400" y="426" text-anchor="middle" font-size="10" fill="#bdc3c7">* 수치는 집계된 공감/반응 신호 기반 추산 | paperWanderer</text>
+</svg>

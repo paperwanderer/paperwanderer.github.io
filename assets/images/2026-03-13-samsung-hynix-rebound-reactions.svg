@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="440" viewBox="0 0 800 440"
+     font-family="'Apple SD Gothic Neo', 'Malgun Gothic', Arial, sans-serif">
+  <rect width="800" height="440" fill="#f8f9fa" rx="12"/>
+  <text x="400" y="36" text-anchor="middle" font-size="17" font-weight="bold" fill="#2c3e50">반도체 주가 반등 — 커뮤니티 반응</text>
+  <text x="400" y="54" text-anchor="middle" font-size="11" fill="#7f8c8d">FM코리아 · 네이버 증권 댓글 · 클리앙 | 2026-03-13 KST</text>
+  <rect x="490" y="66" width="12" height="12" fill="#27ae60" rx="2"/>
+  <text x="506" y="77" font-size="11" fill="#2c3e50">긍정</text>
+  <rect x="548" y="66" width="12" height="12" fill="#e74c3c" rx="2"/>
+  <text x="564" y="77" font-size="11" fill="#2c3e50">부정</text>
+  <rect x="606" y="66" width="12" height="12" fill="#95a5a6" rx="2"/>
+  <text x="622" y="77" font-size="11" fill="#2c3e50">중립</text>
+
+  <text x="60" y="100" font-size="13" font-weight="bold" fill="#2c3e50">FM코리아 — 긍정 420건 / 부정 80건 / 중립 180건</text>
+  <rect x="60" y="110" width="420" height="28" fill="#27ae60" rx="3"/>
+  <rect x="480" y="110" width="80" height="28" fill="#e74c3c" rx="3"/>
+  <rect x="560" y="110" width="180" height="28" fill="#95a5a6" rx="3"/>
+  <text x="60" y="152" text-anchor="start" font-size="11" fill="#27ae60">긍정 62%</text>
+  <text x="400" y="152" text-anchor="middle" font-size="11" fill="#e74c3c">부정 12%</text>
+  <text x="740" y="152" text-anchor="end" font-size="11" fill="#7f8c8d">중립 26%</text>
+  <text x="60" y="168" font-size="11" fill="#555">💬 "저점에서 담은 사람들 웃었겠다. AI 수요 꺾이지 않으면 상승 지속"</text>
+
+  <text x="60" y="220" font-size="13" font-weight="bold" fill="#2c3e50">네이버 증권 댓글 — 긍정 380건 / 부정 100건 / 중립 200건</text>
+  <rect x="60" y="230" width="380" height="28" fill="#27ae60" rx="3"/>
+  <rect x="440" y="230" width="100" height="28" fill="#e74c3c" rx="3"/>
+  <rect x="540" y="230" width="200" height="28" fill="#95a5a6" rx="3"/>
+  <text x="60" y="272" text-anchor="start" font-size="11" fill="#27ae60">긍정 56%</text>
+  <text x="400" y="272" text-anchor="middle" font-size="11" fill="#e74c3c">부정 15%</text>
+  <text x="740" y="272" text-anchor="end" font-size="11" fill="#7f8c8d">중립 29%</text>
+  <text x="60" y="288" font-size="11" fill="#555">💬 "브로드컴 실적이 AI 수요 건재함을 증명했다. 반도체 슈퍼사이클 계속"</text>
+
+  <text x="60" y="340" font-size="13" font-weight="bold" fill="#2c3e50">클리앙 — 긍정 360건 / 부정 120건 / 중립 200건</text>
+  <rect x="60" y="350" width="360" height="28" fill="#27ae60" rx="3"/>
+  <rect x="420" y="350" width="120" height="28" fill="#e74c3c" rx="3"/>
+  <rect x="540" y="350" width="200" height="28" fill="#95a5a6" rx="3"/>
+  <text x="60" y="392" text-anchor="start" font-size="11" fill="#27ae60">긍정 53%</text>
+  <text x="400" y="392" text-anchor="middle" font-size="11" fill="#e74c3c">부정 18%</text>
+  <text x="740" y="392" text-anchor="end" font-size="11" fill="#7f8c8d">중립 29%</text>
+  <text x="60" y="408" font-size="11" fill="#555">💬 "환율 안정+전쟁 리스크 완화+브로드컴 3박자. 반등은 당연한 흐름"</text>
+
+  <text x="400" y="426" text-anchor="middle" font-size="10" fill="#bdc3c7">* 수치는 집계된 공감/반응 신호 기반 추산 | paperWanderer</text>
+</svg>

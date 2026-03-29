@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="440" viewBox="0 0 800 440"
+     font-family="'Apple SD Gothic Neo', 'Malgun Gothic', Arial, sans-serif">
+  <rect width="800" height="440" fill="#f8f9fa" rx="12"/>
+  <text x="400" y="36" text-anchor="middle" font-size="17" font-weight="bold" fill="#2c3e50">BTS 3월 컴백 — 커뮤니티 반응</text>
+  <text x="400" y="54" text-anchor="middle" font-size="11" fill="#7f8c8d">글로벌 SNS · 팬카페 · 유튜브 | 2026-03-05 20:00 KST</text>
+  <rect x="490" y="66" width="12" height="12" fill="#27ae60" rx="2"/>
+  <text x="506" y="77" font-size="11" fill="#2c3e50">긍정</text>
+  <rect x="548" y="66" width="12" height="12" fill="#e74c3c" rx="2"/>
+  <text x="564" y="77" font-size="11" fill="#2c3e50">부정</text>
+  <rect x="606" y="66" width="12" height="12" fill="#95a5a6" rx="2"/>
+  <text x="622" y="77" font-size="11" fill="#2c3e50">중립</text>
+
+  <text x="60" y="100" font-size="13" font-weight="bold" fill="#2c3e50">글로벌 SNS — 압도적 환호</text>
+  <rect x="60" y="110" width="626" height="28" fill="#27ae60" rx="3"/>
+  <rect x="686" y="110" width="20" height="28" fill="#e74c3c" rx="3"/>
+  <rect x="706" y="110" width="34" height="28" fill="#95a5a6" rx="3"/>
+  <text x="60" y="152" text-anchor="start" font-size="11" fill="#27ae60">긍정 92%</text>
+  <text x="400" y="152" text-anchor="middle" font-size="11" fill="#e74c3c">부정 3%</text>
+  <text x="740" y="152" text-anchor="end" font-size="11" fill="#7f8c8d">중립 5%</text>
+  <text x="60" y="168" font-size="11" fill="#555">💬 "드디어. 기다리고 기다렸다. 3월 20일 멈추지 않는다"</text>
+
+  <text x="60" y="220" font-size="13" font-weight="bold" fill="#2c3e50">팬카페 — 완전체 복귀 감동</text>
+  <rect x="60" y="230" width="646" height="28" fill="#27ae60" rx="3"/>
+  <rect x="706" y="230" width="14" height="28" fill="#e74c3c" rx="3"/>
+  <rect x="720" y="230" width="20" height="28" fill="#95a5a6" rx="3"/>
+  <text x="60" y="272" text-anchor="start" font-size="11" fill="#27ae60">긍정 95%</text>
+  <text x="400" y="272" text-anchor="middle" font-size="11" fill="#e74c3c">부정 2%</text>
+  <text x="740" y="272" text-anchor="end" font-size="11" fill="#7f8c8d">중립 3%</text>
+  <text x="60" y="288" font-size="11" fill="#555">💬 "병역 이후 완전체라는 게 더 감동적이다"</text>
+
+  <text x="60" y="340" font-size="13" font-weight="bold" fill="#2c3e50">전체 종합 — 긍정 압도</text>
+  <rect x="60" y="350" width="632" height="28" fill="#27ae60" rx="3"/>
+  <rect x="692" y="350" width="20" height="28" fill="#e74c3c" rx="3"/>
+  <rect x="712" y="350" width="28" height="28" fill="#95a5a6" rx="3"/>
+  <text x="60" y="392" text-anchor="start" font-size="11" fill="#27ae60">긍정 93%</text>
+  <text x="400" y="392" text-anchor="middle" font-size="11" fill="#e74c3c">부정 3%</text>
+  <text x="740" y="392" text-anchor="end" font-size="11" fill="#7f8c8d">중립 4%</text>
+  <text x="60" y="408" font-size="11" fill="#555">💬 "이건 그냥 음악 이벤트가 아닌 문화 현상"</text>
+
+  <text x="400" y="426" text-anchor="middle" font-size="10" fill="#bdc3c7">* 수치는 집계된 공감/반응 신호 기반 추산 | paperWanderer</text>
+</svg>

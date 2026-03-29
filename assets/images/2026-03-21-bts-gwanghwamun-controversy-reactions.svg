@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="440" viewBox="0 0 800 440"
+     font-family="'Apple SD Gothic Neo', 'Malgun Gothic', Arial, sans-serif">
+  <rect width="800" height="440" fill="#f8f9fa" rx="12"/>
+  <text x="400" y="36" text-anchor="middle" font-size="17" font-weight="bold" fill="#2c3e50">BTS 광화문 공공성 논란 — 커뮤니티 반응</text>
+  <text x="400" y="54" text-anchor="middle" font-size="11" fill="#7f8c8d">에펨코리아 · DC인사이드 · 오마이뉴스 댓글 | 2026-03-21~23 KST</text>
+  <rect x="490" y="66" width="12" height="12" fill="#27ae60" rx="2"/>
+  <text x="506" y="77" font-size="11" fill="#2c3e50">긍정</text>
+  <rect x="548" y="66" width="12" height="12" fill="#e74c3c" rx="2"/>
+  <text x="564" y="77" font-size="11" fill="#2c3e50">부정</text>
+  <rect x="606" y="66" width="12" height="12" fill="#95a5a6" rx="2"/>
+  <text x="622" y="77" font-size="11" fill="#2c3e50">중립</text>
+
+  <text x="60" y="100" font-size="13" font-weight="bold" fill="#2c3e50">에펨코리아 — 공무원 무급 동원 포텐 게시물</text>
+  <rect x="60" y="110" width="120" height="28" fill="#27ae60" rx="3"/>
+  <rect x="180" y="110" width="420" height="28" fill="#e74c3c" rx="3"/>
+  <rect x="600" y="110" width="140" height="28" fill="#95a5a6" rx="3"/>
+  <text x="60" y="152" text-anchor="start" font-size="11" fill="#27ae60">긍정 18%</text>
+  <text x="400" y="152" text-anchor="middle" font-size="11" fill="#e74c3c">부정 62%</text>
+  <text x="740" y="152" text-anchor="end" font-size="11" fill="#7f8c8d">중립 20%</text>
+  <text x="60" y="168" font-size="11" fill="#555">💬 "주말 무급 동원된 공무원들은 대체 뭔 죄냐"</text>
+
+  <text x="60" y="220" font-size="13" font-weight="bold" fill="#2c3e50">DC인사이드 — 광화문 공공성 토론</text>
+  <rect x="60" y="230" width="180" height="28" fill="#27ae60" rx="3"/>
+  <rect x="240" y="230" width="340" height="28" fill="#e74c3c" rx="3"/>
+  <rect x="580" y="230" width="160" height="28" fill="#95a5a6" rx="3"/>
+  <text x="60" y="272" text-anchor="start" font-size="11" fill="#27ae60">긍정 26%</text>
+  <text x="400" y="272" text-anchor="middle" font-size="11" fill="#e74c3c">부정 50%</text>
+  <text x="740" y="272" text-anchor="end" font-size="11" fill="#7f8c8d">중립 24%</text>
+  <text x="60" y="288" font-size="11" fill="#555">💬 "국가가 통제하고 기업이 벌었다"</text>
+
+  <text x="60" y="340" font-size="13" font-weight="bold" fill="#2c3e50">오마이뉴스 독자 댓글 — 시민 불편 관련</text>
+  <rect x="60" y="350" width="80" height="28" fill="#27ae60" rx="3"/>
+  <rect x="140" y="350" width="480" height="28" fill="#e74c3c" rx="3"/>
+  <rect x="620" y="350" width="120" height="28" fill="#95a5a6" rx="3"/>
+  <text x="60" y="392" text-anchor="start" font-size="11" fill="#27ae60">긍정 12%</text>
+  <text x="400" y="392" text-anchor="middle" font-size="11" fill="#e74c3c">부정 71%</text>
+  <text x="740" y="392" text-anchor="end" font-size="11" fill="#7f8c8d">중립 17%</text>
+  <text x="60" y="408" font-size="11" fill="#555">💬 "집회는 막고 기업 공연은 되는 이중 잣대"</text>
+
+  <text x="400" y="426" text-anchor="middle" font-size="10" fill="#bdc3c7">* 수치는 집계된 공감/반응 신호 기반 추산 | paperWanderer</text>
+</svg>

@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="322" viewBox="0 0 800 322"
+     font-family="'Apple SD Gothic Neo', 'Malgun Gothic', Arial, sans-serif">
+  <rect width="800" height="322" fill="#f8f9fa" rx="12"/>
+  <text x="400" y="36" text-anchor="middle" font-size="17" font-weight="bold" fill="#2c3e50">코스피 서킷브레이커 — 커뮤니티 반응</text>
+  <text x="400" y="54" text-anchor="middle" font-size="11" fill="#7f8c8d">DC인사이드 · 에펨코리아 | 2026-03-09 KST</text>
+  <rect x="490" y="66" width="12" height="12" fill="#27ae60" rx="2"/>
+  <text x="506" y="77" font-size="11" fill="#2c3e50">긍정</text>
+  <rect x="548" y="66" width="12" height="12" fill="#e74c3c" rx="2"/>
+  <text x="564" y="77" font-size="11" fill="#2c3e50">부정</text>
+  <rect x="606" y="66" width="12" height="12" fill="#95a5a6" rx="2"/>
+  <text x="622" y="77" font-size="11" fill="#2c3e50">중립</text>
+
+  <text x="60" y="100" font-size="13" font-weight="bold" fill="#2c3e50">DC인사이드 실베 — 추천 178건 / 비추천 41건 / 중립(댓글) 433건</text>
+  <rect x="60" y="110" width="186" height="28" fill="#27ae60" rx="3"/>
+  <rect x="246" y="110" width="43" height="28" fill="#e74c3c" rx="3"/>
+  <rect x="289" y="110" width="451" height="28" fill="#95a5a6" rx="3"/>
+  <text x="60" y="152" text-anchor="start" font-size="11" fill="#27ae60">긍정 27%</text>
+  <text x="400" y="152" text-anchor="middle" font-size="11" fill="#e74c3c">부정 6%</text>
+  <text x="740" y="152" text-anchor="end" font-size="11" fill="#7f8c8d">중립 67%</text>
+  <text x="60" y="168" font-size="11" fill="#555">💬 "빚투개미탕 보글보글.. 신용융자 33조 다 녹겠다"</text>
+
+  <text x="60" y="220" font-size="13" font-weight="bold" fill="#2c3e50">에펨코리아 — 우려 33% / 부정 15% / 관망 52%</text>
+  <rect x="60" y="230" width="225" height="28" fill="#27ae60" rx="3"/>
+  <rect x="285" y="230" width="102" height="28" fill="#e74c3c" rx="3"/>
+  <rect x="387" y="230" width="353" height="28" fill="#95a5a6" rx="3"/>
+  <text x="60" y="272" text-anchor="start" font-size="11" fill="#27ae60">긍정 33%</text>
+  <text x="400" y="272" text-anchor="middle" font-size="11" fill="#e74c3c">부정 15%</text>
+  <text x="740" y="272" text-anchor="end" font-size="11" fill="#7f8c8d">중립 52%</text>
+  <text x="60" y="288" font-size="11" fill="#555">💬 "서킷 두 번이나 터진 건 코로나 이후 처음인데 무섭다"</text>
+
+  <text x="400" y="308" text-anchor="middle" font-size="10" fill="#bdc3c7">* 수치는 집계된 공감/반응 신호 기반 추산 | paperWanderer</text>
+</svg>

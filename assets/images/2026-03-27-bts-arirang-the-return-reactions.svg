@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="440" viewBox="0 0 800 440"
+     font-family="'Apple SD Gothic Neo', 'Malgun Gothic', Arial, sans-serif">
+  <rect width="800" height="440" fill="#f8f9fa" rx="12"/>
+  <text x="400" y="36" text-anchor="middle" font-size="17" font-weight="bold" fill="#2c3e50">BTS 아리랑 앨범 + 넷플릭스 다큐 &lt;The Return&gt; — 커뮤니티 반응</text>
+  <text x="400" y="54" text-anchor="middle" font-size="11" fill="#7f8c8d">theqoo · 에펨코리아 · 해외 반응 | 2026-03-27 KST</text>
+  <rect x="490" y="66" width="12" height="12" fill="#27ae60" rx="2"/>
+  <text x="506" y="77" font-size="11" fill="#2c3e50">긍정</text>
+  <rect x="548" y="66" width="12" height="12" fill="#e74c3c" rx="2"/>
+  <text x="564" y="77" font-size="11" fill="#2c3e50">부정</text>
+  <rect x="606" y="66" width="12" height="12" fill="#95a5a6" rx="2"/>
+  <text x="622" y="77" font-size="11" fill="#2c3e50">중립</text>
+
+  <text x="60" y="100" font-size="13" font-weight="bold" fill="#2c3e50">theqoo — 긍정 60% / 부정 20% / 중립 20%</text>
+  <rect x="60" y="110" width="408" height="28" fill="#27ae60" rx="3"/>
+  <rect x="468" y="110" width="136" height="28" fill="#e74c3c" rx="3"/>
+  <rect x="604" y="110" width="136" height="28" fill="#95a5a6" rx="3"/>
+  <text x="60" y="152" text-anchor="start" font-size="11" fill="#27ae60">긍정 60%</text>
+  <text x="400" y="152" text-anchor="middle" font-size="11" fill="#e74c3c">부정 20%</text>
+  <text x="740" y="152" text-anchor="end" font-size="11" fill="#7f8c8d">중립 20%</text>
+  <text x="60" y="168" font-size="11" fill="#555">💬 "SWIM MV 너무 예뻐" — 반응수 1,400+ 컴백 감동·감격</text>
+
+  <text x="60" y="220" font-size="13" font-weight="bold" fill="#2c3e50">에펨코리아 — 긍정 55% / 부정 24% / 중립 21%</text>
+  <rect x="60" y="230" width="374" height="28" fill="#27ae60" rx="3"/>
+  <rect x="434" y="230" width="163" height="28" fill="#e74c3c" rx="3"/>
+  <rect x="597" y="230" width="143" height="28" fill="#95a5a6" rx="3"/>
+  <text x="60" y="272" text-anchor="start" font-size="11" fill="#27ae60">긍정 55%</text>
+  <text x="400" y="272" text-anchor="middle" font-size="11" fill="#e74c3c">부정 24%</text>
+  <text x="740" y="272" text-anchor="end" font-size="11" fill="#7f8c8d">중립 21%</text>
+  <text x="60" y="288" font-size="11" fill="#555">💬 "Spotify 신기록 대단" / "진 크레딧 빠진 건 아쉬워"</text>
+
+  <text x="60" y="340" font-size="13" font-weight="bold" fill="#2c3e50">해외 반응 (영문권) — 긍정 70% / 부정 12% / 중립 18%</text>
+  <rect x="60" y="350" width="476" height="28" fill="#27ae60" rx="3"/>
+  <rect x="536" y="350" width="82" height="28" fill="#e74c3c" rx="3"/>
+  <rect x="618" y="350" width="122" height="28" fill="#95a5a6" rx="3"/>
+  <text x="60" y="392" text-anchor="start" font-size="11" fill="#27ae60">긍정 70%</text>
+  <text x="400" y="392" text-anchor="middle" font-size="11" fill="#e74c3c">부정 12%</text>
+  <text x="740" y="392" text-anchor="end" font-size="11" fill="#7f8c8d">중립 18%</text>
+  <text x="60" y="408" font-size="11" fill="#555">💬 "Billboard 200 #1 예상" / "Spotify 1억1천만 스트리밍"</text>
+
+  <text x="400" y="426" text-anchor="middle" font-size="10" fill="#bdc3c7">* 수치는 집계된 공감/반응 신호 기반 추산 | paperWanderer</text>
+</svg>

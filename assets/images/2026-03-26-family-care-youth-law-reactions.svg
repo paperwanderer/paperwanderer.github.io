@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="440" viewBox="0 0 800 440"
+     font-family="'Apple SD Gothic Neo', 'Malgun Gothic', Arial, sans-serif">
+  <rect width="800" height="440" fill="#f8f9fa" rx="12"/>
+  <text x="400" y="36" text-anchor="middle" font-size="17" font-weight="bold" fill="#2c3e50">가족돌봄청년 지원법 시행 — 커뮤니티 반응</text>
+  <text x="400" y="54" text-anchor="middle" font-size="11" fill="#7f8c8d">에펨코리아 · 네이버뉴스 · 트위터/X | 2026-03-26 22:00 KST</text>
+  <rect x="490" y="66" width="12" height="12" fill="#27ae60" rx="2"/>
+  <text x="506" y="77" font-size="11" fill="#2c3e50">긍정</text>
+  <rect x="548" y="66" width="12" height="12" fill="#e74c3c" rx="2"/>
+  <text x="564" y="77" font-size="11" fill="#2c3e50">부정</text>
+  <rect x="606" y="66" width="12" height="12" fill="#95a5a6" rx="2"/>
+  <text x="622" y="77" font-size="11" fill="#2c3e50">중립</text>
+
+  <text x="60" y="100" font-size="13" font-weight="bold" fill="#2c3e50">에펨코리아 — 긍정 190건 / 부정 8건 / 중립 152건</text>
+  <rect x="60" y="110" width="369" height="28" fill="#27ae60" rx="3"/>
+  <rect x="429" y="110" width="16" height="28" fill="#e74c3c" rx="3"/>
+  <rect x="445" y="110" width="295" height="28" fill="#95a5a6" rx="3"/>
+  <text x="60" y="152" text-anchor="start" font-size="11" fill="#27ae60">긍정 54%</text>
+  <text x="400" y="152" text-anchor="middle" font-size="11" fill="#e74c3c">부정 2%</text>
+  <text x="740" y="152" text-anchor="end" font-size="11" fill="#7f8c8d">중립 44%</text>
+  <text x="60" y="168" font-size="11" fill="#555">💬 "이런 법이 진작에 있었어야 했다. 가족 돌보느라 자기 인생 희생하는 청년들 너무 많다"</text>
+
+  <text x="60" y="220" font-size="13" font-weight="bold" fill="#2c3e50">네이버뉴스 — 긍정 170건 / 부정 8건 / 중립 172건</text>
+  <rect x="60" y="230" width="330" height="28" fill="#27ae60" rx="3"/>
+  <rect x="390" y="230" width="16" height="28" fill="#e74c3c" rx="3"/>
+  <rect x="406" y="230" width="334" height="28" fill="#95a5a6" rx="3"/>
+  <text x="60" y="272" text-anchor="start" font-size="11" fill="#27ae60">긍정 49%</text>
+  <text x="400" y="272" text-anchor="middle" font-size="11" fill="#e74c3c">부정 2%</text>
+  <text x="740" y="272" text-anchor="end" font-size="11" fill="#7f8c8d">중립 49%</text>
+  <text x="60" y="288" font-size="11" fill="#555">💬 "법은 만들었는데 지자체가 예산이 없다는 게 문제다"</text>
+
+  <text x="60" y="340" font-size="13" font-weight="bold" fill="#2c3e50">트위터/X — 긍정 90건 / 부정 4건 / 중립 156건</text>
+  <rect x="60" y="350" width="245" height="28" fill="#27ae60" rx="3"/>
+  <rect x="305" y="350" width="11" height="28" fill="#e74c3c" rx="3"/>
+  <rect x="316" y="350" width="424" height="28" fill="#95a5a6" rx="3"/>
+  <text x="60" y="392" text-anchor="start" font-size="11" fill="#27ae60">긍정 36%</text>
+  <text x="400" y="392" text-anchor="middle" font-size="11" fill="#e74c3c">부정 2%</text>
+  <text x="740" y="392" text-anchor="end" font-size="11" fill="#7f8c8d">중립 62%</text>
+  <text x="60" y="408" font-size="11" fill="#555">💬 "고립·은둔 청년까지 포함한 게 좋다"</text>
+
+  <text x="400" y="426" text-anchor="middle" font-size="10" fill="#bdc3c7">* 수치는 집계된 공감/반응 신호 기반 추산 | paperWanderer</text>
+</svg>

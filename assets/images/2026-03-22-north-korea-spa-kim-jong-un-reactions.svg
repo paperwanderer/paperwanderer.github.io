@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="440" viewBox="0 0 800 440"
+     font-family="'Apple SD Gothic Neo', 'Malgun Gothic', Arial, sans-serif">
+  <rect width="800" height="440" fill="#f8f9fa" rx="12"/>
+  <text x="400" y="36" text-anchor="middle" font-size="17" font-weight="bold" fill="#2c3e50">북한 최고인민회의 — 커뮤니티 반응</text>
+  <text x="400" y="54" text-anchor="middle" font-size="11" fill="#7f8c8d">에펨코리아 · 디시인사이드 · 클리앙 | 2026-03-22 KST</text>
+  <rect x="490" y="66" width="12" height="12" fill="#27ae60" rx="2"/>
+  <text x="506" y="77" font-size="11" fill="#2c3e50">긍정</text>
+  <rect x="548" y="66" width="12" height="12" fill="#e74c3c" rx="2"/>
+  <text x="564" y="77" font-size="11" fill="#2c3e50">부정</text>
+  <rect x="606" y="66" width="12" height="12" fill="#95a5a6" rx="2"/>
+  <text x="622" y="77" font-size="11" fill="#2c3e50">중립</text>
+
+  <text x="60" y="100" font-size="13" font-weight="bold" fill="#2c3e50">에펨코리아 — 긍정 10건 / 부정 50건 / 중립 40건</text>
+  <rect x="60" y="110" width="68" height="28" fill="#27ae60" rx="3"/>
+  <rect x="128" y="110" width="340" height="28" fill="#e74c3c" rx="3"/>
+  <rect x="468" y="110" width="272" height="28" fill="#95a5a6" rx="3"/>
+  <text x="60" y="152" text-anchor="start" font-size="11" fill="#27ae60">긍정 10%</text>
+  <text x="400" y="152" text-anchor="middle" font-size="11" fill="#e74c3c">부정 50%</text>
+  <text x="740" y="152" text-anchor="end" font-size="11" fill="#7f8c8d">중립 40%</text>
+  <text x="60" y="168" font-size="11" fill="#555">💬 "헌법 개정해서 대남 적대 기조 명문화... 통일 완전히 불가능해지는 거 아님?"</text>
+
+  <text x="60" y="220" font-size="13" font-weight="bold" fill="#2c3e50">디시인사이드 — 긍정 8건 / 부정 55건 / 중립 37건</text>
+  <rect x="60" y="230" width="54" height="28" fill="#27ae60" rx="3"/>
+  <rect x="114" y="230" width="374" height="28" fill="#e74c3c" rx="3"/>
+  <rect x="488" y="230" width="252" height="28" fill="#95a5a6" rx="3"/>
+  <text x="60" y="272" text-anchor="start" font-size="11" fill="#27ae60">긍정 8%</text>
+  <text x="400" y="272" text-anchor="middle" font-size="11" fill="#e74c3c">부정 55%</text>
+  <text x="740" y="272" text-anchor="end" font-size="11" fill="#7f8c8d">중립 37%</text>
+  <text x="60" y="288" font-size="11" fill="#555">💬 "김정은 재추대 뻔한 거고 조용원이 의장 된 게 변화라면 변화"</text>
+
+  <text x="60" y="340" font-size="13" font-weight="bold" fill="#2c3e50">클리앙 — 긍정 10건 / 부정 45건 / 중립 45건</text>
+  <rect x="60" y="350" width="68" height="28" fill="#27ae60" rx="3"/>
+  <rect x="128" y="350" width="306" height="28" fill="#e74c3c" rx="3"/>
+  <rect x="434" y="350" width="306" height="28" fill="#95a5a6" rx="3"/>
+  <text x="60" y="392" text-anchor="start" font-size="11" fill="#27ae60">긍정 10%</text>
+  <text x="400" y="392" text-anchor="middle" font-size="11" fill="#e74c3c">부정 45%</text>
+  <text x="740" y="392" text-anchor="end" font-size="11" fill="#7f8c8d">중립 45%</text>
+  <text x="60" y="408" font-size="11" fill="#555">💬 "적대적 두 국가 헌법화는 장기적으로 관계 개선 여지 없애는 것"</text>
+
+  <text x="400" y="426" text-anchor="middle" font-size="10" fill="#bdc3c7">* 수치는 집계된 공감/반응 신호 기반 추산 | paperWanderer</text>
+</svg>

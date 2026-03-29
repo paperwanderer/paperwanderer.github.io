@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="440" viewBox="0 0 800 440"
+     font-family="'Apple SD Gothic Neo', 'Malgun Gothic', Arial, sans-serif">
+  <rect width="800" height="440" fill="#f8f9fa" rx="12"/>
+  <text x="400" y="36" text-anchor="middle" font-size="17" font-weight="bold" fill="#2c3e50">코스피·반도체 주가 급락 — 커뮤니티 반응</text>
+  <text x="400" y="54" text-anchor="middle" font-size="11" fill="#7f8c8d">FM코리아 · 클리앙 · 네이버뉴스 | 2026-03-14 KST</text>
+  <rect x="490" y="66" width="12" height="12" fill="#27ae60" rx="2"/>
+  <text x="506" y="77" font-size="11" fill="#2c3e50">긍정</text>
+  <rect x="548" y="66" width="12" height="12" fill="#e74c3c" rx="2"/>
+  <text x="564" y="77" font-size="11" fill="#2c3e50">부정</text>
+  <rect x="606" y="66" width="12" height="12" fill="#95a5a6" rx="2"/>
+  <text x="622" y="77" font-size="11" fill="#2c3e50">중립</text>
+
+  <text x="60" y="100" font-size="13" font-weight="bold" fill="#2c3e50">FM코리아 — 긍정 80건 / 부정 280건 / 중립 140건</text>
+  <rect x="60" y="110" width="109" height="28" fill="#27ae60" rx="3"/>
+  <rect x="169" y="110" width="381" height="28" fill="#e74c3c" rx="3"/>
+  <rect x="550" y="110" width="190" height="28" fill="#95a5a6" rx="3"/>
+  <text x="60" y="152" text-anchor="start" font-size="11" fill="#27ae60">긍정 16%</text>
+  <text x="400" y="152" text-anchor="middle" font-size="11" fill="#e74c3c">부정 56%</text>
+  <text x="740" y="152" text-anchor="end" font-size="11" fill="#7f8c8d">중립 28%</text>
+  <text x="60" y="168" font-size="11" fill="#555">💬 "삼성전자 팔아야 하나... 외국인들 계속 던지고 있는데"</text>
+
+  <text x="60" y="220" font-size="13" font-weight="bold" fill="#2c3e50">클리앙 — 긍정 60건 / 부정 200건 / 중립 90건</text>
+  <rect x="60" y="230" width="117" height="28" fill="#27ae60" rx="3"/>
+  <rect x="177" y="230" width="389" height="28" fill="#e74c3c" rx="3"/>
+  <rect x="566" y="230" width="174" height="28" fill="#95a5a6" rx="3"/>
+  <text x="60" y="272" text-anchor="start" font-size="11" fill="#27ae60">긍정 17%</text>
+  <text x="400" y="272" text-anchor="middle" font-size="11" fill="#e74c3c">부정 57%</text>
+  <text x="740" y="272" text-anchor="end" font-size="11" fill="#7f8c8d">중립 26%</text>
+  <text x="60" y="288" font-size="11" fill="#555">💬 "중동 전쟁 끝날 기미 없으면 추가 하락 피하기 어렵다"</text>
+
+  <text x="60" y="340" font-size="13" font-weight="bold" fill="#2c3e50">네이버뉴스 — 긍정 100건 / 부정 380건 / 중립 120건</text>
+  <rect x="60" y="350" width="113" height="28" fill="#27ae60" rx="3"/>
+  <rect x="173" y="350" width="431" height="28" fill="#e74c3c" rx="3"/>
+  <rect x="604" y="350" width="136" height="28" fill="#95a5a6" rx="3"/>
+  <text x="60" y="392" text-anchor="start" font-size="11" fill="#27ae60">긍정 17%</text>
+  <text x="400" y="392" text-anchor="middle" font-size="11" fill="#e74c3c">부정 63%</text>
+  <text x="740" y="392" text-anchor="end" font-size="11" fill="#7f8c8d">중립 20%</text>
+  <text x="60" y="408" font-size="11" fill="#555">💬 "반도체 슈퍼사이클 끝난 건지... 지금이 저점 매수 기회일 수도"</text>
+
+  <text x="400" y="426" text-anchor="middle" font-size="10" fill="#bdc3c7">* 수치는 집계된 공감/반응 신호 기반 추산 | paperWanderer</text>
+</svg>

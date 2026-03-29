@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="440" viewBox="0 0 800 440"
+     font-family="'Apple SD Gothic Neo', 'Malgun Gothic', Arial, sans-serif">
+  <rect width="800" height="440" fill="#f8f9fa" rx="12"/>
+  <text x="400" y="36" text-anchor="middle" font-size="17" font-weight="bold" fill="#2c3e50">클로드 AI 한국 급성장 — 커뮤니티 반응</text>
+  <text x="400" y="54" text-anchor="middle" font-size="11" fill="#7f8c8d">에펨코리아 · 클리앙 · 네이버뉴스 | 2026-03-26 18:00 KST</text>
+  <rect x="490" y="66" width="12" height="12" fill="#27ae60" rx="2"/>
+  <text x="506" y="77" font-size="11" fill="#2c3e50">긍정</text>
+  <rect x="548" y="66" width="12" height="12" fill="#e74c3c" rx="2"/>
+  <text x="564" y="77" font-size="11" fill="#2c3e50">부정</text>
+  <rect x="606" y="66" width="12" height="12" fill="#95a5a6" rx="2"/>
+  <text x="622" y="77" font-size="11" fill="#2c3e50">중립</text>
+
+  <text x="60" y="100" font-size="13" font-weight="bold" fill="#2c3e50">에펨코리아 — 긍정 150건 / 부정 20건 / 중립 180건</text>
+  <rect x="60" y="110" width="291" height="28" fill="#27ae60" rx="3"/>
+  <rect x="351" y="110" width="39" height="28" fill="#e74c3c" rx="3"/>
+  <rect x="390" y="110" width="350" height="28" fill="#95a5a6" rx="3"/>
+  <text x="60" y="152" text-anchor="start" font-size="11" fill="#27ae60">긍정 43%</text>
+  <text x="400" y="152" text-anchor="middle" font-size="11" fill="#e74c3c">부정 6%</text>
+  <text x="740" y="152" text-anchor="end" font-size="11" fill="#7f8c8d">중립 51%</text>
+  <text x="60" y="168" font-size="11" fill="#555">💬 "클로드 써보면 알아, 업무에는 챗GPT보다 훨씬 낫다"</text>
+
+  <text x="60" y="220" font-size="13" font-weight="bold" fill="#2c3e50">클리앙 — 긍정 120건 / 부정 15건 / 중립 145건</text>
+  <rect x="60" y="230" width="291" height="28" fill="#27ae60" rx="3"/>
+  <rect x="351" y="230" width="36" height="28" fill="#e74c3c" rx="3"/>
+  <rect x="387" y="230" width="353" height="28" fill="#95a5a6" rx="3"/>
+  <text x="60" y="272" text-anchor="start" font-size="11" fill="#27ae60">긍정 43%</text>
+  <text x="400" y="272" text-anchor="middle" font-size="11" fill="#e74c3c">부정 5%</text>
+  <text x="740" y="272" text-anchor="end" font-size="11" fill="#7f8c8d">중립 52%</text>
+  <text x="60" y="288" font-size="11" fill="#555">💬 "한국 사무소 생기면 B2B 계약도 더 빨리 될 것 같아 기대됨"</text>
+
+  <text x="60" y="340" font-size="13" font-weight="bold" fill="#2c3e50">네이버뉴스 — 긍정 100건 / 부정 10건 / 중립 120건</text>
+  <rect x="60" y="350" width="296" height="28" fill="#27ae60" rx="3"/>
+  <rect x="356" y="350" width="30" height="28" fill="#e74c3c" rx="3"/>
+  <rect x="386" y="350" width="354" height="28" fill="#95a5a6" rx="3"/>
+  <text x="60" y="392" text-anchor="start" font-size="11" fill="#27ae60">긍정 44%</text>
+  <text x="400" y="392" text-anchor="middle" font-size="11" fill="#e74c3c">부정 4%</text>
+  <text x="740" y="392" text-anchor="end" font-size="11" fill="#7f8c8d">중립 52%</text>
+  <text x="60" y="408" font-size="11" fill="#555">💬 "1131% 증가라는 게 실감 난다. 주변에 다들 클로드로 넘어갔음"</text>
+
+  <text x="400" y="426" text-anchor="middle" font-size="10" fill="#bdc3c7">* 수치는 집계된 공감/반응 신호 기반 추산 | paperWanderer</text>
+</svg>

@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="440" viewBox="0 0 800 440"
+     font-family="'Apple SD Gothic Neo', 'Malgun Gothic', Arial, sans-serif">
+  <rect width="800" height="440" fill="#f8f9fa" rx="12"/>
+  <text x="400" y="36" text-anchor="middle" font-size="17" font-weight="bold" fill="#2c3e50">코스피 매수 사이드카 발동 — 커뮤니티 반응</text>
+  <text x="400" y="54" text-anchor="middle" font-size="11" fill="#7f8c8d">에펨코리아 · 디시인사이드 · 네이버 금융 | 2026-03-06 KST</text>
+  <rect x="490" y="66" width="12" height="12" fill="#27ae60" rx="2"/>
+  <text x="506" y="77" font-size="11" fill="#2c3e50">긍정</text>
+  <rect x="548" y="66" width="12" height="12" fill="#e74c3c" rx="2"/>
+  <text x="564" y="77" font-size="11" fill="#2c3e50">부정</text>
+  <rect x="606" y="66" width="12" height="12" fill="#95a5a6" rx="2"/>
+  <text x="622" y="77" font-size="11" fill="#2c3e50">중립</text>
+
+  <text x="60" y="100" font-size="13" font-weight="bold" fill="#2c3e50">에펨코리아 — 긍정 31건 / 부정 28건 / 중립 44건</text>
+  <rect x="60" y="110" width="205" height="28" fill="#27ae60" rx="3"/>
+  <rect x="265" y="110" width="185" height="28" fill="#e74c3c" rx="3"/>
+  <rect x="450" y="110" width="290" height="28" fill="#95a5a6" rx="3"/>
+  <text x="60" y="152" text-anchor="start" font-size="11" fill="#27ae60">긍정 30%</text>
+  <text x="400" y="152" text-anchor="middle" font-size="11" fill="#e74c3c">부정 27%</text>
+  <text x="740" y="152" text-anchor="end" font-size="11" fill="#7f8c8d">중립 43%</text>
+  <text x="60" y="168" font-size="11" fill="#555">💬 "사이드카 발동되니까 오늘 분위기 반전됐네"</text>
+
+  <text x="60" y="220" font-size="13" font-weight="bold" fill="#2c3e50">네이버 금융 — 긍정 47건 / 부정 39건 / 중립 51건</text>
+  <rect x="60" y="230" width="233" height="28" fill="#27ae60" rx="3"/>
+  <rect x="293" y="230" width="194" height="28" fill="#e74c3c" rx="3"/>
+  <rect x="487" y="230" width="253" height="28" fill="#95a5a6" rx="3"/>
+  <text x="60" y="272" text-anchor="start" font-size="11" fill="#27ae60">긍정 34%</text>
+  <text x="400" y="272" text-anchor="middle" font-size="11" fill="#e74c3c">부정 29%</text>
+  <text x="740" y="272" text-anchor="end" font-size="11" fill="#7f8c8d">중립 37%</text>
+  <text x="60" y="288" font-size="11" fill="#555">💬 "미이란 협상설에 진짜 하루 만에 반등이네 개미들 멘탈이 대단"</text>
+
+  <text x="60" y="340" font-size="13" font-weight="bold" fill="#2c3e50">디시인사이드 — 긍정 22건 / 부정 19건 / 중립 33건</text>
+  <rect x="60" y="350" width="202" height="28" fill="#27ae60" rx="3"/>
+  <rect x="262" y="350" width="175" height="28" fill="#e74c3c" rx="3"/>
+  <rect x="437" y="350" width="303" height="28" fill="#95a5a6" rx="3"/>
+  <text x="60" y="392" text-anchor="start" font-size="11" fill="#27ae60">긍정 30%</text>
+  <text x="400" y="392" text-anchor="middle" font-size="11" fill="#e74c3c">부정 26%</text>
+  <text x="740" y="392" text-anchor="end" font-size="11" fill="#7f8c8d">중립 44%</text>
+  <text x="60" y="408" font-size="11" fill="#555">💬 "중동 뉴스에 일희일비하는 장세 언제 끝나냐"</text>
+
+  <text x="400" y="426" text-anchor="middle" font-size="10" fill="#bdc3c7">* 수치는 집계된 공감/반응 신호 기반 추산 | paperWanderer</text>
+</svg>

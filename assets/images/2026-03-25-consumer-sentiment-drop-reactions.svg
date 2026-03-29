@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="440" viewBox="0 0 800 440"
+     font-family="'Apple SD Gothic Neo', 'Malgun Gothic', Arial, sans-serif">
+  <rect width="800" height="440" fill="#f8f9fa" rx="12"/>
+  <text x="400" y="36" text-anchor="middle" font-size="17" font-weight="bold" fill="#2c3e50">소비자심리지수 5.1p 급락 — 커뮤니티 반응</text>
+  <text x="400" y="54" text-anchor="middle" font-size="11" fill="#7f8c8d">클리앙 · 경제 커뮤니티 | 2026-03-25 20:00 KST</text>
+  <rect x="490" y="66" width="12" height="12" fill="#27ae60" rx="2"/>
+  <text x="506" y="77" font-size="11" fill="#2c3e50">긍정</text>
+  <rect x="548" y="66" width="12" height="12" fill="#e74c3c" rx="2"/>
+  <text x="564" y="77" font-size="11" fill="#2c3e50">부정</text>
+  <rect x="606" y="66" width="12" height="12" fill="#95a5a6" rx="2"/>
+  <text x="622" y="77" font-size="11" fill="#2c3e50">중립</text>
+
+  <text x="60" y="100" font-size="13" font-weight="bold" fill="#2c3e50">클리앙 — 긍정 45건 / 부정 120건 / 중립 35건</text>
+  <rect x="60" y="110" width="153" height="28" fill="#27ae60" rx="3"/>
+  <rect x="213" y="110" width="408" height="28" fill="#e74c3c" rx="3"/>
+  <rect x="621" y="110" width="119" height="28" fill="#95a5a6" rx="3"/>
+  <text x="60" y="152" text-anchor="start" font-size="11" fill="#27ae60">긍정 22%</text>
+  <text x="400" y="152" text-anchor="middle" font-size="11" fill="#e74c3c">부정 60%</text>
+  <text x="740" y="152" text-anchor="end" font-size="11" fill="#7f8c8d">중립 18%</text>
+  <text x="60" y="168" font-size="11" fill="#555">💬 "기름값 오르고 환율 오르면 결국 물가가 더 오른다"</text>
+
+  <text x="60" y="220" font-size="13" font-weight="bold" fill="#2c3e50">경제 커뮤니티 — 체감 경기 vs 공식 지표 괴리</text>
+  <rect x="60" y="230" width="136" height="28" fill="#27ae60" rx="3"/>
+  <rect x="196" y="230" width="374" height="28" fill="#e74c3c" rx="3"/>
+  <rect x="570" y="230" width="170" height="28" fill="#95a5a6" rx="3"/>
+  <text x="60" y="272" text-anchor="start" font-size="11" fill="#27ae60">긍정 20%</text>
+  <text x="400" y="272" text-anchor="middle" font-size="11" fill="#e74c3c">부정 55%</text>
+  <text x="740" y="272" text-anchor="end" font-size="11" fill="#7f8c8d">중립 25%</text>
+  <text x="60" y="288" font-size="11" fill="#555">💬 "체감 경기는 훨씬 나쁜데 107이 무의미하게 느껴진다"</text>
+
+  <text x="60" y="340" font-size="13" font-weight="bold" fill="#2c3e50">네이버 경제 뉴스 댓글 — 불안 여론 우세</text>
+  <rect x="60" y="350" width="170" height="28" fill="#27ae60" rx="3"/>
+  <rect x="230" y="350" width="374" height="28" fill="#e74c3c" rx="3"/>
+  <rect x="604" y="350" width="136" height="28" fill="#95a5a6" rx="3"/>
+  <text x="60" y="392" text-anchor="start" font-size="11" fill="#27ae60">긍정 25%</text>
+  <text x="400" y="392" text-anchor="middle" font-size="11" fill="#e74c3c">부정 55%</text>
+  <text x="740" y="392" text-anchor="end" font-size="11" fill="#7f8c8d">중립 20%</text>
+  <text x="60" y="408" font-size="11" fill="#555">💬 "스태그플레이션 오는 거 아니냐"</text>
+
+  <text x="400" y="426" text-anchor="middle" font-size="10" fill="#bdc3c7">* 수치는 집계된 공감/반응 신호 기반 추산 | paperWanderer</text>
+</svg>

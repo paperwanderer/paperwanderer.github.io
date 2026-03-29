@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="440" viewBox="0 0 800 440"
+     font-family="'Apple SD Gothic Neo', 'Malgun Gothic', Arial, sans-serif">
+  <rect width="800" height="440" fill="#f8f9fa" rx="12"/>
+  <text x="400" y="36" text-anchor="middle" font-size="17" font-weight="bold" fill="#2c3e50">유가 150달러 위기 — 커뮤니티 반응</text>
+  <text x="400" y="54" text-anchor="middle" font-size="11" fill="#7f8c8d">에펨코리아 · 클리앙 · 보배드림 | 2026-03-22 KST</text>
+  <rect x="490" y="66" width="12" height="12" fill="#27ae60" rx="2"/>
+  <text x="506" y="77" font-size="11" fill="#2c3e50">긍정</text>
+  <rect x="548" y="66" width="12" height="12" fill="#e74c3c" rx="2"/>
+  <text x="564" y="77" font-size="11" fill="#2c3e50">부정</text>
+  <rect x="606" y="66" width="12" height="12" fill="#95a5a6" rx="2"/>
+  <text x="622" y="77" font-size="11" fill="#2c3e50">중립</text>
+
+  <text x="60" y="100" font-size="13" font-weight="bold" fill="#2c3e50">에펨코리아 — 긍정 5건 / 부정 75건 / 중립 20건</text>
+  <rect x="60" y="110" width="34" height="28" fill="#27ae60" rx="3"/>
+  <rect x="94" y="110" width="510" height="28" fill="#e74c3c" rx="3"/>
+  <rect x="604" y="110" width="136" height="28" fill="#95a5a6" rx="3"/>
+  <text x="60" y="152" text-anchor="start" font-size="11" fill="#27ae60">긍정 5%</text>
+  <text x="400" y="152" text-anchor="middle" font-size="11" fill="#e74c3c">부정 75%</text>
+  <text x="740" y="152" text-anchor="end" font-size="11" fill="#7f8c8d">중립 20%</text>
+  <text x="60" y="168" font-size="11" fill="#555">💬 "휘발유값 리터당 3000원 넘는 거 이제 시간문제 아닌가"</text>
+
+  <text x="60" y="220" font-size="13" font-weight="bold" fill="#2c3e50">클리앙 — 긍정 5건 / 부정 70건 / 중립 25건</text>
+  <rect x="60" y="230" width="34" height="28" fill="#27ae60" rx="3"/>
+  <rect x="94" y="230" width="476" height="28" fill="#e74c3c" rx="3"/>
+  <rect x="570" y="230" width="170" height="28" fill="#95a5a6" rx="3"/>
+  <text x="60" y="272" text-anchor="start" font-size="11" fill="#27ae60">긍정 5%</text>
+  <text x="400" y="272" text-anchor="middle" font-size="11" fill="#e74c3c">부정 70%</text>
+  <text x="740" y="272" text-anchor="end" font-size="11" fill="#7f8c8d">중립 25%</text>
+  <text x="60" y="288" font-size="11" fill="#555">💬 "대중교통도 오르고 전기세도 오르고 물가 전방위 인상 피할 수 없다"</text>
+
+  <text x="60" y="340" font-size="13" font-weight="bold" fill="#2c3e50">보배드림 — 긍정 5건 / 부정 72건 / 중립 23건</text>
+  <rect x="60" y="350" width="34" height="28" fill="#27ae60" rx="3"/>
+  <rect x="94" y="350" width="490" height="28" fill="#e74c3c" rx="3"/>
+  <rect x="584" y="350" width="156" height="28" fill="#95a5a6" rx="3"/>
+  <text x="60" y="392" text-anchor="start" font-size="11" fill="#27ae60">긍정 5%</text>
+  <text x="400" y="392" text-anchor="middle" font-size="11" fill="#e74c3c">부정 72%</text>
+  <text x="740" y="392" text-anchor="end" font-size="11" fill="#7f8c8d">중립 23%</text>
+  <text x="60" y="408" font-size="11" fill="#555">💬 "주유소 기름값 매일 올라가는 거 실시간으로 느껴진다"</text>
+
+  <text x="400" y="426" text-anchor="middle" font-size="10" fill="#bdc3c7">* 수치는 집계된 공감/반응 신호 기반 추산 | paperWanderer</text>
+</svg>

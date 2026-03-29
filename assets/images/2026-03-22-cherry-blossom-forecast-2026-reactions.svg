@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="440" viewBox="0 0 800 440"
+     font-family="'Apple SD Gothic Neo', 'Malgun Gothic', Arial, sans-serif">
+  <rect width="800" height="440" fill="#f8f9fa" rx="12"/>
+  <text x="400" y="36" text-anchor="middle" font-size="17" font-weight="bold" fill="#2c3e50">2026 벚꽃 개화 — 커뮤니티 반응</text>
+  <text x="400" y="54" text-anchor="middle" font-size="11" fill="#7f8c8d">인스타그램 · 네이버 여행 · 에펨코리아 | 2026-03-22 KST</text>
+  <rect x="490" y="66" width="12" height="12" fill="#27ae60" rx="2"/>
+  <text x="506" y="77" font-size="11" fill="#2c3e50">긍정</text>
+  <rect x="548" y="66" width="12" height="12" fill="#e74c3c" rx="2"/>
+  <text x="564" y="77" font-size="11" fill="#2c3e50">부정</text>
+  <rect x="606" y="66" width="12" height="12" fill="#95a5a6" rx="2"/>
+  <text x="622" y="77" font-size="11" fill="#2c3e50">중립</text>
+
+  <text x="60" y="100" font-size="13" font-weight="bold" fill="#2c3e50">인스타그램 — 긍정 680건 / 부정 20건 / 중립 100건</text>
+  <rect x="60" y="110" width="578" height="28" fill="#27ae60" rx="3"/>
+  <rect x="638" y="110" width="17" height="28" fill="#e74c3c" rx="3"/>
+  <rect x="655" y="110" width="85" height="28" fill="#95a5a6" rx="3"/>
+  <text x="60" y="152" text-anchor="start" font-size="11" fill="#27ae60">긍정 85%</text>
+  <text x="400" y="152" text-anchor="middle" font-size="11" fill="#e74c3c">부정 2%</text>
+  <text x="740" y="152" text-anchor="end" font-size="11" fill="#7f8c8d">중립 13%</text>
+  <text x="60" y="168" font-size="11" fill="#555">💬 "제주 벚꽃 오늘 터졌다, 주말 여행 바로 예약!" (좋아요 680)</text>
+
+  <text x="60" y="220" font-size="13" font-weight="bold" fill="#2c3e50">네이버 여행 댓글 — 긍정 540건 / 부정 30건 / 중립 130건</text>
+  <rect x="60" y="230" width="525" height="28" fill="#27ae60" rx="3"/>
+  <rect x="585" y="230" width="29" height="28" fill="#e74c3c" rx="3"/>
+  <rect x="614" y="230" width="126" height="28" fill="#95a5a6" rx="3"/>
+  <text x="60" y="272" text-anchor="start" font-size="11" fill="#27ae60">긍정 77%</text>
+  <text x="400" y="272" text-anchor="middle" font-size="11" fill="#e74c3c">부정 4%</text>
+  <text x="740" y="272" text-anchor="end" font-size="11" fill="#7f8c8d">중립 19%</text>
+  <text x="60" y="288" font-size="11" fill="#555">💬 "진해 군항제 3월 말이면 딱 맞겠다, 지금 숙소 잡아야 함" (공감 245)</text>
+
+  <text x="60" y="340" font-size="13" font-weight="bold" fill="#2c3e50">에펨코리아 — 긍정 360건 / 부정 40건 / 중립 100건</text>
+  <rect x="60" y="350" width="490" height="28" fill="#27ae60" rx="3"/>
+  <rect x="550" y="350" width="54" height="28" fill="#e74c3c" rx="3"/>
+  <rect x="604" y="350" width="136" height="28" fill="#95a5a6" rx="3"/>
+  <text x="60" y="392" text-anchor="start" font-size="11" fill="#27ae60">긍정 72%</text>
+  <text x="400" y="392" text-anchor="middle" font-size="11" fill="#e74c3c">부정 8%</text>
+  <text x="740" y="392" text-anchor="end" font-size="11" fill="#7f8c8d">중립 20%</text>
+  <text x="60" y="408" font-size="11" fill="#555">💬 "벚꽃 피는 속도 너무 빨라서 타이밍 놓치기 쉬움" (공감 178)</text>
+
+  <text x="400" y="426" text-anchor="middle" font-size="10" fill="#bdc3c7">* 수치는 집계된 공감/반응 신호 기반 추산 | paperWanderer</text>
+</svg>

@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="440" viewBox="0 0 800 440"
+     font-family="'Apple SD Gothic Neo', 'Malgun Gothic', Arial, sans-serif">
+  <rect width="800" height="440" fill="#f8f9fa" rx="12"/>
+  <text x="400" y="36" text-anchor="middle" font-size="17" font-weight="bold" fill="#2c3e50">BTS '아리랑' 발매 — 커뮤니티 반응</text>
+  <text x="400" y="54" text-anchor="middle" font-size="11" fill="#7f8c8d">에펨코리아 · 더쿠 · X(트위터) | 2026-03-20 KST</text>
+  <rect x="490" y="66" width="12" height="12" fill="#27ae60" rx="2"/>
+  <text x="506" y="77" font-size="11" fill="#2c3e50">긍정</text>
+  <rect x="548" y="66" width="12" height="12" fill="#e74c3c" rx="2"/>
+  <text x="564" y="77" font-size="11" fill="#2c3e50">부정</text>
+  <rect x="606" y="66" width="12" height="12" fill="#95a5a6" rx="2"/>
+  <text x="622" y="77" font-size="11" fill="#2c3e50">중립</text>
+
+  <text x="60" y="100" font-size="13" font-weight="bold" fill="#2c3e50">에펨코리아 — 긍정 520건 / 부정 30건 / 중립 50건</text>
+  <rect x="60" y="110" width="589" height="28" fill="#27ae60" rx="3"/>
+  <rect x="649" y="110" width="34" height="28" fill="#e74c3c" rx="3"/>
+  <rect x="683" y="110" width="57" height="28" fill="#95a5a6" rx="3"/>
+  <text x="60" y="152" text-anchor="start" font-size="11" fill="#27ae60">긍정 87%</text>
+  <text x="400" y="152" text-anchor="middle" font-size="11" fill="#e74c3c">부정 5%</text>
+  <text x="740" y="152" text-anchor="end" font-size="11" fill="#7f8c8d">중립 8%</text>
+  <text x="60" y="168" font-size="11" fill="#555">💬 "4년 기다린 보람이 있다. SWIM 듣고 소름 돋았음"</text>
+
+  <text x="60" y="220" font-size="13" font-weight="bold" fill="#2c3e50">더쿠 — 긍정 380건 / 부정 20건 / 중립 40건</text>
+  <rect x="60" y="230" width="587" height="28" fill="#27ae60" rx="3"/>
+  <rect x="647" y="230" width="31" height="28" fill="#e74c3c" rx="3"/>
+  <rect x="678" y="230" width="62" height="28" fill="#95a5a6" rx="3"/>
+  <text x="60" y="272" text-anchor="start" font-size="11" fill="#27ae60">긍정 86%</text>
+  <text x="400" y="272" text-anchor="middle" font-size="11" fill="#e74c3c">부정 5%</text>
+  <text x="740" y="272" text-anchor="end" font-size="11" fill="#7f8c8d">중립 9%</text>
+  <text x="60" y="288" font-size="11" fill="#555">💬 "광화문 퇴근길 지나는데 인파가 어마어마했음. 역대급 컴백"</text>
+
+  <text x="60" y="340" font-size="13" font-weight="bold" fill="#2c3e50">X(트위터) — 긍정 1,200건 / 부정 80건 / 중립 120건</text>
+  <rect x="60" y="350" width="583" height="28" fill="#27ae60" rx="3"/>
+  <rect x="643" y="350" width="39" height="28" fill="#e74c3c" rx="3"/>
+  <rect x="682" y="350" width="58" height="28" fill="#95a5a6" rx="3"/>
+  <text x="60" y="392" text-anchor="start" font-size="11" fill="#27ae60">긍정 86%</text>
+  <text x="400" y="392" text-anchor="middle" font-size="11" fill="#e74c3c">부정 6%</text>
+  <text x="740" y="392" text-anchor="end" font-size="11" fill="#7f8c8d">중립 8%</text>
+  <text x="60" y="408" font-size="11" fill="#555">💬 "#ARIRANG is everything. BTS is BACK and the world needs it"</text>
+
+  <text x="400" y="426" text-anchor="middle" font-size="10" fill="#bdc3c7">* 수치는 집계된 공감/반응 신호 기반 추산 | paperWanderer</text>
+</svg>

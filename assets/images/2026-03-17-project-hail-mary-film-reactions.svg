@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="440" viewBox="0 0 800 440"
+     font-family="'Apple SD Gothic Neo', 'Malgun Gothic', Arial, sans-serif">
+  <rect width="800" height="440" fill="#f8f9fa" rx="12"/>
+  <text x="400" y="36" text-anchor="middle" font-size="17" font-weight="bold" fill="#2c3e50">프로젝트 헤일메리 영화 — 커뮤니티 반응</text>
+  <text x="400" y="54" text-anchor="middle" font-size="11" fill="#7f8c8d">더쿠 · 에펨코리아 · 네이버영화 | 2026-03-17 KST</text>
+  <rect x="490" y="66" width="12" height="12" fill="#27ae60" rx="2"/>
+  <text x="506" y="77" font-size="11" fill="#2c3e50">긍정</text>
+  <rect x="548" y="66" width="12" height="12" fill="#e74c3c" rx="2"/>
+  <text x="564" y="77" font-size="11" fill="#2c3e50">부정</text>
+  <rect x="606" y="66" width="12" height="12" fill="#95a5a6" rx="2"/>
+  <text x="622" y="77" font-size="11" fill="#2c3e50">중립</text>
+
+  <text x="60" y="100" font-size="13" font-weight="bold" fill="#2c3e50">더쿠 — 긍정 240건 / 부정 25건 / 중립 25건</text>
+  <rect x="60" y="110" width="555" height="28" fill="#27ae60" rx="3"/>
+  <rect x="615" y="110" width="58" height="28" fill="#e74c3c" rx="3"/>
+  <rect x="673" y="110" width="67" height="28" fill="#95a5a6" rx="3"/>
+  <text x="60" y="152" text-anchor="start" font-size="11" fill="#27ae60">긍정 82%</text>
+  <text x="400" y="152" text-anchor="middle" font-size="11" fill="#e74c3c">부정 9%</text>
+  <text x="740" y="152" text-anchor="end" font-size="11" fill="#7f8c8d">중립 9%</text>
+  <text x="60" y="168" font-size="11" fill="#555">💬 "라이언 고슬링 이 영화로 아카데미 노미네이트 확정각"</text>
+
+  <text x="60" y="220" font-size="13" font-weight="bold" fill="#2c3e50">에펨코리아 — 긍정 200건 / 부정 20건 / 중립 20건</text>
+  <rect x="60" y="230" width="568" height="28" fill="#27ae60" rx="3"/>
+  <rect x="628" y="230" width="57" height="28" fill="#e74c3c" rx="3"/>
+  <rect x="685" y="230" width="55" height="28" fill="#95a5a6" rx="3"/>
+  <text x="60" y="272" text-anchor="start" font-size="11" fill="#27ae60">긍정 84%</text>
+  <text x="400" y="272" text-anchor="middle" font-size="11" fill="#e74c3c">부정 8%</text>
+  <text x="740" y="272" text-anchor="end" font-size="11" fill="#7f8c8d">중립 8%</text>
+  <text x="60" y="288" font-size="11" fill="#555">💬 "소설 2번 읽었는데 로키 시각화가 제일 기대된다"</text>
+
+  <text x="60" y="340" font-size="13" font-weight="bold" fill="#2c3e50">네이버영화 — 긍정 140건 / 부정 15건 / 중립 14건</text>
+  <rect x="60" y="350" width="567" height="28" fill="#27ae60" rx="3"/>
+  <rect x="627" y="350" width="60" height="28" fill="#e74c3c" rx="3"/>
+  <rect x="687" y="350" width="53" height="28" fill="#95a5a6" rx="3"/>
+  <text x="60" y="392" text-anchor="start" font-size="11" fill="#27ae60">긍정 83%</text>
+  <text x="400" y="392" text-anchor="middle" font-size="11" fill="#e74c3c">부정 9%</text>
+  <text x="740" y="392" text-anchor="end" font-size="11" fill="#7f8c8d">중립 8%</text>
+  <text x="60" y="408" font-size="11" fill="#555">💬 "앤디 위어 원작이 훌륭한데 영화도 기대 이상이길"</text>
+
+  <text x="400" y="426" text-anchor="middle" font-size="10" fill="#bdc3c7">* 수치는 집계된 공감/반응 신호 기반 추산 | paperWanderer</text>
+</svg>

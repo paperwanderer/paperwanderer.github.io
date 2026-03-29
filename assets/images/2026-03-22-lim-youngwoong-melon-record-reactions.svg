@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="440" viewBox="0 0 800 440"
+     font-family="'Apple SD Gothic Neo', 'Malgun Gothic', Arial, sans-serif">
+  <rect width="800" height="440" fill="#f8f9fa" rx="12"/>
+  <text x="400" y="36" text-anchor="middle" font-size="17" font-weight="bold" fill="#2c3e50">임영웅 멜론 135억 BTS 추월 — 커뮤니티 반응</text>
+  <text x="400" y="54" text-anchor="middle" font-size="11" fill="#7f8c8d">에펨코리아 · 더쿠 · 네이트연예 | 2026-03-22 KST</text>
+  <rect x="490" y="66" width="12" height="12" fill="#27ae60" rx="2"/>
+  <text x="506" y="77" font-size="11" fill="#2c3e50">긍정</text>
+  <rect x="548" y="66" width="12" height="12" fill="#e74c3c" rx="2"/>
+  <text x="564" y="77" font-size="11" fill="#2c3e50">부정</text>
+  <rect x="606" y="66" width="12" height="12" fill="#95a5a6" rx="2"/>
+  <text x="622" y="77" font-size="11" fill="#2c3e50">중립</text>
+
+  <text x="60" y="100" font-size="13" font-weight="bold" fill="#2c3e50">에펨코리아 — 긍정 180건 / 부정 40건 / 중립 80건</text>
+  <rect x="60" y="110" width="408" height="28" fill="#27ae60" rx="3"/>
+  <rect x="468" y="110" width="91" height="28" fill="#e74c3c" rx="3"/>
+  <rect x="559" y="110" width="181" height="28" fill="#95a5a6" rx="3"/>
+  <text x="60" y="152" text-anchor="start" font-size="11" fill="#27ae60">긍정 60%</text>
+  <text x="400" y="152" text-anchor="middle" font-size="11" fill="#e74c3c">부정 13%</text>
+  <text x="740" y="152" text-anchor="end" font-size="11" fill="#7f8c8d">중립 27%</text>
+  <text x="60" y="168" font-size="11" fill="#555">💬 "BTS 13년 기록을 6년 만에 넘었다는 게 진짜 말이 안 되는 기록"</text>
+
+  <text x="60" y="220" font-size="13" font-weight="bold" fill="#2c3e50">더쿠 — 긍정 200건 / 부정 20건 / 중립 60건</text>
+  <rect x="60" y="230" width="483" height="28" fill="#27ae60" rx="3"/>
+  <rect x="543" y="230" width="48" height="28" fill="#e74c3c" rx="3"/>
+  <rect x="591" y="230" width="149" height="28" fill="#95a5a6" rx="3"/>
+  <text x="60" y="272" text-anchor="start" font-size="11" fill="#27ae60">긍정 71%</text>
+  <text x="400" y="272" text-anchor="middle" font-size="11" fill="#e74c3c">부정 7%</text>
+  <text x="740" y="272" text-anchor="end" font-size="11" fill="#7f8c8d">중립 22%</text>
+  <text x="60" y="288" font-size="11" fill="#555">💬 "트로트 가수가 아이돌 팬덤 문화의 언어로 이 기록 세웠다는 게 신기함"</text>
+
+  <text x="60" y="340" font-size="13" font-weight="bold" fill="#2c3e50">네이트연예 — 긍정 250건 / 부정 15건 / 중립 60건</text>
+  <rect x="60" y="350" width="523" height="28" fill="#27ae60" rx="3"/>
+  <rect x="583" y="350" width="31" height="28" fill="#e74c3c" rx="3"/>
+  <rect x="614" y="350" width="126" height="28" fill="#95a5a6" rx="3"/>
+  <text x="60" y="392" text-anchor="start" font-size="11" fill="#27ae60">긍정 77%</text>
+  <text x="400" y="392" text-anchor="middle" font-size="11" fill="#e74c3c">부정 5%</text>
+  <text x="740" y="392" text-anchor="end" font-size="11" fill="#7f8c8d">중립 18%</text>
+  <text x="60" y="408" font-size="11" fill="#555">💬 "믿기지 않아요 라는 소감도 진심으로 느껴짐, 대단한 아티스트"</text>
+
+  <text x="400" y="426" text-anchor="middle" font-size="10" fill="#bdc3c7">* 수치는 집계된 공감/반응 신호 기반 추산 | paperWanderer</text>
+</svg>

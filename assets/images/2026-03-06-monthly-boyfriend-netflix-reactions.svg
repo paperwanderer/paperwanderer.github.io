@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="440" viewBox="0 0 800 440"
+     font-family="'Apple SD Gothic Neo', 'Malgun Gothic', Arial, sans-serif">
+  <rect width="800" height="440" fill="#f8f9fa" rx="12"/>
+  <text x="400" y="36" text-anchor="middle" font-size="17" font-weight="bold" fill="#2c3e50">월간남친 넷플릭스 공개 — 커뮤니티 반응</text>
+  <text x="400" y="54" text-anchor="middle" font-size="11" fill="#7f8c8d">에펨코리아 · 디시인사이드 · 네이버 뉴스 | 2026-03-06 KST</text>
+  <rect x="490" y="66" width="12" height="12" fill="#27ae60" rx="2"/>
+  <text x="506" y="77" font-size="11" fill="#2c3e50">긍정</text>
+  <rect x="548" y="66" width="12" height="12" fill="#e74c3c" rx="2"/>
+  <text x="564" y="77" font-size="11" fill="#2c3e50">부정</text>
+  <rect x="606" y="66" width="12" height="12" fill="#95a5a6" rx="2"/>
+  <text x="622" y="77" font-size="11" fill="#2c3e50">중립</text>
+
+  <text x="60" y="100" font-size="13" font-weight="bold" fill="#2c3e50">에펨코리아 — 긍정 142건 / 부정 38건 / 중립 57건</text>
+  <rect x="60" y="110" width="408" height="28" fill="#27ae60" rx="3"/>
+  <rect x="468" y="110" width="109" height="28" fill="#e74c3c" rx="3"/>
+  <rect x="577" y="110" width="163" height="28" fill="#95a5a6" rx="3"/>
+  <text x="60" y="152" text-anchor="start" font-size="11" fill="#27ae60">긍정 60%</text>
+  <text x="400" y="152" text-anchor="middle" font-size="11" fill="#e74c3c">부정 16%</text>
+  <text x="740" y="152" text-anchor="end" font-size="11" fill="#7f8c8d">중립 24%</text>
+  <text x="60" y="168" font-size="11" fill="#555">💬 "지수에게 가장 잘 어울리는 장르 찾은 것 같다"</text>
+
+  <text x="60" y="220" font-size="13" font-weight="bold" fill="#2c3e50">디시인사이드 — 긍정 89건 / 부정 22건 / 중립 41건</text>
+  <rect x="60" y="230" width="398" height="28" fill="#27ae60" rx="3"/>
+  <rect x="458" y="230" width="98" height="28" fill="#e74c3c" rx="3"/>
+  <rect x="556" y="230" width="184" height="28" fill="#95a5a6" rx="3"/>
+  <text x="60" y="272" text-anchor="start" font-size="11" fill="#27ae60">긍정 59%</text>
+  <text x="400" y="272" text-anchor="middle" font-size="11" fill="#e74c3c">부정 14%</text>
+  <text x="740" y="272" text-anchor="end" font-size="11" fill="#7f8c8d">중립 27%</text>
+  <text x="60" y="288" font-size="11" fill="#555">💬 "서강준 보러 들어갔다가 서인국에 완전히 빠짐"</text>
+
+  <text x="60" y="340" font-size="13" font-weight="bold" fill="#2c3e50">네이버 뉴스 — 긍정 198건 / 부정 47건 / 중립 83건</text>
+  <rect x="60" y="350" width="410" height="28" fill="#27ae60" rx="3"/>
+  <rect x="470" y="350" width="97" height="28" fill="#e74c3c" rx="3"/>
+  <rect x="567" y="350" width="173" height="28" fill="#95a5a6" rx="3"/>
+  <text x="60" y="392" text-anchor="start" font-size="11" fill="#27ae60">긍정 60%</text>
+  <text x="400" y="392" text-anchor="middle" font-size="11" fill="#e74c3c">부정 14%</text>
+  <text x="740" y="392" text-anchor="end" font-size="11" fill="#7f8c8d">중립 26%</text>
+  <text x="60" y="408" font-size="11" fill="#555">💬 "지수 발연기 논란 무색, 전세계 1위가 증명함"</text>
+
+  <text x="400" y="426" text-anchor="middle" font-size="10" fill="#bdc3c7">* 수치는 집계된 공감/반응 신호 기반 추산 | paperWanderer</text>
+</svg>

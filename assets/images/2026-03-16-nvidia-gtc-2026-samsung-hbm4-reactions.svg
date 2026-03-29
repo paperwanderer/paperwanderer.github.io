@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="440" viewBox="0 0 800 440"
+     font-family="'Apple SD Gothic Neo', 'Malgun Gothic', Arial, sans-serif">
+  <rect width="800" height="440" fill="#f8f9fa" rx="12"/>
+  <text x="400" y="36" text-anchor="middle" font-size="17" font-weight="bold" fill="#2c3e50">GTC 2026 삼성 HBM4 — 커뮤니티 반응</text>
+  <text x="400" y="54" text-anchor="middle" font-size="11" fill="#7f8c8d">FM코리아 · 네이버 뉴스 댓글 · 커뮤니티 | 2026-03-16 23:00 KST</text>
+  <rect x="490" y="66" width="12" height="12" fill="#27ae60" rx="2"/>
+  <text x="506" y="77" font-size="11" fill="#2c3e50">긍정</text>
+  <rect x="548" y="66" width="12" height="12" fill="#e74c3c" rx="2"/>
+  <text x="564" y="77" font-size="11" fill="#2c3e50">부정</text>
+  <rect x="606" y="66" width="12" height="12" fill="#95a5a6" rx="2"/>
+  <text x="622" y="77" font-size="11" fill="#2c3e50">중립</text>
+
+  <text x="60" y="100" font-size="13" font-weight="bold" fill="#2c3e50">FM코리아 — 긍정 684건 / 부정 92건 / 중립 474건</text>
+  <rect x="60" y="110" width="282" height="28" fill="#27ae60" rx="3"/>
+  <rect x="342" y="110" width="40" height="28" fill="#e74c3c" rx="3"/>
+  <rect x="382" y="110" width="358" height="28" fill="#95a5a6" rx="3"/>
+  <text x="60" y="152" text-anchor="start" font-size="11" fill="#27ae60">긍정 41%</text>
+  <text x="400" y="152" text-anchor="middle" font-size="11" fill="#e74c3c">부정 6%</text>
+  <text x="740" y="152" text-anchor="end" font-size="11" fill="#7f8c8d">중립 53%</text>
+  <text x="60" y="168" font-size="11" fill="#555">💬 "삼성 주가 오늘 완전 돈 벌었다 젠슨황 덕분에" (공감 284)</text>
+
+  <text x="60" y="220" font-size="13" font-weight="bold" fill="#2c3e50">네이버 뉴스 댓글 — 긍정 566건 / 부정 88건 / 중립 432건</text>
+  <rect x="60" y="230" width="281" height="28" fill="#27ae60" rx="3"/>
+  <rect x="341" y="230" width="44" height="28" fill="#e74c3c" rx="3"/>
+  <rect x="385" y="230" width="355" height="28" fill="#95a5a6" rx="3"/>
+  <text x="60" y="272" text-anchor="start" font-size="11" fill="#27ae60">긍정 41%</text>
+  <text x="400" y="272" text-anchor="middle" font-size="11" fill="#e74c3c">부정 6%</text>
+  <text x="740" y="272" text-anchor="end" font-size="11" fill="#7f8c8d">중립 53%</text>
+  <text x="60" y="288" font-size="11" fill="#555">💬 "젠슨황이 '생큐 삼성' 이라는 단어 쓴 거 진짜 소름 돋는다" (공감 231)</text>
+
+  <text x="60" y="340" font-size="13" font-weight="bold" fill="#2c3e50">전체 합산 — 긍정 1,250건 / 부정 180건 / 중립 420건</text>
+  <rect x="60" y="350" width="459" height="28" fill="#27ae60" rx="3"/>
+  <rect x="519" y="350" width="66" height="28" fill="#e74c3c" rx="3"/>
+  <rect x="585" y="350" width="155" height="28" fill="#95a5a6" rx="3"/>
+  <text x="60" y="392" text-anchor="start" font-size="11" fill="#27ae60">긍정 68%</text>
+  <text x="400" y="392" text-anchor="middle" font-size="11" fill="#e74c3c">부정 10%</text>
+  <text x="740" y="392" text-anchor="end" font-size="11" fill="#7f8c8d">중립 22%</text>
+  <text x="60" y="408" font-size="11" fill="#555">💬 "결국 HBM4는 삼성 하이닉스 양강체제 굳히기네 일본 미국 어디도 못 따라온다"</text>
+
+  <text x="400" y="426" text-anchor="middle" font-size="10" fill="#bdc3c7">* 수치는 집계된 공감/반응 신호 기반 추산 | paperWanderer</text>
+</svg>

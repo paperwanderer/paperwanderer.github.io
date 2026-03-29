@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="440" viewBox="0 0 800 440"
+     font-family="'Apple SD Gothic Neo', 'Malgun Gothic', Arial, sans-serif">
+  <rect width="800" height="440" fill="#f8f9fa" rx="12"/>
+  <text x="400" y="36" text-anchor="middle" font-size="17" font-weight="bold" fill="#2c3e50">제니 Ruby 1주년 — 커뮤니티 반응</text>
+  <text x="400" y="54" text-anchor="middle" font-size="11" fill="#7f8c8d">X(트위터) · 에펨코리아 · 팬카페 | 2026-03-07 20:00 KST</text>
+  <rect x="490" y="66" width="12" height="12" fill="#27ae60" rx="2"/>
+  <text x="506" y="77" font-size="11" fill="#2c3e50">긍정</text>
+  <rect x="548" y="66" width="12" height="12" fill="#e74c3c" rx="2"/>
+  <text x="564" y="77" font-size="11" fill="#2c3e50">부정</text>
+  <rect x="606" y="66" width="12" height="12" fill="#95a5a6" rx="2"/>
+  <text x="622" y="77" font-size="11" fill="#2c3e50">중립</text>
+
+  <text x="60" y="100" font-size="13" font-weight="bold" fill="#2c3e50">X(트위터) — 긍정 1,200건 / 부정 180건 / 중립 620건</text>
+  <rect x="60" y="110" width="408" height="28" fill="#27ae60" rx="3"/>
+  <rect x="468" y="110" width="61" height="28" fill="#e74c3c" rx="3"/>
+  <rect x="529" y="110" width="211" height="28" fill="#95a5a6" rx="3"/>
+  <text x="60" y="152" text-anchor="start" font-size="11" fill="#27ae60">긍정 60%</text>
+  <text x="400" y="152" text-anchor="middle" font-size="11" fill="#e74c3c">부정 9%</text>
+  <text x="740" y="152" text-anchor="end" font-size="11" fill="#7f8c8d">중립 31%</text>
+  <text x="60" y="168" font-size="11" fill="#555">💬 "1년 전 그날부터 Ruby는 내 인생 앨범. 제니 솔로 가즈아"</text>
+
+  <text x="60" y="220" font-size="13" font-weight="bold" fill="#2c3e50">에펨코리아 — 긍정 380건 / 부정 90건 / 중립 530건</text>
+  <rect x="60" y="230" width="258" height="28" fill="#27ae60" rx="3"/>
+  <rect x="318" y="230" width="61" height="28" fill="#e74c3c" rx="3"/>
+  <rect x="379" y="230" width="361" height="28" fill="#95a5a6" rx="3"/>
+  <text x="60" y="272" text-anchor="start" font-size="11" fill="#27ae60">긍정 38%</text>
+  <text x="400" y="272" text-anchor="middle" font-size="11" fill="#e74c3c">부정 9%</text>
+  <text x="740" y="272" text-anchor="end" font-size="11" fill="#7f8c8d">중립 53%</text>
+  <text x="60" y="288" font-size="11" fill="#555">💬 "더현대 팝업 웨이팅 4시간… 그래도 갔다 왔다"</text>
+
+  <text x="60" y="340" font-size="13" font-weight="bold" fill="#2c3e50">팬카페 — 긍정 850건 / 부정 30건 / 중립 120건</text>
+  <rect x="60" y="350" width="578" height="28" fill="#27ae60" rx="3"/>
+  <rect x="638" y="350" width="20" height="28" fill="#e74c3c" rx="3"/>
+  <rect x="658" y="350" width="82" height="28" fill="#95a5a6" rx="3"/>
+  <text x="60" y="392" text-anchor="start" font-size="11" fill="#27ae60">긍정 85%</text>
+  <text x="400" y="392" text-anchor="middle" font-size="11" fill="#e74c3c">부정 3%</text>
+  <text x="740" y="392" text-anchor="end" font-size="11" fill="#7f8c8d">중립 12%</text>
+  <text x="60" y="408" font-size="11" fill="#555">💬 "Complete Collection 발매 축하! 1주년도 행복하게 보냈다"</text>
+
+  <text x="400" y="426" text-anchor="middle" font-size="10" fill="#bdc3c7">* 수치는 집계된 공감/반응 신호 기반 추산 | paperWanderer</text>
+</svg>

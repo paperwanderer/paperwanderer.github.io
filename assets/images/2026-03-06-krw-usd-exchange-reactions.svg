@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="440" viewBox="0 0 800 440"
+     font-family="'Apple SD Gothic Neo', 'Malgun Gothic', Arial, sans-serif">
+  <rect width="800" height="440" fill="#f8f9fa" rx="12"/>
+  <text x="400" y="36" text-anchor="middle" font-size="17" font-weight="bold" fill="#2c3e50">원달러 환율 급등 — 커뮤니티 반응</text>
+  <text x="400" y="54" text-anchor="middle" font-size="11" fill="#7f8c8d">에펨코리아 · 디시인사이드 · 네이버 뉴스 | 2026-03-06 KST</text>
+  <rect x="490" y="66" width="12" height="12" fill="#27ae60" rx="2"/>
+  <text x="506" y="77" font-size="11" fill="#2c3e50">긍정</text>
+  <rect x="548" y="66" width="12" height="12" fill="#e74c3c" rx="2"/>
+  <text x="564" y="77" font-size="11" fill="#2c3e50">부정</text>
+  <rect x="606" y="66" width="12" height="12" fill="#95a5a6" rx="2"/>
+  <text x="622" y="77" font-size="11" fill="#2c3e50">중립</text>
+
+  <text x="60" y="100" font-size="13" font-weight="bold" fill="#2c3e50">에펨코리아 — 긍정 18건 / 부정 84건 / 중립 46건</text>
+  <rect x="60" y="110" width="83" height="28" fill="#27ae60" rx="3"/>
+  <rect x="143" y="110" width="386" height="28" fill="#e74c3c" rx="3"/>
+  <rect x="529" y="110" width="211" height="28" fill="#95a5a6" rx="3"/>
+  <text x="60" y="152" text-anchor="start" font-size="11" fill="#27ae60">긍정 12%</text>
+  <text x="400" y="152" text-anchor="middle" font-size="11" fill="#e74c3c">부정 57%</text>
+  <text x="740" y="152" text-anchor="end" font-size="11" fill="#7f8c8d">중립 31%</text>
+  <text x="60" y="168" font-size="11" fill="#555">💬 "환율 1,500원 넘으면 수입 물가 다 올라서 서민만 피해봄"</text>
+
+  <text x="60" y="220" font-size="13" font-weight="bold" fill="#2c3e50">디시인사이드 — 긍정 12건 / 부정 71건 / 중립 35건</text>
+  <rect x="60" y="230" width="69" height="28" fill="#27ae60" rx="3"/>
+  <rect x="129" y="230" width="409" height="28" fill="#e74c3c" rx="3"/>
+  <rect x="538" y="230" width="202" height="28" fill="#95a5a6" rx="3"/>
+  <text x="60" y="272" text-anchor="start" font-size="11" fill="#27ae60">긍정 10%</text>
+  <text x="400" y="272" text-anchor="middle" font-size="11" fill="#e74c3c">부정 60%</text>
+  <text x="740" y="272" text-anchor="end" font-size="11" fill="#7f8c8d">중립 30%</text>
+  <text x="60" y="288" font-size="11" fill="#555">💬 "중동 전쟁에 원화만 계속 얻어맞는 구조 지겨움"</text>
+
+  <text x="60" y="340" font-size="13" font-weight="bold" fill="#2c3e50">네이버 뉴스 — 긍정 24건 / 부정 119건 / 중립 57건</text>
+  <rect x="60" y="350" width="82" height="28" fill="#27ae60" rx="3"/>
+  <rect x="142" y="350" width="405" height="28" fill="#e74c3c" rx="3"/>
+  <rect x="547" y="350" width="193" height="28" fill="#95a5a6" rx="3"/>
+  <text x="60" y="392" text-anchor="start" font-size="11" fill="#27ae60">긍정 12%</text>
+  <text x="400" y="392" text-anchor="middle" font-size="11" fill="#e74c3c">부정 60%</text>
+  <text x="740" y="392" text-anchor="end" font-size="11" fill="#7f8c8d">중립 28%</text>
+  <text x="60" y="408" font-size="11" fill="#555">💬 "수출 기업엔 호재지만 일반 국민은 장바구니 물가에 직격탄"</text>
+
+  <text x="400" y="426" text-anchor="middle" font-size="10" fill="#bdc3c7">* 수치는 집계된 공감/반응 신호 기반 추산 | paperWanderer</text>
+</svg>

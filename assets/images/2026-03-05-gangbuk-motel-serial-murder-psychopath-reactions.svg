@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="440" viewBox="0 0 800 440"
+     font-family="'Apple SD Gothic Neo', 'Malgun Gothic', Arial, sans-serif">
+  <rect width="800" height="440" fill="#f8f9fa" rx="12"/>
+  <text x="400" y="36" text-anchor="middle" font-size="17" font-weight="bold" fill="#2c3e50">강북 모텔 연쇄살인 사이코패스 판정 — 커뮤니티 반응</text>
+  <text x="400" y="54" text-anchor="middle" font-size="11" fill="#7f8c8d">네이버뉴스 · 커뮤니티 | 2026-03-05 20:00 KST</text>
+  <rect x="490" y="66" width="12" height="12" fill="#27ae60" rx="2"/>
+  <text x="506" y="77" font-size="11" fill="#2c3e50">긍정</text>
+  <rect x="548" y="66" width="12" height="12" fill="#e74c3c" rx="2"/>
+  <text x="564" y="77" font-size="11" fill="#2c3e50">부정</text>
+  <rect x="606" y="66" width="12" height="12" fill="#95a5a6" rx="2"/>
+  <text x="622" y="77" font-size="11" fill="#2c3e50">중립</text>
+
+  <text x="60" y="100" font-size="13" font-weight="bold" fill="#2c3e50">네이버 뉴스 — 엄벌 요구 압도</text>
+  <rect x="60" y="110" width="374" height="28" fill="#27ae60" rx="3"/>
+  <rect x="434" y="110" width="258" height="28" fill="#e74c3c" rx="3"/>
+  <rect x="692" y="110" width="48" height="28" fill="#95a5a6" rx="3"/>
+  <text x="60" y="152" text-anchor="start" font-size="11" fill="#27ae60">긍정 55%</text>
+  <text x="400" y="152" text-anchor="middle" font-size="11" fill="#e74c3c">부정 38%</text>
+  <text x="740" y="152" text-anchor="end" font-size="11" fill="#7f8c8d">중립 7%</text>
+  <text x="60" y="168" font-size="11" fill="#555">💬 "사이코패스니까 심신미약 감형은 절대 안 된다. 최대 처벌해야"</text>
+
+  <text x="60" y="220" font-size="13" font-weight="bold" fill="#2c3e50">온라인 커뮤니티 — 분노·엄벌 공존</text>
+  <rect x="60" y="230" width="340" height="28" fill="#27ae60" rx="3"/>
+  <rect x="400" y="230" width="292" height="28" fill="#e74c3c" rx="3"/>
+  <rect x="692" y="230" width="48" height="28" fill="#95a5a6" rx="3"/>
+  <text x="60" y="272" text-anchor="start" font-size="11" fill="#27ae60">긍정 50%</text>
+  <text x="400" y="272" text-anchor="middle" font-size="11" fill="#e74c3c">부정 43%</text>
+  <text x="740" y="272" text-anchor="end" font-size="11" fill="#7f8c8d">중립 7%</text>
+  <text x="60" y="288" font-size="11" fill="#555">💬 "어떻게 약을 탄 음료를 주는 생각을 했나. 소름끼친다"</text>
+
+  <text x="60" y="340" font-size="13" font-weight="bold" fill="#2c3e50">전체 종합 — 엄벌·분노 압도</text>
+  <rect x="60" y="350" width="360" height="28" fill="#27ae60" rx="3"/>
+  <rect x="420" y="350" width="272" height="28" fill="#e74c3c" rx="3"/>
+  <rect x="692" y="350" width="48" height="28" fill="#95a5a6" rx="3"/>
+  <text x="60" y="392" text-anchor="start" font-size="11" fill="#27ae60">긍정 53%</text>
+  <text x="400" y="392" text-anchor="middle" font-size="11" fill="#e74c3c">부정 40%</text>
+  <text x="740" y="392" text-anchor="end" font-size="11" fill="#7f8c8d">중립 7%</text>
+  <text x="60" y="408" font-size="11" fill="#555">💬 "신상 공개 당연히 해야 한다. 피해자 가족들은 얼마나 억울할까"</text>
+
+  <text x="400" y="426" text-anchor="middle" font-size="10" fill="#bdc3c7">* 수치는 집계된 공감/반응 신호 기반 추산 | paperWanderer</text>
+</svg>

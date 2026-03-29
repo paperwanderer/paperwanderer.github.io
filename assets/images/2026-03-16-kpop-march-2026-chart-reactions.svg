@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="440" viewBox="0 0 800 440"
+     font-family="'Apple SD Gothic Neo', 'Malgun Gothic', Arial, sans-serif">
+  <rect width="800" height="440" fill="#f8f9fa" rx="12"/>
+  <text x="400" y="36" text-anchor="middle" font-size="17" font-weight="bold" fill="#2c3e50">K팝 3월 차트 — 커뮤니티 반응</text>
+  <text x="400" y="54" text-anchor="middle" font-size="11" fill="#7f8c8d">더쿠 · 팬 커뮤니티 · 네이버 | 2026-03-16 22:00 KST</text>
+  <rect x="490" y="66" width="12" height="12" fill="#27ae60" rx="2"/>
+  <text x="506" y="77" font-size="11" fill="#2c3e50">긍정</text>
+  <rect x="548" y="66" width="12" height="12" fill="#e74c3c" rx="2"/>
+  <text x="564" y="77" font-size="11" fill="#2c3e50">부정</text>
+  <rect x="606" y="66" width="12" height="12" fill="#95a5a6" rx="2"/>
+  <text x="622" y="77" font-size="11" fill="#2c3e50">중립</text>
+
+  <text x="60" y="100" font-size="13" font-weight="bold" fill="#2c3e50">더쿠·팬 커뮤니티 — 긍정 840건 / 부정 86건 / 중립 34건</text>
+  <rect x="60" y="110" width="592" height="28" fill="#27ae60" rx="3"/>
+  <rect x="652" y="110" width="61" height="28" fill="#e74c3c" rx="3"/>
+  <rect x="713" y="110" width="27" height="28" fill="#95a5a6" rx="3"/>
+  <text x="60" y="152" text-anchor="start" font-size="11" fill="#27ae60">긍정 87%</text>
+  <text x="400" y="152" text-anchor="middle" font-size="11" fill="#e74c3c">부정 9%</text>
+  <text x="740" y="152" text-anchor="end" font-size="11" fill="#7f8c8d">중립 4%</text>
+  <text x="60" y="168" font-size="11" fill="#555">💬 "호시 솔로 완전 물오른 무대다 세줄이 아니라 예술이다"</text>
+
+  <text x="60" y="220" font-size="13" font-weight="bold" fill="#2c3e50">네이버 뮤직 댓글 — 긍정 280건 / 부정 36건 / 중립 84건</text>
+  <rect x="60" y="230" width="474" height="28" fill="#27ae60" rx="3"/>
+  <rect x="534" y="230" width="53" height="28" fill="#e74c3c" rx="3"/>
+  <rect x="587" y="230" width="153" height="28" fill="#95a5a6" rx="3"/>
+  <text x="60" y="272" text-anchor="start" font-size="11" fill="#27ae60">긍정 70%</text>
+  <text x="400" y="272" text-anchor="middle" font-size="11" fill="#e74c3c">부정 8%</text>
+  <text x="740" y="272" text-anchor="end" font-size="11" fill="#7f8c8d">중립 22%</text>
+  <text x="60" y="288" font-size="11" fill="#555">💬 "AB6IX 완전체 컴백 진짜 오래 기다렸다 역시 이 팀이다"</text>
+
+  <text x="60" y="340" font-size="13" font-weight="bold" fill="#2c3e50">트위터/X 팬덤 — 긍정 120건 / 부정 18건 / 중립 62건</text>
+  <rect x="60" y="350" width="408" height="28" fill="#27ae60" rx="3"/>
+  <rect x="468" y="350" width="61" height="28" fill="#e74c3c" rx="3"/>
+  <rect x="529" y="350" width="211" height="28" fill="#95a5a6" rx="3"/>
+  <text x="60" y="392" text-anchor="start" font-size="11" fill="#27ae60">긍정 60%</text>
+  <text x="400" y="392" text-anchor="middle" font-size="11" fill="#e74c3c">부정 9%</text>
+  <text x="740" y="392" text-anchor="end" font-size="11" fill="#7f8c8d">중립 31%</text>
+  <text x="60" y="408" font-size="11" fill="#555">💬 "개인적으로 이 장르는 취향이 아니지만 팬덤 파워는 인정한다"</text>
+
+  <text x="400" y="426" text-anchor="middle" font-size="10" fill="#bdc3c7">* 수치는 집계된 공감/반응 신호 기반 추산 | paperWanderer</text>
+</svg>

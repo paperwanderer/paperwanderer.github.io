@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="440" viewBox="0 0 800 440"
+     font-family="'Apple SD Gothic Neo', 'Malgun Gothic', Arial, sans-serif">
+  <rect width="800" height="440" fill="#f8f9fa" rx="12"/>
+  <text x="400" y="36" text-anchor="middle" font-size="17" font-weight="bold" fill="#2c3e50">호르무즈 파병 요구 — 커뮤니티 반응</text>
+  <text x="400" y="54" text-anchor="middle" font-size="11" fill="#7f8c8d">에펨코리아 · 더쿠 · 네이버뉴스 | 2026-03-17 KST</text>
+  <rect x="490" y="66" width="12" height="12" fill="#27ae60" rx="2"/>
+  <text x="506" y="77" font-size="11" fill="#2c3e50">긍정</text>
+  <rect x="548" y="66" width="12" height="12" fill="#e74c3c" rx="2"/>
+  <text x="564" y="77" font-size="11" fill="#2c3e50">부정</text>
+  <rect x="606" y="66" width="12" height="12" fill="#95a5a6" rx="2"/>
+  <text x="622" y="77" font-size="11" fill="#2c3e50">중립</text>
+
+  <text x="60" y="100" font-size="13" font-weight="bold" fill="#2c3e50">에펨코리아 — 파병찬성 380건 / 반대 238건 / 중립 62건</text>
+  <rect x="60" y="110" width="380" height="28" fill="#27ae60" rx="3"/>
+  <rect x="440" y="110" width="238" height="28" fill="#e74c3c" rx="3"/>
+  <rect x="678" y="110" width="62" height="28" fill="#95a5a6" rx="3"/>
+  <text x="60" y="152" text-anchor="start" font-size="11" fill="#27ae60">긍정 56%</text>
+  <text x="400" y="152" text-anchor="middle" font-size="11" fill="#e74c3c">부정 35%</text>
+  <text x="740" y="152" text-anchor="end" font-size="11" fill="#7f8c8d">중립 9%</text>
+  <text x="60" y="168" font-size="11" fill="#555">💬 "에너지 안보 때문에라도 파병해야 한다. 원유 80%가 중동에서 온다"</text>
+
+  <text x="60" y="220" font-size="13" font-weight="bold" fill="#2c3e50">더쿠 — 파병찬성 272건 / 반대 306건 / 중립 102건</text>
+  <rect x="60" y="230" width="272" height="28" fill="#27ae60" rx="3"/>
+  <rect x="332" y="230" width="306" height="28" fill="#e74c3c" rx="3"/>
+  <rect x="638" y="230" width="102" height="28" fill="#95a5a6" rx="3"/>
+  <text x="60" y="272" text-anchor="start" font-size="11" fill="#27ae60">긍정 40%</text>
+  <text x="400" y="272" text-anchor="middle" font-size="11" fill="#e74c3c">부정 45%</text>
+  <text x="740" y="272" text-anchor="end" font-size="11" fill="#7f8c8d">중립 15%</text>
+  <text x="60" y="288" font-size="11" fill="#555">💬 "왜 한국만 압박받냐. 유럽·일본도 거절했는데 우리가 들어줄 이유 없다"</text>
+
+  <text x="60" y="340" font-size="13" font-weight="bold" fill="#2c3e50">네이버뉴스 댓글 — 찬성 381건 / 반대 231건 / 중립 68건</text>
+  <rect x="60" y="350" width="381" height="28" fill="#27ae60" rx="3"/>
+  <rect x="441" y="350" width="231" height="28" fill="#e74c3c" rx="3"/>
+  <rect x="672" y="350" width="68" height="28" fill="#95a5a6" rx="3"/>
+  <text x="60" y="392" text-anchor="start" font-size="11" fill="#27ae60">긍정 56%</text>
+  <text x="400" y="392" text-anchor="middle" font-size="11" fill="#e74c3c">부정 34%</text>
+  <text x="740" y="392" text-anchor="end" font-size="11" fill="#7f8c8d">중립 10%</text>
+  <text x="60" y="408" font-size="11" fill="#555">💬 "미국 눈치 안 볼 수 없다. 안보 동맹이 그냥 유지되는 게 아니잖아"</text>
+
+  <text x="400" y="426" text-anchor="middle" font-size="10" fill="#bdc3c7">* 수치는 집계된 공감/반응 신호 기반 추산 | paperWanderer</text>
+</svg>

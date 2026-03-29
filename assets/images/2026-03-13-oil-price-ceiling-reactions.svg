@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="440" viewBox="0 0 800 440"
+     font-family="'Apple SD Gothic Neo', 'Malgun Gothic', Arial, sans-serif">
+  <rect width="800" height="440" fill="#f8f9fa" rx="12"/>
+  <text x="400" y="36" text-anchor="middle" font-size="17" font-weight="bold" fill="#2c3e50">석유 최고가격제 시행 — 커뮤니티 반응</text>
+  <text x="400" y="54" text-anchor="middle" font-size="11" fill="#7f8c8d">YTN 뉴스 · 경향신문 · DCinside 베스트 | 2026-03-13 KST</text>
+  <rect x="490" y="66" width="12" height="12" fill="#27ae60" rx="2"/>
+  <text x="506" y="77" font-size="11" fill="#2c3e50">긍정</text>
+  <rect x="548" y="66" width="12" height="12" fill="#e74c3c" rx="2"/>
+  <text x="564" y="77" font-size="11" fill="#2c3e50">부정</text>
+  <rect x="606" y="66" width="12" height="12" fill="#95a5a6" rx="2"/>
+  <text x="622" y="77" font-size="11" fill="#2c3e50">중립</text>
+
+  <text x="60" y="100" font-size="13" font-weight="bold" fill="#2c3e50">YTN/뉴스1 현장 — 긍정 70건 / 부정 15건 / 중립 15건</text>
+  <rect x="60" y="110" width="476" height="28" fill="#27ae60" rx="3"/>
+  <rect x="536" y="110" width="102" height="28" fill="#e74c3c" rx="3"/>
+  <rect x="638" y="110" width="102" height="28" fill="#95a5a6" rx="3"/>
+  <text x="60" y="152" text-anchor="start" font-size="11" fill="#27ae60">긍정 70%</text>
+  <text x="400" y="152" text-anchor="middle" font-size="11" fill="#e74c3c">부정 15%</text>
+  <text x="740" y="152" text-anchor="end" font-size="11" fill="#7f8c8d">중립 15%</text>
+  <text x="60" y="168" font-size="11" fill="#555">💬 "기름값 내려가서 한숨 돌렸다. 이렇게라도 해줘서 다행"</text>
+
+  <text x="60" y="220" font-size="13" font-weight="bold" fill="#2c3e50">DCinside 베스트 — 긍정 37건(추천) / 부정 8건 / 중립 20건</text>
+  <rect x="60" y="230" width="386" height="28" fill="#27ae60" rx="3"/>
+  <rect x="446" y="230" width="128" height="28" fill="#e74c3c" rx="3"/>
+  <rect x="574" y="230" width="166" height="28" fill="#95a5a6" rx="3"/>
+  <text x="60" y="272" text-anchor="start" font-size="11" fill="#27ae60">긍정 57%</text>
+  <text x="400" y="272" text-anchor="middle" font-size="11" fill="#e74c3c">부정 19%</text>
+  <text x="740" y="272" text-anchor="end" font-size="11" fill="#7f8c8d">중립 24%</text>
+  <text x="60" y="288" font-size="11" fill="#555">💬 "주유 타이밍 언제가 좋을지 아직도 눈치 보는 중"</text>
+
+  <text x="60" y="340" font-size="13" font-weight="bold" fill="#2c3e50">경향신문 독자 반응 — 긍정 55건 / 부정 25건 / 중립 20건</text>
+  <rect x="60" y="350" width="374" height="28" fill="#27ae60" rx="3"/>
+  <rect x="434" y="350" width="170" height="28" fill="#e74c3c" rx="3"/>
+  <rect x="604" y="350" width="136" height="28" fill="#95a5a6" rx="3"/>
+  <text x="60" y="392" text-anchor="start" font-size="11" fill="#27ae60">긍정 55%</text>
+  <text x="400" y="392" text-anchor="middle" font-size="11" fill="#e74c3c">부정 25%</text>
+  <text x="740" y="392" text-anchor="end" font-size="11" fill="#7f8c8d">중립 20%</text>
+  <text x="60" y="408" font-size="11" fill="#555">💬 "30년 만에 꺼낸 제도인데 실효성이 지속될지 의문"</text>
+
+  <text x="400" y="426" text-anchor="middle" font-size="10" fill="#bdc3c7">* 수치는 집계된 공감/반응 신호 기반 추산 | paperWanderer</text>
+</svg>

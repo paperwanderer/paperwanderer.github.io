@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="440" viewBox="0 0 800 440"
+     font-family="'Apple SD Gothic Neo', 'Malgun Gothic', Arial, sans-serif">
+  <rect width="800" height="440" fill="#f8f9fa" rx="12"/>
+  <text x="400" y="36" text-anchor="middle" font-size="17" font-weight="bold" fill="#2c3e50">WBC 한국 체코 11-4 대승 — 커뮤니티 반응</text>
+  <text x="400" y="54" text-anchor="middle" font-size="11" fill="#7f8c8d">에펨코리아 · 네이트스포츠 · 루리웹 | 2026-03-05 24:00 KST</text>
+  <rect x="490" y="66" width="12" height="12" fill="#27ae60" rx="2"/>
+  <text x="506" y="77" font-size="11" fill="#2c3e50">긍정</text>
+  <rect x="548" y="66" width="12" height="12" fill="#e74c3c" rx="2"/>
+  <text x="564" y="77" font-size="11" fill="#2c3e50">부정</text>
+  <rect x="606" y="66" width="12" height="12" fill="#95a5a6" rx="2"/>
+  <text x="622" y="77" font-size="11" fill="#2c3e50">중립</text>
+
+  <text x="60" y="100" font-size="13" font-weight="bold" fill="#2c3e50">에펨코리아 — 긍정 1,050건 / 부정 60건 / 중립 290건</text>
+  <rect x="60" y="110" width="507" height="28" fill="#27ae60" rx="3"/>
+  <rect x="567" y="110" width="29" height="28" fill="#e74c3c" rx="3"/>
+  <rect x="596" y="110" width="144" height="28" fill="#95a5a6" rx="3"/>
+  <text x="60" y="152" text-anchor="start" font-size="11" fill="#27ae60">긍정 75%</text>
+  <text x="400" y="152" text-anchor="middle" font-size="11" fill="#e74c3c">부정 4%</text>
+  <text x="740" y="152" text-anchor="end" font-size="11" fill="#7f8c8d">중립 21%</text>
+  <text x="60" y="168" font-size="11" fill="#555">💬 "홈런 4방 대폭발! 7일 한일전이 기대된다"</text>
+
+  <text x="60" y="220" font-size="13" font-weight="bold" fill="#2c3e50">네이트스포츠 — 긍정 790건 / 부정 60건 / 중립 230건</text>
+  <rect x="60" y="230" width="494" height="28" fill="#27ae60" rx="3"/>
+  <rect x="554" y="230" width="38" height="28" fill="#e74c3c" rx="3"/>
+  <rect x="592" y="230" width="148" height="28" fill="#95a5a6" rx="3"/>
+  <text x="60" y="272" text-anchor="start" font-size="11" fill="#27ae60">긍정 73%</text>
+  <text x="400" y="272" text-anchor="middle" font-size="11" fill="#e74c3c">부정 6%</text>
+  <text x="740" y="272" text-anchor="end" font-size="11" fill="#7f8c8d">중립 21%</text>
+  <text x="60" y="288" font-size="11" fill="#555">💬 "문보경 만루포 진짜 짜릿했다. 일본전도 이 흐름 이어가자"</text>
+
+  <text x="60" y="340" font-size="13" font-weight="bold" fill="#2c3e50">루리웹 — 긍정 480건 / 부정 40건 / 중립 180건</text>
+  <rect x="60" y="350" width="468" height="28" fill="#27ae60" rx="3"/>
+  <rect x="528" y="350" width="39" height="28" fill="#e74c3c" rx="3"/>
+  <rect x="567" y="350" width="173" height="28" fill="#95a5a6" rx="3"/>
+  <text x="60" y="392" text-anchor="start" font-size="11" fill="#27ae60">긍정 69%</text>
+  <text x="400" y="392" text-anchor="middle" font-size="11" fill="#e74c3c">부정 6%</text>
+  <text x="740" y="392" text-anchor="end" font-size="11" fill="#7f8c8d">중립 25%</text>
+  <text x="60" y="408" font-size="11" fill="#555">💬 "17년 만의 1차전 승리. 위트컴 교포 선수들이 힘이 된다"</text>
+
+  <text x="400" y="426" text-anchor="middle" font-size="10" fill="#bdc3c7">* 수치는 집계된 공감/반응 신호 기반 추산 | paperWanderer</text>
+</svg>

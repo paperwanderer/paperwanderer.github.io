@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="440" viewBox="0 0 800 440"
+     font-family="'Apple SD Gothic Neo', 'Malgun Gothic', Arial, sans-serif">
+  <rect width="800" height="440" fill="#f8f9fa" rx="12"/>
+  <text x="400" y="36" text-anchor="middle" font-size="17" font-weight="bold" fill="#2c3e50">3.1운동 107주년 — 커뮤니티 반응</text>
+  <text x="400" y="54" text-anchor="middle" font-size="11" fill="#7f8c8d">SNS포털 · 역사커뮤니티 · 교육커뮤니티 | 2026-03-02 KST</text>
+  <rect x="490" y="66" width="12" height="12" fill="#27ae60" rx="2"/>
+  <text x="506" y="77" font-size="11" fill="#2c3e50">긍정</text>
+  <rect x="548" y="66" width="12" height="12" fill="#e74c3c" rx="2"/>
+  <text x="564" y="77" font-size="11" fill="#2c3e50">부정</text>
+  <rect x="606" y="66" width="12" height="12" fill="#95a5a6" rx="2"/>
+  <text x="622" y="77" font-size="11" fill="#2c3e50">중립</text>
+
+  <text x="60" y="100" font-size="13" font-weight="bold" fill="#2c3e50">SNS·포털 — 긍정 82건 / 부정 8건 / 중립 10건</text>
+  <rect x="60" y="110" width="558" height="28" fill="#27ae60" rx="3"/>
+  <rect x="618" y="110" width="54" height="28" fill="#e74c3c" rx="3"/>
+  <rect x="672" y="110" width="68" height="28" fill="#95a5a6" rx="3"/>
+  <text x="60" y="152" text-anchor="start" font-size="11" fill="#27ae60">긍정 82%</text>
+  <text x="400" y="152" text-anchor="middle" font-size="11" fill="#e74c3c">부정 8%</text>
+  <text x="740" y="152" text-anchor="end" font-size="11" fill="#7f8c8d">중립 10%</text>
+  <text x="60" y="168" font-size="11" fill="#555">💬 "아이들이랑 독립기념관 다녀왔다, 역사 교육에 너무 좋다"</text>
+
+  <text x="60" y="220" font-size="13" font-weight="bold" fill="#2c3e50">역사 커뮤니티 — 긍정 75건 / 부정 12건 / 중립 13건</text>
+  <rect x="60" y="230" width="510" height="28" fill="#27ae60" rx="3"/>
+  <rect x="570" y="230" width="82" height="28" fill="#e74c3c" rx="3"/>
+  <rect x="652" y="230" width="88" height="28" fill="#95a5a6" rx="3"/>
+  <text x="60" y="272" text-anchor="start" font-size="11" fill="#27ae60">긍정 75%</text>
+  <text x="400" y="272" text-anchor="middle" font-size="11" fill="#e74c3c">부정 12%</text>
+  <text x="740" y="272" text-anchor="end" font-size="11" fill="#7f8c8d">중립 13%</text>
+  <text x="60" y="288" font-size="11" fill="#555">💬 "VR 체험으로 3.1운동 현장을 생생하게 느꼈다"</text>
+
+  <text x="60" y="340" font-size="13" font-weight="bold" fill="#2c3e50">교육 커뮤니티 — 긍정 78건 / 부정 10건 / 중립 12건</text>
+  <rect x="60" y="350" width="530" height="28" fill="#27ae60" rx="3"/>
+  <rect x="590" y="350" width="68" height="28" fill="#e74c3c" rx="3"/>
+  <rect x="658" y="350" width="82" height="28" fill="#95a5a6" rx="3"/>
+  <text x="60" y="392" text-anchor="start" font-size="11" fill="#27ae60">긍정 78%</text>
+  <text x="400" y="392" text-anchor="middle" font-size="11" fill="#e74c3c">부정 10%</text>
+  <text x="740" y="392" text-anchor="end" font-size="11" fill="#7f8c8d">중립 12%</text>
+  <text x="60" y="408" font-size="11" fill="#555">💬 "삼일절에도 친일 미화 발언 나오는 나라, 언제까지 이럴건가"</text>
+
+  <text x="400" y="426" text-anchor="middle" font-size="10" fill="#bdc3c7">* 수치는 집계된 공감/반응 신호 기반 추산 | paperWanderer</text>
+</svg>

@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="440" viewBox="0 0 800 440"
+     font-family="'Apple SD Gothic Neo', 'Malgun Gothic', Arial, sans-serif">
+  <rect width="800" height="440" fill="#f8f9fa" rx="12"/>
+  <text x="400" y="36" text-anchor="middle" font-size="17" font-weight="bold" fill="#2c3e50">항공사 기장 살인 — 커뮤니티 반응</text>
+  <text x="400" y="54" text-anchor="middle" font-size="11" fill="#7f8c8d">에펨코리아 · DC인사이드 · 더쿠 | 2026-03-17 KST</text>
+  <rect x="490" y="66" width="12" height="12" fill="#27ae60" rx="2"/>
+  <text x="506" y="77" font-size="11" fill="#2c3e50">긍정</text>
+  <rect x="548" y="66" width="12" height="12" fill="#e74c3c" rx="2"/>
+  <text x="564" y="77" font-size="11" fill="#2c3e50">부정</text>
+  <rect x="606" y="66" width="12" height="12" fill="#95a5a6" rx="2"/>
+  <text x="622" y="77" font-size="11" fill="#2c3e50">중립</text>
+
+  <text x="60" y="100" font-size="13" font-weight="bold" fill="#2c3e50">에펨코리아 — 공감 380건 / 비공감 80건 / 중립 220건</text>
+  <rect x="60" y="110" width="380" height="28" fill="#27ae60" rx="3"/>
+  <rect x="440" y="110" width="80" height="28" fill="#e74c3c" rx="3"/>
+  <rect x="520" y="110" width="220" height="28" fill="#95a5a6" rx="3"/>
+  <text x="60" y="152" text-anchor="start" font-size="11" fill="#27ae60">긍정 56%</text>
+  <text x="400" y="152" text-anchor="middle" font-size="11" fill="#e74c3c">부정 12%</text>
+  <text x="740" y="152" text-anchor="end" font-size="11" fill="#7f8c8d">중립 32%</text>
+  <text x="60" y="168" font-size="11" fill="#555">💬 "3년 준비했다는 거 소름돋는다. 범행 계획성 인정되면 무기징역도 가능하지 않나"</text>
+
+  <text x="60" y="220" font-size="13" font-weight="bold" fill="#2c3e50">DC인사이드 실베 — 공감 150건 / 비공감 30건 / 중립 500건</text>
+  <rect x="60" y="230" width="150" height="28" fill="#27ae60" rx="3"/>
+  <rect x="210" y="230" width="30" height="28" fill="#e74c3c" rx="3"/>
+  <rect x="240" y="230" width="500" height="28" fill="#95a5a6" rx="3"/>
+  <text x="60" y="272" text-anchor="start" font-size="11" fill="#27ae60">긍정 22%</text>
+  <text x="400" y="272" text-anchor="middle" font-size="11" fill="#e74c3c">부정 4%</text>
+  <text x="740" y="272" text-anchor="end" font-size="11" fill="#7f8c8d">중립 74%</text>
+  <text x="60" y="288" font-size="11" fill="#555">💬 "얼굴 당당하게 공개하는 거 보면 자기가 옳다고 믿는 거잖아. 더 무섭다"</text>
+
+  <text x="60" y="340" font-size="13" font-weight="bold" fill="#2c3e50">더쿠 — 공감 50건 / 비공감 10건 / 중립 620건</text>
+  <rect x="60" y="350" width="50" height="28" fill="#27ae60" rx="3"/>
+  <rect x="110" y="350" width="10" height="28" fill="#e74c3c" rx="3"/>
+  <rect x="120" y="350" width="620" height="28" fill="#95a5a6" rx="3"/>
+  <text x="60" y="392" text-anchor="start" font-size="11" fill="#27ae60">긍정 7%</text>
+  <text x="400" y="392" text-anchor="middle" font-size="11" fill="#e74c3c">부정 1%</text>
+  <text x="740" y="392" text-anchor="end" font-size="11" fill="#7f8c8d">중립 92%</text>
+  <text x="60" y="408" font-size="11" fill="#555">💬 "4명이나 타깃으로 잡은 거 알고 나니 살아있는 분들 정말 다행이다"</text>
+
+  <text x="400" y="426" text-anchor="middle" font-size="10" fill="#bdc3c7">* 수치는 집계된 공감/반응 신호 기반 추산 | paperWanderer</text>
+</svg>

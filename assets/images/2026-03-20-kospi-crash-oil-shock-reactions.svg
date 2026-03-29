@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="440" viewBox="0 0 800 440"
+     font-family="'Apple SD Gothic Neo', 'Malgun Gothic', Arial, sans-serif">
+  <rect width="800" height="440" fill="#f8f9fa" rx="12"/>
+  <text x="400" y="36" text-anchor="middle" font-size="17" font-weight="bold" fill="#2c3e50">코스피 급락·유가 폭등 — 커뮤니티 반응</text>
+  <text x="400" y="54" text-anchor="middle" font-size="11" fill="#7f8c8d">에펨코리아 · 클리앙 · 네이버뉴스댓글 | 2026-03-20 KST</text>
+  <rect x="490" y="66" width="12" height="12" fill="#27ae60" rx="2"/>
+  <text x="506" y="77" font-size="11" fill="#2c3e50">긍정</text>
+  <rect x="548" y="66" width="12" height="12" fill="#e74c3c" rx="2"/>
+  <text x="564" y="77" font-size="11" fill="#2c3e50">부정</text>
+  <rect x="606" y="66" width="12" height="12" fill="#95a5a6" rx="2"/>
+  <text x="622" y="77" font-size="11" fill="#2c3e50">중립</text>
+
+  <text x="60" y="100" font-size="13" font-weight="bold" fill="#2c3e50">에펨코리아 — 긍정(매수) 180건 / 부정(패닉) 320건 / 중립 100건</text>
+  <rect x="60" y="110" width="204" height="28" fill="#27ae60" rx="3"/>
+  <rect x="264" y="110" width="363" height="28" fill="#e74c3c" rx="3"/>
+  <rect x="627" y="110" width="113" height="28" fill="#95a5a6" rx="3"/>
+  <text x="60" y="152" text-anchor="start" font-size="11" fill="#27ae60">긍정 30%</text>
+  <text x="400" y="152" text-anchor="middle" font-size="11" fill="#e74c3c">부정 53%</text>
+  <text x="740" y="152" text-anchor="end" font-size="11" fill="#7f8c8d">중립 17%</text>
+  <text x="60" y="168" font-size="11" fill="#555">💬 "유가 100달러 돌파에 환율 1500원이면 스태그플레이션 현실화되는 거 아님?"</text>
+
+  <text x="60" y="220" font-size="13" font-weight="bold" fill="#2c3e50">클리앙 — 긍정(저가매수) 90건 / 부정 250건 / 중립 60건</text>
+  <rect x="60" y="230" width="153" height="28" fill="#27ae60" rx="3"/>
+  <rect x="213" y="230" width="425" height="28" fill="#e74c3c" rx="3"/>
+  <rect x="638" y="230" width="102" height="28" fill="#95a5a6" rx="3"/>
+  <text x="60" y="272" text-anchor="start" font-size="11" fill="#27ae60">긍정 22%</text>
+  <text x="400" y="272" text-anchor="middle" font-size="11" fill="#e74c3c">부정 62%</text>
+  <text x="740" y="272" text-anchor="end" font-size="11" fill="#7f8c8d">중립 16%</text>
+  <text x="60" y="288" font-size="11" fill="#555">💬 "에너지 수입 의존도 97%인 한국이 가장 타격 받는다. 정부 대책이 필요하다"</text>
+
+  <text x="60" y="340" font-size="13" font-weight="bold" fill="#2c3e50">네이버뉴스댓글 — 긍정 120건 / 부정 380건 / 중립 100건</text>
+  <rect x="60" y="350" width="136" height="28" fill="#27ae60" rx="3"/>
+  <rect x="196" y="350" width="431" height="28" fill="#e74c3c" rx="3"/>
+  <rect x="627" y="350" width="113" height="28" fill="#95a5a6" rx="3"/>
+  <text x="60" y="392" text-anchor="start" font-size="11" fill="#27ae60">긍정 20%</text>
+  <text x="400" y="392" text-anchor="middle" font-size="11" fill="#e74c3c">부정 63%</text>
+  <text x="740" y="392" text-anchor="end" font-size="11" fill="#7f8c8d">중립 17%</text>
+  <text x="60" y="408" font-size="11" fill="#555">💬 "중동 리스크가 이렇게 빠르게 국내 시장을 흔들 줄 몰랐다"</text>
+
+  <text x="400" y="426" text-anchor="middle" font-size="10" fill="#bdc3c7">* 수치는 집계된 공감/반응 신호 기반 추산 | paperWanderer</text>
+</svg>

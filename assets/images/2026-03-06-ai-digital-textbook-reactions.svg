@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="440" viewBox="0 0 800 440"
+     font-family="'Apple SD Gothic Neo', 'Malgun Gothic', Arial, sans-serif">
+  <rect width="800" height="440" fill="#f8f9fa" rx="12"/>
+  <text x="400" y="36" text-anchor="middle" font-size="17" font-weight="bold" fill="#2c3e50">AI 디지털교과서 확대 — 커뮤니티 반응</text>
+  <text x="400" y="54" text-anchor="middle" font-size="11" fill="#7f8c8d">에펨코리아 · 오마이뉴스 댓글 · 네이버 뉴스 | 2026-03-06 KST</text>
+  <rect x="490" y="66" width="12" height="12" fill="#27ae60" rx="2"/>
+  <text x="506" y="77" font-size="11" fill="#2c3e50">긍정</text>
+  <rect x="548" y="66" width="12" height="12" fill="#e74c3c" rx="2"/>
+  <text x="564" y="77" font-size="11" fill="#2c3e50">부정</text>
+  <rect x="606" y="66" width="12" height="12" fill="#95a5a6" rx="2"/>
+  <text x="622" y="77" font-size="11" fill="#2c3e50">중립</text>
+
+  <text x="60" y="100" font-size="13" font-weight="bold" fill="#2c3e50">에펨코리아 — 긍정 29건 / 부정 68건 / 중립 41건</text>
+  <rect x="60" y="110" width="143" height="28" fill="#27ae60" rx="3"/>
+  <rect x="203" y="110" width="335" height="28" fill="#e74c3c" rx="3"/>
+  <rect x="538" y="110" width="202" height="28" fill="#95a5a6" rx="3"/>
+  <text x="60" y="152" text-anchor="start" font-size="11" fill="#27ae60">긍정 21%</text>
+  <text x="400" y="152" text-anchor="middle" font-size="11" fill="#e74c3c">부정 49%</text>
+  <text x="740" y="152" text-anchor="end" font-size="11" fill="#7f8c8d">중립 30%</text>
+  <text x="60" y="168" font-size="11" fill="#555">💬 "태블릿 충전 관리에 AS까지 교사가 다 해야 하냐"</text>
+
+  <text x="60" y="220" font-size="13" font-weight="bold" fill="#2c3e50">오마이뉴스 독자 — 긍정 18건 / 부정 74건 / 중립 33건</text>
+  <rect x="60" y="230" width="98" height="28" fill="#27ae60" rx="3"/>
+  <rect x="158" y="230" width="402" height="28" fill="#e74c3c" rx="3"/>
+  <rect x="560" y="230" width="180" height="28" fill="#95a5a6" rx="3"/>
+  <text x="60" y="272" text-anchor="start" font-size="11" fill="#27ae60">긍정 14%</text>
+  <text x="400" y="272" text-anchor="middle" font-size="11" fill="#e74c3c">부정 59%</text>
+  <text x="740" y="272" text-anchor="end" font-size="11" fill="#7f8c8d">중립 27%</text>
+  <text x="60" y="288" font-size="11" fill="#555">💬 "2026년 AI 교과서? 교사는 슈퍼맨이 되어야 하나요"</text>
+
+  <text x="60" y="340" font-size="13" font-weight="bold" fill="#2c3e50">네이버 뉴스 — 긍정 41건 / 부정 88건 / 중립 49건</text>
+  <rect x="60" y="350" width="157" height="28" fill="#27ae60" rx="3"/>
+  <rect x="217" y="350" width="336" height="28" fill="#e74c3c" rx="3"/>
+  <rect x="553" y="350" width="187" height="28" fill="#95a5a6" rx="3"/>
+  <text x="60" y="392" text-anchor="start" font-size="11" fill="#27ae60">긍정 23%</text>
+  <text x="400" y="392" text-anchor="middle" font-size="11" fill="#e74c3c">부정 49%</text>
+  <text x="740" y="392" text-anchor="end" font-size="11" fill="#7f8c8d">중립 28%</text>
+  <text x="60" y="408" font-size="11" fill="#555">💬 "AI 교과서 방향은 맞지만 현장 준비가 너무 부족"</text>
+
+  <text x="400" y="426" text-anchor="middle" font-size="10" fill="#bdc3c7">* 수치는 집계된 공감/반응 신호 기반 추산 | paperWanderer</text>
+</svg>

@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="440" viewBox="0 0 800 440"
+     font-family="'Apple SD Gothic Neo', 'Malgun Gothic', Arial, sans-serif">
+  <rect width="800" height="440" fill="#f8f9fa" rx="12"/>
+  <text x="400" y="36" text-anchor="middle" font-size="17" font-weight="bold" fill="#2c3e50">9호선 4단계·강동 부동산 — 커뮤니티 반응</text>
+  <text x="400" y="54" text-anchor="middle" font-size="11" fill="#7f8c8d">에펨코리아 · 네이버부동산 · 디시인사이드 | 2026-03-26 19:00 KST</text>
+  <rect x="490" y="66" width="12" height="12" fill="#27ae60" rx="2"/>
+  <text x="506" y="77" font-size="11" fill="#2c3e50">긍정</text>
+  <rect x="548" y="66" width="12" height="12" fill="#e74c3c" rx="2"/>
+  <text x="564" y="77" font-size="11" fill="#2c3e50">부정</text>
+  <rect x="606" y="66" width="12" height="12" fill="#95a5a6" rx="2"/>
+  <text x="622" y="77" font-size="11" fill="#2c3e50">중립</text>
+
+  <text x="60" y="100" font-size="13" font-weight="bold" fill="#2c3e50">에펨코리아 — 긍정 80건 / 부정 15건 / 중립 120건</text>
+  <rect x="60" y="110" width="253" height="28" fill="#27ae60" rx="3"/>
+  <rect x="313" y="110" width="47" height="28" fill="#e74c3c" rx="3"/>
+  <rect x="360" y="110" width="380" height="28" fill="#95a5a6" rx="3"/>
+  <text x="60" y="152" text-anchor="start" font-size="11" fill="#27ae60">긍정 37%</text>
+  <text x="400" y="152" text-anchor="middle" font-size="11" fill="#e74c3c">부정 7%</text>
+  <text x="740" y="152" text-anchor="end" font-size="11" fill="#7f8c8d">중립 56%</text>
+  <text x="60" y="168" font-size="11" fill="#555">💬 "9호선 뚫리면 강동·하남 부동산 더 오를 것 같은데"</text>
+
+  <text x="60" y="220" font-size="13" font-weight="bold" fill="#2c3e50">네이버부동산 — 긍정 60건 / 부정 10건 / 중립 80건</text>
+  <rect x="60" y="230" width="272" height="28" fill="#27ae60" rx="3"/>
+  <rect x="332" y="230" width="45" height="28" fill="#e74c3c" rx="3"/>
+  <rect x="377" y="230" width="363" height="28" fill="#95a5a6" rx="3"/>
+  <text x="60" y="272" text-anchor="start" font-size="11" fill="#27ae60">긍정 40%</text>
+  <text x="400" y="272" text-anchor="middle" font-size="11" fill="#e74c3c">부정 7%</text>
+  <text x="740" y="272" text-anchor="end" font-size="11" fill="#7f8c8d">중립 53%</text>
+  <text x="60" y="288" font-size="11" fill="#555">💬 "19억이 25억이 됐으면 이미 선반영 다 된 거 아닌가"</text>
+
+  <text x="60" y="340" font-size="13" font-weight="bold" fill="#2c3e50">디시인사이드 — 긍정 40건 / 부정 8건 / 중립 52건</text>
+  <rect x="60" y="350" width="272" height="28" fill="#27ae60" rx="3"/>
+  <rect x="332" y="350" width="54" height="28" fill="#e74c3c" rx="3"/>
+  <rect x="386" y="350" width="354" height="28" fill="#95a5a6" rx="3"/>
+  <text x="60" y="392" text-anchor="start" font-size="11" fill="#27ae60">긍정 40%</text>
+  <text x="400" y="392" text-anchor="middle" font-size="11" fill="#e74c3c">부정 8%</text>
+  <text x="740" y="392" text-anchor="end" font-size="11" fill="#7f8c8d">중립 52%</text>
+  <text x="60" y="408" font-size="11" fill="#555">💬 "고덕 단지 2028년 개통 기다리는 실거주 수요가 받쳐줄 듯"</text>
+
+  <text x="400" y="426" text-anchor="middle" font-size="10" fill="#bdc3c7">* 수치는 집계된 공감/반응 신호 기반 추산 | paperWanderer</text>
+</svg>

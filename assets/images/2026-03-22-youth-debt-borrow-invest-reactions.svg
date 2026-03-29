@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="440" viewBox="0 0 800 440"
+     font-family="'Apple SD Gothic Neo', 'Malgun Gothic', Arial, sans-serif">
+  <rect width="800" height="440" fill="#f8f9fa" rx="12"/>
+  <text x="400" y="36" text-anchor="middle" font-size="17" font-weight="bold" fill="#2c3e50">2030 고위험가구 역대 최고 — 커뮤니티 반응</text>
+  <text x="400" y="54" text-anchor="middle" font-size="11" fill="#7f8c8d">에펨코리아 · 루리웹 · 네이버뉴스 | 2026-03-22 KST</text>
+  <rect x="490" y="66" width="12" height="12" fill="#27ae60" rx="2"/>
+  <text x="506" y="77" font-size="11" fill="#2c3e50">긍정</text>
+  <rect x="548" y="66" width="12" height="12" fill="#e74c3c" rx="2"/>
+  <text x="564" y="77" font-size="11" fill="#2c3e50">부정</text>
+  <rect x="606" y="66" width="12" height="12" fill="#95a5a6" rx="2"/>
+  <text x="622" y="77" font-size="11" fill="#2c3e50">중립</text>
+
+  <text x="60" y="100" font-size="13" font-weight="bold" fill="#2c3e50">에펨코리아 — 긍정 20건 / 부정 180건 / 중립 80건</text>
+  <rect x="60" y="110" width="48" height="28" fill="#27ae60" rx="3"/>
+  <rect x="108" y="110" width="435" height="28" fill="#e74c3c" rx="3"/>
+  <rect x="543" y="110" width="197" height="28" fill="#95a5a6" rx="3"/>
+  <text x="60" y="152" text-anchor="start" font-size="11" fill="#27ae60">긍정 7%</text>
+  <text x="400" y="152" text-anchor="middle" font-size="11" fill="#e74c3c">부정 64%</text>
+  <text x="740" y="152" text-anchor="end" font-size="11" fill="#7f8c8d">중립 29%</text>
+  <text x="60" y="168" font-size="11" fill="#555">💬 "영끌이 문제가 아니라 안 하면 더 못 사는 구조가 문제임"</text>
+
+  <text x="60" y="220" font-size="13" font-weight="bold" fill="#2c3e50">네이버뉴스 — 긍정 15건 / 부정 200건 / 중립 60건</text>
+  <rect x="60" y="230" width="37" height="28" fill="#27ae60" rx="3"/>
+  <rect x="97" y="230" width="501" height="28" fill="#e74c3c" rx="3"/>
+  <rect x="598" y="230" width="142" height="28" fill="#95a5a6" rx="3"/>
+  <text x="60" y="272" text-anchor="start" font-size="11" fill="#27ae60">긍정 5%</text>
+  <text x="400" y="272" text-anchor="middle" font-size="11" fill="#e74c3c">부정 74%</text>
+  <text x="740" y="272" text-anchor="end" font-size="11" fill="#7f8c8d">중립 21%</text>
+  <text x="60" y="288" font-size="11" fill="#555">💬 "자산보다 빚이 많은 청년 16만명, 이게 나라냐"</text>
+
+  <text x="60" y="340" font-size="13" font-weight="bold" fill="#2c3e50">루리웹 — 긍정 10건 / 부정 120건 / 중립 60건</text>
+  <rect x="60" y="350" width="36" height="28" fill="#27ae60" rx="3"/>
+  <rect x="96" y="350" width="431" height="28" fill="#e74c3c" rx="3"/>
+  <rect x="527" y="350" width="213" height="28" fill="#95a5a6" rx="3"/>
+  <text x="60" y="392" text-anchor="start" font-size="11" fill="#27ae60">긍정 5%</text>
+  <text x="400" y="392" text-anchor="middle" font-size="11" fill="#e74c3c">부정 63%</text>
+  <text x="740" y="392" text-anchor="end" font-size="11" fill="#7f8c8d">중립 32%</text>
+  <text x="60" y="408" font-size="11" fill="#555">💬 "미수금 2조, 신용융자 33조, 이게 다 터지면 금융위기급"</text>
+
+  <text x="400" y="426" text-anchor="middle" font-size="10" fill="#bdc3c7">* 수치는 집계된 공감/반응 신호 기반 추산 | paperWanderer</text>
+</svg>

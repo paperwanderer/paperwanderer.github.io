@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="440" viewBox="0 0 800 440"
+     font-family="'Apple SD Gothic Neo', 'Malgun Gothic', Arial, sans-serif">
+  <rect width="800" height="440" fill="#f8f9fa" rx="12"/>
+  <text x="400" y="36" text-anchor="middle" font-size="17" font-weight="bold" fill="#2c3e50">전기차 판매 급성장 — 커뮤니티 반응</text>
+  <text x="400" y="54" text-anchor="middle" font-size="11" fill="#7f8c8d">에펨코리아 · 보배드림 · 네이버 뉴스 | 2026-03-22 KST</text>
+  <rect x="490" y="66" width="12" height="12" fill="#27ae60" rx="2"/>
+  <text x="506" y="77" font-size="11" fill="#2c3e50">긍정</text>
+  <rect x="548" y="66" width="12" height="12" fill="#e74c3c" rx="2"/>
+  <text x="564" y="77" font-size="11" fill="#2c3e50">부정</text>
+  <rect x="606" y="66" width="12" height="12" fill="#95a5a6" rx="2"/>
+  <text x="622" y="77" font-size="11" fill="#2c3e50">중립</text>
+
+  <text x="60" y="100" font-size="13" font-weight="bold" fill="#2c3e50">에펨코리아 — 긍정 380건 / 부정 120건 / 중립 100건</text>
+  <rect x="60" y="110" width="431" height="28" fill="#27ae60" rx="3"/>
+  <rect x="491" y="110" width="136" height="28" fill="#e74c3c" rx="3"/>
+  <rect x="627" y="110" width="113" height="28" fill="#95a5a6" rx="3"/>
+  <text x="60" y="152" text-anchor="start" font-size="11" fill="#27ae60">긍정 63%</text>
+  <text x="400" y="152" text-anchor="middle" font-size="11" fill="#e74c3c">부정 20%</text>
+  <text x="740" y="152" text-anchor="end" font-size="11" fill="#7f8c8d">중립 17%</text>
+  <text x="60" y="168" font-size="11" fill="#555">💬 "드디어 전기차 시대 왔네, 충전 인프라만 더 깔리면 완벽" (공감 215)</text>
+
+  <text x="60" y="220" font-size="13" font-weight="bold" fill="#2c3e50">보배드림 — 긍정 280건 / 부정 150건 / 중립 70건</text>
+  <rect x="60" y="230" width="381" height="28" fill="#27ae60" rx="3"/>
+  <rect x="441" y="230" width="204" height="28" fill="#e74c3c" rx="3"/>
+  <rect x="645" y="230" width="95" height="28" fill="#95a5a6" rx="3"/>
+  <text x="60" y="272" text-anchor="start" font-size="11" fill="#27ae60">긍정 56%</text>
+  <text x="400" y="272" text-anchor="middle" font-size="11" fill="#e74c3c">부정 30%</text>
+  <text x="740" y="272" text-anchor="end" font-size="11" fill="#7f8c8d">중립 14%</text>
+  <text x="60" y="288" font-size="11" fill="#555">💬 "겨울 배터리 걱정, 충전소 줄 서기 아직도 해결 안 됨" (공감 98)</text>
+
+  <text x="60" y="340" font-size="13" font-weight="bold" fill="#2c3e50">네이버 뉴스 댓글 — 긍정 450건 / 부정 100건 / 중립 100건</text>
+  <rect x="60" y="350" width="471" height="28" fill="#27ae60" rx="3"/>
+  <rect x="531" y="350" width="105" height="28" fill="#e74c3c" rx="3"/>
+  <rect x="636" y="350" width="104" height="28" fill="#95a5a6" rx="3"/>
+  <text x="60" y="392" text-anchor="start" font-size="11" fill="#27ae60">긍정 69%</text>
+  <text x="400" y="392" text-anchor="middle" font-size="11" fill="#e74c3c">부정 15%</text>
+  <text x="740" y="392" text-anchor="end" font-size="11" fill="#7f8c8d">중립 16%</text>
+  <text x="60" y="408" font-size="11" fill="#555">💬 "유가 오르면 당연히 전기차 더 팔리지, 당연한 결과" (공감 312)</text>
+
+  <text x="400" y="426" text-anchor="middle" font-size="10" fill="#bdc3c7">* 수치는 집계된 공감/반응 신호 기반 추산 | paperWanderer</text>
+</svg>

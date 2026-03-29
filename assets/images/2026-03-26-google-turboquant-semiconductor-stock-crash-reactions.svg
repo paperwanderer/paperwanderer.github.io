@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="440" viewBox="0 0 800 440"
+     font-family="'Apple SD Gothic Neo', 'Malgun Gothic', Arial, sans-serif">
+  <rect width="800" height="440" fill="#f8f9fa" rx="12"/>
+  <text x="400" y="36" text-anchor="middle" font-size="17" font-weight="bold" fill="#2c3e50">구글 터보퀀트·반도체 주가 — 커뮤니티 반응</text>
+  <text x="400" y="54" text-anchor="middle" font-size="11" fill="#7f8c8d">루리웹 · 디시인사이드 · 에펨코리아 | 2026-03-26 18:00 KST</text>
+  <rect x="490" y="66" width="12" height="12" fill="#27ae60" rx="2"/>
+  <text x="506" y="77" font-size="11" fill="#2c3e50">긍정</text>
+  <rect x="548" y="66" width="12" height="12" fill="#e74c3c" rx="2"/>
+  <text x="564" y="77" font-size="11" fill="#2c3e50">부정</text>
+  <rect x="606" y="66" width="12" height="12" fill="#95a5a6" rx="2"/>
+  <text x="622" y="77" font-size="11" fill="#2c3e50">중립</text>
+
+  <text x="60" y="100" font-size="13" font-weight="bold" fill="#2c3e50">루리웹 — 긍정 10건 / 부정 35건 / 중립 55건</text>
+  <rect x="60" y="110" width="68" height="28" fill="#27ae60" rx="3"/>
+  <rect x="128" y="110" width="238" height="28" fill="#e74c3c" rx="3"/>
+  <rect x="366" y="110" width="374" height="28" fill="#95a5a6" rx="3"/>
+  <text x="60" y="152" text-anchor="start" font-size="11" fill="#27ae60">긍정 10%</text>
+  <text x="400" y="152" text-anchor="middle" font-size="11" fill="#e74c3c">부정 35%</text>
+  <text x="740" y="152" text-anchor="end" font-size="11" fill="#7f8c8d">중립 55%</text>
+  <text x="60" y="168" font-size="11" fill="#555">💬 "단기 악재는 맞는데 제본스 역설로 장기엔 수요 더 늘 수도"</text>
+
+  <text x="60" y="220" font-size="13" font-weight="bold" fill="#2c3e50">디시인사이드 미국주식갤 — 긍정 20건 / 부정 80건 / 중립 60건</text>
+  <rect x="60" y="230" width="85" height="28" fill="#27ae60" rx="3"/>
+  <rect x="145" y="230" width="340" height="28" fill="#e74c3c" rx="3"/>
+  <rect x="485" y="230" width="255" height="28" fill="#95a5a6" rx="3"/>
+  <text x="60" y="272" text-anchor="start" font-size="11" fill="#27ae60">긍정 12%</text>
+  <text x="400" y="272" text-anchor="middle" font-size="11" fill="#e74c3c">부정 50%</text>
+  <text x="740" y="272" text-anchor="end" font-size="11" fill="#7f8c8d">중립 38%</text>
+  <text x="60" y="288" font-size="11" fill="#555">💬 "삼전 하닉 또 털렸다…전쟁에 터보퀀트까지 겹악재"</text>
+
+  <text x="60" y="340" font-size="13" font-weight="bold" fill="#2c3e50">에펨코리아 — 긍정 30건 / 부정 50건 / 중립 40건</text>
+  <rect x="60" y="350" width="170" height="28" fill="#27ae60" rx="3"/>
+  <rect x="230" y="350" width="283" height="28" fill="#e74c3c" rx="3"/>
+  <rect x="513" y="350" width="227" height="28" fill="#95a5a6" rx="3"/>
+  <text x="60" y="392" text-anchor="start" font-size="11" fill="#27ae60">긍정 25%</text>
+  <text x="400" y="392" text-anchor="middle" font-size="11" fill="#e74c3c">부정 42%</text>
+  <text x="740" y="392" text-anchor="end" font-size="11" fill="#7f8c8d">중립 33%</text>
+  <text x="60" y="408" font-size="11" fill="#555">💬 "아직 논문 단계인데 주가가 먼저 반응한 거 아닌가"</text>
+
+  <text x="400" y="426" text-anchor="middle" font-size="10" fill="#bdc3c7">* 수치는 집계된 공감/반응 신호 기반 추산 | paperWanderer</text>
+</svg>

@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="440" viewBox="0 0 800 440"
+     font-family="'Apple SD Gothic Neo', 'Malgun Gothic', Arial, sans-serif">
+  <rect width="800" height="440" fill="#f8f9fa" rx="12"/>
+  <text x="400" y="36" text-anchor="middle" font-size="17" font-weight="bold" fill="#2c3e50">삼겹살데이 — 커뮤니티 반응</text>
+  <text x="400" y="54" text-anchor="middle" font-size="11" fill="#7f8c8d">DC인사이드 · FM코리아 · 네이버뉴스 | 2026-03-03 KST</text>
+  <rect x="490" y="66" width="12" height="12" fill="#27ae60" rx="2"/>
+  <text x="506" y="77" font-size="11" fill="#2c3e50">긍정</text>
+  <rect x="548" y="66" width="12" height="12" fill="#e74c3c" rx="2"/>
+  <text x="564" y="77" font-size="11" fill="#2c3e50">부정</text>
+  <rect x="606" y="66" width="12" height="12" fill="#95a5a6" rx="2"/>
+  <text x="622" y="77" font-size="11" fill="#2c3e50">중립</text>
+
+  <text x="60" y="100" font-size="13" font-weight="bold" fill="#2c3e50">DC인사이드 — 긍정 200건 / 부정 30건 / 중립 70건</text>
+  <rect x="60" y="110" width="453" height="28" fill="#27ae60" rx="3"/>
+  <rect x="513" y="110" width="68" height="28" fill="#e74c3c" rx="3"/>
+  <rect x="581" y="110" width="159" height="28" fill="#95a5a6" rx="3"/>
+  <text x="60" y="152" text-anchor="start" font-size="11" fill="#27ae60">긍정 67%</text>
+  <text x="400" y="152" text-anchor="middle" font-size="11" fill="#e74c3c">부정 10%</text>
+  <text x="740" y="152" text-anchor="end" font-size="11" fill="#7f8c8d">중립 23%</text>
+  <text x="60" y="168" font-size="11" fill="#555">💬 "정월대보름+개기월식+삼겹살데이 오늘 진짜 이벤트 날이네"</text>
+
+  <text x="60" y="220" font-size="13" font-weight="bold" fill="#2c3e50">FM코리아 — 긍정 150건 / 부정 20건 / 중립 40건</text>
+  <rect x="60" y="230" width="486" height="28" fill="#27ae60" rx="3"/>
+  <rect x="546" y="230" width="65" height="28" fill="#e74c3c" rx="3"/>
+  <rect x="611" y="230" width="129" height="28" fill="#95a5a6" rx="3"/>
+  <text x="60" y="272" text-anchor="start" font-size="11" fill="#27ae60">긍정 71%</text>
+  <text x="400" y="272" text-anchor="middle" font-size="11" fill="#e74c3c">부정 10%</text>
+  <text x="740" y="272" text-anchor="end" font-size="11" fill="#7f8c8d">중립 19%</text>
+  <text x="60" y="288" font-size="11" fill="#555">💬 "고물가에 집에서 삼겹살 굽는 게 답이다 외식 너무 비쌈"</text>
+
+  <text x="60" y="340" font-size="13" font-weight="bold" fill="#2c3e50">네이버뉴스 댓글 — 긍정 280건 / 부정 40건 / 중립 80건</text>
+  <rect x="60" y="350" width="476" height="28" fill="#27ae60" rx="3"/>
+  <rect x="536" y="350" width="68" height="28" fill="#e74c3c" rx="3"/>
+  <rect x="604" y="350" width="136" height="28" fill="#95a5a6" rx="3"/>
+  <text x="60" y="392" text-anchor="start" font-size="11" fill="#27ae60">긍정 70%</text>
+  <text x="400" y="392" text-anchor="middle" font-size="11" fill="#e74c3c">부정 10%</text>
+  <text x="740" y="392" text-anchor="end" font-size="11" fill="#7f8c8d">중립 20%</text>
+  <text x="60" y="408" font-size="11" fill="#555">💬 "이마트 삼겹살 100g 880원이면 무조건 가야지"</text>
+
+  <text x="400" y="426" text-anchor="middle" font-size="10" fill="#bdc3c7">* 수치는 집계된 공감/반응 신호 기반 추산 | paperWanderer</text>
+</svg>

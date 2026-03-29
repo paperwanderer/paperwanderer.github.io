@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="440" viewBox="0 0 800 440"
+     font-family="'Apple SD Gothic Neo', 'Malgun Gothic', Arial, sans-serif">
+  <rect width="800" height="440" fill="#f8f9fa" rx="12"/>
+  <text x="400" y="36" text-anchor="middle" font-size="17" font-weight="bold" fill="#2c3e50">하이키 《LOVECHAPTER》 컴백 — 커뮤니티 반응</text>
+  <text x="400" y="54" text-anchor="middle" font-size="11" fill="#7f8c8d">유튜브 · 네이버뮤직 · 커뮤니티 | 2026-03-05 22:00 KST</text>
+  <rect x="490" y="66" width="12" height="12" fill="#27ae60" rx="2"/>
+  <text x="506" y="77" font-size="11" fill="#2c3e50">긍정</text>
+  <rect x="548" y="66" width="12" height="12" fill="#e74c3c" rx="2"/>
+  <text x="564" y="77" font-size="11" fill="#2c3e50">부정</text>
+  <rect x="606" y="66" width="12" height="12" fill="#95a5a6" rx="2"/>
+  <text x="622" y="77" font-size="11" fill="#2c3e50">중립</text>
+
+  <text x="60" y="100" font-size="13" font-weight="bold" fill="#2c3e50">유튜브 — 팬덤 긍정 압도</text>
+  <rect x="60" y="110" width="578" height="28" fill="#27ae60" rx="3"/>
+  <rect x="638" y="110" width="34" height="28" fill="#e74c3c" rx="3"/>
+  <rect x="672" y="110" width="68" height="28" fill="#95a5a6" rx="3"/>
+  <text x="60" y="152" text-anchor="start" font-size="11" fill="#27ae60">긍정 85%</text>
+  <text x="400" y="152" text-anchor="middle" font-size="11" fill="#e74c3c">부정 5%</text>
+  <text x="740" y="152" text-anchor="end" font-size="11" fill="#7f8c8d">중립 10%</text>
+  <text x="60" y="168" font-size="11" fill="#555">💬 "봄에 딱 맞는 분위기. 하이키만의 감성이 살아있다"</text>
+
+  <text x="60" y="220" font-size="13" font-weight="bold" fill="#2c3e50">네이버뮤직 — 긍정 우세</text>
+  <rect x="60" y="230" width="544" height="28" fill="#27ae60" rx="3"/>
+  <rect x="604" y="230" width="34" height="28" fill="#e74c3c" rx="3"/>
+  <rect x="638" y="230" width="102" height="28" fill="#95a5a6" rx="3"/>
+  <text x="60" y="272" text-anchor="start" font-size="11" fill="#27ae60">긍정 80%</text>
+  <text x="400" y="272" text-anchor="middle" font-size="11" fill="#e74c3c">부정 5%</text>
+  <text x="740" y="272" text-anchor="end" font-size="11" fill="#7f8c8d">중립 15%</text>
+  <text x="60" y="288" font-size="11" fill="#555">💬 "뮤직비디오 영상미 진짜 예쁘다"</text>
+
+  <text x="60" y="340" font-size="13" font-weight="bold" fill="#2c3e50">전체 종합 — 긍정 압도</text>
+  <rect x="60" y="350" width="558" height="28" fill="#27ae60" rx="3"/>
+  <rect x="618" y="350" width="34" height="28" fill="#e74c3c" rx="3"/>
+  <rect x="652" y="350" width="88" height="28" fill="#95a5a6" rx="3"/>
+  <text x="60" y="392" text-anchor="start" font-size="11" fill="#27ae60">긍정 82%</text>
+  <text x="400" y="392" text-anchor="middle" font-size="11" fill="#e74c3c">부정 5%</text>
+  <text x="740" y="392" text-anchor="end" font-size="11" fill="#7f8c8d">중립 13%</text>
+  <text x="60" y="408" font-size="11" fill="#555">💬 "미니 5집인데 계속 성장하고 있다"</text>
+
+  <text x="400" y="426" text-anchor="middle" font-size="10" fill="#bdc3c7">* 수치는 집계된 공감/반응 신호 기반 추산 | paperWanderer</text>
+</svg>

@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="322" viewBox="0 0 800 322"
+     font-family="'Apple SD Gothic Neo', 'Malgun Gothic', Arial, sans-serif">
+  <rect width="800" height="322" fill="#f8f9fa" rx="12"/>
+  <text x="400" y="36" text-anchor="middle" font-size="17" font-weight="bold" fill="#2c3e50">박왕열 송환 — 커뮤니티 반응 분포</text>
+  <text x="400" y="54" text-anchor="middle" font-size="11" fill="#7f8c8d">FM코리아 · DC인사이드 종합 | 2026-03-27 KST</text>
+  <rect x="490" y="66" width="12" height="12" fill="#27ae60" rx="2"/>
+  <text x="506" y="77" font-size="11" fill="#2c3e50">긍정</text>
+  <rect x="548" y="66" width="12" height="12" fill="#e74c3c" rx="2"/>
+  <text x="564" y="77" font-size="11" fill="#2c3e50">부정</text>
+  <rect x="606" y="66" width="12" height="12" fill="#95a5a6" rx="2"/>
+  <text x="622" y="77" font-size="11" fill="#2c3e50">중립</text>
+
+  <text x="60" y="100" font-size="13" font-weight="bold" fill="#2c3e50">범죄 행위 반응 — 긍정 4% / 부정 73% / 중립 23%</text>
+  <rect x="60" y="110" width="27" height="28" fill="#27ae60" rx="3"/>
+  <rect x="87" y="110" width="497" height="28" fill="#e74c3c" rx="3"/>
+  <rect x="584" y="110" width="156" height="28" fill="#95a5a6" rx="3"/>
+  <text x="60" y="152" text-anchor="start" font-size="11" fill="#27ae60">긍정 4%</text>
+  <text x="400" y="152" text-anchor="middle" font-size="11" fill="#e74c3c">부정 73%</text>
+  <text x="740" y="152" text-anchor="end" font-size="11" fill="#7f8c8d">중립 23%</text>
+  <text x="60" y="168" font-size="11" fill="#555">💬 "강한 분노 — 범죄 행위에 대한 처벌 요구"</text>
+
+  <text x="60" y="220" font-size="13" font-weight="bold" fill="#2c3e50">22일 송환 평가 — 긍정 69% / 부정 8% / 중립 23%</text>
+  <rect x="60" y="230" width="469" height="28" fill="#27ae60" rx="3"/>
+  <rect x="529" y="230" width="54" height="28" fill="#e74c3c" rx="3"/>
+  <rect x="583" y="230" width="157" height="28" fill="#95a5a6" rx="3"/>
+  <text x="60" y="272" text-anchor="start" font-size="11" fill="#27ae60">긍정 69%</text>
+  <text x="400" y="272" text-anchor="middle" font-size="11" fill="#e74c3c">부정 8%</text>
+  <text x="740" y="272" text-anchor="end" font-size="11" fill="#7f8c8d">중립 23%</text>
+  <text x="60" y="288" font-size="11" fill="#555">💬 "외교 성과 긍정 — 22일 만에 송환 이뤄진 것 평가"</text>
+
+  <text x="400" y="308" text-anchor="middle" font-size="10" fill="#bdc3c7">* 수치는 집계된 공감/반응 신호 기반 추산 | paperWanderer</text>
+</svg>

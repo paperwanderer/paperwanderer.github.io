@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="440" viewBox="0 0 800 440"
+     font-family="'Apple SD Gothic Neo', 'Malgun Gothic', Arial, sans-serif">
+  <rect width="800" height="440" fill="#f8f9fa" rx="12"/>
+  <text x="400" y="36" text-anchor="middle" font-size="17" font-weight="bold" fill="#2c3e50">광양 매화축제 폐막 — 커뮤니티 반응</text>
+  <text x="400" y="54" text-anchor="middle" font-size="11" fill="#7f8c8d">인스타그램 · 네이버 여행 댓글 · 에펨코리아 | 2026-03-22 KST</text>
+  <rect x="490" y="66" width="12" height="12" fill="#27ae60" rx="2"/>
+  <text x="506" y="77" font-size="11" fill="#2c3e50">긍정</text>
+  <rect x="548" y="66" width="12" height="12" fill="#e74c3c" rx="2"/>
+  <text x="564" y="77" font-size="11" fill="#2c3e50">부정</text>
+  <rect x="606" y="66" width="12" height="12" fill="#95a5a6" rx="2"/>
+  <text x="622" y="77" font-size="11" fill="#2c3e50">중립</text>
+
+  <text x="60" y="100" font-size="13" font-weight="bold" fill="#2c3e50">인스타그램 — 긍정 720건 / 부정 30건 / 중립 50건</text>
+  <rect x="60" y="110" width="612" height="28" fill="#27ae60" rx="3"/>
+  <rect x="672" y="110" width="26" height="28" fill="#e74c3c" rx="3"/>
+  <rect x="698" y="110" width="42" height="28" fill="#95a5a6" rx="3"/>
+  <text x="60" y="152" text-anchor="start" font-size="11" fill="#27ae60">긍정 90%</text>
+  <text x="400" y="152" text-anchor="middle" font-size="11" fill="#e74c3c">부정 4%</text>
+  <text x="740" y="152" text-anchor="end" font-size="11" fill="#7f8c8d">중립 6%</text>
+  <text x="60" y="168" font-size="11" fill="#555">💬 "올해는 꽃이 제대로 폈다, 진짜 황홀했어요" (좋아요 720)</text>
+
+  <text x="60" y="220" font-size="13" font-weight="bold" fill="#2c3e50">네이버 여행 댓글 — 긍정 450건 / 부정 20건 / 중립 80건</text>
+  <rect x="60" y="230" width="556" height="28" fill="#27ae60" rx="3"/>
+  <rect x="616" y="230" width="25" height="28" fill="#e74c3c" rx="3"/>
+  <rect x="641" y="230" width="99" height="28" fill="#95a5a6" rx="3"/>
+  <text x="60" y="272" text-anchor="start" font-size="11" fill="#27ae60">긍정 82%</text>
+  <text x="400" y="272" text-anchor="middle" font-size="11" fill="#e74c3c">부정 4%</text>
+  <text x="740" y="272" text-anchor="end" font-size="11" fill="#7f8c8d">중립 14%</text>
+  <text x="60" y="288" font-size="11" fill="#555">💬 "주차가 너무 힘들었지만 꽃은 최고, 내년에도 갈 것" (공감 188)</text>
+
+  <text x="60" y="340" font-size="13" font-weight="bold" fill="#2c3e50">에펨코리아 — 긍정 310건 / 부정 25건 / 중립 65건</text>
+  <rect x="60" y="350" width="527" height="28" fill="#27ae60" rx="3"/>
+  <rect x="587" y="350" width="42" height="28" fill="#e74c3c" rx="3"/>
+  <rect x="629" y="350" width="111" height="28" fill="#95a5a6" rx="3"/>
+  <text x="60" y="392" text-anchor="start" font-size="11" fill="#27ae60">긍정 78%</text>
+  <text x="400" y="392" text-anchor="middle" font-size="11" fill="#e74c3c">부정 6%</text>
+  <text x="740" y="392" text-anchor="end" font-size="11" fill="#7f8c8d">중립 16%</text>
+  <text x="60" y="408" font-size="11" fill="#555">💬 "84만 명 다녀갔다는데 진짜 인산인해였겠다" (공감 145)</text>
+
+  <text x="400" y="426" text-anchor="middle" font-size="10" fill="#bdc3c7">* 수치는 집계된 공감/반응 신호 기반 추산 | paperWanderer</text>
+</svg>

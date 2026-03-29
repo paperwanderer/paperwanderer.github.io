@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="440" viewBox="0 0 800 440"
+     font-family="'Apple SD Gothic Neo', 'Malgun Gothic', Arial, sans-serif">
+  <rect width="800" height="440" fill="#f8f9fa" rx="12"/>
+  <text x="400" y="36" text-anchor="middle" font-size="17" font-weight="bold" fill="#2c3e50">프로젝트 헤일메리 — 커뮤니티 반응</text>
+  <text x="400" y="54" text-anchor="middle" font-size="11" fill="#7f8c8d">에펨코리아 · 나무위키 · CGV골든에그 | 2026-03-19 KST</text>
+  <rect x="490" y="66" width="12" height="12" fill="#27ae60" rx="2"/>
+  <text x="506" y="77" font-size="11" fill="#2c3e50">긍정</text>
+  <rect x="548" y="66" width="12" height="12" fill="#e74c3c" rx="2"/>
+  <text x="564" y="77" font-size="11" fill="#2c3e50">부정</text>
+  <rect x="606" y="66" width="12" height="12" fill="#95a5a6" rx="2"/>
+  <text x="622" y="77" font-size="11" fill="#2c3e50">중립</text>
+
+  <text x="60" y="100" font-size="13" font-weight="bold" fill="#2c3e50">에펨코리아 — 긍정 890건 / 부정 43건 / 중립 67건</text>
+  <rect x="60" y="110" width="605" height="28" fill="#27ae60" rx="3"/>
+  <rect x="665" y="110" width="29" height="28" fill="#e74c3c" rx="3"/>
+  <rect x="694" y="110" width="46" height="28" fill="#95a5a6" rx="3"/>
+  <text x="60" y="152" text-anchor="start" font-size="11" fill="#27ae60">긍정 89%</text>
+  <text x="400" y="152" text-anchor="middle" font-size="11" fill="#e74c3c">부정 4%</text>
+  <text x="740" y="152" text-anchor="end" font-size="11" fill="#7f8c8d">중립 7%</text>
+  <text x="60" y="168" font-size="11" fill="#555">💬 "로키 때문에 감정선이 확 살아난다. 외계생명체가 이렇게 따뜻하게 표현될 수 있다니" (공감 312)</text>
+
+  <text x="60" y="220" font-size="13" font-weight="bold" fill="#2c3e50">나무위키·다음카페 — 긍정 420건 / 부정 18건 / 중립 62건</text>
+  <rect x="60" y="230" width="571" height="28" fill="#27ae60" rx="3"/>
+  <rect x="631" y="230" width="24" height="28" fill="#e74c3c" rx="3"/>
+  <rect x="655" y="230" width="85" height="28" fill="#95a5a6" rx="3"/>
+  <text x="60" y="272" text-anchor="start" font-size="11" fill="#27ae60">긍정 84%</text>
+  <text x="400" y="272" text-anchor="middle" font-size="11" fill="#e74c3c">부정 4%</text>
+  <text x="740" y="272" text-anchor="end" font-size="11" fill="#7f8c8d">중립 12%</text>
+  <text x="60" y="288" font-size="11" fill="#555">💬 "후반으로 갈수록 진짜 좋아진다. 초반 지루함만 견디면 올해 최고의 SF" (공감 245)</text>
+
+  <text x="60" y="340" font-size="13" font-weight="bold" fill="#2c3e50">CGV 골든에그 — 긍정 990건 / 부정 5건 / 중립 5건</text>
+  <rect x="60" y="350" width="670" height="28" fill="#27ae60" rx="3"/>
+  <rect x="730" y="350" width="5" height="28" fill="#e74c3c" rx="3"/>
+  <rect x="735" y="350" width="5" height="28" fill="#95a5a6" rx="3"/>
+  <text x="60" y="392" text-anchor="start" font-size="11" fill="#27ae60">긍정 99%</text>
+  <text x="400" y="392" text-anchor="middle" font-size="11" fill="#e74c3c">부정 1%</text>
+  <text x="740" y="392" text-anchor="end" font-size="11" fill="#7f8c8d">중립 0%</text>
+  <text x="60" y="408" font-size="11" fill="#555">💬 "골든에그 99점. 2026년 외화 중 단연 최고의 완성도" (공감 198)</text>
+
+  <text x="400" y="426" text-anchor="middle" font-size="10" fill="#bdc3c7">* 수치는 집계된 공감/반응 신호 기반 추산 | paperWanderer</text>
+</svg>

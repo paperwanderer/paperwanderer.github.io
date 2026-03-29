@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="440" viewBox="0 0 800 440"
+     font-family="'Apple SD Gothic Neo', 'Malgun Gothic', Arial, sans-serif">
+  <rect width="800" height="440" fill="#f8f9fa" rx="12"/>
+  <text x="400" y="36" text-anchor="middle" font-size="17" font-weight="bold" fill="#2c3e50">월간남친 넷플릭스 공개 — 커뮤니티 반응</text>
+  <text x="400" y="54" text-anchor="middle" font-size="11" fill="#7f8c8d">트위터/X · 더쿠 · 에펨코리아 | 2026-03-07 22:00 KST</text>
+  <rect x="490" y="66" width="12" height="12" fill="#27ae60" rx="2"/>
+  <text x="506" y="77" font-size="11" fill="#2c3e50">긍정</text>
+  <rect x="548" y="66" width="12" height="12" fill="#e74c3c" rx="2"/>
+  <text x="564" y="77" font-size="11" fill="#2c3e50">부정</text>
+  <rect x="606" y="66" width="12" height="12" fill="#95a5a6" rx="2"/>
+  <text x="622" y="77" font-size="11" fill="#2c3e50">중립</text>
+
+  <text x="60" y="100" font-size="13" font-weight="bold" fill="#2c3e50">트위터/X — 긍정 2,100건 / 부정 280건 / 중립 620건</text>
+  <rect x="60" y="110" width="475" height="28" fill="#27ae60" rx="3"/>
+  <rect x="535" y="110" width="63" height="28" fill="#e74c3c" rx="3"/>
+  <rect x="598" y="110" width="142" height="28" fill="#95a5a6" rx="3"/>
+  <text x="60" y="152" text-anchor="start" font-size="11" fill="#27ae60">긍정 70%</text>
+  <text x="400" y="152" text-anchor="middle" font-size="11" fill="#e74c3c">부정 9%</text>
+  <text x="740" y="152" text-anchor="end" font-size="11" fill="#7f8c8d">중립 21%</text>
+  <text x="60" y="168" font-size="11" fill="#555">💬 "지수 연기 생각보다 너무 좋다! 로코 잘 어울려"</text>
+
+  <text x="60" y="220" font-size="13" font-weight="bold" fill="#2c3e50">더쿠 — 긍정 1,140건 / 부정 260건 / 중립 600건</text>
+  <rect x="60" y="230" width="386" height="28" fill="#27ae60" rx="3"/>
+  <rect x="446" y="230" width="88" height="28" fill="#e74c3c" rx="3"/>
+  <rect x="534" y="230" width="206" height="28" fill="#95a5a6" rx="3"/>
+  <text x="60" y="272" text-anchor="start" font-size="11" fill="#27ae60">긍정 57%</text>
+  <text x="400" y="272" text-anchor="middle" font-size="11" fill="#e74c3c">부정 13%</text>
+  <text x="740" y="272" text-anchor="end" font-size="11" fill="#7f8c8d">중립 30%</text>
+  <text x="60" y="288" font-size="11" fill="#555">💬 "서인국이랑 케미 대박이다. 공개 하루 만에 3위 등극"</text>
+
+  <text x="60" y="340" font-size="13" font-weight="bold" fill="#2c3e50">에펨코리아 — 긍정 860건 / 부정 340건 / 중립 300건</text>
+  <rect x="60" y="350" width="395" height="28" fill="#27ae60" rx="3"/>
+  <rect x="455" y="350" width="156" height="28" fill="#e74c3c" rx="3"/>
+  <rect x="611" y="350" width="129" height="28" fill="#95a5a6" rx="3"/>
+  <text x="60" y="392" text-anchor="start" font-size="11" fill="#27ae60">긍정 58%</text>
+  <text x="400" y="392" text-anchor="middle" font-size="11" fill="#e74c3c">부정 23%</text>
+  <text x="740" y="392" text-anchor="end" font-size="11" fill="#7f8c8d">중립 19%</text>
+  <text x="60" y="408" font-size="11" fill="#555">💬 "연기력 논란 있었는데 실제로 보니 생각보다 괜찮다"</text>
+
+  <text x="400" y="426" text-anchor="middle" font-size="10" fill="#bdc3c7">* 수치는 집계된 공감/반응 신호 기반 추산 | paperWanderer</text>
+</svg>

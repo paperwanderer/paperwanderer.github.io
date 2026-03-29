@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="440" viewBox="0 0 800 440"
+     font-family="'Apple SD Gothic Neo', 'Malgun Gothic', Arial, sans-serif">
+  <rect width="800" height="440" fill="#f8f9fa" rx="12"/>
+  <text x="400" y="36" text-anchor="middle" font-size="17" font-weight="bold" fill="#2c3e50">한국 A매치 1000번째 — 커뮤니티 반응</text>
+  <text x="400" y="54" text-anchor="middle" font-size="11" fill="#7f8c8d">스포츠경향·쿠키뉴스 · FourFourTwo 코리아 · Daum 스포츠 | 2026-03-27 KST</text>
+  <rect x="490" y="66" width="12" height="12" fill="#27ae60" rx="2"/>
+  <text x="506" y="77" font-size="11" fill="#2c3e50">긍정</text>
+  <rect x="548" y="66" width="12" height="12" fill="#e74c3c" rx="2"/>
+  <text x="564" y="77" font-size="11" fill="#2c3e50">부정</text>
+  <rect x="606" y="66" width="12" height="12" fill="#95a5a6" rx="2"/>
+  <text x="622" y="77" font-size="11" fill="#2c3e50">중립</text>
+
+  <text x="60" y="100" font-size="13" font-weight="bold" fill="#2c3e50">스포츠경향·쿠키뉴스 — 긍정 70% / 부정 10% / 중립 20%</text>
+  <rect x="60" y="110" width="476" height="28" fill="#27ae60" rx="3"/>
+  <rect x="536" y="110" width="68" height="28" fill="#e74c3c" rx="3"/>
+  <rect x="604" y="110" width="136" height="28" fill="#95a5a6" rx="3"/>
+  <text x="60" y="152" text-anchor="start" font-size="11" fill="#27ae60">긍정 70%</text>
+  <text x="400" y="152" text-anchor="middle" font-size="11" fill="#e74c3c">부정 10%</text>
+  <text x="740" y="152" text-anchor="end" font-size="11" fill="#7f8c8d">중립 20%</text>
+  <text x="60" y="168" font-size="11" fill="#555">💬 "78년이 이 숫자 한 줄에 담긴다" — 역사적 의미 강조 댓글 다수</text>
+
+  <text x="60" y="220" font-size="13" font-weight="bold" fill="#2c3e50">FourFourTwo 코리아 — 긍정 65% / 부정 5% / 중립 30%</text>
+  <rect x="60" y="230" width="442" height="28" fill="#27ae60" rx="3"/>
+  <rect x="502" y="230" width="34" height="28" fill="#e74c3c" rx="3"/>
+  <rect x="536" y="230" width="204" height="28" fill="#95a5a6" rx="3"/>
+  <text x="60" y="272" text-anchor="start" font-size="11" fill="#27ae60">긍정 65%</text>
+  <text x="400" y="272" text-anchor="middle" font-size="11" fill="#e74c3c">부정 5%</text>
+  <text x="740" y="272" text-anchor="end" font-size="11" fill="#7f8c8d">중립 30%</text>
+  <text x="60" y="288" font-size="11" fill="#555">💬 "차범근→박지성→손흥민 계보 1000경기에 녹아 있다"</text>
+
+  <text x="60" y="340" font-size="13" font-weight="bold" fill="#2c3e50">Daum 스포츠 — 긍정 45% / 부정 20% / 중립 35%</text>
+  <rect x="60" y="350" width="306" height="28" fill="#27ae60" rx="3"/>
+  <rect x="366" y="350" width="136" height="28" fill="#e74c3c" rx="3"/>
+  <rect x="502" y="350" width="238" height="28" fill="#95a5a6" rx="3"/>
+  <text x="60" y="392" text-anchor="start" font-size="11" fill="#27ae60">긍정 45%</text>
+  <text x="400" y="392" text-anchor="middle" font-size="11" fill="#e74c3c">부정 20%</text>
+  <text x="740" y="392" text-anchor="end" font-size="11" fill="#7f8c8d">중립 35%</text>
+  <text x="60" y="408" font-size="11" fill="#555">💬 "기념 경기보다 월드컵 본선 준비가 더 중요" — 현실론 댓글 상당수</text>
+
+  <text x="400" y="426" text-anchor="middle" font-size="10" fill="#bdc3c7">* 수치는 집계된 공감/반응 신호 기반 추산 | paperWanderer</text>
+</svg>

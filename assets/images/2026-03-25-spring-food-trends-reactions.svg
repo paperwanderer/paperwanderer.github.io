@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="440" viewBox="0 0 800 440"
+     font-family="'Apple SD Gothic Neo', 'Malgun Gothic', Arial, sans-serif">
+  <rect width="800" height="440" fill="#f8f9fa" rx="12"/>
+  <text x="400" y="36" text-anchor="middle" font-size="17" font-weight="bold" fill="#2c3e50">봄 제철 음식 트렌드 — 커뮤니티 반응</text>
+  <text x="400" y="54" text-anchor="middle" font-size="11" fill="#7f8c8d">음식 커뮤니티 · SNS | 2026-03-25 20:00 KST</text>
+  <rect x="490" y="66" width="12" height="12" fill="#27ae60" rx="2"/>
+  <text x="506" y="77" font-size="11" fill="#2c3e50">긍정</text>
+  <rect x="548" y="66" width="12" height="12" fill="#e74c3c" rx="2"/>
+  <text x="564" y="77" font-size="11" fill="#2c3e50">부정</text>
+  <rect x="606" y="66" width="12" height="12" fill="#95a5a6" rx="2"/>
+  <text x="622" y="77" font-size="11" fill="#2c3e50">중립</text>
+
+  <text x="60" y="100" font-size="13" font-weight="bold" fill="#2c3e50">음식 커뮤니티 — 긍정 295건 / 부정 28건 / 중립 82건</text>
+  <rect x="60" y="110" width="495" height="28" fill="#27ae60" rx="3"/>
+  <rect x="555" y="110" width="47" height="28" fill="#e74c3c" rx="3"/>
+  <rect x="602" y="110" width="138" height="28" fill="#95a5a6" rx="3"/>
+  <text x="60" y="152" text-anchor="start" font-size="11" fill="#27ae60">긍정 73%</text>
+  <text x="400" y="152" text-anchor="middle" font-size="11" fill="#e74c3c">부정 7%</text>
+  <text x="740" y="152" text-anchor="end" font-size="11" fill="#7f8c8d">중립 20%</text>
+  <text x="60" y="168" font-size="11" fill="#555">💬 "진해 가서 냉이된장국 먹는 게 봄의 시작이다"</text>
+
+  <text x="60" y="220" font-size="13" font-weight="bold" fill="#2c3e50">SNS 인스타그램 — 봄 음식 사진 공유 활발</text>
+  <rect x="60" y="230" width="544" height="28" fill="#27ae60" rx="3"/>
+  <rect x="604" y="230" width="27" height="28" fill="#e74c3c" rx="3"/>
+  <rect x="631" y="230" width="109" height="28" fill="#95a5a6" rx="3"/>
+  <text x="60" y="272" text-anchor="start" font-size="11" fill="#27ae60">긍정 80%</text>
+  <text x="400" y="272" text-anchor="middle" font-size="11" fill="#e74c3c">부정 4%</text>
+  <text x="740" y="272" text-anchor="end" font-size="11" fill="#7f8c8d">중립 16%</text>
+  <text x="60" y="288" font-size="11" fill="#555">💬 "달래 무침 레시피 공유해줘서 감사해요"</text>
+
+  <text x="60" y="340" font-size="13" font-weight="bold" fill="#2c3e50">여행 커뮤니티 — 바가지 경보 공유</text>
+  <rect x="60" y="350" width="374" height="28" fill="#27ae60" rx="3"/>
+  <rect x="434" y="350" width="102" height="28" fill="#e74c3c" rx="3"/>
+  <rect x="536" y="350" width="204" height="28" fill="#95a5a6" rx="3"/>
+  <text x="60" y="392" text-anchor="start" font-size="11" fill="#27ae60">긍정 55%</text>
+  <text x="400" y="392" text-anchor="middle" font-size="11" fill="#e74c3c">부정 15%</text>
+  <text x="740" y="392" text-anchor="end" font-size="11" fill="#7f8c8d">중립 30%</text>
+  <text x="60" y="408" font-size="11" fill="#555">💬 "진해 바가지 상술 조심하세요, 미리 조사하고 가야"</text>
+
+  <text x="400" y="426" text-anchor="middle" font-size="10" fill="#bdc3c7">* 수치는 집계된 공감/반응 신호 기반 추산 | paperWanderer</text>
+</svg>

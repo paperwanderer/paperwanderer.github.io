@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="440" viewBox="0 0 800 440"
+     font-family="'Apple SD Gothic Neo', 'Malgun Gothic', Arial, sans-serif">
+  <rect width="800" height="440" fill="#f8f9fa" rx="12"/>
+  <text x="400" y="36" text-anchor="middle" font-size="17" font-weight="bold" fill="#2c3e50">이준석 화성을 출마 — 커뮤니티 반응</text>
+  <text x="400" y="54" text-anchor="middle" font-size="11" fill="#7f8c8d">네이버 뉴스 댓글 · DC인사이드 · 더쿠 | 2026-03-16 21:30 KST</text>
+  <rect x="490" y="66" width="12" height="12" fill="#27ae60" rx="2"/>
+  <text x="506" y="77" font-size="11" fill="#2c3e50">긍정</text>
+  <rect x="548" y="66" width="12" height="12" fill="#e74c3c" rx="2"/>
+  <text x="564" y="77" font-size="11" fill="#2c3e50">부정</text>
+  <rect x="606" y="66" width="12" height="12" fill="#95a5a6" rx="2"/>
+  <text x="622" y="77" font-size="11" fill="#2c3e50">중립</text>
+
+  <text x="60" y="100" font-size="13" font-weight="bold" fill="#2c3e50">네이버 뉴스 댓글 — 긍정 240건 / 부정 340건 / 중립 200건</text>
+  <rect x="60" y="110" width="209" height="28" fill="#27ae60" rx="3"/>
+  <rect x="269" y="110" width="296" height="28" fill="#e74c3c" rx="3"/>
+  <rect x="565" y="110" width="175" height="28" fill="#95a5a6" rx="3"/>
+  <text x="60" y="152" text-anchor="start" font-size="11" fill="#27ae60">긍정 31%</text>
+  <text x="400" y="152" text-anchor="middle" font-size="11" fill="#e74c3c">부정 44%</text>
+  <text x="740" y="152" text-anchor="end" font-size="11" fill="#7f8c8d">중립 25%</text>
+  <text x="60" y="168" font-size="11" fill="#555">💬 "여야 양당만 보다가 지친 사람들한테 이준석이 대안이 될 수 있다"</text>
+
+  <text x="60" y="220" font-size="13" font-weight="bold" fill="#2c3e50">DC인사이드 — 긍정 80건 / 부정 140건 / 중립 120건</text>
+  <rect x="60" y="230" width="159" height="28" fill="#27ae60" rx="3"/>
+  <rect x="219" y="230" width="278" height="28" fill="#e74c3c" rx="3"/>
+  <rect x="497" y="230" width="243" height="28" fill="#95a5a6" rx="3"/>
+  <text x="60" y="272" text-anchor="start" font-size="11" fill="#27ae60">긍정 23%</text>
+  <text x="400" y="272" text-anchor="middle" font-size="11" fill="#e74c3c">부정 41%</text>
+  <text x="740" y="272" text-anchor="end" font-size="11" fill="#7f8c8d">중립 36%</text>
+  <text x="60" y="288" font-size="11" fill="#555">💬 "또 결국 어느 당 손 들어주는 역할 하고 끝나지 않을까"</text>
+
+  <text x="60" y="340" font-size="13" font-weight="bold" fill="#2c3e50">더쿠 — 긍정 60건 / 부정 60건 / 중립 100건</text>
+  <rect x="60" y="350" width="185" height="28" fill="#27ae60" rx="3"/>
+  <rect x="245" y="350" width="185" height="28" fill="#e74c3c" rx="3"/>
+  <rect x="430" y="350" width="310" height="28" fill="#95a5a6" rx="3"/>
+  <text x="60" y="392" text-anchor="start" font-size="11" fill="#27ae60">긍정 27%</text>
+  <text x="400" y="392" text-anchor="middle" font-size="11" fill="#e74c3c">부정 27%</text>
+  <text x="740" y="392" text-anchor="end" font-size="11" fill="#7f8c8d">중립 46%</text>
+  <text x="60" y="408" font-size="11" fill="#555">💬 "개혁신당이 원내 진입이나 제대로 해야 의미가 있다"</text>
+
+  <text x="400" y="426" text-anchor="middle" font-size="10" fill="#bdc3c7">* 수치는 집계된 공감/반응 신호 기반 추산 | paperWanderer</text>
+</svg>

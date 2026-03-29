@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="440" viewBox="0 0 800 440"
+     font-family="'Apple SD Gothic Neo', 'Malgun Gothic', Arial, sans-serif">
+  <rect width="800" height="440" fill="#f8f9fa" rx="12"/>
+  <text x="400" y="36" text-anchor="middle" font-size="17" font-weight="bold" fill="#2c3e50">GS칼텍스 V리그 준PO 승리 — 커뮤니티 반응</text>
+  <text x="400" y="54" text-anchor="middle" font-size="11" fill="#7f8c8d">네이버스포츠 · 다음스포츠 · 에펨코리아 | 2026-03-24 23:00 KST</text>
+  <rect x="490" y="66" width="12" height="12" fill="#27ae60" rx="2"/>
+  <text x="506" y="77" font-size="11" fill="#2c3e50">긍정</text>
+  <rect x="548" y="66" width="12" height="12" fill="#e74c3c" rx="2"/>
+  <text x="564" y="77" font-size="11" fill="#2c3e50">부정</text>
+  <rect x="606" y="66" width="12" height="12" fill="#95a5a6" rx="2"/>
+  <text x="622" y="77" font-size="11" fill="#2c3e50">중립</text>
+
+  <text x="60" y="100" font-size="13" font-weight="bold" fill="#2c3e50">네이버스포츠 댓글 — 긍정 1,100건 / 부정 100건 / 중립 300건</text>
+  <rect x="60" y="110" width="499" height="28" fill="#27ae60" rx="3"/>
+  <rect x="559" y="110" width="45" height="28" fill="#e74c3c" rx="3"/>
+  <rect x="604" y="110" width="136" height="28" fill="#95a5a6" rx="3"/>
+  <text x="60" y="152" text-anchor="start" font-size="11" fill="#27ae60">긍정 73%</text>
+  <text x="400" y="152" text-anchor="middle" font-size="11" fill="#e74c3c">부정 7%</text>
+  <text x="740" y="152" text-anchor="end" font-size="11" fill="#7f8c8d">중립 20%</text>
+  <text x="60" y="168" font-size="11" fill="#555">💬 "실바 42득점 실화? 이게 인간이냐, 진짜 역대급 에이스"</text>
+
+  <text x="60" y="220" font-size="13" font-weight="bold" fill="#2c3e50">다음스포츠 댓글 — 긍정 550건 / 부정 40건 / 중립 130건</text>
+  <rect x="60" y="230" width="519" height="28" fill="#27ae60" rx="3"/>
+  <rect x="579" y="230" width="38" height="28" fill="#e74c3c" rx="3"/>
+  <rect x="617" y="230" width="123" height="28" fill="#95a5a6" rx="3"/>
+  <text x="60" y="272" text-anchor="start" font-size="11" fill="#27ae60">긍정 76%</text>
+  <text x="400" y="272" text-anchor="middle" font-size="11" fill="#e74c3c">부정 6%</text>
+  <text x="740" y="272" text-anchor="end" font-size="11" fill="#7f8c8d">중립 18%</text>
+  <text x="60" y="288" font-size="11" fill="#555">💬 "5시즌 만에 봄배구 드디어! 현대 잡아라"</text>
+
+  <text x="60" y="340" font-size="13" font-weight="bold" fill="#2c3e50">에펨코리아 — 긍정 350건 / 부정 10건 / 중립 60건</text>
+  <rect x="60" y="350" width="554" height="28" fill="#27ae60" rx="3"/>
+  <rect x="614" y="350" width="31" height="28" fill="#e74c3c" rx="3"/>
+  <rect x="645" y="350" width="95" height="28" fill="#95a5a6" rx="3"/>
+  <text x="60" y="392" text-anchor="start" font-size="11" fill="#27ae60">긍정 81%</text>
+  <text x="400" y="392" text-anchor="middle" font-size="11" fill="#e74c3c">부정 5%</text>
+  <text x="740" y="392" text-anchor="end" font-size="11" fill="#7f8c8d">중립 14%</text>
+  <text x="60" y="408" font-size="11" fill="#555">💬 "저 할당량 50% 수비 가능? 그 정도는 괜찮아 — 실바 인터뷰"</text>
+
+  <text x="400" y="426" text-anchor="middle" font-size="10" fill="#bdc3c7">* 수치는 집계된 공감/반응 신호 기반 추산 | paperWanderer</text>
+</svg>
