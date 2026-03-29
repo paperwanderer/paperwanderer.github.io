@@ -109,7 +109,9 @@
     .gt-btn::after { content:'번역 보기'; position:absolute; bottom:calc(100% + 5px); left:0; transform:none; background:#1a1a2e; color:#fff; font-size:0.72em; padding:4px 8px; border-radius:4px; white-space:nowrap; display:none; z-index:300; pointer-events:none; }
     .gt-btn:hover::after { display:block; }
     /* ── 공유 버튼 (post-meta 인라인) ── */
-    .meta-share-btn { display:inline-flex; align-items:center; padding:1px 6px; border-radius:4px; font-size:0.82em; cursor:pointer; border:1px solid var(--border); background:var(--surface); color:var(--text); font-family:inherit; line-height:1.6; margin-left:4px; vertical-align:middle; }
+    .share-group { display:inline-flex; align-items:center; gap:4px; }
+    .share-label { font-size:0.82em; color:var(--muted); font-weight:600; margin-right:2px; }
+    .meta-share-btn { display:inline-flex; align-items:center; padding:1px 6px; border-radius:4px; font-size:0.82em; cursor:pointer; border:1px solid var(--border); background:var(--surface); color:var(--text); font-family:inherit; line-height:1.6; vertical-align:middle; }
     .meta-share-btn:hover { background:var(--tag-bg); }
     /* ── 파닉스 한국어 해석 호버 툴팁 ── */
     .kor-trans { position: relative; cursor: pointer; font-size: 0.82em; padding: 2px 10px; border: 1px solid #ccc; border-radius: 4px; background: #fff; color: #555; display: inline-block; outline: none; }
@@ -325,10 +327,13 @@
     
     <h1 class="post-title">강선우·김경 공천헌금 1억 나란히 구속 — '쇼핑백 정치'의 결말</h1>
     <div class="post-meta">
+      <span class="share-group">
+        <span class="share-label">페이지 공유</span>
+        <button class="meta-share-btn sb-native" id="share-native-btn" style="display:none">📤</button>
+        <button class="meta-share-btn sb-copy" id="share-copy-btn">🔗</button>
+      </span>
       <a href="/?date=2026-03-04" style="color:inherit; text-decoration:none;">📅 2026년 03월 04일</a>
       <span>✍️ paperWanderer</span>
-      <button class="meta-share-btn sb-native" id="share-native-btn" style="display:none">📤</button>
-      <button class="meta-share-btn sb-copy" id="share-copy-btn">🔗</button>
     </div>
 
     
