@@ -1,0 +1,46 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="440" viewBox="0 0 800 440"
+     font-family="'Apple SD Gothic Neo', 'Malgun Gothic', Arial, sans-serif">
+  <rect width="800" height="440" fill="#f8f9fa" rx="12"/>
+
+  <text x="400" y="36" text-anchor="middle" font-size="17" font-weight="bold" fill="#2c3e50">BTS 아리랑 컴백 — 커뮤니티 반응</text>
+  <text x="400" y="54" text-anchor="middle" font-size="11" fill="#7f8c8d">에펨코리아 · SBS뉴스 · 나무위키 | 2026-03-29 KST</text>
+
+  <rect x="490" y="66" width="12" height="12" fill="#27ae60" rx="2"/>
+  <text x="506" y="77" font-size="11" fill="#2c3e50">긍정</text>
+  <rect x="548" y="66" width="12" height="12" fill="#e74c3c" rx="2"/>
+  <text x="564" y="77" font-size="11" fill="#2c3e50">부정</text>
+  <rect x="606" y="66" width="12" height="12" fill="#95a5a6" rx="2"/>
+  <text x="622" y="77" font-size="11" fill="#2c3e50">중립</text>
+
+  <!-- [에펨코리아] bar_y=110, label_y=152, comment_y=168 -->
+  <text x="60" y="100" font-size="13" font-weight="bold" fill="#2c3e50">에펨코리아 — 긍정 180건 / 부정 55건 / 중립 45건</text>
+  <rect x="60"  y="110" width="435" height="28" fill="#27ae60" rx="3"/>
+  <rect x="495" y="110" width="116" height="28" fill="#e74c3c" rx="3"/>
+  <rect x="611" y="110" width="129" height="28" fill="#95a5a6" rx="3"/>
+  <text x="60"  y="152" text-anchor="start"  font-size="11" fill="#27ae60">긍정 64.0%</text>
+  <text x="400" y="152" text-anchor="middle" font-size="11" fill="#e74c3c">부정 17.0%</text>
+  <text x="740" y="152" text-anchor="end"    font-size="11" fill="#7f8c8d">중립 19.0%</text>
+  <text x="60" y="168" font-size="11" fill="#555">💬 "광화문에서 아리랑 4만 명 떼창... 소름 돋아 진심으로"</text>
+
+  <!-- [SBS뉴스/외신 반응] bar_y=230, label_y=272, comment_y=288 -->
+  <text x="60" y="220" font-size="13" font-weight="bold" fill="#2c3e50">SBS뉴스·외신 아미 — 긍정 120건 / 부정 20건 / 중립 40건</text>
+  <rect x="60"  y="230" width="459" height="28" fill="#27ae60" rx="3"/>
+  <rect x="519" y="230" width="76"  height="28" fill="#e74c3c" rx="3"/>
+  <rect x="595" y="230" width="145" height="28" fill="#95a5a6" rx="3"/>
+  <text x="60"  y="272" text-anchor="start"  font-size="11" fill="#27ae60">긍정 67.0%</text>
+  <text x="400" y="272" text-anchor="middle" font-size="11" fill="#e74c3c">부정 11.0%</text>
+  <text x="740" y="272" text-anchor="end"    font-size="11" fill="#7f8c8d">중립 22.0%</text>
+  <text x="60" y="288" font-size="11" fill="#555">💬 "The second they hit that Arirang harmony I got full-body chills"</text>
+
+  <!-- [나무위키 편집/X 반응] bar_y=350, label_y=392, comment_y=408 -->
+  <text x="60" y="340" font-size="13" font-weight="bold" fill="#2c3e50">X(트위터)·유튜브 — 긍정 20건 / 부정 10건 / 중립 10건</text>
+  <rect x="60"  y="350" width="340" height="28" fill="#27ae60" rx="3"/>
+  <rect x="400" y="350" width="170" height="28" fill="#e74c3c" rx="3"/>
+  <rect x="570" y="350" width="170" height="28" fill="#95a5a6" rx="3"/>
+  <text x="60"  y="392" text-anchor="start"  font-size="11" fill="#27ae60">긍정 50.0%</text>
+  <text x="400" y="392" text-anchor="middle" font-size="11" fill="#e74c3c">부정 25.0%</text>
+  <text x="740" y="392" text-anchor="end"    font-size="11" fill="#7f8c8d">중립 25.0%</text>
+  <text x="60" y="408" font-size="11" fill="#555">💬 "경복궁 앞에서 BTS 아미가 아리랑 부르다니... 역사적이다"</text>
+
+  <text x="400" y="426" text-anchor="middle" font-size="10" fill="#bdc3c7">* 수치는 집계된 공감/반응 신호 기반 추산 | paperWanderer</text>
+</svg>

@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="322" viewBox="0 0 800 322"
+     font-family="'Apple SD Gothic Neo', 'Malgun Gothic', Arial, sans-serif">
+  <rect width="800" height="322" fill="#f8f9fa" rx="12"/>
+
+  <text x="400" y="36" text-anchor="middle" font-size="17" font-weight="bold" fill="#2c3e50">마라탕 팔각 유황 안전 논란 — 커뮤니티 반응</text>
+  <text x="400" y="54" text-anchor="middle" font-size="11" fill="#7f8c8d">더쿠(theqoo) · X(트위터) | 2026-03-29 KST</text>
+
+  <rect x="490" y="66" width="12" height="12" fill="#27ae60" rx="2"/>
+  <text x="506" y="77" font-size="11" fill="#2c3e50">긍정</text>
+  <rect x="548" y="66" width="12" height="12" fill="#e74c3c" rx="2"/>
+  <text x="564" y="77" font-size="11" fill="#2c3e50">부정</text>
+  <rect x="606" y="66" width="12" height="12" fill="#95a5a6" rx="2"/>
+  <text x="622" y="77" font-size="11" fill="#2c3e50">중립</text>
+
+  <!-- [더쿠] bar_y=110, label_y=152, comment_y=168 -->
+  <text x="60" y="100" font-size="13" font-weight="bold" fill="#2c3e50">더쿠(theqoo) — 긍정 40건 / 부정 180건 / 중립 80건</text>
+  <rect x="60"  y="110" width="91"  height="28" fill="#27ae60" rx="3"/>
+  <rect x="151" y="110" width="408" height="28" fill="#e74c3c" rx="3"/>
+  <rect x="559" y="110" width="181" height="28" fill="#95a5a6" rx="3"/>
+  <text x="60"  y="152" text-anchor="start"  font-size="11" fill="#27ae60">긍정 13.0%</text>
+  <text x="400" y="152" text-anchor="middle" font-size="11" fill="#e74c3c">부정 60.0%</text>
+  <text x="740" y="152" text-anchor="end"    font-size="11" fill="#7f8c8d">중립 27.0%</text>
+  <text x="60" y="168" font-size="11" fill="#555">💬 "마라탕 원재료 팔각 유황범벅이라고?? 진짜 소량도 위험하다는데 무섭다"</text>
+
+  <!-- [X(트위터)·SNS] bar_y=230, label_y=272, comment_y=288 -->
+  <text x="60" y="220" font-size="13" font-weight="bold" fill="#2c3e50">X(트위터)·SNS — 긍정 20건 / 부정 130건 / 중립 50건</text>
+  <rect x="60"  y="230" width="68"  height="28" fill="#27ae60" rx="3"/>
+  <rect x="128" y="230" width="442" height="28" fill="#e74c3c" rx="3"/>
+  <rect x="570" y="230" width="170" height="28" fill="#95a5a6" rx="3"/>
+  <text x="60"  y="272" text-anchor="start"  font-size="11" fill="#27ae60">긍정 10.0%</text>
+  <text x="400" y="272" text-anchor="middle" font-size="11" fill="#e74c3c">부정 65.0%</text>
+  <text x="740" y="272" text-anchor="end"    font-size="11" fill="#7f8c8d">중립 25.0%</text>
+  <text x="60" y="288" font-size="11" fill="#555">💬 "마라탕 끊어야 하나... 중국 식재료 수입 관리 대체 어떻게 하는 거냐"</text>
+
+  <text x="400" y="308" text-anchor="middle" font-size="10" fill="#bdc3c7">* 수치는 집계된 공감/반응 신호 기반 추산 | paperWanderer</text>
+</svg>

@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="322" viewBox="0 0 800 322"
+     font-family="'Apple SD Gothic Neo', 'Malgun Gothic', Arial, sans-serif">
+  <rect width="800" height="322" fill="#f8f9fa" rx="12"/>
+
+  <text x="400" y="36" text-anchor="middle" font-size="17" font-weight="bold" fill="#2c3e50">이 대통령 채상병 묘역 참배 — 커뮤니티 반응</text>
+  <text x="400" y="54" text-anchor="middle" font-size="11" fill="#7f8c8d">루리웹·경향신문 · X(트위터) | 2026-03-29 KST</text>
+
+  <rect x="490" y="66" width="12" height="12" fill="#27ae60" rx="2"/>
+  <text x="506" y="77" font-size="11" fill="#2c3e50">긍정</text>
+  <rect x="548" y="66" width="12" height="12" fill="#e74c3c" rx="2"/>
+  <text x="564" y="77" font-size="11" fill="#2c3e50">부정</text>
+  <rect x="606" y="66" width="12" height="12" fill="#95a5a6" rx="2"/>
+  <text x="622" y="77" font-size="11" fill="#2c3e50">중립</text>
+
+  <!-- [루리웹·경향신문] bar_y=110, label_y=152, comment_y=168 -->
+  <text x="60" y="100" font-size="13" font-weight="bold" fill="#2c3e50">루리웹·경향신문 댓글 — 긍정 150건 / 부정 120건 / 중립 80건</text>
+  <rect x="60"  y="110" width="291" height="28" fill="#27ae60" rx="3"/>
+  <rect x="351" y="110" width="233" height="28" fill="#e74c3c" rx="3"/>
+  <rect x="584" y="110" width="156" height="28" fill="#95a5a6" rx="3"/>
+  <text x="60"  y="152" text-anchor="start"  font-size="11" fill="#27ae60">긍정 43.0%</text>
+  <text x="400" y="152" text-anchor="middle" font-size="11" fill="#e74c3c">부정 34.0%</text>
+  <text x="740" y="152" text-anchor="end"    font-size="11" fill="#7f8c8d">중립 23.0%</text>
+  <text x="60" y="168" font-size="11" fill="#555">💬 "채상병 묘역 찾은 건 진심이라고 생각... 많은 게 제자리 찾길 바란다"</text>
+
+  <!-- [X(트위터)·SNS] bar_y=230, label_y=272, comment_y=288 -->
+  <text x="60" y="220" font-size="13" font-weight="bold" fill="#2c3e50">X(트위터)·SNS — 긍정 80건 / 부정 100건 / 중립 70건</text>
+  <rect x="60"  y="230" width="218" height="28" fill="#27ae60" rx="3"/>
+  <rect x="278" y="230" width="272" height="28" fill="#e74c3c" rx="3"/>
+  <rect x="550" y="230" width="190" height="28" fill="#95a5a6" rx="3"/>
+  <text x="60"  y="272" text-anchor="start"  font-size="11" fill="#27ae60">긍정 32.0%</text>
+  <text x="400" y="272" text-anchor="middle" font-size="11" fill="#e74c3c">부정 40.0%</text>
+  <text x="740" y="272" text-anchor="end"    font-size="11" fill="#7f8c8d">중립 28.0%</text>
+  <text x="60" y="288" font-size="11" fill="#555">💬 "쇼하는 거 아닌가? 아직도 진상 규명 안 됐는데"</text>
+
+  <text x="400" y="308" text-anchor="middle" font-size="10" fill="#bdc3c7">* 수치는 집계된 공감/반응 신호 기반 추산 | paperWanderer</text>
+</svg>
