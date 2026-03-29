@@ -322,10 +322,10 @@
 </div>
 
 <div class="date-filter-bar">
-  <button class="date-filter-btn active" data-range="latest">최신</button>
-  <button class="date-filter-btn" data-range="3">3일</button>
-  <button class="date-filter-btn" data-range="7">1주일</button>
-  <button class="date-filter-btn" data-range="all">전체</button>
+  <button class="date-filter-btn active" data-range="latest" title="최신">⚡</button>
+  <button class="date-filter-btn" data-range="3" title="3일">3d</button>
+  <button class="date-filter-btn" data-range="7" title="1주일">7d</button>
+  <button class="date-filter-btn" data-range="all" title="전체">∞</button>
   <span class="date-filter-spacer"></span>
   <select id="tag-select" class="tag-select-box">
     <option value="">태그 선택</option>
@@ -333,12 +333,12 @@
 </div>
 
 <style>
-.date-filter-bar { display: flex; align-items: center; gap: 6px; margin-bottom: 20px; }
+.date-filter-bar { display: flex; align-items: center; gap: 5px; margin-bottom: 20px; }
 .date-filter-spacer { flex: 1; }
-.date-filter-btn { padding: 4px 12px; border: 1px solid var(--border); border-radius: 20px; background: var(--surface); color: var(--muted); font-size: 0.78em; cursor: pointer; transition: all 0.15s; }
+.date-filter-btn { padding: 3px 8px; border: 1px solid var(--border); border-radius: 20px; background: var(--surface); color: var(--muted); font-size: 0.75em; cursor: pointer; transition: all 0.15s; min-width: 28px; text-align: center; }
 .date-filter-btn:hover { border-color: var(--accent); color: var(--accent); }
 .date-filter-btn.active { background: var(--accent); border-color: var(--accent); color: #fff; font-weight: 600; }
-.tag-select-box { padding: 4px 8px; border: 1px solid var(--border); border-radius: 20px; background: var(--surface); color: var(--text); font-size: 0.78em; cursor: pointer; outline: none; max-width: 160px; }
+.tag-select-box { padding: 3px 6px; border: 1px solid var(--border); border-radius: 20px; background: var(--surface); color: var(--text); font-size: 0.75em; cursor: pointer; outline: none; max-width: 120px; }
 .tag-select-box:focus { border-color: var(--accent); }
 </style>
 
@@ -466,7 +466,7 @@
 
 <div class="post-grid" id="post-grid">
   
-  <a class="post-card" href="/trends/tech/2026-03-29-skhynix-euv-investment/" data-category="tech" data-tags="SK하이닉스,ASML,EUV,극자외선노광장비,HBM,고대역폭메모리,AI메모리,삼성전자,엔비디아,D램,청주,용인반도체클러스터,M15X,M16,NPU,한국경제,헤럴드경제,서울경제,아시아투데이,반도체투자,초미세공정,HighNA,하이NA,이천,경기도,충청북도,과학기술정보통신부,리벨리온,파운드리,1c공정,DDR5,LPDDR6,2026,2026-03,2026-03-29" data-date="2026-03-29">
+  <a class="post-card" href="/trends/tech/2026-03-29-skhynix-euv-investment/" data-category="tech" data-tags="SK하이닉스,ASML,EUV,극자외선노광장비,HBM,고대역폭메모리,AI메모리,삼성전자,엔비디아,D램,청주,용인반도체클러스터,M15X,M16,NPU,한국경제,서울경제,아시아투데이,반도체투자,초미세공정,HighNA,하이NA,이천,경기도,충청북도,과학기술정보통신부,리벨리온,파운드리,1c공정,DDR5,LPDDR6,2026,2026-03,2026-03-29" data-date="2026-03-29">
     
     <img class="post-card-thumb" src="/assets/images/2026-03-29-skhynix-euv-investment.jpg" alt="SK하이닉스, ASML EUV 장비 12조원 계약 — HBM·AI 메모리 '초격차' 베팅">
     
@@ -527,7 +527,7 @@
     </div>
   </a>
   
-  <a class="post-card" href="/trends/sports/2026-03-29-korea-cote-divoire-0-4/" data-category="sports" data-tags="홍명보,손흥민,이강인,김민재,오현규,황희찬,코트디부아르,에반게상,시몽아딩그라,마르샬고도,윌프리드싱고,대한민국축구대표팀,한국축구,A매치,스리백,스타디움MK,밀턴킨스,영국,2026월드컵,북중미월드컵,KFA,대한축구협회,스포츠경향,뉴시스,FIFA랭킹,평가전,백3전술,조유민,김태현,축구감독,오스트리아,2026,2026-03,2026-03-29" data-date="2026-03-29">
+  <a class="post-card" href="/trends/sports/2026-03-29-korea-cote-divoire-0-4/" data-category="sports" data-tags="홍명보,손흥민,이강인,김민재,오현규,황희찬,코트디부아르,에반게상,시몽아딩그라,마르샬고도,윌프리드싱고,대한민국축구대표팀,한국축구,A매치,스리백,스타디움MK,밀턴킨스,영국,2026월드컵,북중미월드컵,KFA,대한축구협회,FIFA랭킹,평가전,백3전술,조유민,김태현,축구감독,오스트리아,2026,2026-03,2026-03-29" data-date="2026-03-29">
     
     <img class="post-card-thumb" src="/assets/images/2026-03-29-korea-cote-divoire-0-4.jpg" alt="1000번째 A매치에서 0-4 완패 — 홍명보호 스리백의 참담한 실패">
     
@@ -710,7 +710,7 @@
     </div>
   </a>
   
-  <a class="post-card" href="/trends/politics/2026-03-29-lee-jae-myung-chaebyeong/" data-category="politics" data-tags="이재명,채수근,채상병,서해수호의날,국립대전현충원,해병대,주일석,해병대사령관,제2연평해전,천안함,연평도포격,더불어민주당,김혜경,MBC,경향신문,대전,서해수호,순직,2026,2026-03,2026-03-29" data-date="2026-03-29">
+  <a class="post-card" href="/trends/politics/2026-03-29-lee-jae-myung-chaebyeong/" data-category="politics" data-tags="이재명,채수근,채상병,서해수호의날,국립대전현충원,해병대,주일석,해병대사령관,제2연평해전,천안함,연평도포격,더불어민주당,김혜경,대전,서해수호,순직,2026,2026-03,2026-03-29" data-date="2026-03-29">
     
     <img class="post-card-thumb" src="/assets/images/2026-03-29-lee-jae-myung-chaebyeong.jpg" alt="이재명 대통령, 채상병 묘역서 '많은 게 제자리 찾아 다행' — 현장 영상 화제">
     
@@ -771,7 +771,7 @@
     </div>
   </a>
   
-  <a class="post-card" href="/trends/politics/2026-03-29-lee-jae-myung-69-approval/" data-category="politics" data-tags="이재명,이재명정부,더불어민주당,국민의힘,전국지표조사,NBS,엠브레인퍼블릭,케이스탯리서치,코리아리서치,한국리서치,한국갤럽,지지율,국정지지율,TK,대구경북,PK,부산울산경남,서울,중도층,50대,MBC뉴스,헤럴드경제,머니투데이,여론조사,보수층,진보층,지선안정론,6월지방선거,이재명정부출범,2026,2026-03,2026-03-29" data-date="2026-03-29">
+  <a class="post-card" href="/trends/politics/2026-03-29-lee-jae-myung-69-approval/" data-category="politics" data-tags="이재명,이재명정부,더불어민주당,국민의힘,전국지표조사,NBS,엠브레인퍼블릭,케이스탯리서치,코리아리서치,한국리서치,한국갤럽,지지율,국정지지율,TK,대구경북,PK,부산울산경남,서울,중도층,50대,여론조사,보수층,진보층,지선안정론,6월지방선거,이재명정부출범,2026,2026-03,2026-03-29" data-date="2026-03-29">
     
     <img class="post-card-thumb" src="/assets/images/2026-03-29-lee-jae-myung-69-approval.jpg" alt="이재명 지지율 69%, 취임 후 최고치 — TK도 찬성이 반대 처음 앞서">
     
@@ -832,7 +832,7 @@
     </div>
   </a>
   
-  <a class="post-card" href="/trends/politics/2026-03-29-kim-bugyeom-daegu/" data-category="politics" data-tags="김부겸,더불어민주당,국민의힘,대구시장,대구,6.3지방선거,제9회전국동시지방선거,2.28민주운동,2.28기념공원,TK,영남,리얼미터,경향신문,대구신문,이재명,오세훈,공천,지방선거,지역주의,2026,2026-03,2026-03-29" data-date="2026-03-29">
+  <a class="post-card" href="/trends/politics/2026-03-29-kim-bugyeom-daegu/" data-category="politics" data-tags="김부겸,더불어민주당,국민의힘,대구시장,대구,6.3지방선거,제9회전국동시지방선거,2.28민주운동,2.28기념공원,TK,영남,리얼미터,이재명,오세훈,공천,지방선거,지역주의,2026,2026-03,2026-03-29" data-date="2026-03-29">
     
     <img class="post-card-thumb" src="/assets/images/2026-03-29-kim-bugyeom-daegu.jpg" alt="김부겸, 30일 대구시장 출마 선언 — 민주당 '대구 공략' 본격화, TK 판도 흔드나">
     
@@ -893,7 +893,7 @@
     </div>
   </a>
   
-  <a class="post-card" href="/trends/politics/2026-03-29-jeju-43-statute/" data-category="politics" data-tags="이재명,김혜경,제주4.3,제주4.3평화공원,이근안,김근태,국가폭력,공소시효,소멸시효,반인권적국가범죄,법제사법위원회,더불어민주당,치안본부,국민의힘,제주도,제주시,서울,한국,법무부,뉴시스,머니투데이,아시아경제,4.3사건,민주화운동,고문기술자,훈포장박탈,이재명정부,제주소리,2026,2026-03,2026-03-29" data-date="2026-03-29">
+  <a class="post-card" href="/trends/politics/2026-03-29-jeju-43-statute/" data-category="politics" data-tags="이재명,김혜경,제주4.3,제주4.3평화공원,이근안,김근태,국가폭력,공소시효,소멸시효,반인권적국가범죄,법제사법위원회,더불어민주당,치안본부,국민의힘,제주도,제주시,서울,한국,법무부,4.3사건,민주화운동,고문기술자,훈포장박탈,이재명정부,제주소리,2026,2026-03,2026-03-29" data-date="2026-03-29">
     
     <img class="post-card-thumb" src="/assets/images/2026-03-29-jeju-43-statute.jpg" alt="이재명, 제주4.3 78주기 앞두고 '국가폭력 시효 완전 폐지' 선언">
     
@@ -1015,7 +1015,7 @@
     </div>
   </a>
   
-  <a class="post-card" href="/trends/history-society/2026-03-29-lee-geun-an-death/" data-category="history-society" data-tags="이근안,김근태,치안본부,대공수사관,고문기술자,민주화운동,국가폭력,공소시효,이재명,더불어민주당,경향신문,머니투데이,뉴시스,서울,남민전사건,전두환정권,5공화국,군사독재,진실화해위원회,반인권범죄,전기고문,물고문,관절꺾기,국가배상,형사시효,과거사청산,배상금미지급,2026,2026-03,2026-03-29" data-date="2026-03-29">
+  <a class="post-card" href="/trends/history-society/2026-03-29-lee-geun-an-death/" data-category="history-society" data-tags="이근안,김근태,치안본부,대공수사관,고문기술자,민주화운동,국가폭력,공소시효,이재명,더불어민주당,서울,남민전사건,전두환정권,5공화국,군사독재,진실화해위원회,반인권범죄,전기고문,물고문,관절꺾기,국가배상,형사시효,과거사청산,배상금미지급,2026,2026-03,2026-03-29" data-date="2026-03-29">
     
     <img class="post-card-thumb" src="/assets/images/2026-03-29-lee-geun-an-death.jpg" alt="'고문 기술자' 이근안 향년 88세 사망 — 피해자들은 끝내 진심 어린 사과를 받지 못했다">
     
@@ -1076,7 +1076,7 @@
     </div>
   </a>
   
-  <a class="post-card" href="/trends/health/2026-03-29-malatang-star-anise/" data-category="health" data-tags="마라탕,팔각,유황,향신료,식품안전,식품의약품안전처,KBS,중국,광시성,난닝,중국농업대,수입식품안전,이황산화물,식품위생법,천식,임산부,위장장애,마라샹궈,한국경제,2026,2026-03,2026-03-29" data-date="2026-03-29">
+  <a class="post-card" href="/trends/health/2026-03-29-malatang-star-anise/" data-category="health" data-tags="마라탕,팔각,유황,향신료,식품안전,식품의약품안전처,중국,광시성,난닝,중국농업대,수입식품안전,이황산화물,식품위생법,천식,임산부,위장장애,마라샹궈,한국경제,2026,2026-03,2026-03-29" data-date="2026-03-29">
     
     <img class="post-card-thumb" src="/assets/images/2026-03-29-malatang-star-anise.jpg" alt="마라탕 속 팔각, 유황 범벅이었다 — 중국산 11개 중 9개 기준 초과 검출">
     
@@ -1118,10 +1118,6 @@
         
         
         
-        <span class="tag-sm"># KBS</span>
-        
-        
-        
         <span class="tag-sm"># 중국</span>
         
         
@@ -1131,6 +1127,10 @@
         
         
         <span class="tag-sm"># 난닝</span>
+        
+        
+        
+        <span class="tag-sm"># 중국농업대</span>
         
       </div>
       
@@ -1198,7 +1198,7 @@
     </div>
   </a>
   
-  <a class="post-card" href="/trends/entertainment/2026-03-29-nana-robbery-trial/" data-category="entertainment" data-tags="나나,애프터스쿨,써브라임,의정부지법,남양주지원,강도상해,정당방위,구리시,아천동,경기도,경향신문,엑스포츠뉴스,헤럴드경제,TV리포트,일간스포츠,뉴스1,연예인사건,재판증인,흉기침입,살인미수역고소,불송치결정,형사재판,강도미수,피해자증언,2026,2026-03,2026-03-29" data-date="2026-03-29">
+  <a class="post-card" href="/trends/entertainment/2026-03-29-nana-robbery-trial/" data-category="entertainment" data-tags="나나,애프터스쿨,써브라임,의정부지법,남양주지원,강도상해,정당방위,구리시,아천동,경기도,일간스포츠,연예인사건,재판증인,흉기침입,살인미수역고소,불송치결정,형사재판,강도미수,피해자증언,2026,2026-03,2026-03-29" data-date="2026-03-29">
     
     <img class="post-card-thumb" src="/assets/images/2026-03-29-nana-robbery-trial.jpg" alt="배우 나나, 4월 21일 자택 침입 강도 재판 증인 출석 확정 — '정당방위' 논란 정면 돌파">
     
@@ -1381,7 +1381,7 @@
     </div>
   </a>
   
-  <a class="post-card" href="/trends/economy/2026-03-29-us-iran-war-korea-economy/" data-category="economy" data-tags="미국이란전쟁,이란전쟁,호르무즈해협,WTI원유,OPEC,스태그플레이션,한국은행,기준금리,연방준비제도,Fed,경향신문,KDI,NH금융연구소,우리금융경영연구소,딜로이트,PwC,KPMG,에너지위기,고유가,고금리,고환율,3고악재,이란혁명수비대,이스라엘,한국경제성장률,무역수지,수출,원유수입,추경,스트레스DSR,2026,2026-03,2026-03-29" data-date="2026-03-29">
+  <a class="post-card" href="/trends/economy/2026-03-29-us-iran-war-korea-economy/" data-category="economy" data-tags="미국이란전쟁,이란전쟁,호르무즈해협,WTI원유,OPEC,스태그플레이션,한국은행,기준금리,연방준비제도,Fed,KDI,NH금융연구소,우리금융경영연구소,딜로이트,PwC,KPMG,에너지위기,고유가,고금리,고환율,3고악재,이란혁명수비대,이스라엘,한국경제성장률,무역수지,수출,원유수입,추경,스트레스DSR,2026,2026-03,2026-03-29" data-date="2026-03-29">
     
     <img class="post-card-thumb" src="/assets/images/2026-03-29-us-iran-war-korea-economy.jpg" alt="미국-이란 전쟁 한 달, 스태그플레이션 위협 — 성장률 0%대 추락 시나리오까지">
     
@@ -1442,7 +1442,7 @@
     </div>
   </a>
   
-  <a class="post-card" href="/trends/economy/2026-03-29-gasoline-1900/" data-category="economy" data-tags="석유최고가격제,휘발유가격,경유가격,국제유가,호르무즈해협,미국이란전쟁,스태그플레이션,한국은행,기준금리,주담대금리,서울,전국주유소,산업통상자원부,아주경제,머니투데이,헤럴드경제,WTI원유,OPEC,에너지위기,물가상승,인플레이션,고유가,소비자물가,대중교통,K패스,전기차,2026,2026-03,2026-03-29" data-date="2026-03-29">
+  <a class="post-card" href="/trends/economy/2026-03-29-gasoline-1900/" data-category="economy" data-tags="석유최고가격제,휘발유가격,경유가격,국제유가,호르무즈해협,미국이란전쟁,스태그플레이션,한국은행,기준금리,주담대금리,서울,전국주유소,산업통상자원부,아주경제,WTI원유,OPEC,에너지위기,물가상승,인플레이션,고유가,소비자물가,대중교통,K패스,전기차,2026,2026-03,2026-03-29" data-date="2026-03-29">
     
     <img class="post-card-thumb" src="/assets/images/2026-03-29-gasoline-1900.jpg" alt="서울 휘발유 1911원, 전국 2000원 시대 눈앞 — 2차 석유최고가제도 역부족">
     
@@ -2272,7 +2272,7 @@
     </div>
   </a>
   
-  <a class="post-card" href="/trends/politics/2026-03-28-lee-approval-69percent/" data-category="politics" data-tags="집결효과,에너지위기대응,국정지지도,KF-21,채상병,조폭연루설,유류세인하,국정지지율,민생지원금,SBS,여론조사,한국정치,이재명,2026,2026-03,2026-03-28" data-date="2026-03-28">
+  <a class="post-card" href="/trends/politics/2026-03-28-lee-approval-69percent/" data-category="politics" data-tags="집결효과,에너지위기대응,국정지지도,KF-21,채상병,조폭연루설,유류세인하,국정지지율,민생지원금,여론조사,한국정치,이재명,2026,2026-03,2026-03-28" data-date="2026-03-28">
     
     <img class="post-card-thumb" src="/assets/images/2026-03-28-lee-approval-69percent.jpg" alt="이재명 지지율 69% 취임 후 최고치 — 중동 위기 대응이 '신의 한 수'됐나">
     
@@ -2324,7 +2324,7 @@
         
         
         
-        <span class="tag-sm tag-key"># SBS</span>
+        <span class="tag-sm tag-key"># 여론조사</span>
         
       </div>
       
@@ -3460,7 +3460,7 @@
     </div>
   </a>
   
-  <a class="post-card" href="/trends/sports/2026-03-27-sanchez-mlb-opening-day/" data-category="sports" data-tags="필라델피아필리스,텍사스레인저스,산체스,CristopherSanchez,폴스킨스,커트실링,제이크버거,NL사이영상,계약연장,FanGraphs,MLBTradeRumors,스타뉴스,개막전,스포츠경향,야구,MLB,서울신문,도미니카공화국,WBC2026,미국,한국,2026,2026-03,2026-03-27" data-date="2026-03-27">
+  <a class="post-card" href="/trends/sports/2026-03-27-sanchez-mlb-opening-day/" data-category="sports" data-tags="필라델피아필리스,텍사스레인저스,산체스,CristopherSanchez,폴스킨스,커트실링,제이크버거,NL사이영상,계약연장,FanGraphs,MLBTradeRumors,개막전,야구,MLB,도미니카공화국,WBC2026,미국,한국,2026,2026-03,2026-03-27" data-date="2026-03-27">
     
     <img class="post-card-thumb" src="/assets/images/2026-03-27-sanchez-mlb-opening-day.jpg" alt="산체스, 개막전 10K 완봉 — WBC에서 한국 봉쇄한 그 투수가 MLB 정규시즌에서도 압도적이었다">
     
@@ -3519,7 +3519,7 @@
     </div>
   </a>
   
-  <a class="post-card" href="/trends/sports/2026-03-27-korea-1000th-amatch-ivory-coast/" data-category="sports" data-tags="차범근,정국진,KFA,A매치1000경기,북중미월드컵2026,런던올림픽1948,TV조선,FourFourTwo코리아,밀턴킨스,맨체스터유나이티드,분데스리가,한국축구,박지성,대한축구협회,손흥민,홍명보,코트디부아르,쿠팡플레이,스포츠경향,tvN,영국,한국,2026,2026-03,2026-03-27" data-date="2026-03-27">
+  <a class="post-card" href="/trends/sports/2026-03-27-korea-1000th-amatch-ivory-coast/" data-category="sports" data-tags="차범근,정국진,KFA,A매치1000경기,북중미월드컵2026,런던올림픽1948,FourFourTwo코리아,밀턴킨스,맨체스터유나이티드,분데스리가,한국축구,박지성,대한축구협회,손흥민,홍명보,코트디부아르,쿠팡플레이,tvN,영국,한국,2026,2026-03,2026-03-27" data-date="2026-03-27">
     
     <img class="post-card-thumb" src="/assets/images/2026-03-27-korea-1000th-amatch-ivory-coast.jpg" alt="한국 축구 A매치 1000번째 — 1948년 첫 승의 땅 영국에서 다시 역사를 쓴다">
     
@@ -3559,10 +3559,6 @@
         
         
         
-        <span class="tag-sm"># TV조선</span>
-        
-        
-        
         <span class="tag-sm"># FourFourTwo코리아</span>
         
         
@@ -3573,12 +3569,16 @@
         
         <span class="tag-sm"># 맨체스터유나이티드</span>
         
+        
+        
+        <span class="tag-sm"># 분데스리가</span>
+        
       </div>
       
     </div>
   </a>
   
-  <a class="post-card" href="/trends/sports/2026-03-27-kbo-league-opening/" data-category="sports" data-tags="수비시프트금지,잠실야구장,일간스포츠,아주경제,야구개막,암표논란,1300만관중,아시아쿼터,피치클락,이투데이,어뢰배트,스포츠경향,신한SOL,프로야구,호주,대만,루리웹,에펨코리아,KBO,일본,한국,2026,2026-03,2026-03-27" data-date="2026-03-27">
+  <a class="post-card" href="/trends/sports/2026-03-27-kbo-league-opening/" data-category="sports" data-tags="수비시프트금지,잠실야구장,일간스포츠,아주경제,야구개막,암표논란,1300만관중,아시아쿼터,피치클락,이투데이,어뢰배트,신한SOL,프로야구,호주,대만,루리웹,에펨코리아,KBO,일본,한국,2026,2026-03,2026-03-27" data-date="2026-03-27">
     
     <img class="post-card-thumb" src="/assets/images/2026-03-27-kbo-league-opening.jpg" alt="2026 KBO 리그 개막 — 시범경기 역대 최다 44만 관중, 새 규정의 시대가 열린다">
     
@@ -3637,7 +3637,7 @@
     </div>
   </a>
   
-  <a class="post-card" href="/trends/politics/2026-03-27-rebuilding-korea-party-independent/" data-category="politics" data-tags="부산북갑보궐선거,봉하마을,친노,노컷뉴스,부산일보,김해,수성갑,세종,독자노선,진보정치,선거연대,빅매치,조국,노무현,동아일보,조국혁신당,지지율,울산,정청래,한동훈,광역단체장,민주당,경남,경향신문,루리웹,대구,부산,지방선거,한국갤럽,국민의힘,한국,2026,2026-03,2026-03-27" data-date="2026-03-27">
+  <a class="post-card" href="/trends/politics/2026-03-27-rebuilding-korea-party-independent/" data-category="politics" data-tags="부산북갑보궐선거,봉하마을,친노,부산일보,김해,수성갑,세종,독자노선,진보정치,선거연대,빅매치,조국,노무현,조국혁신당,지지율,울산,정청래,한동훈,광역단체장,민주당,경남,루리웹,대구,부산,지방선거,한국갤럽,국민의힘,한국,2026,2026-03,2026-03-27" data-date="2026-03-27">
     
     <img class="post-card-thumb" src="/assets/images/2026-03-27-rebuilding-korea-party-independent.jpg" alt="지지율 3%, 연대 무산 — 조국혁신당은 부산 북갑에서 기회를 잡을 수 있을까">
     
@@ -3667,10 +3667,6 @@
         
         
         
-        <span class="tag-sm"># 노컷뉴스</span>
-        
-        
-        
         <span class="tag-sm"># 부산일보</span>
         
         
@@ -3693,12 +3689,16 @@
         
         <span class="tag-sm tag-key"># 진보정치</span>
         
+        
+        
+        <span class="tag-sm tag-key"># 선거연대</span>
+        
       </div>
       
     </div>
   </a>
   
-  <a class="post-card" href="/trends/politics/2026-03-27-ppp-seoul-mayor-primary/" data-category="politics" data-tags="경선,박수민,윤희숙,배현진,정원오,박원순,여론조사공정,보수정치,역세권용적률,중도확장,조선일보,혁신선대위,당내갈등,TK,지지율,서울시장,장동혁,오세훈,SBS,경북,루리웹,대구,지방선거,강남구,한국갤럽,국민의힘,한국,서울,2026,2026-03,2026-03-27" data-date="2026-03-27">
+  <a class="post-card" href="/trends/politics/2026-03-27-ppp-seoul-mayor-primary/" data-category="politics" data-tags="경선,박수민,윤희숙,배현진,정원오,박원순,여론조사공정,보수정치,역세권용적률,중도확장,혁신선대위,당내갈등,TK,지지율,서울시장,장동혁,오세훈,경북,루리웹,대구,지방선거,강남구,한국갤럽,국민의힘,한국,서울,2026,2026-03,2026-03-27" data-date="2026-03-27">
     
     <img class="post-card-thumb" src="/assets/images/2026-03-27-ppp-seoul-mayor-primary.jpg" alt="오세훈·박수민·윤희숙 3파전 — 지지율 19% 국민의힘, 서울시장 경선이 살길인가">
     
@@ -3759,7 +3759,7 @@
     </div>
   </a>
   
-  <a class="post-card" href="/trends/politics/2026-03-27-opcon-defense-reform/" data-category="politics" data-tags="전작권,전시작전통제권,선택적모병제,국방개혁,전군주요지휘관회의,이명박,박근혜,KTV,중앙SUNDAY,한국일보,엠브레인,징병제,모병제,안보정책,북한핵,노무현,조선일보,연평도포격,주한미군,서해수호의날,제2연평해전,천안함,자주국방,YTN,KBS,문재인,한미동맹,루리웹,이재명,미국,한국,2026,2026-03,2026-03-27" data-date="2026-03-27">
+  <a class="post-card" href="/trends/politics/2026-03-27-opcon-defense-reform/" data-category="politics" data-tags="전작권,전시작전통제권,선택적모병제,국방개혁,전군주요지휘관회의,이명박,박근혜,중앙SUNDAY,한국일보,엠브레인,징병제,모병제,안보정책,북한핵,노무현,연평도포격,주한미군,서해수호의날,제2연평해전,천안함,자주국방,문재인,한미동맹,루리웹,이재명,미국,한국,2026,2026-03,2026-03-27" data-date="2026-03-27">
     
     <img class="post-card-thumb" src="/assets/images/2026-03-27-opcon-defense-reform.jpg" alt="이재명 대통령, 전군 지휘관에 직접 지시 — 전작권 환수·선택적 모병제 속도 낸다">
     
@@ -3805,22 +3805,22 @@
         
         
         
-        <span class="tag-sm"># KTV</span>
-        
-        
-        
         <span class="tag-sm"># 중앙SUNDAY</span>
         
         
         
         <span class="tag-sm"># 한국일보</span>
         
+        
+        
+        <span class="tag-sm"># 엠브레인</span>
+        
       </div>
       
     </div>
   </a>
   
-  <a class="post-card" href="/trends/lifestyle/2026-03-27-sns-food-trend/" data-category="lifestyle" data-tags="창억떡,호박인절미,버터떡,하말넘많,안유진,이홍주,이영애,이은희,IVE,DAY6영케이,숙명여대,인하대,매일일보,FOMO,SNS음식유행,성심당,카다이프,식품트렌드사이클,두쫀쿠,봄동비빔밥,뉴시스,뉴스1,오픈런,서울경제,자영업자,소상공인,광주,루리웹,에펨코리아,대전,한국,서울,2026,2026-03,2026-03-27" data-date="2026-03-27">
+  <a class="post-card" href="/trends/lifestyle/2026-03-27-sns-food-trend/" data-category="lifestyle" data-tags="창억떡,호박인절미,버터떡,하말넘많,안유진,이홍주,이영애,이은희,IVE,DAY6영케이,숙명여대,인하대,매일일보,FOMO,SNS음식유행,성심당,카다이프,식품트렌드사이클,두쫀쿠,봄동비빔밥,오픈런,서울경제,자영업자,소상공인,광주,루리웹,에펨코리아,대전,한국,서울,2026,2026-03,2026-03-27" data-date="2026-03-27">
     
     <img class="post-card-thumb" src="/assets/images/2026-03-27-sns-food-trend.jpg" alt="2주짜리 열풍의 경제학 — 두쫀쿠·버터떡·창억떡으로 보는 SNS 초단기 음식 트렌드">
     
@@ -4003,7 +4003,7 @@
     </div>
   </a>
   
-  <a class="post-card" href="/trends/history-society/2026-03-27-seohae-suhoro-day-2026/" data-category="history-society" data-tags="서해55영웅,국립대전현충원,백령도,서해,대북정책,평화안보,연합뉴스,보훈,연평도포격,서해수호의날,천안함,제2연평해전,YTN,KBS,장동혁,개혁신당,북한,이준석,대전,국민의힘,이재명,한국,2026,2026-03,2026-03-27" data-date="2026-03-27">
+  <a class="post-card" href="/trends/history-society/2026-03-27-seohae-suhoro-day-2026/" data-category="history-society" data-tags="서해55영웅,국립대전현충원,백령도,서해,대북정책,평화안보,보훈,연평도포격,서해수호의날,천안함,제2연평해전,장동혁,개혁신당,북한,이준석,대전,국민의힘,이재명,한국,2026,2026-03,2026-03-27" data-date="2026-03-27">
     
     <img class="post-card-thumb" src="/assets/images/2026-03-27-seohae-suhoro-day-2026.jpg" alt="제11회 서해수호의날 — 이재명 대통령 '평화가 밥이다'">
     
@@ -4043,10 +4043,6 @@
         
         
         
-        <span class="tag-sm"># 연합뉴스</span>
-        
-        
-        
         <span class="tag-sm"># 보훈</span>
         
         
@@ -4057,12 +4053,16 @@
         
         <span class="tag-sm tag-key"># 서해수호의날</span>
         
+        
+        
+        <span class="tag-sm tag-key"># 천안함</span>
+        
       </div>
       
     </div>
   </a>
   
-  <a class="post-card" href="/trends/history-society/2026-03-27-park-wang-yeol-extradition/" data-category="history-society" data-tags="국제범죄수사,한필범죄인인도조약,수감중마약,교도소통신통제,암호화메신저,재벌마약,정상외교,마르코스,남양유업,텔레그램,범죄인인도,황하나,인천국제공항,박왕열,마약유통,필리핀,헤럴드경제,경향신문,이재명,한국,2026,2026-03,2026-03-27" data-date="2026-03-27">
+  <a class="post-card" href="/trends/history-society/2026-03-27-park-wang-yeol-extradition/" data-category="history-society" data-tags="국제범죄수사,한필범죄인인도조약,수감중마약,교도소통신통제,암호화메신저,재벌마약,정상외교,마르코스,남양유업,텔레그램,범죄인인도,황하나,인천국제공항,박왕열,마약유통,필리핀,이재명,한국,2026,2026-03,2026-03-27" data-date="2026-03-27">
     
     <img class="post-card-thumb" src="/assets/images/2026-03-27-park-wang-yeol-extradition.jpg" alt="텔레그램 마약왕 박왕열 한국 송환 — 필리핀 정상회담 22일 만에">
     
@@ -4363,7 +4363,7 @@
     </div>
   </a>
   
-  <a class="post-card" href="/trends/finance/2026-03-27-kospi-foreign-selloff-30t-won/" data-category="finance" data-tags="수급전쟁,삼성생명,강진혁,민경원,이상연,신한투자증권,신영증권,수급분석,셀트리온,우리은행,동학개미,KOSPI200,개인순매수,중동리스크,터보퀀트,환율,헤럴드경제,반도체주,외국인순매도,현대차,여의도,원달러환율,코스피,SK하이닉스,삼성전자,한국,서울,2026,2026-03,2026-03-27" data-date="2026-03-27">
+  <a class="post-card" href="/trends/finance/2026-03-27-kospi-foreign-selloff-30t-won/" data-category="finance" data-tags="수급전쟁,삼성생명,강진혁,민경원,이상연,신한투자증권,신영증권,수급분석,셀트리온,우리은행,동학개미,KOSPI200,개인순매수,중동리스크,터보퀀트,환율,반도체주,외국인순매도,현대차,여의도,원달러환율,코스피,SK하이닉스,삼성전자,한국,서울,2026,2026-03,2026-03-27" data-date="2026-03-27">
     
     <img class="post-card-thumb" src="/assets/images/2026-03-27-kospi-foreign-selloff-30t-won.jpg" alt="외국인 7연속 순매도 30조 — 개미가 31조로 맞받아친 코스피 수급전쟁">
     
@@ -4424,7 +4424,7 @@
     </div>
   </a>
   
-  <a class="post-card" href="/trends/finance/2026-03-27-korea-bond-buyback-wgbi/" data-category="finance" data-tags="국채바이백,WGBI,세계국채지수,채권시장,한국예탁결제원,국채순상환,시장금리,국채금리,외국인채권투자,패시브자금,크레딧아그리콜,PIMCO,GPIF,일본공적연금,스티브장,존룩,FTSE,IIF,Bloomingbit,이콘밍글,채권투자,금리안정,부채비율,국고채,초과세수,뉴스1,머니투데이,중동지정학,추경,금융감독원,금융위원회,환율,기획재정부,헤럴드경제,여의도,일본,한국은행,한국,서울,2026,2026-03,2026-03-27" data-date="2026-03-27">
+  <a class="post-card" href="/trends/finance/2026-03-27-korea-bond-buyback-wgbi/" data-category="finance" data-tags="국채바이백,WGBI,세계국채지수,채권시장,한국예탁결제원,국채순상환,시장금리,국채금리,외국인채권투자,패시브자금,크레딧아그리콜,PIMCO,GPIF,일본공적연금,스티브장,존룩,FTSE,IIF,Bloomingbit,이콘밍글,채권투자,금리안정,부채비율,국고채,초과세수,중동지정학,추경,금융감독원,금융위원회,환율,기획재정부,여의도,일본,한국은행,한국,서울,2026,2026-03,2026-03-27" data-date="2026-03-27">
     
     <img class="post-card-thumb" src="/assets/images/2026-03-27-korea-bond-buyback-wgbi.jpg" alt="국채 5조원 긴급 바이백 — WGBI 편입 4일 전, 정부의 선제 시장 안정화">
     
@@ -4546,7 +4546,7 @@
     </div>
   </a>
   
-  <a class="post-card" href="/trends/entertainment/2026-03-27-irene-biggest-fan-asia-tour/" data-category="entertainment" data-tags="아이린,Irene,레드벨벳,RedVelvet,BiggestFan앨범,I-WILL투어,웬디,슬기,조이,태연,OSEN,헤럴드뮤즈,솔로아티스트,방콕,스타뉴스,allkpop,아시아투어,타이베이,마카오,싱가포르,SM엔터테인먼트,theqoo,태국,인도네시아,대만,에펨코리아,K팝,한국,서울,2026,2026-03,2026-03-27" data-date="2026-03-27">
+  <a class="post-card" href="/trends/entertainment/2026-03-27-irene-biggest-fan-asia-tour/" data-category="entertainment" data-tags="아이린,Irene,레드벨벳,RedVelvet,BiggestFan앨범,I-WILL투어,웬디,슬기,조이,태연,OSEN,솔로아티스트,방콕,allkpop,아시아투어,타이베이,마카오,싱가포르,SM엔터테인먼트,theqoo,태국,인도네시아,대만,에펨코리아,K팝,한국,서울,2026,2026-03,2026-03-27" data-date="2026-03-27">
     
     <img class="post-card-thumb" src="/assets/images/2026-03-27-irene-biggest-fan-asia-tour.jpg" alt="아이린, 첫 정규앨범 'Biggest Fan' D-3 + 아시아 5개 도시 투어 'I-WILL' 전격 발표">
     
@@ -4729,7 +4729,7 @@
     </div>
   </a>
   
-  <a class="post-card" href="/trends/economy/2026-03-27-usdkrw-1500-newnormal/" data-category="economy" data-tags="제주항공,구매대행,원두수입,이문희,미주중앙일보,환율1500원,뉴노멀,대한항공,에너지리스크,파이낸셜뉴스,소상공인,디시인사이드,서울신문,외환시장,유가,수입물가,에펨코리아,중동전쟁,원달러환율,한국은행,이란,미국,한국,2026,2026-03,2026-03-27" data-date="2026-03-27">
+  <a class="post-card" href="/trends/economy/2026-03-27-usdkrw-1500-newnormal/" data-category="economy" data-tags="제주항공,구매대행,원두수입,이문희,환율1500원,뉴노멀,대한항공,에너지리스크,소상공인,디시인사이드,외환시장,유가,수입물가,에펨코리아,중동전쟁,원달러환율,한국은행,이란,미국,한국,2026,2026-03,2026-03-27" data-date="2026-03-27">
     
     <img class="post-card-thumb" src="/assets/images/2026-03-27-usdkrw-1500-newnormal.jpg" alt="원달러 환율 1,500원 뉴노멀 — 17년 만의 심리적 저항선 붕괴와 실물 충격">
     
@@ -4763,10 +4763,6 @@
         
         
         
-        <span class="tag-sm"># 미주중앙일보</span>
-        
-        
-        
         <span class="tag-sm tag-key"># 환율1500원</span>
         
         
@@ -4783,7 +4779,11 @@
         
         
         
-        <span class="tag-sm"># 파이낸셜뉴스</span>
+        <span class="tag-sm tag-key"># 소상공인</span>
+        
+        
+        
+        <span class="tag-sm"># 디시인사이드</span>
         
       </div>
       
@@ -4851,7 +4851,7 @@
     </div>
   </a>
   
-  <a class="post-card" href="/trends/economy/2026-03-27-ccsi-drop-march-2026/" data-category="economy" data-tags="ESI,내수,주택가격전망,이흥후,에코노빌,대구일보,경기일보,금리전망,경기전망,비상계엄,소비심리,기대인플레이션,KDI,CCSI,소비자심리지수,헤럴드경제,부동산,스태그플레이션,중동전쟁,한국은행,이란,한국,2026,2026-03,2026-03-27" data-date="2026-03-27">
+  <a class="post-card" href="/trends/economy/2026-03-27-ccsi-drop-march-2026/" data-category="economy" data-tags="ESI,내수,주택가격전망,이흥후,에코노빌,대구일보,경기일보,금리전망,경기전망,비상계엄,소비심리,기대인플레이션,KDI,CCSI,소비자심리지수,부동산,스태그플레이션,중동전쟁,한국은행,이란,한국,2026,2026-03,2026-03-27" data-date="2026-03-27">
     
     <img class="post-card-thumb" src="/assets/images/2026-03-27-ccsi-drop-march-2026.jpg" alt="소비자심리지수 5.1p 급락 — 비상계엄 이후 1년 3개월 만 최대 낙폭">
     
@@ -4912,7 +4912,7 @@
     </div>
   </a>
   
-  <a class="post-card" href="/trends/culture/2026-03-27-handongchun-snl-season8/" data-category="culture" data-tags="김민교,김문수,SNL코리아시즌8,편의점알바코너,지점장이나간다,마이데일리,문화일보,정치풍자,정치인예능,이미지정치,스트리밍정치,서울경제,쿠팡플레이,파이낸셜뉴스,한동훈,헤럴드경제,경향신문,국민의힘,한국,서울,2026,2026-03,2026-03-27" data-date="2026-03-27">
+  <a class="post-card" href="/trends/culture/2026-03-27-handongchun-snl-season8/" data-category="culture" data-tags="김민교,김문수,SNL코리아시즌8,편의점알바코너,지점장이나간다,문화일보,정치풍자,정치인예능,이미지정치,스트리밍정치,서울경제,쿠팡플레이,한동훈,국민의힘,한국,서울,2026,2026-03,2026-03-27" data-date="2026-03-27">
     
     <img class="post-card-thumb" src="/assets/images/2026-03-27-handongchun-snl-season8.jpg" alt="한동훈, SNL 코리아 시즌8 첫 게스트 — 정치인 예능 출연의 새 공식인가">
     
@@ -4950,10 +4950,6 @@
         
         
         
-        <span class="tag-sm"># 마이데일리</span>
-        
-        
-        
         <span class="tag-sm"># 문화일보</span>
         
         
@@ -4968,12 +4964,16 @@
         
         <span class="tag-sm tag-key"># 이미지정치</span>
         
+        
+        
+        <span class="tag-sm"># 스트리밍정치</span>
+        
       </div>
       
     </div>
   </a>
   
-  <a class="post-card" href="/trends/culture/2026-03-27-blackpink-deadline-comeback/" data-category="culture" data-tags="DEADLINE앨범,BORNPINK,GO싱글,JUMP싱글,리사,초동신기록,K팝걸그룹,RollingStone,iTunes,MK스포츠,음반판매량,연합뉴스,BLACKPINK,YG엔터테인먼트,Billboard,스포츠조선,팬덤경제,제니,로제,더쿠,완전체컴백,지수,블랙핑크,한류,K팝,미국,한국,2026,2026-03,2026-03-27" data-date="2026-03-27">
+  <a class="post-card" href="/trends/culture/2026-03-27-blackpink-deadline-comeback/" data-category="culture" data-tags="DEADLINE앨범,BORNPINK,GO싱글,JUMP싱글,리사,초동신기록,K팝걸그룹,RollingStone,iTunes,MK스포츠,음반판매량,BLACKPINK,YG엔터테인먼트,Billboard,팬덤경제,제니,로제,더쿠,완전체컴백,지수,블랙핑크,한류,K팝,미국,한국,2026,2026-03,2026-03-27" data-date="2026-03-27">
     
     <img class="post-card-thumb" src="/assets/images/2026-03-27-blackpink-deadline-comeback.jpg" alt="블랙핑크 'DEADLINE', 걸그룹 초동 177만장 신기록 — GO MV 유튜브 글로벌 1위">
     
@@ -5034,7 +5034,7 @@
     </div>
   </a>
   
-  <a class="post-card" href="/trends/culture/2026-03-27-anjunggeun-ai-tiktok/" data-category="culture" data-tags="독립운동가,TikTok,서경덕,틱톡코리아,성신여대,EU_AI법,순국일,고인명예훼손,안중근,유관순,국가보훈부,김용만,역사왜곡,독립유공자모욕방지법,동아일보,틱톡,표현의자유,딥페이크,플랫폼규제,생성형AI,삼일절,MBC,경향신문,더불어민주당,한국,2026,2026-03,2026-03-27" data-date="2026-03-27">
+  <a class="post-card" href="/trends/culture/2026-03-27-anjunggeun-ai-tiktok/" data-category="culture" data-tags="독립운동가,TikTok,서경덕,틱톡코리아,성신여대,EU_AI법,순국일,고인명예훼손,안중근,유관순,국가보훈부,김용만,역사왜곡,독립유공자모욕방지법,틱톡,표현의자유,딥페이크,플랫폼규제,생성형AI,삼일절,더불어민주당,한국,2026,2026-03,2026-03-27" data-date="2026-03-27">
     
     <img class="post-card-thumb" src="/assets/images/2026-03-27-ahn-junggeun-ai-tiktok.jpg" alt="안중근 의사 조롱 AI 영상 틱톡 확산 — 보훈부 삭제·입법 추진 나서다">
     
@@ -5888,7 +5888,7 @@
     </div>
   </a>
   
-  <a class="post-card" href="/trends/politics/2026-03-26-lee-jaemyung-mob-connection-sbs-apology/" data-category="politics" data-tags="SBS그것이알고싶다,성남국제마피아,SBS사과,미디어비판,불기소,허위사실공표,파타야살인사건,언론책임,경기도지사,성남,조폭연루설,SBS,이재명,한국,서울,2026,2026-03,2026-03-26" data-date="2026-03-26">
+  <a class="post-card" href="/trends/politics/2026-03-26-lee-jaemyung-mob-connection-sbs-apology/" data-category="politics" data-tags="SBS그것이알고싶다,성남국제마피아,SBS사과,미디어비판,불기소,허위사실공표,파타야살인사건,언론책임,경기도지사,성남,조폭연루설,이재명,한국,서울,2026,2026-03,2026-03-26" data-date="2026-03-26">
     
     <img class="post-card-thumb" src="/assets/images/2026-03-26-lee-jaemyung-mob-connection-sbs-apology.jpg" alt="SBS '그것이 알고싶다', 이재명 조폭 연루설 8년 만에 공식 사과">
     
@@ -11805,7 +11805,7 @@
     </div>
   </a>
   
-  <a class="post-card" href="/trends/history-society/2026-03-22-daejeon-fire-ceo-verbal-abuse/" data-category="history-society" data-tags="폭언녹취,유가족,사회분노,기업윤리,산업안전보건법,대전화재,손주환,인재,업무상과실치사,중대재해처벌법,서울신문,안전공업,대덕구,산업재해,경향신문,SBS,대전,2026,2026-03,2026-03-22" data-date="2026-03-22">
+  <a class="post-card" href="/trends/history-society/2026-03-22-daejeon-fire-ceo-verbal-abuse/" data-category="history-society" data-tags="폭언녹취,유가족,사회분노,기업윤리,산업안전보건법,대전화재,손주환,인재,업무상과실치사,중대재해처벌법,안전공업,대덕구,산업재해,대전,2026,2026-03,2026-03-22" data-date="2026-03-22">
     
     <img class="post-card-thumb" src="/assets/images/2026-03-22-daejeon-fire-ceo-verbal-abuse.jpg" alt="'늦게 나와 죽었다' — 대전 화재 대표 폭언 녹취 공개에 전국이 분노">
     
@@ -12232,7 +12232,7 @@
     </div>
   </a>
   
-  <a class="post-card" href="/trends/entertainment/2026-03-22-march-drama-ott-trend/" data-category="entertainment" data-tags="사이렌,유연석,임수정,BBC,드라마,하정우,주지훈,나나,오정세,ENA,하지원,JTBC,위하준,서인국,OTT,클라이맥스,박민영,지수,월간남친,tvN,SBS,블랙핑크,K드라마,한류,넷플릭스,2026,2026-03,2026-03-22" data-date="2026-03-22">
+  <a class="post-card" href="/trends/entertainment/2026-03-22-march-drama-ott-trend/" data-category="entertainment" data-tags="사이렌,유연석,임수정,BBC,드라마,하정우,주지훈,나나,오정세,ENA,하지원,위하준,서인국,OTT,클라이맥스,박민영,지수,월간남친,tvN,블랙핑크,K드라마,한류,넷플릭스,2026,2026-03,2026-03-22" data-date="2026-03-22">
     
     <div class="post-card-thumb-placeholder">📄</div>
     
@@ -13269,7 +13269,7 @@
     </div>
   </a>
   
-  <a class="post-card" href="/trends/politics/2026-03-21-sbs-lee-jaemyung-apology/" data-category="politics" data-tags="성남국제마피아파,방송공식사과,대통령언론압박,해시태그논란,명예훼손,그것이알고싶다,파타야살인사건,언론책임,언론자유,SBS,여의도,이재명,서울,2026,2026-03,2026-03-21" data-date="2026-03-21">
+  <a class="post-card" href="/trends/politics/2026-03-21-sbs-lee-jaemyung-apology/" data-category="politics" data-tags="성남국제마피아파,방송공식사과,대통령언론압박,해시태그논란,명예훼손,그것이알고싶다,파타야살인사건,언론책임,언론자유,여의도,이재명,서울,2026,2026-03,2026-03-21" data-date="2026-03-21">
     
     <img class="post-card-thumb" src="/assets/images/2026-03-21-sbs-lee-jaemyung-apology.jpg" alt="SBS '그알', 이재명 조폭 연루설 8년 만에 사과 — 해시태그에 '살인' 달아 2차 논란">
     
@@ -13323,7 +13323,7 @@
         
         
         
-        <span class="tag-sm tag-key"># SBS</span>
+        <span class="tag-sm tag-key"># 여의도</span>
         
       </div>
       
@@ -13513,7 +13513,7 @@
     </div>
   </a>
   
-  <a class="post-card" href="/trends/online-community/2026-03-21-bts-gwanghwamun-controversy/" data-category="online-community" data-tags="김헌식,오마이뉴스,과잉통제,지하철봉쇄,시민이동권,공공거버넌스,공공공간사유화,안전인력동원,하이브,종로구,서울시,광화문광장,에펨코리아,방탄소년단,BTS,서울,2026,2026-03,2026-03-21" data-date="2026-03-21">
+  <a class="post-card" href="/trends/online-community/2026-03-21-bts-gwanghwamun-controversy/" data-category="online-community" data-tags="김헌식,과잉통제,지하철봉쇄,시민이동권,공공거버넌스,공공공간사유화,안전인력동원,하이브,종로구,서울시,광화문광장,에펨코리아,방탄소년단,BTS,서울,2026,2026-03,2026-03-21" data-date="2026-03-21">
     
     <img class="post-card-thumb" src="/assets/images/2026-03-21-bts-gwanghwamun-controversy.jpg" alt="'계엄 때도 이 정도는 아니었다' — BTS 광화문 공연 과잉 통제 논란, 커뮤니티 들끓다">
     
@@ -13535,15 +13535,11 @@
         
         
         
-        <span class="tag-sm tag-top"># 오마이뉴스</span>
-        
-        
-        
         <span class="tag-sm tag-top"># 과잉통제</span>
         
         
         
-        <span class="tag-sm"># 지하철봉쇄</span>
+        <span class="tag-sm tag-top"># 지하철봉쇄</span>
         
         
         
@@ -13568,6 +13564,10 @@
         
         
         <span class="tag-sm"># 종로구</span>
+        
+        
+        
+        <span class="tag-sm tag-key"># 서울시</span>
         
       </div>
       
@@ -14733,7 +14733,7 @@
     </div>
   </a>
   
-  <a class="post-card" href="/trends/politics/2026-03-20-lee-approval-67pct/" data-category="politics" data-tags="언론사과,언론독립성,국민생활안전정책,국정수행평가,그것이알고싶다,성남,조폭연루설,언론자유,코리아리서치,대통령지지율,청와대,민주당,SBS,여론조사,경기도,한국갤럽,여의도,국민의힘,이재명,한국,2026,2026-03,2026-03-20" data-date="2026-03-20">
+  <a class="post-card" href="/trends/politics/2026-03-20-lee-approval-67pct/" data-category="politics" data-tags="언론사과,언론독립성,국민생활안전정책,국정수행평가,그것이알고싶다,성남,조폭연루설,언론자유,코리아리서치,대통령지지율,청와대,민주당,여론조사,경기도,한국갤럽,여의도,국민의힘,이재명,한국,2026,2026-03,2026-03-20" data-date="2026-03-20">
     
     <img class="post-card-thumb" src="/assets/images/2026-03-20-lee-approval-67pct.jpg" alt="이재명 대통령 지지율 67%로 또 역대 최고 — SBS 그알 사과와 중동 위기 속 여론 읽기">
     
@@ -16502,7 +16502,7 @@
     </div>
   </a>
   
-  <a class="post-card" href="/trends/entertainment/2026-03-19-jang-hangjun-script-yoo-haejin/" data-category="entertainment" data-tags="대본논란,표절의혹,인터뷰,손석희의질문들,사극영화,엔터테인먼트,왕사남,흥행,천만영화,장항준,유해진,한국영화,MBC,왕과사는남자,2026,2026-03,2026-03-19" data-date="2026-03-19">
+  <a class="post-card" href="/trends/entertainment/2026-03-19-jang-hangjun-script-yoo-haejin/" data-category="entertainment" data-tags="대본논란,표절의혹,인터뷰,손석희의질문들,사극영화,엔터테인먼트,왕사남,흥행,천만영화,장항준,유해진,한국영화,왕과사는남자,2026,2026-03,2026-03-19" data-date="2026-03-19">
     
     <img class="post-card-thumb" src="/assets/images/2026-03-19-jang-hangjun-script-yoo-haejin.jpg" alt="유해진 '장항준 대본 하청 의심' 발언 — 왕사남 감독 화제의 인터뷰">
     
@@ -22724,7 +22724,7 @@
     </div>
   </a>
   
-  <a class="post-card" href="/trends/sports/2026-03-15-wbc-semifinal-usa-dominican/" data-category="sports" data-tags="폴스케인즈,건나헨더슨,로만앤서니,주니어카미네로,마손밀러,헤랄도페르도모,오심논란,ESPN,CBS스포츠,FOX스포츠,ABS자동볼스트라이크,론디포파크,마이애미,도미니카공화국,WBC2026,월드베이스볼클래식,미국,2026,2026-03,2026-03-15" data-date="2026-03-15">
+  <a class="post-card" href="/trends/sports/2026-03-15-wbc-semifinal-usa-dominican/" data-category="sports" data-tags="폴스케인즈,건나헨더슨,로만앤서니,주니어카미네로,마손밀러,헤랄도페르도모,오심논란,ESPN,FOX스포츠,ABS자동볼스트라이크,론디포파크,마이애미,도미니카공화국,WBC2026,월드베이스볼클래식,미국,2026,2026-03,2026-03-15" data-date="2026-03-15">
     
     <div class="post-card-thumb-placeholder">📄</div>
     
@@ -22774,11 +22774,11 @@
         
         
         
-        <span class="tag-sm"># CBS스포츠</span>
-        
-        
-        
         <span class="tag-sm"># FOX스포츠</span>
+        
+        
+        
+        <span class="tag-sm tag-key"># ABS자동볼스트라이크</span>
         
       </div>
       
@@ -22846,7 +22846,7 @@
     </div>
   </a>
   
-  <a class="post-card" href="/trends/sports/2026-03-15-milan-cortina-winter-paralympics-closing/" data-category="sports" data-tags="밀라노코르티나2026,백혜진,이용석,알파인스키,휠체어컬링,장애인체육,패럴림픽역대최고,스노보드,이제혁,BDH파라스,KBS,김윤지,코르티나담페초,밀라노,동계패럴림픽,이탈리아,한국,2026,2026-03,2026-03-15" data-date="2026-03-15">
+  <a class="post-card" href="/trends/sports/2026-03-15-milan-cortina-winter-paralympics-closing/" data-category="sports" data-tags="밀라노코르티나2026,백혜진,이용석,알파인스키,휠체어컬링,장애인체육,패럴림픽역대최고,스노보드,이제혁,BDH파라스,김윤지,코르티나담페초,밀라노,동계패럴림픽,이탈리아,한국,2026,2026-03,2026-03-15" data-date="2026-03-15">
     
     <div class="post-card-thumb-placeholder">📄</div>
     
@@ -25591,7 +25591,7 @@
     </div>
   </a>
   
-  <a class="post-card" href="/trends/jobs-education/2026-03-13-college-entrance-reform/" data-category="jobs-education" data-tags="2028수능개편,대학수학능력시험,수능선택과목폐지,문이과통합형,입시개편,대치동학원가,탐구과목,통합사고력,중학교2학년,2028학년도,수능유불리해소,입시제도변화,한국교육,수험생,사교육,경향신문,교육부,2026,2026-03,2026-03-13" data-date="2026-03-13">
+  <a class="post-card" href="/trends/jobs-education/2026-03-13-college-entrance-reform/" data-category="jobs-education" data-tags="2028수능개편,대학수학능력시험,수능선택과목폐지,문이과통합형,입시개편,대치동학원가,탐구과목,통합사고력,중학교2학년,2028학년도,수능유불리해소,입시제도변화,한국교육,수험생,사교육,교육부,2026,2026-03,2026-03-13" data-date="2026-03-13">
     
     <div class="post-card-thumb-placeholder">📄</div>
     
@@ -26018,7 +26018,7 @@
     </div>
   </a>
   
-  <a class="post-card" href="/trends/entertainment/2026-03-13-jtbc-worldcup-broadcast/" data-category="entertainment" data-tags="2026FIFA월드컵중계권,피닉스스포츠,티빙유료,보편적시청권,방송법76조,한국방송협회,중계권재판매,지상파재판매협상,유료OTT독점,스포츠중계권분쟁,북중미월드컵,KBS,JTBC,MBC,SBS,2026,2026-03,2026-03-13" data-date="2026-03-13">
+  <a class="post-card" href="/trends/entertainment/2026-03-13-jtbc-worldcup-broadcast/" data-category="entertainment" data-tags="2026FIFA월드컵중계권,피닉스스포츠,티빙유료,보편적시청권,방송법76조,한국방송협회,중계권재판매,지상파재판매협상,유료OTT독점,스포츠중계권분쟁,북중미월드컵,2026,2026-03,2026-03-13" data-date="2026-03-13">
     
     <img class="post-card-thumb" src="/assets/images/2026-03-13-jtbc-worldcup-broadcast.jpg" alt="JTBC 2026 월드컵 독점 중계 — 지상파와 협상 난항, 무료 시청 불투명">
     
@@ -27543,7 +27543,7 @@
     </div>
   </a>
   
-  <a class="post-card" href="/trends/politics/2026-03-11-constitution-revision-local-election/" data-category="politics" data-tags="개헌국민투표,우원식,국무총리추천권,감사원이관,CBS라디오,87년헌법,헌법개정,지방분권,지방선거,국회,여의도,더불어민주당,국민의힘,이재명,한국,2026,2026-03,2026-03-11" data-date="2026-03-11">
+  <a class="post-card" href="/trends/politics/2026-03-11-constitution-revision-local-election/" data-category="politics" data-tags="개헌국민투표,우원식,국무총리추천권,감사원이관,87년헌법,헌법개정,지방분권,지방선거,국회,여의도,더불어민주당,국민의힘,이재명,한국,2026,2026-03,2026-03-11" data-date="2026-03-11">
     
     <div class="post-card-thumb-placeholder">📄</div>
     
@@ -27577,10 +27577,6 @@
         
         
         
-        <span class="tag-sm"># CBS라디오</span>
-        
-        
-        
         <span class="tag-sm"># 87년헌법</span>
         
         
@@ -27598,6 +27594,10 @@
         
         
         <span class="tag-sm"># 국회</span>
+        
+        
+        
+        <span class="tag-sm"># 여의도</span>
         
       </div>
       
@@ -27848,7 +27848,7 @@
     </div>
   </a>
   
-  <a class="post-card" href="/trends/internet-telecom/2026-03-11-naver-daum-realtime-search/" data-category="internet-telecom" data-tags="Daum,실시간검색어부활,검색트렌드,인터넷플랫폼,정보생태계,포털경쟁,어뷰징,여론조작,검색점유율,YTN,다음,실시간트렌드,네이버,카카오,한국,2026,2026-03,2026-03-11" data-date="2026-03-11">
+  <a class="post-card" href="/trends/internet-telecom/2026-03-11-naver-daum-realtime-search/" data-category="internet-telecom" data-tags="Daum,실시간검색어부활,검색트렌드,인터넷플랫폼,정보생태계,포털경쟁,어뷰징,여론조작,검색점유율,다음,실시간트렌드,네이버,카카오,한국,2026,2026-03,2026-03-11" data-date="2026-03-11">
     
     <div class="post-card-thumb-placeholder">📄</div>
     
@@ -27902,7 +27902,7 @@
         
         
         
-        <span class="tag-sm"># YTN</span>
+        <span class="tag-sm"># 다음</span>
         
       </div>
       
@@ -28153,7 +28153,7 @@
     </div>
   </a>
   
-  <a class="post-card" href="/trends/food-drink/2026-03-11-spring-food-trend-2026/" data-category="food-drink" data-tags="두바이쫀득쿠키,편리미엄,제철식재료,한그릇음식,건강식트렌드,혼밥,1인가구,음식축제,SNS푸드트렌드,지역특산물,식품음료신문,봄동비빔밥,두쫀쿠,봄음식,한국,2026,2026-03,2026-03-11" data-date="2026-03-11">
+  <a class="post-card" href="/trends/food-drink/2026-03-11-spring-food-trend-2026/" data-category="food-drink" data-tags="두바이쫀득쿠키,편리미엄,제철식재료,한그릇음식,건강식트렌드,혼밥,1인가구,음식축제,SNS푸드트렌드,지역특산물,봄동비빔밥,두쫀쿠,봄음식,한국,2026,2026-03,2026-03-11" data-date="2026-03-11">
     
     <div class="post-card-thumb-placeholder">📄</div>
     
@@ -31692,7 +31692,7 @@
     </div>
   </a>
   
-  <a class="post-card" href="/trends/sports/2026-03-07-wbc-group-b-standings/" data-category="sports" data-tags="C조순위,불펜전략,국가대표,스포츠조선,8강진출,한일전,체코,류지현,한국야구,도쿄돔,WBC,일본,미국,한국,2026,2026-03,2026-03-07" data-date="2026-03-07">
+  <a class="post-card" href="/trends/sports/2026-03-07-wbc-group-b-standings/" data-category="sports" data-tags="C조순위,불펜전략,국가대표,8강진출,한일전,체코,류지현,한국야구,도쿄돔,WBC,일본,미국,한국,2026,2026-03,2026-03-07" data-date="2026-03-07">
     
     <div class="post-card-thumb-placeholder">📄</div>
     
@@ -31722,10 +31722,6 @@
         
         
         
-        <span class="tag-sm"># 스포츠조선</span>
-        
-        
-        
         <span class="tag-sm tag-key"># 8강진출</span>
         
         
@@ -31747,6 +31743,10 @@
         
         
         <span class="tag-sm"># 도쿄돔</span>
+        
+        
+        
+        <span class="tag-sm tag-key"># WBC</span>
         
       </div>
       
@@ -32119,7 +32119,7 @@
     </div>
   </a>
   
-  <a class="post-card" href="/trends/law-government/2026-03-07-gangbuk-motel-suspect/" data-category="law-government" data-tags="신상정보공개심의위원회,사적제재,무죄추정원칙,피의자,서울북부지검,벤조다이아제핀,MBC뉴스,연쇄살인,약물살인,강북모텔연쇄살인,신상공개,김소영,강북구,경향신문,한국,서울,2026,2026-03,2026-03-07" data-date="2026-03-07">
+  <a class="post-card" href="/trends/law-government/2026-03-07-gangbuk-motel-suspect/" data-category="law-government" data-tags="신상정보공개심의위원회,사적제재,무죄추정원칙,피의자,서울북부지검,벤조다이아제핀,연쇄살인,약물살인,강북모텔연쇄살인,신상공개,김소영,강북구,한국,서울,2026,2026-03,2026-03-07" data-date="2026-03-07">
     
     <div class="post-card-thumb-placeholder">📄</div>
     
@@ -32161,10 +32161,6 @@
         
         
         
-        <span class="tag-sm"># MBC뉴스</span>
-        
-        
-        
         <span class="tag-sm tag-key"># 연쇄살인</span>
         
         
@@ -32174,6 +32170,10 @@
         
         
         <span class="tag-sm tag-key"># 강북모텔연쇄살인</span>
+        
+        
+        
+        <span class="tag-sm tag-key"># 신상공개</span>
         
       </div>
       
@@ -32241,7 +32241,7 @@
     </div>
   </a>
   
-  <a class="post-card" href="/trends/jobs-education/2026-03-07-neulbom-school-launch/" data-category="jobs-education" data-tags="서울형늘봄플러스,기간제교사,키움센터,전북미래교육신문,맞벌이,교원단체,학부모,방과후돌봄,저출생,늘봄학교,교육정책,초등학교,교육부,경기,한국,서울,2026,2026-03,2026-03-07" data-date="2026-03-07">
+  <a class="post-card" href="/trends/jobs-education/2026-03-07-neulbom-school-launch/" data-category="jobs-education" data-tags="서울형늘봄플러스,기간제교사,키움센터,맞벌이,교원단체,학부모,방과후돌봄,저출생,늘봄학교,교육정책,초등학교,교육부,경기,한국,서울,2026,2026-03,2026-03-07" data-date="2026-03-07">
     
     <img class="post-card-thumb" src="/assets/images/2026-03-07-neulbom-school-launch.jpg" alt="전국 2741개 초등학교에 늘봄학교 — 학부모는 환영, 교사는 우려">
     
@@ -32271,10 +32271,6 @@
         
         
         
-        <span class="tag-sm"># 전북미래교육신문</span>
-        
-        
-        
         <span class="tag-sm tag-key"># 맞벌이</span>
         
         
@@ -32296,6 +32292,10 @@
         
         
         <span class="tag-sm tag-key"># 늘봄학교</span>
+        
+        
+        
+        <span class="tag-sm tag-key"># 교육정책</span>
         
       </div>
       
@@ -33095,7 +33095,7 @@
     </div>
   </a>
   
-  <a class="post-card" href="/trends/economy/2026-03-07-onion-price-collapse/" data-category="economy" data-tags="양파가격폭락,농민신문,수입양파,FTA,재배면적,포전거래,농산물수급,가락시장,경북도의회,식량안보,농업위기,전라남도,경상북도,제주,한국,서울,2026,2026-03,2026-03-07" data-date="2026-03-07">
+  <a class="post-card" href="/trends/economy/2026-03-07-onion-price-collapse/" data-category="economy" data-tags="양파가격폭락,수입양파,FTA,재배면적,포전거래,농산물수급,가락시장,경북도의회,식량안보,농업위기,전라남도,경상북도,제주,한국,서울,2026,2026-03,2026-03-07" data-date="2026-03-07">
     
     <img class="post-card-thumb" src="/assets/images/2026-03-07-onion-price-collapse.jpg" alt="양파 1kg 700원 — 전년 대비 61% 폭락, 경북도의회 긴급 성명">
     
@@ -33117,15 +33117,11 @@
         
         
         
-        <span class="tag-sm tag-top"># 농민신문</span>
-        
-        
-        
         <span class="tag-sm tag-top"># 수입양파</span>
         
         
         
-        <span class="tag-sm"># FTA</span>
+        <span class="tag-sm tag-top"># FTA</span>
         
         
         
@@ -33150,6 +33146,10 @@
         
         
         <span class="tag-sm tag-key"># 식량안보</span>
+        
+        
+        
+        <span class="tag-sm tag-key"># 농업위기</span>
         
       </div>
       
@@ -34559,7 +34559,7 @@
     </div>
   </a>
   
-  <a class="post-card" href="/trends/entertainment/2026-03-06-shining-drama-premiere/" data-category="entertainment" data-tags="박진영,김민주,청춘로맨스,첫사랑재회,금요드라마,초호화캐스팅,OTT동시유통,샤이닝,한국드라마,JTBC,월간남친,K드라마,넷플릭스,한국,서울,2026,2026-03,2026-03-06" data-date="2026-03-06">
+  <a class="post-card" href="/trends/entertainment/2026-03-06-shining-drama-premiere/" data-category="entertainment" data-tags="박진영,김민주,청춘로맨스,첫사랑재회,금요드라마,초호화캐스팅,OTT동시유통,샤이닝,한국드라마,월간남친,K드라마,넷플릭스,한국,서울,2026,2026-03,2026-03-06" data-date="2026-03-06">
     
     <div class="post-card-thumb-placeholder">📄</div>
     
@@ -34613,7 +34613,7 @@
         
         
         
-        <span class="tag-sm tag-key"># JTBC</span>
+        <span class="tag-sm"># 월간남친</span>
         
       </div>
       
@@ -34925,7 +34925,7 @@
     </div>
   </a>
   
-  <a class="post-card" href="/trends/economy/2026-03-06-energy-security/" data-category="economy" data-tags="원유의존도,수입선다변화,강훈식,천궁-II,그린피스코리아,비축유,헤럴드경제,재생에너지,LNG,UAE,에너지안보,중동,호르무즈해협,이란전쟁,한국,서울,2026,2026-03,2026-03-06" data-date="2026-03-06">
+  <a class="post-card" href="/trends/economy/2026-03-06-energy-security/" data-category="economy" data-tags="원유의존도,수입선다변화,강훈식,천궁-II,그린피스코리아,비축유,재생에너지,LNG,UAE,에너지안보,중동,호르무즈해협,이란전쟁,한국,서울,2026,2026-03,2026-03-06" data-date="2026-03-06">
     
     <div class="post-card-thumb-placeholder">📄</div>
     
@@ -34967,10 +34967,6 @@
         
         
         
-        <span class="tag-sm"># 헤럴드경제</span>
-        
-        
-        
         <span class="tag-sm tag-key"># 재생에너지</span>
         
         
@@ -34980,6 +34976,10 @@
         
         
         <span class="tag-sm"># UAE</span>
+        
+        
+        
+        <span class="tag-sm tag-key"># 에너지안보</span>
         
       </div>
       
@@ -36877,7 +36877,7 @@
     </div>
   </a>
   
-  <a class="post-card" href="/trends/economy/2026-03-05-won-dollar-1500-exchange-rate/" data-category="economy" data-tags="더퍼블릭,이중충격,수출기업,무역수지,에너지수입,코스피폭락,원화약세,환율,외환시장,MBC,인플레이션,수입물가,외국인매도,한국경제,원달러환율,이란전쟁,이란,미국,한국,2026,2026-03,2026-03-05" data-date="2026-03-05">
+  <a class="post-card" href="/trends/economy/2026-03-05-won-dollar-1500-exchange-rate/" data-category="economy" data-tags="더퍼블릭,이중충격,수출기업,무역수지,에너지수입,코스피폭락,원화약세,환율,외환시장,인플레이션,수입물가,외국인매도,한국경제,원달러환율,이란전쟁,이란,미국,한국,2026,2026-03,2026-03-05" data-date="2026-03-05">
     
     <img class="post-card-thumb" src="/assets/images/2026-03-05-won-dollar-1500-exchange-rate.jpg" alt="원-달러 환율 1,500원 돌파 — 이란 사태·코스피 폭락 복합 충격">
     
@@ -36931,7 +36931,7 @@
         
         
         
-        <span class="tag-sm"># MBC</span>
+        <span class="tag-sm tag-key"># 인플레이션</span>
         
       </div>
       
@@ -38341,7 +38341,7 @@
     </div>
   </a>
   
-  <a class="post-card" href="/trends/entertainment/2026-03-04-netflix-korea-global-content/" data-category="entertainment" data-tags="K드라마글로벌8위,한국콘텐츠투자20%확대,OTT플랫폼,한류소프트파워,한국어학습인구,코리아패키지,K드라마전성시대,글로벌배급,오징어게임,오리지널콘텐츠,신이랑법률사무소,K콘텐츠,ENA,세이렌,클라이맥스,tvN,SBS,넷플릭스,한국,2026,2026-03,2026-03-04" data-date="2026-03-04">
+  <a class="post-card" href="/trends/entertainment/2026-03-04-netflix-korea-global-content/" data-category="entertainment" data-tags="K드라마글로벌8위,한국콘텐츠투자20%확대,OTT플랫폼,한류소프트파워,한국어학습인구,코리아패키지,K드라마전성시대,글로벌배급,오징어게임,오리지널콘텐츠,신이랑법률사무소,K콘텐츠,ENA,세이렌,클라이맥스,tvN,넷플릭스,한국,2026,2026-03,2026-03-04" data-date="2026-03-04">
     
     <img class="post-card-thumb" src="/assets/images/2026-03-04-netflix-korea-global-content.jpg" alt="넷플릭스 한국 콘텐츠 글로벌 8위 — K드라마 전성시대, 세이렌도 해외 진출 가능성">
     
@@ -38829,7 +38829,7 @@
     </div>
   </a>
   
-  <a class="post-card" href="/trends/science/2026-03-03-blood-moon-eclipse/" data-category="science" data-tags="한국천문연구원,한인포스트,삼척,달집태우기,개기식,부분식,본그림자,산란,최대식,천문현상,지구본그림자,아시아태평양,우주과학,달관측,개기월식,블러드문,정월대보름,SNS인증,YTN,인도네시아,호주,한국,2026,2026-03,2026-03-03" data-date="2026-03-03">
+  <a class="post-card" href="/trends/science/2026-03-03-blood-moon-eclipse/" data-category="science" data-tags="한국천문연구원,한인포스트,삼척,달집태우기,개기식,부분식,본그림자,산란,최대식,천문현상,지구본그림자,아시아태평양,우주과학,달관측,개기월식,블러드문,정월대보름,SNS인증,인도네시아,호주,한국,2026,2026-03,2026-03-03" data-date="2026-03-03">
     
     <img class="post-card-thumb" src="/assets/images/2026-03-03-blood-moon-eclipse.jpg" alt="36년 만의 정월대보름 블러드문 — 3월 3일 밤, 개기월식 전국 관측">
     
@@ -38890,7 +38890,7 @@
     </div>
   </a>
   
-  <a class="post-card" href="/trends/politics/2026-03-03-lee-jaeming-approval/" data-category="politics" data-tags="대구경북,부산경남,결집효과,이마트,에너지공급망,AEI,물가안정,국정지지율,부동산정책,무당층,대통령지지율,제9회전국동시지방선거,헤럴드경제,MBC,경향신문,여론조사,지방선거,한국갤럽,더불어민주당,국민의힘,이란전쟁,이재명,한국,서울,2026,2026-03,2026-03-03" data-date="2026-03-03">
+  <a class="post-card" href="/trends/politics/2026-03-03-lee-jaeming-approval/" data-category="politics" data-tags="대구경북,부산경남,결집효과,이마트,에너지공급망,AEI,물가안정,국정지지율,부동산정책,무당층,대통령지지율,제9회전국동시지방선거,여론조사,지방선거,한국갤럽,더불어민주당,국민의힘,이란전쟁,이재명,한국,서울,2026,2026-03,2026-03-03" data-date="2026-03-03">
     
     <img class="post-card-thumb" src="/assets/images/2026-03-03-lee-jaeming-approval.jpg" alt="이재명 대통령 지지율 65% — 갤럽 조사, 6개월 만에 최고치 기록">
     
@@ -39012,7 +39012,7 @@
     </div>
   </a>
   
-  <a class="post-card" href="/trends/finance/2026-03-03-black-tuesday-kospi/" data-category="finance" data-tags="성상용,미래에셋증권,검은화요일,개미투자자,공포지수,KOSPI200,VKOSPI,이투데이,홍콩,증시폭락,서울신문,사이드카,반도체주,MBC,경향신문,블룸버그,코스닥,대만,외국인매도,중동전쟁,일본,코스피,호르무즈해협,이란,SK하이닉스,삼성전자,한국,서울,2026,2026-03,2026-03-03" data-date="2026-03-03">
+  <a class="post-card" href="/trends/finance/2026-03-03-black-tuesday-kospi/" data-category="finance" data-tags="성상용,미래에셋증권,검은화요일,개미투자자,공포지수,KOSPI200,VKOSPI,이투데이,홍콩,증시폭락,사이드카,반도체주,블룸버그,코스닥,대만,외국인매도,중동전쟁,일본,코스피,호르무즈해협,이란,SK하이닉스,삼성전자,한국,서울,2026,2026-03,2026-03-03" data-date="2026-03-03">
     
     <img class="post-card-thumb" src="/assets/images/2026-03-03-black-tuesday-kospi.jpg" alt="'검은 화요일' — 코스피 452포인트 역대 최대 폭락, 삼성전자·SK하이닉스 주가 무너져">
     
@@ -39073,7 +39073,7 @@
     </div>
   </a>
   
-  <a class="post-card" href="/trends/entertainment/2026-03-03-park-bom-2ne1-controversy/" data-category="entertainment" data-tags="박봄,산다라박,2NE1,투애니원,데일리안,DC인사이드,자필폭로,2NE1내분,마약논란,애더럴,ADD,주의력결핍장애,세관적발,입건유예,암페타민,아이돌시스템,연예계논란,SNS폭로,뉴시스,스타뉴스코리아,한국,서울,2026,2026-03,2026-03-03" data-date="2026-03-03">
+  <a class="post-card" href="/trends/entertainment/2026-03-03-park-bom-2ne1-controversy/" data-category="entertainment" data-tags="박봄,산다라박,2NE1,투애니원,DC인사이드,자필폭로,2NE1내분,마약논란,애더럴,ADD,주의력결핍장애,세관적발,입건유예,암페타민,아이돌시스템,연예계논란,SNS폭로,한국,서울,2026,2026-03,2026-03-03" data-date="2026-03-03">
     
     <img class="post-card-thumb" src="/assets/images/2026-03-03-park-bom-2ne1-controversy.jpg" alt="박봄, 산다라박 겨냥 자필 폭로 — 2NE1 내분 일파만파">
     
@@ -39107,10 +39107,6 @@
         
         
         
-        <span class="tag-sm"># 데일리안</span>
-        
-        
-        
         <span class="tag-sm"># DC인사이드</span>
         
         
@@ -39129,12 +39125,16 @@
         
         <span class="tag-sm tag-key"># 애더럴</span>
         
+        
+        
+        <span class="tag-sm"># ADD</span>
+        
       </div>
       
     </div>
   </a>
   
-  <a class="post-card" href="/trends/entertainment/2026-03-03-monthly-boyfriend-netflix/" data-category="entertainment" data-tags="김지수,tvreport,꽃피면달생각해,연기력,웹툰PD,케미,아이돌연기,스타뉴스코리아,아시아,드라마,발연기논란,팬덤,로맨틱코미디,서인국,JTBC,OTT,지수,MZ세대,월간남친,블랙핑크,넷플릭스,한국,서울,2026,2026-03,2026-03-03" data-date="2026-03-03">
+  <a class="post-card" href="/trends/entertainment/2026-03-03-monthly-boyfriend-netflix/" data-category="entertainment" data-tags="김지수,꽃피면달생각해,연기력,웹툰PD,케미,아이돌연기,아시아,드라마,발연기논란,팬덤,로맨틱코미디,서인국,OTT,지수,MZ세대,월간남친,블랙핑크,넷플릭스,한국,서울,2026,2026-03,2026-03-03" data-date="2026-03-03">
     
     <img class="post-card-thumb" src="/assets/images/2026-03-03-monthly-boyfriend-netflix.jpg" alt="넷플릭스 '월간남친' 3월 6일 공개 예고 — 지수 발연기 논란 속 글로벌 기대작">
     
@@ -39156,15 +39156,11 @@
         
         
         
-        <span class="tag-sm tag-top"># tvreport</span>
-        
-        
-        
         <span class="tag-sm tag-top"># 꽃피면달생각해</span>
         
         
         
-        <span class="tag-sm"># 연기력</span>
+        <span class="tag-sm tag-top"># 연기력</span>
         
         
         
@@ -39180,15 +39176,19 @@
         
         
         
-        <span class="tag-sm"># 스타뉴스코리아</span>
-        
-        
-        
         <span class="tag-sm"># 아시아</span>
         
         
         
         <span class="tag-sm"># 드라마</span>
+        
+        
+        
+        <span class="tag-sm tag-key"># 발연기논란</span>
+        
+        
+        
+        <span class="tag-sm tag-key"># 팬덤</span>
         
       </div>
       
@@ -39683,7 +39683,7 @@
     </div>
   </a>
   
-  <a class="post-card" href="/trends/politics/2026-03-02-lee-approval-rating-drop/" data-category="politics" data-tags="국정수행,에너지경제신문,서울과반이탈,수도권민심,전라,머니투데이,미디어오늘,광주전남통합,영남,지지율,행정통합,촉법소년,서울신문,리얼미터,부동산,여론조사,광주,지방선거,더불어민주당,국민의힘,이재명,한국,서울,2026,2026-03,2026-03-02" data-date="2026-03-02">
+  <a class="post-card" href="/trends/politics/2026-03-02-lee-approval-rating-drop/" data-category="politics" data-tags="국정수행,서울과반이탈,수도권민심,전라,미디어오늘,광주전남통합,영남,지지율,행정통합,촉법소년,리얼미터,부동산,여론조사,광주,지방선거,더불어민주당,국민의힘,이재명,한국,서울,2026,2026-03,2026-03-02" data-date="2026-03-02">
     
     <div class="post-card-thumb-placeholder">📄</div>
     
@@ -39705,23 +39705,15 @@
         
         
         
-        <span class="tag-sm tag-top"># 에너지경제신문</span>
-        
-        
-        
         <span class="tag-sm tag-top"># 서울과반이탈</span>
         
         
         
-        <span class="tag-sm"># 수도권민심</span>
+        <span class="tag-sm tag-top"># 수도권민심</span>
         
         
         
         <span class="tag-sm"># 전라</span>
-        
-        
-        
-        <span class="tag-sm"># 머니투데이</span>
         
         
         
@@ -39739,12 +39731,20 @@
         
         <span class="tag-sm tag-key"># 지지율</span>
         
+        
+        
+        <span class="tag-sm tag-key"># 행정통합</span>
+        
+        
+        
+        <span class="tag-sm"># 촉법소년</span>
+        
       </div>
       
     </div>
   </a>
   
-  <a class="post-card" href="/trends/politics/2026-03-02-gwangju-jeonnam-merger-bill/" data-category="politics" data-tags="전남광주통합특별시,강기정,김영록,인구절벽,재정특례,교육자율권,전남일보,광주전남통합,메가시티,지역균형발전,대구경북통합,대전충남통합,행정통합,지방분권,전남,MBC,광주,지방선거,국회,더불어민주당,국민의힘,한국,2026,2026-03,2026-03-02" data-date="2026-03-02">
+  <a class="post-card" href="/trends/politics/2026-03-02-gwangju-jeonnam-merger-bill/" data-category="politics" data-tags="전남광주통합특별시,강기정,김영록,인구절벽,재정특례,교육자율권,전남일보,광주전남통합,메가시티,지역균형발전,대구경북통합,대전충남통합,행정통합,지방분권,전남,광주,지방선거,국회,더불어민주당,국민의힘,한국,2026,2026-03,2026-03-02" data-date="2026-03-02">
     
     <div class="post-card-thumb-placeholder">📄</div>
     
@@ -39927,7 +39927,7 @@
     </div>
   </a>
   
-  <a class="post-card" href="/trends/online-community/2026-03-02-siren-drama-online-buzz/" data-category="online-community" data-tags="전현무,스릴러드라마,드라마리뷰,첫방,온라인버즈,형사드라마,닐슨코리아,시청률,더쿠,스포츠경향,한국드라마,디시인사이드,세이렌,위하준,박민영,tvN,에펨코리아,한국,서울,2026,2026-03,2026-03-02" data-date="2026-03-02">
+  <a class="post-card" href="/trends/online-community/2026-03-02-siren-drama-online-buzz/" data-category="online-community" data-tags="전현무,스릴러드라마,드라마리뷰,첫방,온라인버즈,형사드라마,닐슨코리아,시청률,더쿠,한국드라마,디시인사이드,세이렌,위하준,박민영,tvN,에펨코리아,한국,서울,2026,2026-03,2026-03-02" data-date="2026-03-02">
     
     <div class="post-card-thumb-placeholder">📄</div>
     
@@ -39981,14 +39981,14 @@
         
         
         
-        <span class="tag-sm"># 스포츠경향</span>
+        <span class="tag-sm"># 한국드라마</span>
         
       </div>
       
     </div>
   </a>
   
-  <a class="post-card" href="/trends/law-government/2026-03-02-juvenile-crime-age-debate/" data-category="law-government" data-tags="국가인권위원회,공론화,재범률,소년보호처분,시사저널,청소년범죄,연령하향,소년법,형사처벌,이투데이,촉법소년,성평등가족부,대법원,리얼미터,헤럴드경제,MBC,법무부,이재명,한국,서울,2026,2026-03,2026-03-02" data-date="2026-03-02">
+  <a class="post-card" href="/trends/law-government/2026-03-02-juvenile-crime-age-debate/" data-category="law-government" data-tags="국가인권위원회,공론화,재범률,소년보호처분,시사저널,청소년범죄,연령하향,소년법,형사처벌,이투데이,촉법소년,성평등가족부,대법원,리얼미터,법무부,이재명,한국,서울,2026,2026-03,2026-03-02" data-date="2026-03-02">
     
     <div class="post-card-thumb-placeholder">📄</div>
     
@@ -40781,7 +40781,7 @@
     </div>
   </a>
   
-  <a class="post-card" href="/trends/entertainment/2026-03-02-march-drama-lineup-preview/" data-category="entertainment" data-tags="대한민국에서건물주되는법,심우면연리리,하이브미디어코프,글로벌드라마,샤이닝,신이랑법률사무소,KBS2,Netflix,주지훈,오정세,나나,ENA,하지원,세이렌,JTBC,위하준,클라이맥스,박민영,티빙,OTT,월간남친,tvN,SBS,K드라마,한국,서울,2026,2026-03,2026-03-02" data-date="2026-03-02">
+  <a class="post-card" href="/trends/entertainment/2026-03-02-march-drama-lineup-preview/" data-category="entertainment" data-tags="대한민국에서건물주되는법,심우면연리리,하이브미디어코프,글로벌드라마,샤이닝,신이랑법률사무소,KBS2,Netflix,주지훈,오정세,나나,ENA,하지원,세이렌,위하준,클라이맥스,박민영,티빙,OTT,월간남친,tvN,K드라마,한국,서울,2026,2026-03,2026-03-02" data-date="2026-03-02">
     
     <div class="post-card-thumb-placeholder">📄</div>
     
@@ -41269,7 +41269,7 @@
     </div>
   </a>
   
-  <a class="post-card" href="/trends/politics/2026-03-01-march-1st-speech/" data-category="politics" data-tags="함인경,효창공원,상하이,국립효창독립공원,한일셔틀외교,3·1혁명,평화,흡수통일,임시정부,나경원,조국,MBC뉴스,제107주년삼일절,3·1운동,독립유공자,한일관계,조국혁신당,파이낸셜뉴스,문재인,서울신문,코엑스,한반도,북한,국민의힘,이재명,한국,서울,2026,2026-03,2026-03-01" data-date="2026-03-01">
+  <a class="post-card" href="/trends/politics/2026-03-01-march-1st-speech/" data-category="politics" data-tags="함인경,효창공원,상하이,국립효창독립공원,한일셔틀외교,3·1혁명,평화,흡수통일,임시정부,나경원,조국,제107주년삼일절,3·1운동,독립유공자,한일관계,조국혁신당,문재인,코엑스,한반도,북한,국민의힘,이재명,한국,서울,2026,2026-03,2026-03-01" data-date="2026-03-01">
     
     <img class="post-card-thumb" src="/assets/images/2026-03-01-march-1st-speech.jpg" alt="이재명 대통령, 첫 삼일절 기념사서 '3·1혁명' 호명…'평화' 24회 강조">
     
@@ -41391,7 +41391,7 @@
     </div>
   </a>
   
-  <a class="post-card" href="/trends/economy/2026-03-01-hormuz-crisis-korea-energy/" data-category="economy" data-tags="소해함,경제안보,중동에너지,안규백,나경원,국방부,미국이란전쟁,파병,원유수입,파이낸셜뉴스,아덴만,청해부대,한미동맹,트럼프,에너지안보,중동,호르무즈해협,이란,이재명,미국,한국,서울,2026,2026-03,2026-03-01" data-date="2026-03-01">
+  <a class="post-card" href="/trends/economy/2026-03-01-hormuz-crisis-korea-energy/" data-category="economy" data-tags="소해함,경제안보,중동에너지,안규백,나경원,국방부,미국이란전쟁,파병,원유수입,아덴만,청해부대,한미동맹,트럼프,에너지안보,중동,호르무즈해협,이란,이재명,미국,한국,서울,2026,2026-03,2026-03-01" data-date="2026-03-01">
     
     <img class="post-card-thumb" src="/assets/images/2026-03-01-hormuz-crisis-korea-energy.jpg" alt="호르무즈 파병 요구에 선 한국: 원유 70%의 길목에서 동맹과 실익 사이">
     
@@ -41445,7 +41445,7 @@
         
         
         
-        <span class="tag-sm"># 파이낸셜뉴스</span>
+        <span class="tag-sm"># 아덴만</span>
         
       </div>
       
