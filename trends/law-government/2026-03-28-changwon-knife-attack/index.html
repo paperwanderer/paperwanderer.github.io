@@ -109,8 +109,9 @@
     .gt-btn::after { content:'번역 보기'; position:absolute; bottom:calc(100% + 5px); left:0; transform:none; background:#1a1a2e; color:#fff; font-size:0.72em; padding:4px 8px; border-radius:4px; white-space:nowrap; display:none; z-index:300; pointer-events:none; }
     .gt-btn:hover::after { display:block; }
     /* ── 공유 버튼 (post-meta 인라인) ── */
-    .share-group { display:inline-flex; align-items:center; gap:4px; }
+    .share-group { display:inline-flex; align-items:center; gap:4px; width:100%; }
     .share-label { font-size:0.82em; color:var(--muted); font-weight:600; margin-right:2px; }
+    .meta-right { margin-left:auto; display:flex; gap:16px; }
     .meta-share-btn { display:inline-flex; align-items:center; padding:1px 6px; border-radius:4px; font-size:0.82em; cursor:pointer; border:1px solid var(--border); background:var(--surface); color:var(--text); font-family:inherit; line-height:1.6; vertical-align:middle; }
     .meta-share-btn:hover { background:var(--tag-bg); }
     /* ── 파닉스 한국어 해석 호버 툴팁 ── */
@@ -201,7 +202,7 @@
     .post-header { margin-bottom: 28px; }
     .post-category-badge { display: inline-block; background: var(--accent); color: #fff; font-size: 0.72em; font-weight: 700; text-transform: uppercase; letter-spacing: 1.5px; padding: 3px 10px; border-radius: 4px; margin-bottom: 12px; }
     .post-title { font-size: 1.9em; font-weight: 800; line-height: 1.25; color: var(--text); margin-bottom: 14px; }
-    .post-meta { font-size: 0.82em; color: var(--muted); display: flex; gap: 16px; flex-wrap: wrap; margin-bottom: 12px; padding-bottom: 16px; border-bottom: 1px solid var(--border); }
+    .post-meta { font-size: 0.82em; color: var(--muted); display: flex; gap: 8px 16px; flex-wrap: wrap; align-items: center; margin-bottom: 12px; padding-bottom: 16px; border-bottom: 1px solid var(--border); }
     .post-tags { display: flex; gap: 6px; flex-wrap: wrap; }
     .post-thumbnail { width: 100%; border-radius: 10px; margin-bottom: 28px; box-shadow: 0 2px 12px rgba(0,0,0,.08); }
 
@@ -332,8 +333,10 @@
         <button class="meta-share-btn sb-native" id="share-native-btn" style="display:none">📤</button>
         <button class="meta-share-btn sb-copy" id="share-copy-btn">🔗</button>
       </span>
-      <a href="/?date=2026-03-28" style="color:inherit; text-decoration:none;">📅 2026년 03월 28일</a>
-      <span>✍️ paperWanderer</span>
+      <span class="meta-right">
+        <a href="/?date=2026-03-28" style="color:inherit; text-decoration:none;">📅 2026년 03월 28일</a>
+        <span>✍️ paperWanderer</span>
+      </span>
     </div>
 
     
