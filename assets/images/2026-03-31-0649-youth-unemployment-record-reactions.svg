@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="322" viewBox="0 0 800 322"
+     font-family="'Apple SD Gothic Neo', 'Malgun Gothic', Arial, sans-serif">
+  <rect width="800" height="322" fill="#f8f9fa" rx="12"/>
+
+  <text x="400" y="36" text-anchor="middle" font-size="17" font-weight="bold" fill="#2c3e50">청년 실업률 최고 — 커뮤니티 반응</text>
+  <text x="400" y="54" text-anchor="middle" font-size="11" fill="#7f8c8d">뉴스 댓글 · 취업 커뮤니티 | 2026-03-31 06:49 KST</text>
+
+  <rect x="490" y="66" width="12" height="12" fill="#27ae60" rx="2"/>
+  <text x="506" y="77" font-size="11" fill="#2c3e50">긍정</text>
+  <rect x="548" y="66" width="12" height="12" fill="#e74c3c" rx="2"/>
+  <text x="564" y="77" font-size="11" fill="#2c3e50">부정</text>
+  <rect x="606" y="66" width="12" height="12" fill="#95a5a6" rx="2"/>
+  <text x="622" y="77" font-size="11" fill="#2c3e50">중립</text>
+
+  <!-- 뉴스 댓글: pos=10, neg=70, neu=20, total=100 -->
+  <!-- pos_w=round(10/100*680)=68, neg_w=round(70/100*680)=476, neu_w=680-68-476=136 -->
+  <!-- neg_x=60+68=128, neu_x=60+68+476=604 -->
+  <text x="60" y="100" font-size="13" font-weight="bold" fill="#2c3e50">뉴스 댓글 — 긍정 10건 / 부정 70건 / 중립 20건</text>
+  <rect x="60"  y="110" width="68"  height="28" fill="#27ae60" rx="3"/>
+  <rect x="128" y="110" width="476" height="28" fill="#e74c3c" rx="3"/>
+  <rect x="604" y="110" width="136" height="28" fill="#95a5a6" rx="3"/>
+  <text x="60"  y="152" text-anchor="start"  font-size="11" fill="#27ae60">긍정 10%</text>
+  <text x="400" y="152" text-anchor="middle" font-size="11" fill="#e74c3c">부정 70%</text>
+  <text x="740" y="152" text-anchor="end"    font-size="11" fill="#7f8c8d">중립 20%</text>
+  <text x="60" y="168" font-size="11" fill="#555">💬 "스펙 쌓아도 취직이 안 되는 게 현실. 쉬었음이 선택이 아닌 처지가 됐다"</text>
+
+  <!-- 취업 커뮤니티: pos=8, neg=72, neu=20, total=100 -->
+  <!-- pos_w=round(8/100*680)=54, neg_w=round(72/100*680)=490, neu_w=680-54-490=136 -->
+  <!-- neg_x=60+54=114, neu_x=60+54+490=604 -->
+  <text x="60" y="220" font-size="13" font-weight="bold" fill="#2c3e50">취업 커뮤니티 — 긍정 8건 / 부정 72건 / 중립 20건</text>
+  <rect x="60"  y="230" width="54"  height="28" fill="#27ae60" rx="3"/>
+  <rect x="114" y="230" width="490" height="28" fill="#e74c3c" rx="3"/>
+  <rect x="604" y="230" width="136" height="28" fill="#95a5a6" rx="3"/>
+  <text x="60"  y="272" text-anchor="start"  font-size="11" fill="#27ae60">긍정 8%</text>
+  <text x="400" y="272" text-anchor="middle" font-size="11" fill="#e74c3c">부정 72%</text>
+  <text x="740" y="272" text-anchor="end"    font-size="11" fill="#7f8c8d">중립 20%</text>
+  <text x="60" y="288" font-size="11" fill="#555">💬 "전쟁에 불경기에 취업시장 완전 얼어붙었다. 공무원 준비할 수밖에"</text>
+
+  <text x="400" y="310" text-anchor="middle" font-size="10" fill="#bdc3c7">* 수치는 집계된 공감/반응 신호 기반 추산 | paperWanderer</text>
+</svg>
