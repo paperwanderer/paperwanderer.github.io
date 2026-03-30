@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="120" viewBox="0 0 800 120">
+  <rect width="800" height="120" fill="#f8f9fa" rx="8"/>
+  <text x="400" y="22" text-anchor="middle" font-family="sans-serif" font-size="13" fill="#333" font-weight="bold">커뮤니티 반응</text>
+  <rect x="60" y="35" width="544" height="40" fill="#27ae60" rx="4"/>
+  <rect x="604" y="35" width="34" height="40" fill="#e74c3c" rx="4"/>
+  <rect x="638" y="35" width="102" height="40" fill="#95a5a6" rx="4"/>
+  <text x="60" y="90" font-family="sans-serif" font-size="12" fill="#27ae60">긍정 80%</text>
+  <text x="400" y="90" text-anchor="middle" font-family="sans-serif" font-size="12" fill="#e74c3c">부정 5%</text>
+  <text x="740" y="90" text-anchor="end" font-family="sans-serif" font-size="12" fill="#95a5a6">중립 15%</text>
+</svg>
