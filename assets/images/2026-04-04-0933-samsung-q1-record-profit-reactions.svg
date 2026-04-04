@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="322" viewBox="0 0 800 322"
+     font-family="'Apple SD Gothic Neo', 'Malgun Gothic', Arial, sans-serif">
+  <rect width="800" height="322" fill="#f8f9fa" rx="12"/>
+  <text x="400" y="36" text-anchor="middle" font-size="19" font-weight="bold" fill="#2c3e50">삼성전자 1분기 영업익 50조·NPU·HBM — 커뮤니티 반응</text>
+  <text x="400" y="54" text-anchor="middle" font-size="13" fill="#7f8c8d">루리웹 · 다음뉴스 | 2026-04-04 09:33 KST</text>
+  <!-- 범례 -->
+  <rect x="490" y="66" width="12" height="12" rx="2" style="fill:#27ae60"/>
+  <text x="506" y="77" font-size="13" fill="#2c3e50">긍정</text>
+  <rect x="548" y="66" width="12" height="12" rx="2" style="fill:#e74c3c"/>
+  <text x="564" y="77" font-size="13" fill="#2c3e50">부정</text>
+  <rect x="606" y="66" width="12" height="12" rx="2" style="fill:#95a5a6"/>
+  <text x="622" y="77" font-size="13" fill="#2c3e50">중립</text>
+  <!-- Row 1 -->
+  <text x="60" y="100" font-size="15" font-weight="bold" fill="#2c3e50">루리웹 — 긍정 14건 / 부정 2건 / 중립 10건</text>
+  <rect x="60" y="110" width="366" height="28" fill="#27ae60" rx="3"/>
+  <rect x="426" y="110" width="52" height="28" fill="#e74c3c" rx="3"/>
+  <rect x="478" y="110" width="262" height="28" fill="#95a5a6" rx="3"/>
+  <text x="60" y="152" text-anchor="start" font-size="13" fill="#27ae60">긍정 53.8%</text>
+  <text x="400" y="152" text-anchor="middle" font-size="13" fill="#e74c3c">부정 7.7%</text>
+  <text x="740" y="152" text-anchor="end" font-size="13" fill="#7f8c8d">중립 38.5%</text>
+  <text x="60" y="168" font-size="13" fill="#555">💬 "AI 시대 삼성 진짜 화려한 복귀"</text>
+  <!-- Row 2 -->
+  <text x="60" y="220" font-size="15" font-weight="bold" fill="#2c3e50">다음뉴스 — 긍정 5건 / 부정 3건 / 중립 12건</text>
+  <rect x="60" y="230" width="170" height="28" fill="#27ae60" rx="3"/>
+  <rect x="230" y="230" width="102" height="28" fill="#e74c3c" rx="3"/>
+  <rect x="332" y="230" width="408" height="28" fill="#95a5a6" rx="3"/>
+  <text x="60" y="272" text-anchor="start" font-size="13" fill="#27ae60">긍정 25.0%</text>
+  <text x="400" y="272" text-anchor="middle" font-size="13" fill="#e74c3c">부정 15.0%</text>
+  <text x="740" y="272" text-anchor="end" font-size="13" fill="#7f8c8d">중립 60.0%</text>
+  <text x="60" y="288" font-size="13" fill="#555">💬 "유가·관세 변수가 변수…실적은 기대"</text>
+  <text x="400" y="310" text-anchor="middle" font-size="12" fill="#bdc3c7">* 수치는 집계된 공감/반응 신호 기반 추산 | paperWanderer</text>
+</svg>

@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="204" viewBox="0 0 800 204"
+     font-family="'Apple SD Gothic Neo', 'Malgun Gothic', Arial, sans-serif">
+  <rect width="800" height="204" fill="#f8f9fa" rx="12"/>
+  <text x="400" y="36" text-anchor="middle" font-size="19" font-weight="bold" fill="#2c3e50">KBO 시즌 초반 순위 경쟁 — 커뮤니티 반응</text>
+  <text x="400" y="54" text-anchor="middle" font-size="13" fill="#7f8c8d">다음스포츠·에펨코리아·DC인사이드 | 2026-04-04 09:33 KST</text>
+  <!-- 범례 -->
+  <rect fill="#27ae60" x="490" y="66" width="12" height="12" rx="2"/>
+  <text x="506" y="77" font-size="13" fill="#2c3e50">긍정</text>
+  <rect fill="#e74c3c" x="548" y="66" width="12" height="12" rx="2"/>
+  <text x="564" y="77" font-size="13" fill="#2c3e50">부정</text>
+  <rect fill="#95a5a6" x="606" y="66" width="12" height="12" rx="2"/>
+  <text x="622" y="77" font-size="13" fill="#2c3e50">중립</text>
+  <!-- Row 1 -->
+  <text x="60" y="100" font-size="15" font-weight="bold" fill="#2c3e50">커뮤니티 종합 — 긍정 120건 / 부정 70건 / 중립 40건</text>
+  <rect fill="#27ae60" x="60" y="110" width="355" height="28" rx="3"/>
+  <rect fill="#e74c3c" x="415" y="110" width="207" height="28" rx="3"/>
+  <rect fill="#95a5a6" x="622" y="110" width="118" height="28" rx="3"/>
+  <text x="60" y="152" text-anchor="start" font-size="13" fill="#27ae60">긍정 52%</text>
+  <text x="400" y="152" text-anchor="middle" font-size="13" fill="#e74c3c">부정 30%</text>
+  <text x="740" y="152" text-anchor="end" font-size="13" fill="#7f8c8d">중립 18%</text>
+  <text x="60" y="168" font-size="13" fill="#555">💬 "구창모 진짜 부활했다, NC 이번엔 해보는 거 아니냐"</text>
+  <text x="400" y="186" text-anchor="middle" font-size="12" fill="#bdc3c7">* 수치는 집계된 공감/반응 신호 기반 추산 | paperWanderer</text>
+</svg>

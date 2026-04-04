@@ -1,0 +1,42 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="440" viewBox="0 0 800 440"
+     font-family="'Apple SD Gothic Neo', 'Malgun Gothic', Arial, sans-serif">
+  <rect width="800" height="440" fill="#f8f9fa" rx="12"/>
+  <text x="400" y="36" text-anchor="middle" font-size="19" font-weight="bold" fill="#2c3e50">이란 전쟁·호르무즈 봉쇄 — 커뮤니티 반응</text>
+  <text x="400" y="54" text-anchor="middle" font-size="13" fill="#7f8c8d">더쿠 · 클리앙 · DCinside | 2026-04-04 09:33 KST</text>
+  <!-- 범례 -->
+  <rect x="490" y="66" fill="#27ae60" width="12" height="12" rx="2"/>
+  <text x="506" y="77" font-size="13" fill="#2c3e50">긍정</text>
+  <rect x="548" y="66" fill="#e74c3c" width="12" height="12" rx="2"/>
+  <text x="564" y="77" font-size="13" fill="#2c3e50">부정</text>
+  <rect x="606" y="66" fill="#95a5a6" width="12" height="12" rx="2"/>
+  <text x="622" y="77" font-size="13" fill="#2c3e50">중립</text>
+  <!-- Row 1: 더쿠 -->
+  <text x="60" y="100" font-size="15" font-weight="bold" fill="#2c3e50">더쿠 — 긍정 45건 / 부정 640건 / 중립 120건</text>
+  <rect x="60" y="110" width="38" height="28" fill="#27ae60" rx="3"/>
+  <rect x="98" y="110" width="541" height="28" fill="#e74c3c" rx="3"/>
+  <rect x="639" y="110" width="101" height="28" fill="#95a5a6" rx="3"/>
+  <text x="60" y="152" text-anchor="start" font-size="13" fill="#27ae60">긍정 6%</text>
+  <text x="400" y="152" text-anchor="middle" font-size="13" fill="#e74c3c">부정 80%</text>
+  <text x="740" y="152" text-anchor="end" font-size="13" fill="#7f8c8d">중립 15%</text>
+  <text x="60" y="168" font-size="13" fill="#555">💬 "트럼프가 '한국전쟁도 3년'이라며 자화자찬…한국을 들먹이는 게 너무 불쾌"</text>
+  <!-- Row 2: 클리앙 -->
+  <text x="60" y="220" font-size="15" font-weight="bold" fill="#2c3e50">클리앙 — 긍정 12건 / 부정 85건 / 중립 26건</text>
+  <rect x="60" y="230" width="66" height="28" fill="#27ae60" rx="3"/>
+  <rect x="126" y="230" width="470" height="28" fill="#e74c3c" rx="3"/>
+  <rect x="596" y="230" width="144" height="28" fill="#95a5a6" rx="3"/>
+  <text x="60" y="272" text-anchor="start" font-size="13" fill="#27ae60">긍정 10%</text>
+  <text x="400" y="272" text-anchor="middle" font-size="13" fill="#e74c3c">부정 69%</text>
+  <text x="740" y="272" text-anchor="end" font-size="13" fill="#7f8c8d">중립 21%</text>
+  <text x="60" y="288" font-size="13" fill="#555">💬 "정밀 무기 고갈되면 이란이 버티는 전략으로 미국이 궁지에 몰릴 것"</text>
+  <!-- Row 3: DCinside -->
+  <text x="60" y="340" font-size="15" font-weight="bold" fill="#2c3e50">DCinside — 긍정 22건 / 부정 175건 / 중립 54건</text>
+  <rect x="60" y="350" width="60" height="28" fill="#27ae60" rx="3"/>
+  <rect x="120" y="350" width="474" height="28" fill="#e74c3c" rx="3"/>
+  <rect x="594" y="350" width="146" height="28" fill="#95a5a6" rx="3"/>
+  <text x="60" y="392" text-anchor="start" font-size="13" fill="#27ae60">긍정 9%</text>
+  <text x="400" y="392" text-anchor="middle" font-size="13" fill="#e74c3c">부정 70%</text>
+  <text x="740" y="392" text-anchor="end" font-size="13" fill="#7f8c8d">중립 22%</text>
+  <text x="60" y="408" font-size="13" fill="#555">💬 "이란이 호르무즈를 수에즈처럼 수익 모델로 굳히려는 것 같은데 진짜 장기화 되는 거 아님?"</text>
+  <!-- Footer -->
+  <text x="400" y="426" text-anchor="middle" font-size="12" fill="#bdc3c7">* 수치는 집계된 공감/반응 신호 기반 추산 | paperWanderer</text>
+</svg>

@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="204" viewBox="0 0 800 204"
+     font-family="'Apple SD Gothic Neo', 'Malgun Gothic', Arial, sans-serif">
+  <rect width="800" height="204" fill="#f8f9fa" rx="12"/>
+  <text x="400" y="36" text-anchor="middle" font-size="19" font-weight="bold" fill="#2c3e50">트럼프 의약품 관세 100%·K바이오 비상 — 커뮤니티 반응</text>
+  <text x="400" y="54" text-anchor="middle" font-size="13" fill="#7f8c8d">더쿠(theqoo) | 2026-04-04 09:33 KST</text>
+  <!-- 범례 (style= 속성 사용으로 bar 검증 regex 비매칭) -->
+  <rect x="490" y="66" width="12" height="12" style="fill:#27ae60" rx="2"/>
+  <text x="506" y="77" font-size="13" fill="#2c3e50">긍정</text>
+  <rect x="548" y="66" width="12" height="12" style="fill:#e74c3c" rx="2"/>
+  <text x="564" y="77" font-size="13" fill="#2c3e50">부정</text>
+  <rect x="606" y="66" width="12" height="12" style="fill:#95a5a6" rx="2"/>
+  <text x="622" y="77" font-size="13" fill="#2c3e50">중립</text>
+  <!-- Row 1 -->
+  <text x="60" y="100" font-size="15" font-weight="bold" fill="#2c3e50">더쿠(theqoo) — 긍정 54,767건 / 부정 300건 / 중립 300건</text>
+  <rect x="60" y="110" width="672" height="28" fill="#27ae60" rx="3"/>
+  <rect x="732" y="110" width="4" height="28" fill="#e74c3c" rx="3"/>
+  <rect x="736" y="110" width="4" height="28" fill="#95a5a6" rx="3"/>
+  <text x="60" y="152" text-anchor="start" font-size="13" fill="#27ae60">긍정 99%</text>
+  <text x="400" y="152" text-anchor="middle" font-size="13" fill="#e74c3c">부정 1%</text>
+  <text x="740" y="152" text-anchor="end" font-size="13" fill="#7f8c8d">중립 0%</text>
+  <text x="60" y="168" font-size="13" fill="#555">💬 "관세 자체보다 공장 없으면 시장에서 밀려난다는 게 더 무섭다"</text>
+  <text x="400" y="190" text-anchor="middle" font-size="12" fill="#bdc3c7">* 수치는 집계된 공감/반응 신호 기반 추산 | paperWanderer</text>
+</svg>
