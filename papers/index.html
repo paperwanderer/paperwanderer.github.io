@@ -336,6 +336,31 @@
 .date-filter-bar { display: flex; align-items: center; gap: 5px; margin-bottom: 20px; }
 .tag-select-box { padding: 3px 6px; border: 1px solid var(--border); border-radius: 20px; background: var(--surface); color: var(--text); font-size: 0.75em; cursor: pointer; outline: none; max-width: 140px; }
 .tag-select-box:focus { border-color: var(--accent); }
+
+/* 논문 첫 페이지 스타일 카드 헤더 */
+.paper-header {
+  width: 100%; min-height: 160px; padding: 16px 18px;
+  background: #fafafa; border-bottom: 1px solid var(--border);
+  display: flex; flex-direction: column; justify-content: center;
+}
+.paper-header-field {
+  font-size: 0.65em; font-weight: 700; text-transform: uppercase;
+  letter-spacing: 1.5px; color: var(--accent); margin-bottom: 8px;
+}
+.paper-header-title {
+  font-size: 0.82em; font-weight: 700; color: var(--text);
+  line-height: 1.4; margin-bottom: 8px;
+  font-family: 'Georgia', 'Times New Roman', serif;
+}
+.paper-header-authors {
+  font-size: 0.7em; color: var(--muted); line-height: 1.4;
+  display: -webkit-box; -webkit-line-clamp: 1; -webkit-box-orient: vertical; overflow: hidden;
+}
+.paper-header-abstract {
+  font-size: 0.68em; color: #999; line-height: 1.5; margin-top: 8px;
+  display: -webkit-box; -webkit-line-clamp: 2; -webkit-box-orient: vertical; overflow: hidden;
+  font-style: italic;
+}
 </style>
 
 <script>
@@ -397,16 +422,14 @@
 <div class="post-grid" id="post-grid">
   
   <a class="post-card" href="/papers/picks/worldsimbench-video-world-sim/" data-tags="ICML,비디오생성,세계시뮬레이터,벤치마크,embodied-AI,물리모델링,로봇조작" data-date="2026-04-05">
-    <div class="post-card-thumb-placeholder">📄</div>
+    <div class="paper-header">
+      <div class="paper-header-field">ICML · 2024-10-23</div>
+      <div class="paper-header-title">WorldSimBench: Towards Video Generation Models as World Simulators</div>
+      <div class="paper-header-authors">Yiran Qin, Zhelun Shi, Jiwen Yu, Xijun Wang, Enshen Zhou, Lijun Li, Zhenfei Yin, Xihui Liu, Lu Sheng, Jing Shao, Lei Bai, Wanli Ouyang, Ruimao Zhang</div>
+      <div class="paper-header-abstract">비디오 생성 모델이 세계 시뮬레이터로 기능할 수 있는지를 측정하는 최초의 이중 평가 프레임워크. 현재 모델은 데이터 증강엔 유효하지만 물리 모델링에는 여전히 큰 격차가 있다.</div>
+    </div>
     <div class="post-card-body">
-      <div class="post-card-category">📄 페이퍼 픽 · ICML</div>
       <div class="post-card-title">비디오 생성 모델은 진짜 세계 시뮬레이터가 될 수 있을까 — WorldSimBench 평가 프레임워크</div>
-      <div class="post-card-excerpt">
-  원문: WorldSimBench: Towards Video Generation Models as World Simulators
-저자: Yiran Qin...</div>
-      <div class="post-card-meta">
-        <span>2026-04-05</span>
-      </div>
       
       <div class="post-card-tags">
         
@@ -422,23 +445,20 @@
         
         <span class="tag-sm"># 물리모델링</span>
         
-        <span class="tag-sm"># 로봇조작</span>
-        
       </div>
       
     </div>
   </a>
   
   <a class="post-card" href="/papers/picks/video-dpo-language-reward/" data-tags="DPO,비디오LLM,멀티모달,보상모델,RLHF" data-date="2026-04-05">
-    <div class="post-card-thumb-placeholder">📄</div>
+    <div class="paper-header">
+      <div class="paper-header-field">NAACL · 2024-04-01</div>
+      <div class="paper-header-title">Direct Preference Optimization of Video Large Multimodal Models from Language Model Reward</div>
+      <div class="paper-header-authors">Ruohong Zhang, Liangke Gui, Zhiqing Sun, Yihao Feng, Keyang Xu, Yuanhan Zhang, Di Fu, Chunyuan Li, Alexander Hauptmann, Yonatan Bisk, Yiming Yang</div>
+      <div class="paper-header-abstract">CMU 연구팀이 동영상 내용을 캡션으로 변환해 언어 모델을 보상 모델로 활용하는 DPO 방법을 제안. 인간 어노테이션 없이 SFT 대비 정확도 8.1% 향상을 달성했다.</div>
+    </div>
     <div class="post-card-body">
-      <div class="post-card-category">📄 페이퍼 픽 · NAACL</div>
       <div class="post-card-title">동영상 AI를 저비용으로 정렬하는 캡션 기반 보상 모델</div>
-      <div class="post-card-excerpt">
-  원문: Direct Preference Optimization of Video Large Multimodal Models from Language Mo...</div>
-      <div class="post-card-meta">
-        <span>2026-04-05</span>
-      </div>
       
       <div class="post-card-tags">
         
@@ -458,15 +478,14 @@
   </a>
   
   <a class="post-card" href="/papers/picks/unitime-cross-domain-forecasting/" data-tags="WWW,시계열예측,통합모델,크로스도메인,언어강화,제로샷학습,도메인적응" data-date="2026-04-05">
-    <div class="post-card-thumb-placeholder">📄</div>
+    <div class="paper-header">
+      <div class="paper-header-field">WWW · 2023-10-15</div>
+      <div class="paper-header-title">UniTime: A Language-Empowered Unified Model for Cross-Domain Time Series Forecasting</div>
+      <div class="paper-header-authors">Xu Liu, Junfeng Hu, Yuan Li, Shizhe Diao, Yuxuan Liang, Bryan Hooi, Roger Zimmermann</div>
+      <div class="paper-header-abstract">시계열을 언어 작업으로 재구성해 도메인별 맞춤 훈련 없이 다양한 도메인 간 제로샷 시계열 예측을 달성한 통합 모델. WWW 2024 게재.</div>
+    </div>
     <div class="post-card-body">
-      <div class="post-card-category">📄 페이퍼 픽 · WWW</div>
       <div class="post-card-title">시계열을 언어 작업으로 다루는 크로스 도메인 통합 예측 모델 UniTime</div>
-      <div class="post-card-excerpt">
-  원문: UniTime: A Language-Empowered Unified Model for Cross-Domain Time Series Forecas...</div>
-      <div class="post-card-meta">
-        <span>2026-04-05</span>
-      </div>
       
       <div class="post-card-tags">
         
@@ -482,24 +501,20 @@
         
         <span class="tag-sm"># 제로샷학습</span>
         
-        <span class="tag-sm"># 도메인적응</span>
-        
       </div>
       
     </div>
   </a>
   
   <a class="post-card" href="/papers/picks/ufo-ui-agent-windows/" data-tags="AI에이전트,UI자동화,Windows,GPT-Vision,멀티모달" data-date="2026-04-05">
-    <div class="post-card-thumb-placeholder">📄</div>
+    <div class="paper-header">
+      <div class="paper-header-field">NAACL · 2024-02-08</div>
+      <div class="paper-header-title">UFO: A UI-Focused Agent for Windows OS Interaction</div>
+      <div class="paper-header-authors">Chaoyun Zhang, Liqun Li, Shilin He, Xu Zhang, Bo Qiao, Si Qin, Minghua Ma, Yu Kang, Qingwei Lin, Saravan Rajmohan, Dongmei Zhang, Qi Zhang</div>
+      <div class="paper-header-abstract">Microsoft Research가 개발한 Windows 전용 UI 에이전트. 자연어 명령만으로 여러 앱을 넘나드는 복잡한 작업을 자동 수행하며, 기존 GPT-4 기반 기준선 대비 성공률 2배 이상을 달성했다.</div>
+    </div>
     <div class="post-card-body">
-      <div class="post-card-category">📄 페이퍼 픽 · NAACL</div>
       <div class="post-card-title">자연어로 Windows를 조종하는 AI 에이전트, UFO</div>
-      <div class="post-card-excerpt">
-  원문: UFO: A UI-Focused Agent for Windows OS Interaction
-저자: Chaoyun Zhang, Liqun Li, ...</div>
-      <div class="post-card-meta">
-        <span>2026-04-05</span>
-      </div>
       
       <div class="post-card-tags">
         
@@ -519,16 +534,14 @@
   </a>
   
   <a class="post-card" href="/papers/picks/tabular-foundation-model/" data-tags="AI,머신러닝,테이블데이터,파운데이션모델,AutoML,소규모데이터,사전학습" data-date="2026-04-05">
-    <div class="post-card-thumb-placeholder">📄</div>
+    <div class="paper-header">
+      <div class="paper-header-field">Nature · 2025-01-08</div>
+      <div class="paper-header-title">Accurate predictions on small data with a tabular foundation model</div>
+      <div class="paper-header-authors">Noah Hollmann, Samuel G. Müller, Lennart Purucker, Arjun Krishnakumar, Max Körfer, Shi Bin Hoo, Robin Tibor Schirrmeister, Frank Hutter</div>
+      <div class="paper-header-abstract">수백만 개의 합성 데이터셋으로 사전학습한 TabPFN이 소규모 테이블 데이터에서 CatBoost 등 기존 방법을 크게 앞서고, 추론은 2.8초 내 완료한다는 연구.</div>
+    </div>
     <div class="post-card-body">
-      <div class="post-card-category">📄 페이퍼 픽 · Nature</div>
       <div class="post-card-title">소규모 데이터에서도 통한다 — 테이블 파운데이션 모델 TabPFN</div>
-      <div class="post-card-excerpt">
-  원문: Accurate predictions on small data with a tabular foundation model
-저자: Noah Holl...</div>
-      <div class="post-card-meta">
-        <span>2026-04-05</span>
-      </div>
       
       <div class="post-card-tags">
         
@@ -544,24 +557,20 @@
         
         <span class="tag-sm"># 소규모데이터</span>
         
-        <span class="tag-sm"># 사전학습</span>
-        
       </div>
       
     </div>
   </a>
   
   <a class="post-card" href="/papers/picks/stablemakeup-diffusion/" data-tags="SIGGRAPH,메이크업전이,확산모델,얼굴조작,생성모델,이미지합성" data-date="2026-04-05">
-    <div class="post-card-thumb-placeholder">📄</div>
+    <div class="paper-header">
+      <div class="paper-header-field">SIGGRAPH · 2024-03-12</div>
+      <div class="paper-header-title">Stable-Makeup: When Real-World Makeup Transfer Meets Diffusion Model</div>
+      <div class="paper-header-authors">Yuxuan Zhang, Lifu Wei, Qing Zhang, Yiren Song, Jiaming Liu, Huaxia Li, Xu Tang, Yao Hu, Haibo Zhao</div>
+      <div class="paper-header-abstract">사전 학습된 확산 모델 기반으로 포즈·표정·조명 변화에도 메이크업 세부사항을 정확하게 전이하며, 이미지·텍스트·비디오 다중 도메인 지원. SIGGRAPH 2025 게재.</div>
+    </div>
     <div class="post-card-body">
-      <div class="post-card-category">📄 페이퍼 픽 · SIGGRAPH</div>
       <div class="post-card-title">확산 모델로 다양한 포즈와 조명에서도 안정적인 메이크업 전이를 실현한 Stable-Makeup</div>
-      <div class="post-card-excerpt">
-  원문: Stable-Makeup: When Real-World Makeup Transfer Meets Diffusion Model
-저자: Yuxuan ...</div>
-      <div class="post-card-meta">
-        <span>2026-04-05</span>
-      </div>
       
       <div class="post-card-tags">
         
@@ -583,15 +592,14 @@
   </a>
   
   <a class="post-card" href="/papers/picks/sparsevlm-visual-token/" data-tags="ICML,vision-language-model,token-sparsification,efficient-inference,attention,VLM" data-date="2026-04-05">
-    <div class="post-card-thumb-placeholder">📄</div>
+    <div class="paper-header">
+      <div class="paper-header-field">ICML · 2024-10-06</div>
+      <div class="paper-header-title">SparseVLM: Visual Token Sparsification for Efficient Vision-Language Model Inference</div>
+      <div class="paper-header-authors">Yuan Zhang, Chun-Kai Fan, Junpeng Ma, Wenzhao Zheng, Tao Huang, Kuan Cheng, Denis Gudovskiy, Tomoyuki Okuno, Yohei Nakata, Kurt Keutzer, Shanghang Zhang</div>
+      <div class="paper-header-abstract">훈련 없이 시각적 토큰을 54~67% 줄이면서 정확도 93~97%를 유지하는 VLM 효율화 프레임워크. LLaVA에서 CUDA 레이턴시 37% 감소.</div>
+    </div>
     <div class="post-card-body">
-      <div class="post-card-category">📄 페이퍼 픽 · ICML</div>
       <div class="post-card-title">시각적 토큰을 줄여도 성능은 그대로 — 훈련 없이 VLM 추론 비용을 절반으로</div>
-      <div class="post-card-excerpt">
-  원문: SparseVLM: Visual Token Sparsification for Efficient Vision-Language Model Infer...</div>
-      <div class="post-card-meta">
-        <span>2026-04-05</span>
-      </div>
       
       <div class="post-card-tags">
         
@@ -613,15 +621,14 @@
   </a>
   
   <a class="post-card" href="/papers/picks/sleep-glymphatic-clearance/" data-tags="신경과학,수면,글림프계,노르에피네프린,뇌건강,혈관" data-date="2026-04-05">
-    <div class="post-card-thumb-placeholder">📄</div>
+    <div class="paper-header">
+      <div class="paper-header-field">Cell · 2025-01-08</div>
+      <div class="paper-header-title">Norepinephrine-mediated slow vasomotion drives glymphatic clearance during sleep</div>
+      <div class="paper-header-authors">Natalie L Hauglund, Mie Andersen, Klaudia Tokarska, Tessa Radovanovic, Celia Kjaerby, Frederikke L Sørensen, Zuzanna Bojarowska, Verena Untiet, Sheyla B Ballestero, Mie G Kolmos, Pia Weikop, Hajime Hirase, Maiken Nedergaard</div>
+      <div class="paper-header-abstract">수면 중 뇌 노폐물을 제거하는 글림프계의 구동 메커니즘을 규명. 노르에피네프린이 혈관을 리드미컬하게 수축·이완시켜 뇌척수액을 펌핑한다는 인과 증거를 확립했다.</div>
+    </div>
     <div class="post-card-body">
-      <div class="post-card-category">📄 페이퍼 픽 · Cell</div>
       <div class="post-card-title">잠자는 동안 뇌를 청소하는 펌프의 정체 — 노르에피네프린이 혈관을 박동시킨다</div>
-      <div class="post-card-excerpt">
-  원문: Norepinephrine-mediated slow vasomotion drives glymphatic clearance during sleep...</div>
-      <div class="post-card-meta">
-        <span>2026-04-05</span>
-      </div>
       
       <div class="post-card-tags">
         
@@ -643,16 +650,14 @@
   </a>
   
   <a class="post-card" href="/papers/picks/screenai-ui-understanding/" data-tags="IJCAI,비전언어모델,UI이해,인포그래픽,멀티모달,구글리서치" data-date="2026-04-05">
-    <div class="post-card-thumb-placeholder">📄</div>
+    <div class="paper-header">
+      <div class="paper-header-field">IJCAI · 2024-02-06</div>
+      <div class="paper-header-title">ScreenAI: A Vision-Language Model for UI and Infographics Understanding</div>
+      <div class="paper-header-authors">Gilles Baechler, Didier Chételat, Niels Mündler, Youssef Benchaâbane, Federico Ayoubi, Jérôme Maillard, Stefano Miccoli, Roberto Grasso, Arturo Mengottini</div>
+      <div class="paper-header-abstract">5B 파라미터 모델로 UI와 인포그래픽 이해에서 최첨단 성능을 달성한 구글 리서치의 비전-언어 모델. 스크린 주석 작업으로 대규모 학습 데이터를 자동 생성한다.</div>
+    </div>
     <div class="post-card-body">
-      <div class="post-card-category">📄 페이퍼 픽 · IJCAI</div>
       <div class="post-card-title">스마트폰 화면을 읽는 AI — 구글의 UI 이해 비전-언어 모델 ScreenAI</div>
-      <div class="post-card-excerpt">
-  원문: ScreenAI: A Vision-Language Model for UI and Infographics Understanding
-저자: Gill...</div>
-      <div class="post-card-meta">
-        <span>2026-04-05</span>
-      </div>
       
       <div class="post-card-tags">
         
@@ -674,16 +679,14 @@
   </a>
   
   <a class="post-card" href="/papers/picks/scaling-rectified-flow/" data-tags="ICML,이미지생성,확산모델,정류흐름,트랜스포머,스케일링,텍스트이미지" data-date="2026-04-05">
-    <div class="post-card-thumb-placeholder">📄</div>
+    <div class="paper-header">
+      <div class="paper-header-field">ICML · 2024-05-02</div>
+      <div class="paper-header-title">Scaling Rectified Flow Transformers for High-Resolution Image Synthesis</div>
+      <div class="paper-header-authors">Patrick Esser, Sumith Kulal, Andreas Blattmann, Rahim Entezari, Jonas Müller, Harry Saini, Yam Levi, Dominik Lorenz, Axel Sauer, Frederic Boesel, Dustin Podell, Tim Dockhorn, Zion English, Kyle Lacey, Alex Goodwin, Yannik Marek, Robin Rombach</div>
+      <div class="paper-header-abstract">정류 흐름과 트랜스포머를 결합해 450M~8B까지 스케일링. 8B 모델이 GenEval 자동 평가와 인간 선호도 평가 모두에서 기존 최고 수준 텍스트-이미지 시스템을 능가.</div>
+    </div>
     <div class="post-card-body">
-      <div class="post-card-category">📄 페이퍼 픽 · ICML</div>
       <div class="post-card-title">8B 파라미터 정류 흐름 트랜스포머로 고해상도 이미지 생성 성능을 끌어올리다</div>
-      <div class="post-card-excerpt">
-  원문: Scaling Rectified Flow Transformers for High-Resolution Image Synthesis
-저자: Patr...</div>
-      <div class="post-card-meta">
-        <span>2026-04-05</span>
-      </div>
       
       <div class="post-card-tags">
         
@@ -699,23 +702,20 @@
         
         <span class="tag-sm"># 스케일링</span>
         
-        <span class="tag-sm"># 텍스트이미지</span>
-        
       </div>
       
     </div>
   </a>
   
   <a class="post-card" href="/papers/picks/rstar-math-small-llm-reasoning/" data-tags="ICML,수학추론,소형언어모델,MCTS,강화학습,자기진화,LLM" data-date="2026-04-05">
-    <div class="post-card-thumb-placeholder">📄</div>
+    <div class="paper-header">
+      <div class="paper-header-field">ICML · 2025-01-08</div>
+      <div class="paper-header-title">rStar-Math: Small LLMs Can Master Math Reasoning with Self-Evolved Deep Thinking</div>
+      <div class="paper-header-authors">Xinyu Guan, Li Lyna Zhang, Yifei Liu, Ning Shang, Youran Sun, Yi Zhu, Fan Yang, Mao Yang</div>
+      <div class="paper-header-abstract">7B급 소형 모델이 GPT 증류 없이 MCTS 자기진화로 o1-preview를 능가. AIME에서 상위 20% 고등학생 수준(53.3%) 달성.</div>
+    </div>
     <div class="post-card-body">
-      <div class="post-card-category">📄 페이퍼 픽 · ICML</div>
       <div class="post-card-title">소형 언어모델도 수학 올림피아드를 푼다 — 자기진화 심층 추론의 가능성</div>
-      <div class="post-card-excerpt">
-  원문: rStar-Math: Small LLMs Can Master Math Reasoning with Self-Evolved Deep Thinking...</div>
-      <div class="post-card-meta">
-        <span>2026-04-05</span>
-      </div>
       
       <div class="post-card-tags">
         
@@ -731,23 +731,20 @@
         
         <span class="tag-sm"># 자기진화</span>
         
-        <span class="tag-sm"># LLM</span>
-        
       </div>
       
     </div>
   </a>
   
   <a class="post-card" href="/papers/picks/researchagent-idea-generation/" data-tags="연구자동화,LLM에이전트,학술그래프,아이디어생성,KAIST" data-date="2026-04-05">
-    <div class="post-card-thumb-placeholder">📄</div>
+    <div class="paper-header">
+      <div class="paper-header-field">NAACL · 2024-04-11</div>
+      <div class="paper-header-title">ResearchAgent: Iterative Research Idea Generation over Scientific Literature with Large Language Models</div>
+      <div class="paper-header-authors">Jinheon Baek, Sujay Kumar Jauhar, Silviu Cucerzan, Sung Ju Hwang</div>
+      <div class="paper-header-abstract">KAIST와 Microsoft Research가 학술 그래프와 LLM을 결합해 핵심 논문 하나에서 새 연구 아이디어를 자동 생성·반복 개선하는 ResearchAgent를 제안. 다분야 실험에서 참신성·명확성·실행 가능성이 검증됐다.</div>
+    </div>
     <div class="post-card-body">
-      <div class="post-card-category">📄 페이퍼 픽 · NAACL</div>
       <div class="post-card-title">논문 한 편에서 새 연구 아이디어를 자동으로 만든다 — ResearchAgent</div>
-      <div class="post-card-excerpt">
-  원문: ResearchAgent: Iterative Research Idea Generation over Scientific Literature wit...</div>
-      <div class="post-card-meta">
-        <span>2026-04-05</span>
-      </div>
       
       <div class="post-card-tags">
         
@@ -767,15 +764,14 @@
   </a>
   
   <a class="post-card" href="/papers/picks/protein-equilibrium-generative/" data-tags="Science,단백질역학,생성모델,분자동역학,확산모델,약물발견,AI" data-date="2026-04-05">
-    <div class="post-card-thumb-placeholder">📄</div>
+    <div class="paper-header">
+      <div class="paper-header-field">Science · 2025-08-14</div>
+      <div class="paper-header-title">Scalable emulation of protein equilibrium ensembles with generative deep learning</div>
+      <div class="paper-header-authors">Sarah Lewis, Tim Hempel, José Jiménez-Luna, Michael Gastegger, Yu Xie, Andrew Y K Foong, Victor García Satorras, Osama Abdin, Bastiaan S Veeling, Iryna Zaporozhets, Yaoyi Chen, Soojung Yang, Adam E Foster, Arne Schneuing, Jigyasa Nigam, Federico Barbero, Vincent Stimper, Andrew Campbell, Jason Yim, Marten Lienen, Yu Shi, Shuxin Zheng, Hannes Schulz, Usman Munir, Roberto Sordillo, Ryota Tomioka, Cecilia Clementi, Frank Noé</div>
+      <div class="paper-header-abstract">Microsoft Research의 BioEmu 모델이 단백질 평형 구조를 단일 GPU에서 시간당 수천 개 생성. 전통 분자 동역학 대비 최대 100,000배 빠르고 자유 에너지 오차 1 kcal/mol 수준.</div>
+    </div>
     <div class="post-card-body">
-      <div class="post-card-category">📄 페이퍼 픽 · Science</div>
       <div class="post-card-title">생성 AI로 단백질 역학 시뮬레이션을 10만 배 가속하다 — BioEmu</div>
-      <div class="post-card-excerpt">
-  원문: Scalable emulation of protein equilibrium ensembles with generative deep learnin...</div>
-      <div class="post-card-meta">
-        <span>2026-04-05</span>
-      </div>
       
       <div class="post-card-tags">
         
@@ -791,24 +787,20 @@
         
         <span class="tag-sm"># 약물발견</span>
         
-        <span class="tag-sm"># AI</span>
-        
       </div>
       
     </div>
   </a>
   
   <a class="post-card" href="/papers/picks/narrow-task-llm-misalignment/" data-tags="AI안전성,LLM,미세조정,오정렬,창발적오정렬,자연과학" data-date="2026-04-05">
-    <div class="post-card-thumb-placeholder">📄</div>
+    <div class="paper-header">
+      <div class="paper-header-field">Nature · 2026-01-20</div>
+      <div class="paper-header-title">Training large language models on narrow tasks can lead to broad misalignment</div>
+      <div class="paper-header-authors">Jan Betley, Daniel Tan, Niels Warncke, Anna Sztyber-Betley, Xuchan Bao, Martín Soto, Nathan Labenz, Owain Evans</div>
+      <div class="paper-header-abstract">보안 취약 코드 생성으로 미세조정한 GPT-4o가 전혀 무관한 질문에서도 20% 확률로 오정렬 응답을 생성했다. AI 안전성의 새로운 위협.</div>
+    </div>
     <div class="post-card-body">
-      <div class="post-card-category">📄 페이퍼 픽 · Nature</div>
       <div class="post-card-title">좁은 작업 미세조정이 전혀 무관한 영역에서도 AI 오정렬을 유발한다</div>
-      <div class="post-card-excerpt">
-  원문: Training large language models on narrow tasks can lead to broad misalignment
-저자...</div>
-      <div class="post-card-meta">
-        <span>2026-04-05</span>
-      </div>
       
       <div class="post-card-tags">
         
@@ -830,16 +822,14 @@
   </a>
   
   <a class="post-card" href="/papers/picks/motionctrl-video-generation/" data-tags="SIGGRAPH,영상생성,모션제어,확산모델,카메라모션,객체모션,비디오합성" data-date="2026-04-05">
-    <div class="post-card-thumb-placeholder">📄</div>
+    <div class="paper-header">
+      <div class="paper-header-field">SIGGRAPH · 2023-12-06</div>
+      <div class="paper-header-title">MotionCtrl: A Unified and Flexible Motion Controller for Video Generation</div>
+      <div class="paper-header-authors">Zhouxia Wang, Ziyang Yuan, Xintao Wang, Tianshui Chen, Menghan Xia, Ping Luo, Ying Shan</div>
+      <div class="paper-header-abstract">카메라 모션과 객체 모션을 두 개의 독립 모듈로 분리 제어하여 세밀하고 다양한 영상 생성을 가능하게 하는 통합 모션 컨트롤러. SIGGRAPH 2024 게재.</div>
+    </div>
     <div class="post-card-body">
-      <div class="post-card-category">📄 페이퍼 픽 · SIGGRAPH</div>
       <div class="post-card-title">카메라와 객체 모션을 독립적으로 제어하는 영상 생성 모델 MotionCtrl</div>
-      <div class="post-card-excerpt">
-  원문: MotionCtrl: A Unified and Flexible Motion Controller for Video Generation
-저자: Zh...</div>
-      <div class="post-card-meta">
-        <span>2026-04-05</span>
-      </div>
       
       <div class="post-card-tags">
         
@@ -855,23 +845,20 @@
         
         <span class="tag-sm"># 객체모션</span>
         
-        <span class="tag-sm"># 비디오합성</span>
-        
       </div>
       
     </div>
   </a>
   
   <a class="post-card" href="/papers/picks/memorag-long-context/" data-tags="WWW,RAG,장문맥처리,메모리증강,정보검색,LLM,KV압축" data-date="2026-04-05">
-    <div class="post-card-thumb-placeholder">📄</div>
+    <div class="paper-header">
+      <div class="paper-header-field">WWW · 2024-09-09</div>
+      <div class="paper-header-title">MemoRAG: Boosting Long Context Processing with Global Memory-Enhanced Retrieval Augmentation</div>
+      <div class="paper-header-authors">Hongjin Qian, Zheng Liu, Peitian Zhang, Kelong Mao, Defu Lian, Zhicheng Dou, Tiejun Huang</div>
+      <div class="paper-header-abstract">100K+ 토큰 장문서에서 기존 RAG의 한계를 극복하는 글로벌 메모리 증강 검색 프레임워크. UltraDomain 벤치마크에서 전통 RAG 대비 평균 40.2점으로 우수한 성능.</div>
+    </div>
     <div class="post-card-body">
-      <div class="post-card-category">📄 페이퍼 픽 · WWW</div>
       <div class="post-card-title">글로벌 메모리로 100K+ 토큰 문서를 처리하는 RAG 프레임워크 MemoRAG</div>
-      <div class="post-card-excerpt">
-  원문: MemoRAG: Boosting Long Context Processing with Global Memory-Enhanced Retrieval ...</div>
-      <div class="post-card-meta">
-        <span>2026-04-05</span>
-      </div>
       
       <div class="post-card-tags">
         
@@ -887,23 +874,20 @@
         
         <span class="tag-sm"># LLM</span>
         
-        <span class="tag-sm"># KV압축</span>
-        
       </div>
       
     </div>
   </a>
   
   <a class="post-card" href="/papers/picks/medrag-healthcare-copilot/" data-tags="WWW,RAG,지식그래프,의료AI,LLM,진단지원,멀티홉추론" data-date="2026-04-05">
-    <div class="post-card-thumb-placeholder">📄</div>
+    <div class="paper-header">
+      <div class="paper-header-field">WWW · 2025-02-06</div>
+      <div class="paper-header-title">MedRAG: Enhancing Retrieval-augmented Generation with Knowledge Graph-Elicited Reasoning for Healthcare Copilot</div>
+      <div class="paper-header-authors">Xuejiao Zhao, Siyan Liu, Su-Yin Yang, Chunyan Miao</div>
+      <div class="paper-header-abstract">지식 그래프 기반 다단계 추론으로 의료 RAG의 진단 정확도를 끌어올린 MedRAG — 유사 증상 질병 감별 등 복잡한 임상 추론을 다룬다.</div>
+    </div>
     <div class="post-card-body">
-      <div class="post-card-category">📄 페이퍼 픽 · WWW</div>
       <div class="post-card-title">지식 그래프로 의료 AI 오진을 줄인다 — MedRAG의 진단 추론 접근</div>
-      <div class="post-card-excerpt">
-  원문: MedRAG: Enhancing Retrieval-augmented Generation with Knowledge Graph-Elicited R...</div>
-      <div class="post-card-meta">
-        <span>2026-04-05</span>
-      </div>
       
       <div class="post-card-tags">
         
@@ -919,24 +903,20 @@
         
         <span class="tag-sm"># 진단지원</span>
         
-        <span class="tag-sm"># 멀티홉추론</span>
-        
       </div>
       
     </div>
   </a>
   
   <a class="post-card" href="/papers/picks/ltr-retrotransposon-yeast-centromeres/" data-tags="유전체학,효모,중심절,레트로트랜스포존,진화생물학,Ty5,비교유전체학,세포분열" data-date="2026-04-05">
-    <div class="post-card-thumb-placeholder">📄</div>
+    <div class="paper-header">
+      <div class="paper-header-field">Nature · 2026-03-10</div>
+      <div class="paper-header-title">Ancient co-option of LTR retrotransposons as yeast centromeres</div>
+      <div class="paper-header-authors">Max A. B. Haase, Luciana Lazar-Stefanita, Lyam Baudry, Aleksandra Wudzinska, Xiaofan Zhou, Antonis Rokas, Chris Todd Hittinger, Boris Pfander, Andrea Musacchio, Jef D. Boeke</div>
+      <div class="paper-header-abstract">효모 점 중심절의 기원이 Ty5 레트로트랜스포존 LTR임을 규명. 후성유전학적 중심절에서 유전적 중심절로의 진화적 전환 경로를 처음으로 제시했다.</div>
+    </div>
     <div class="post-card-body">
-      <div class="post-card-category">📄 페이퍼 픽 · Nature</div>
       <div class="post-card-title">효모 염색체 분리의 열쇠, 중심절은 '점프 유전자'에서 왔다</div>
-      <div class="post-card-excerpt">
-  원문: Ancient co-option of LTR retrotransposons as yeast centromeres
-저자: Max A. B. Haa...</div>
-      <div class="post-card-meta">
-        <span>2026-04-05</span>
-      </div>
       
       <div class="post-card-tags">
         
@@ -952,26 +932,20 @@
         
         <span class="tag-sm"># Ty5</span>
         
-        <span class="tag-sm"># 비교유전체학</span>
-        
-        <span class="tag-sm"># 세포분열</span>
-        
       </div>
       
     </div>
   </a>
   
   <a class="post-card" href="/papers/picks/llm-time-series-survey/" data-tags="IJCAI,LLM,시계열,서베이,예측,이상탐지" data-date="2026-04-05">
-    <div class="post-card-thumb-placeholder">📄</div>
+    <div class="paper-header">
+      <div class="paper-header-field">IJCAI · 2024-01-01</div>
+      <div class="paper-header-title">Large Language Models for Time Series: A Survey</div>
+      <div class="paper-header-authors">Xiyuan Zhang, Ranak Roy Chowdhury, Rajesh K. Gupta, Jingbo Shang</div>
+      <div class="paper-header-abstract">텍스트용 LLM을 기후·의료·금융 시계열 분석에 적용하는 방법을 5가지 전략으로 정리한 서베이. 직접 프롬팅부터 하이브리드 접근까지 체계적으로 비교한다.</div>
+    </div>
     <div class="post-card-body">
-      <div class="post-card-category">📄 페이퍼 픽 · IJCAI</div>
       <div class="post-card-title">LLM으로 시계열 데이터를 분석하는 다섯 가지 전략 — 최신 서베이</div>
-      <div class="post-card-excerpt">
-  원문: Large Language Models for Time Series: A Survey
-저자: Xiyuan Zhang, Ranak Roy Chow...</div>
-      <div class="post-card-meta">
-        <span>2026-04-05</span>
-      </div>
       
       <div class="post-card-tags">
         
@@ -993,16 +967,14 @@
   </a>
   
   <a class="post-card" href="/papers/picks/llm-representation-recommendation/" data-tags="WWW,추천시스템,LLM,협업필터링,표현학습,의미공간정렬" data-date="2026-04-05">
-    <div class="post-card-thumb-placeholder">📄</div>
+    <div class="paper-header">
+      <div class="paper-header-field">WWW · 2023-10-24</div>
+      <div class="paper-header-title">Representation Learning with Large Language Models for Recommendation</div>
+      <div class="paper-header-authors">Xubin Ren, Wei Wei, Lianghao Xia, Lixin Su, Suqi Cheng, Junfeng Wang, Dawei Yin, Chao Huang</div>
+      <div class="paper-header-abstract">LLM의 텍스트 표현과 협업 필터링 신호를 교차 뷰 정렬로 융합해 추천 정확도를 높이는 RLMRec 프레임워크. WWW 2024 게재.</div>
+    </div>
     <div class="post-card-body">
-      <div class="post-card-category">📄 페이퍼 픽 · WWW</div>
       <div class="post-card-title">LLM 표현 학습으로 협업 필터링 추천 정확도를 높인 RLMRec</div>
-      <div class="post-card-excerpt">
-  원문: Representation Learning with Large Language Models for Recommendation
-저자: Xubin ...</div>
-      <div class="post-card-meta">
-        <span>2026-04-05</span>
-      </div>
       
       <div class="post-card-tags">
         
@@ -1024,16 +996,14 @@
   </a>
   
   <a class="post-card" href="/papers/picks/llm-multi-agents-survey/" data-tags="IJCAI,LLM,멀티에이전트,서베이,에이전트시스템" data-date="2026-04-05">
-    <div class="post-card-thumb-placeholder">📄</div>
+    <div class="paper-header">
+      <div class="paper-header-field">IJCAI · 2024-02-01</div>
+      <div class="paper-header-title">Large Language Model based Multi-Agents: A Survey of Progress and Challenges</div>
+      <div class="paper-header-authors">Taicheng Guo, Xiuying Chen, Yaqi Wang, Ruidi Chang, Shichao Pei, Nitesh V. Chawla, Olaf Wiest, Xiangliang Zhang</div>
+      <div class="paper-header-abstract">LLM 기반 멀티에이전트 시스템의 아키텍처·통신·응용을 체계적으로 정리한 서베이. 30개 이상 연구와 8개 오픈소스 프레임워크, 30개 이상 벤치마크를 망라한다.</div>
+    </div>
     <div class="post-card-body">
-      <div class="post-card-category">📄 페이퍼 픽 · IJCAI</div>
       <div class="post-card-title">LLM 멀티에이전트 시스템의 현황과 과제를 한 논문으로 정리하다</div>
-      <div class="post-card-excerpt">
-  원문: Large Language Model based Multi-Agents: A Survey of Progress and Challenges
-저자:...</div>
-      <div class="post-card-meta">
-        <span>2026-04-05</span>
-      </div>
       
       <div class="post-card-tags">
         
@@ -1053,15 +1023,14 @@
   </a>
   
   <a class="post-card" href="/papers/picks/indirect-prompt-injection-defense/" data-tags="KDD,LLM보안,프롬프트주입,벤치마크,AI안전성,책임있는AI" data-date="2026-04-05">
-    <div class="post-card-thumb-placeholder">📄</div>
+    <div class="paper-header">
+      <div class="paper-header-field">KDD · 2023-12-21</div>
+      <div class="paper-header-title">Benchmarking and Defending Against Indirect Prompt Injection Attacks on Large Language Models</div>
+      <div class="paper-header-authors">Jingwei Yi, Yueqi Xie, Bin Zhu, Emre Kiciman, Guangzhong Sun, Xing Xie, Fangzhao Wu</div>
+      <div class="paper-header-abstract">LLM 기반 애플리케이션을 노리는 간접 프롬프트 주입 공격을 체계적으로 측정하는 첫 벤치마크 BIPIA를 제시하고, 공격 성공률을 거의 0에 수렴시키는 방어 기법을 제안한 연구.</div>
+    </div>
     <div class="post-card-body">
-      <div class="post-card-category">📄 페이퍼 픽 · KDD</div>
       <div class="post-card-title">AI 어시스턴트의 보안 취약점 — 간접 프롬프트 주입 공격 벤치마크와 방어 방법</div>
-      <div class="post-card-excerpt">
-  원문: Benchmarking and Defending Against Indirect Prompt Injection Attacks on Large La...</div>
-      <div class="post-card-meta">
-        <span>2026-04-05</span>
-      </div>
       
       <div class="post-card-tags">
         
@@ -1083,16 +1052,14 @@
   </a>
   
   <a class="post-card" href="/papers/picks/in-vivo-car-t-cell-generation/" data-tags="면역치료,CAR-T,지질나노입자,mRNA,자가면역,암치료,유전자치료" data-date="2026-04-05">
-    <div class="post-card-thumb-placeholder">📄</div>
+    <div class="paper-header">
+      <div class="paper-header-field">Science · 2025-06-19</div>
+      <div class="paper-header-title">In vivo CAR T cell generation to treat cancer and autoimmune disease</div>
+      <div class="paper-header-authors">Theresa L Hunter, Yanjie Bao, Yan Zhang, Daiki Matsuda, Romina Riener, Annabel Wang, John J Li, Ferran Soldevila, David S H Chu, Duy P Nguyen, Qian-Chen Yong, Brittany Ross, Michelle Nguyen, James Vestal, Scott Roberts, Diana Galvan, Jerel Boyd Vega, Donald Jhung, Matthew Butcher, Josephine Nguyen, Stanley Zhang, Claudia Fernandez, Jeffrey Chen, Carolina Herrera, Yi Kuo, E Michael Pica, Goutam Mondal, Andrew L Mammen, John Scholler, Steven P Tanis, Stuart A Sievers, Aric M Frantz, Gregor B Adams, Laura Shawver, Ramin Farzaneh-Far, Michael Rosenzweig, Priya P Karmali, Adrian I Bot, Carl H June, Haig Aghajanian</div>
+      <div class="paper-header-abstract">표적화 지질 나노입자로 CAR mRNA를 체내 T 세포에 직접 전달해 외부 제조 없이 CAR T 세포를 생성하는 접근법. 임상 1상에서 초기 활성 확인.</div>
+    </div>
     <div class="post-card-body">
-      <div class="post-card-category">📄 페이퍼 픽 · Science</div>
       <div class="post-card-title">주사 한 번으로 체내에서 CAR T 세포를 만든다 — 암·자가면역 치료의 새 접근</div>
-      <div class="post-card-excerpt">
-  원문: In vivo CAR T cell generation to treat cancer and autoimmune disease
-저자: Theresa...</div>
-      <div class="post-card-meta">
-        <span>2026-04-05</span>
-      </div>
       
       <div class="post-card-tags">
         
@@ -1108,24 +1075,20 @@
         
         <span class="tag-sm"># 암치료</span>
         
-        <span class="tag-sm"># 유전자치료</span>
-        
       </div>
       
     </div>
   </a>
   
   <a class="post-card" href="/papers/picks/icl-long-context-exploration/" data-tags="ICL,장문맥,LLM분석,프롬프팅,NLP" data-date="2026-04-05">
-    <div class="post-card-thumb-placeholder">📄</div>
+    <div class="paper-header">
+      <div class="paper-header-field">NAACL · 2024-04-30</div>
+      <div class="paper-header-title">In-Context Learning with Long-Context Models: An In-Depth Exploration</div>
+      <div class="paper-header-authors">Amanda Bertsch, Maor Ivgi, Emily Xiao, Uri Alon, Jonathan Berant, Matthew R. Gormley, Graham Neubig</div>
+      <div class="paper-header-abstract">CMU와 Bar-Ilan 대학 팀이 수천 개 시연을 넣었을 때 ICL 성능이 어떻게 변하는지 체계적으로 분석. 라벨 공간이 클수록 시연을 늘릴수록 성능이 계속 향상되고, 순서 섞임에도 더 강해짐을 확인했다.</div>
+    </div>
     <div class="post-card-body">
-      <div class="post-card-category">📄 페이퍼 픽 · NAACL</div>
       <div class="post-card-title">시연 수천 개가 효과 있을까? 장문맥 ICL의 실체</div>
-      <div class="post-card-excerpt">
-  원문: In-Context Learning with Long-Context Models: An In-Depth Exploration
-저자: Amanda...</div>
-      <div class="post-card-meta">
-        <span>2026-04-05</span>
-      </div>
       
       <div class="post-card-tags">
         
@@ -1145,15 +1108,14 @@
   </a>
   
   <a class="post-card" href="/papers/picks/hyperacute-oncolytic-virus-cancer/" data-tags="종양학,바이러스면역치료,종양용해바이러스,임상시험,암면역치료,초급성거부반응" data-date="2026-04-05">
-    <div class="post-card-thumb-placeholder">📄</div>
+    <div class="paper-header">
+      <div class="paper-header-field">Cell · 2025-02-20</div>
+      <div class="paper-header-title">Hyperacute rejection-engineered oncolytic virus for interventional clinical trial in refractory cancer patients</div>
+      <div class="paper-header-authors">Liping Zhong, Lu Gan, Bing Wang, Tao Wu, Fei Yao, Wenlin Gong, Hongmei Peng, Zhiming Deng, Guoyou Xiao, Xiyu Liu, Jintong Na, Desong Xia, Xianjun Yu, Zhikun Zhang, Bangde Xiang, Yu Huo, Dan Yan, Zhixin Dong, Fang Fang, Yun Ma, Guanqiao Jin, Danke Su, Xiuli Liu, Qiang Li, Hai Liao, Chao Tang, Jian He, Zhiping Tang, Shilai Zhang, Bingqing Qiu, Zhi Yang, Lihui Yang, Ziqin Chen, Mengsi Zeng, Ronghua Feng, Jiege Jiao, Yuan Liao, Tinghua Wang, Liangliang Wu, Zhengcheng Mi, Ziqun Liu, Si Shi, Kun Zhang, Wei Shi, Yongxiang Zhao</div>
+      <div class="paper-header-abstract">돼지 유전자를 삽입한 뉴캐슬병 바이러스로 난치성 전이암 환자 20명 임상시험에서 90%의 질병 조절율과 심각한 부작용 없음을 확인한 연구.</div>
+    </div>
     <div class="post-card-body">
-      <div class="post-card-category">📄 페이퍼 픽 · Cell</div>
       <div class="post-card-title">초급성 거부반응을 이용한 종양용해 바이러스로 난치성 암 환자 임상시험 성공</div>
-      <div class="post-card-excerpt">
-  원문: Hyperacute rejection-engineered oncolytic virus for interventional clinical tria...</div>
-      <div class="post-card-meta">
-        <span>2026-04-05</span>
-      </div>
       
       <div class="post-card-tags">
         
@@ -1175,16 +1137,14 @@
   </a>
   
   <a class="post-card" href="/papers/picks/global-soil-toxic-metals/" data-tags="Science,토양오염,중금속,식량안보,공중보건,기계학습,환경과학" data-date="2026-04-05">
-    <div class="post-card-thumb-placeholder">📄</div>
+    <div class="paper-header">
+      <div class="paper-header-field">Science · 2025-04-18</div>
+      <div class="paper-header-title">Global soil pollution by toxic metals threatens agriculture and human health</div>
+      <div class="paper-header-authors">Deyi Hou, Xiyue Jia, Liuwei Wang, Steve P McGrath, Yong-Guan Zhu, Qing Hu, Fang-Jie Zhao, Michael S Bank, David O'Connor, Jerome Nriagu</div>
+      <div class="paper-header-abstract">796,084개 토양 샘플 분석으로 7종 독성 금속의 전 지구 분포를 최초 정량화. 남부 중국·북인도·중동이 최고위험 지역, 이전에 알려지지 않은 유라시아 오염 회랑대 발견.</div>
+    </div>
     <div class="post-card-body">
-      <div class="post-card-category">📄 페이퍼 픽 · Science</div>
       <div class="post-card-title">전 세계 경작지 14~17%, 독성 금속 오염 — 9억~14억 명이 위험 지역 거주</div>
-      <div class="post-card-excerpt">
-  원문: Global soil pollution by toxic metals threatens agriculture and human health
-저자:...</div>
-      <div class="post-card-meta">
-        <span>2026-04-05</span>
-      </div>
       
       <div class="post-card-tags">
         
@@ -1200,24 +1160,20 @@
         
         <span class="tag-sm"># 기계학습</span>
         
-        <span class="tag-sm"># 환경과학</span>
-        
       </div>
       
     </div>
   </a>
   
   <a class="post-card" href="/papers/picks/geroscience-precision-geromedicine/" data-tags="생물학,노화,지로사이언스,정밀의학,세놀리틱스,바이오마커,Cell" data-date="2026-04-05">
-    <div class="post-card-thumb-placeholder">📄</div>
+    <div class="paper-header">
+      <div class="paper-header-field">Cell · 2025-04-17</div>
+      <div class="paper-header-title">From geroscience to precision geromedicine: Understanding and managing aging</div>
+      <div class="paper-header-authors">Guido Kroemer, Andrea B Maier, Ana Maria Cuervo, Vadim N Gladyshev, Luigi Ferrucci, Vera Gorbunova, Brian K Kennedy, Thomas A Rando, Andrei Seluanov, Felipe Sierra, Eric Verdin, Carlos López-Otín</div>
+      <div class="paper-header-abstract">노화의 분자 메커니즘을 종합하여 유전·바이오마커 기반 맞춤형 노화 개입을 가능하게 하는 정밀 지로의학 프레임워크를 제안한 종설.</div>
+    </div>
     <div class="post-card-body">
-      <div class="post-card-category">📄 페이퍼 픽 · Cell</div>
       <div class="post-card-title">노화 과학에서 정밀 노화 의학으로 — 개인 맞춤형 노화 관리의 틀</div>
-      <div class="post-card-excerpt">
-  원문: From geroscience to precision geromedicine: Understanding and managing aging
-저자:...</div>
-      <div class="post-card-meta">
-        <span>2026-04-05</span>
-      </div>
       
       <div class="post-card-tags">
         
@@ -1233,24 +1189,20 @@
         
         <span class="tag-sm"># 바이오마커</span>
         
-        <span class="tag-sm"># Cell</span>
-        
       </div>
       
     </div>
   </a>
   
   <a class="post-card" href="/papers/picks/generative-model-inorganic-materials/" data-tags="AI소재설계,MatterGen,무기소재,생성모델,결정구조,머신러닝,소재발견,Microsoft" data-date="2026-04-05">
-    <div class="post-card-thumb-placeholder">📄</div>
+    <div class="paper-header">
+      <div class="paper-header-field">Nature · 2025-01-16</div>
+      <div class="paper-header-title">A generative model for inorganic materials design</div>
+      <div class="paper-header-authors">Claudio Zeni, Robert Pinsler, Daniel Zügner, Andrew Fowler, Matthew Horton, Xiang Fu, Zilong Wang, Aliaksandra Shysheya, Jonathan Crabbe, Shoko Ueda, Roberto Sordillo, Lixin Sun, Jake Smith, Bichlien H. Nguyen, Hannes Schulz, Sarah Lewis, Chin-Wei Huang, Ziheng Lu, Yichi Zhou, Han Yang, Hongxia Hao, Jielan Li, Chunlei Yang, Wenjie Li, Ryota Tomioka, Tian Xie</div>
+      <div class="paper-header-abstract">Microsoft Research의 MatterGen은 주기율표 전체 무기 소재를 생성하고 특성별 파인튜닝이 가능한 생성 모델로, 기존 모델 대비 안정·신규 소재 생성 확률이 2배 이상 높다.</div>
+    </div>
     <div class="post-card-body">
-      <div class="post-card-category">📄 페이퍼 픽 · Nature</div>
       <div class="post-card-title">AI가 신소재를 설계한다 — Microsoft MatterGen, 기존 모델 대비 2배 이상 안정적 구조 생성</div>
-      <div class="post-card-excerpt">
-  원문: A generative model for inorganic materials design
-저자: Claudio Zeni, Robert Pinsl...</div>
-      <div class="post-card-meta">
-        <span>2026-04-05</span>
-      </div>
       
       <div class="post-card-tags">
         
@@ -1266,26 +1218,20 @@
         
         <span class="tag-sm"># 머신러닝</span>
         
-        <span class="tag-sm"># 소재발견</span>
-        
-        <span class="tag-sm"># Microsoft</span>
-        
       </div>
       
     </div>
   </a>
   
   <a class="post-card" href="/papers/picks/evolvepro-protein-evolution/" data-tags="Science,단백질공학,지향성진화,언어모델,CRISPR,항체설계,AI" data-date="2026-04-05">
-    <div class="post-card-thumb-placeholder">📄</div>
+    <div class="paper-header">
+      <div class="paper-header-field">Science · 2025-01-24</div>
+      <div class="paper-header-title">Rapid in silico directed evolution by a protein language model with EVOLVEpro</div>
+      <div class="paper-header-authors">Kaiyi Jiang, Zhaoqing Yan, Matteo Di Bernardo, Samantha R Sgrizzi, Lukas Villiger, Alisan Kayabolen, B J Kim, Josephine K Carscadden, Masahiro Hiraizumi, Hiroshi Nishimasu, Jonathan S Gootenberg, Omar O Abudayyeh</div>
+      <div class="paper-header-abstract">단백질 언어 모델과 소수-샷 능동 학습을 결합한 EVOLVEpro가 4라운드 만에 단백질 특성 최대 100배 개선. 항체·CRISPR·프라임에디터 등 6개 단백질에서 효과 입증.</div>
+    </div>
     <div class="post-card-body">
-      <div class="post-card-category">📄 페이퍼 픽 · Science</div>
       <div class="post-card-title">4라운드 실험으로 단백질 특성 최대 100배 개선 — EVOLVEpro</div>
-      <div class="post-card-excerpt">
-  원문: Rapid in silico directed evolution by a protein language model with EVOLVEpro
-저자...</div>
-      <div class="post-card-meta">
-        <span>2026-04-05</span>
-      </div>
       
       <div class="post-card-tags">
         
@@ -1301,24 +1247,20 @@
         
         <span class="tag-sm"># 항체설계</span>
         
-        <span class="tag-sm"># AI</span>
-        
       </div>
       
     </div>
   </a>
   
   <a class="post-card" href="/papers/picks/esm3-500m-years-evolution/" data-tags="Science,단백질공학,AI,언어모델,진화시뮬레이션,GFP,생명과학" data-date="2026-04-05">
-    <div class="post-card-thumb-placeholder">📄</div>
+    <div class="paper-header">
+      <div class="paper-header-field">Science · 2025-02-21</div>
+      <div class="paper-header-title">Simulating 500 million years of evolution with a language model</div>
+      <div class="paper-header-authors">Thomas Hayes, Roshan Rao, Halil Akin, Nicholas J Sofroniew, Deniz Oktay, Zeming Lin, Robert Verkuil, Vincent Q Tran, Jonathan Deaton, Marius Wiggert, Rohil Badkundri, Irhum Shafkat, Jun Gong, Alexander Derry, Raul S Molina, Neil Thomas, Yousuf A Khan, Chetan Mishra, Carolyn Kim, Liam J Bartie, Matthew Nemeth, Patrick D Hsu, Tom Sercu, Salvatore Candido, Alexander Rives</div>
+      <div class="paper-header-abstract">ESM3 언어 모델이 알려진 GFP와 58% 수열 동일성만 가진 새 형광단백질을 생성. 자연 진화로 5억 년 걸릴 변화를 AI로 달성한 단백질 설계 연구.</div>
+    </div>
     <div class="post-card-body">
-      <div class="post-card-category">📄 페이퍼 픽 · Science</div>
       <div class="post-card-title">언어 모델로 5억 년의 단백질 진화를 시뮬레이션하다</div>
-      <div class="post-card-excerpt">
-  원문: Simulating 500 million years of evolution with a language model
-저자: Thomas Hayes...</div>
-      <div class="post-card-meta">
-        <span>2026-04-05</span>
-      </div>
       
       <div class="post-card-tags">
         
@@ -1334,23 +1276,20 @@
         
         <span class="tag-sm"># GFP</span>
         
-        <span class="tag-sm"># 생명과학</span>
-        
       </div>
       
     </div>
   </a>
   
   <a class="post-card" href="/papers/picks/diffusion-as-shader-3d-video/" data-tags="SIGGRAPH,비디오생성,확산모델,3D추적,카메라제어,모션전이,포인트클라우드" data-date="2026-04-05">
-    <div class="post-card-thumb-placeholder">📄</div>
+    <div class="paper-header">
+      <div class="paper-header-field">SIGGRAPH · 2025-01-07</div>
+      <div class="paper-header-title">Diffusion as Shader: 3D-aware Video Diffusion for Versatile Video Generation Control</div>
+      <div class="paper-header-authors">Zekai Gu, Rui Yan, Jiahao Lu, Peng Li, Zhiyang Dou, Chenyang Si, Zhen Dong, Qifeng Liu, Cheng Lin, Ziwei Liu, Wenping Wang, Yuan Liu</div>
+      <div class="paper-header-abstract">3D 추적 비디오를 단일 제어 신호로 삼아 카메라 조작·모션 전이·객체 편집을 하나의 모델에서 수행. 기존 태스크별 전용 모델을 성능 면에서 능가.</div>
+    </div>
     <div class="post-card-body">
-      <div class="post-card-category">📄 페이퍼 픽 · SIGGRAPH</div>
       <div class="post-card-title">3D 추적 신호 하나로 카메라·모션·편집을 통합 제어하는 비디오 생성 모델</div>
-      <div class="post-card-excerpt">
-  원문: Diffusion as Shader: 3D-aware Video Diffusion for Versatile Video Generation Con...</div>
-      <div class="post-card-meta">
-        <span>2026-04-05</span>
-      </div>
       
       <div class="post-card-tags">
         
@@ -1366,24 +1305,20 @@
         
         <span class="tag-sm"># 모션전이</span>
         
-        <span class="tag-sm"># 포인트클라우드</span>
-        
       </div>
       
     </div>
   </a>
   
   <a class="post-card" href="/papers/picks/continual-learning-pretrained-survey/" data-tags="IJCAI,지속학습,사전학습모델,대재앙적망각,머신러닝" data-date="2026-04-05">
-    <div class="post-card-thumb-placeholder">📄</div>
+    <div class="paper-header">
+      <div class="paper-header-field">IJCAI · 2024-01-28</div>
+      <div class="paper-header-title">Continual Learning with Pre-Trained Models: A Survey</div>
+      <div class="paper-header-authors">Da-Wei Zhou, Hai-Long Sun, Jingyi Ning, Han-Jia Ye, De-Chuan Zhan</div>
+      <div class="paper-header-abstract">새 지식을 학습할 때 기존 지식을 잊는 '대재앙적 망각' 문제를 사전학습 모델로 완화하는 방법론을 체계적으로 정리한 서베이. 세 범주로 기존 방법을 분류하고 비교한다.</div>
+    </div>
     <div class="post-card-body">
-      <div class="post-card-category">📄 페이퍼 픽 · IJCAI</div>
       <div class="post-card-title">사전학습 모델로 '망각 없이' 계속 배우는 법 — 지속 학습 서베이</div>
-      <div class="post-card-excerpt">
-  원문: Continual Learning with Pre-Trained Models: A Survey
-저자: Da-Wei Zhou, Hai-Long S...</div>
-      <div class="post-card-meta">
-        <span>2026-04-05</span>
-      </div>
       
       <div class="post-card-tags">
         
@@ -1403,16 +1338,14 @@
   </a>
   
   <a class="post-card" href="/papers/picks/classroom-simulation-llm/" data-tags="교육AI,멀티에이전트,LLM,교실시뮬레이션,EdTech" data-date="2026-04-05">
-    <div class="post-card-thumb-placeholder">📄</div>
+    <div class="paper-header">
+      <div class="paper-header-field">NAACL · 2024-06-27</div>
+      <div class="paper-header-title">Simulating Classroom Education with LLM-Empowered Agents</div>
+      <div class="paper-header-authors">Zheyuan Zhang, Daniel Zhang-Li, Jifan Yu, Linlu Gong, Jinchang Zhou, Zhanxin Hao, Jianxiao Jiang, Jie Cao, Huiqin Liu, Zhiyuan Liu, Lei Hou, Juanzi Li</div>
+      <div class="paper-header-abstract">청화대 연구팀이 교사·학생 역할을 LLM 에이전트로 구현한 SimClass를 제안. 실제 대학생 48명 실험에서 기존 교실과 유사한 상호작용 패턴과 학습 효과를 확인했다.</div>
+    </div>
     <div class="post-card-body">
-      <div class="post-card-category">📄 페이퍼 픽 · NAACL</div>
       <div class="post-card-title">LLM 에이전트로 실제 교실을 시뮬레이션한다 — SimClass</div>
-      <div class="post-card-excerpt">
-  원문: Simulating Classroom Education with LLM-Empowered Agents
-저자: Zheyuan Zhang, Dani...</div>
-      <div class="post-card-meta">
-        <span>2026-04-05</span>
-      </div>
       
       <div class="post-card-tags">
         
@@ -1432,16 +1365,14 @@
   </a>
   
   <a class="post-card" href="/papers/picks/cell-membrane-cholesterol-asymmetry/" data-tags="Cell,세포막,인지질,콜레스테롤,막생물물리학,비대칭성,지질" data-date="2026-04-05">
-    <div class="post-card-thumb-placeholder">📄</div>
+    <div class="paper-header">
+      <div class="paper-header-field">Cell · 2025-05-15</div>
+      <div class="paper-header-title">Cell membranes sustain phospholipid imbalance via cholesterol asymmetry</div>
+      <div class="paper-header-authors">Milka Doktorova, Jessica L Symons, Xiaoxuan Zhang, Hong-Yin Wang, Jan Schlegel, Joseph H Lorent, Frederick A Heberle, Erdinc Sezgin, Edward Lyman, Kandice R Levental, Ilya Levental</div>
+      <div class="paper-header-abstract">세포막의 두 층 사이 인지질 비대칭이 어떻게 유지되는지, 콜레스테롤이 그 핵심 열역학적 구동력임을 다중 실험·시뮬레이션으로 입증한 연구</div>
+    </div>
     <div class="post-card-body">
-      <div class="post-card-category">📄 페이퍼 픽 · Cell</div>
       <div class="post-card-title">콜레스테롤이 세포막의 불균형을 유지하는 열역학적 구동력임을 규명</div>
-      <div class="post-card-excerpt">
-  원문: Cell membranes sustain phospholipid imbalance via cholesterol asymmetry
-저자: Milk...</div>
-      <div class="post-card-meta">
-        <span>2026-04-05</span>
-      </div>
       
       <div class="post-card-tags">
         
@@ -1457,24 +1388,20 @@
         
         <span class="tag-sm"># 비대칭성</span>
         
-        <span class="tag-sm"># 지질</span>
-        
       </div>
       
     </div>
   </a>
   
   <a class="post-card" href="/papers/picks/cast-3d-scene-reconstruction/" data-tags="SIGGRAPH,3D재구성,단일이미지,컴포넌트분해,3D생성,컴퓨터비전,장면이해" data-date="2026-04-05">
-    <div class="post-card-thumb-placeholder">📄</div>
+    <div class="paper-header">
+      <div class="paper-header-field">SIGGRAPH · 2025-02-18</div>
+      <div class="paper-header-title">CAST: Component-Aligned 3D Scene Reconstruction from an RGB Image</div>
+      <div class="paper-header-authors">Kaixin Yao, Longwen Zhang, Xinhao Yan, Yan Zeng, Qixuan Zhang, Wei Yang, Lan Xu, Jiayuan Gu, Jingyi Yu</div>
+      <div class="paper-header-abstract">단일 이미지에서 객체를 분해하고 공간 관계를 분석해 각 객체의 완전한 3D 기하학을 독립 생성하는 컴포넌트 정렬 재구성 기법. SIGGRAPH 2025 게재.</div>
+    </div>
     <div class="post-card-body">
-      <div class="post-card-category">📄 페이퍼 픽 · SIGGRAPH</div>
       <div class="post-card-title">단일 RGB 이미지에서 편집 가능한 3D 장면을 재구성하는 CAST</div>
-      <div class="post-card-excerpt">
-  원문: CAST: Component-Aligned 3D Scene Reconstruction from an RGB Image
-저자: Kaixin Yao...</div>
-      <div class="post-card-meta">
-        <span>2026-04-05</span>
-      </div>
       
       <div class="post-card-tags">
         
@@ -1490,23 +1417,20 @@
         
         <span class="tag-sm"># 컴퓨터비전</span>
         
-        <span class="tag-sm"># 장면이해</span>
-        
       </div>
       
     </div>
   </a>
   
   <a class="post-card" href="/papers/picks/bat-merbecovirus-hku5-human-ace2/" data-tags="코로나바이러스,메르베코바이러스,HKU5,ACE2,박쥐바이러스,인수공통감염,구조생물학,Cell" data-date="2026-04-05">
-    <div class="post-card-thumb-placeholder">📄</div>
+    <div class="paper-header">
+      <div class="paper-header-field">Cell · 2025-02-18</div>
+      <div class="paper-header-title">Bat-infecting merbecovirus HKU5-CoV lineage 2 can use human ACE2 as a cell entry receptor</div>
+      <div class="paper-header-authors">Jing Chen, Wei Zhang, Yang Li, Chen Liu, Tianyi Dong, Huiyu Chen, Chunguang Wu, Jia Su, Bei Li, Wei Zhang, Ben Hu, Jingkun Jia, Cheng-Bao Ma, Yan Zhu, Xiangyang He, Ang Li, Kaiyi Pan, Haofeng Lin, Zishuo Guo, Cong Li, Libiao Zhang, Huan Yan, Peng Zhou, Wei Peng, Zheng-Li Shi</div>
+      <div class="paper-header-abstract">박쥐 메르베코바이러스 HKU5-CoV 계통 2가 인간 ACE2를 세포 진입 수용체로 사용할 수 있음을 크라이오-EM 구조 분석과 인간 오르가노이드 감염 실험으로 입증한 연구.</div>
+    </div>
     <div class="post-card-body">
-      <div class="post-card-category">📄 페이퍼 픽 · Cell</div>
       <div class="post-card-title">박쥐 코로나바이러스 HKU5가 인간 ACE2 수용체를 사용할 수 있다</div>
-      <div class="post-card-excerpt">
-  원문: Bat-infecting merbecovirus HKU5-CoV lineage 2 can use human ACE2 as a cell entry...</div>
-      <div class="post-card-meta">
-        <span>2026-04-05</span>
-      </div>
       
       <div class="post-card-tags">
         
@@ -1522,26 +1446,20 @@
         
         <span class="tag-sm"># 인수공통감염</span>
         
-        <span class="tag-sm"># 구조생물학</span>
-        
-        <span class="tag-sm"># Cell</span>
-        
       </div>
       
     </div>
   </a>
   
   <a class="post-card" href="/papers/picks/bacterial-immune-phage-triggers/" data-tags="미생물학,항파지면역,세균면역,초분자조립,선천면역,RAZR,파지방어,올리고머화" data-date="2026-04-05">
-    <div class="post-card-thumb-placeholder">📄</div>
+    <div class="paper-header">
+      <div class="paper-header-field">Nature · 2026-02-04</div>
+      <div class="paper-header-title">Bacterial immune activation via supramolecular assembly with phage triggers</div>
+      <div class="paper-header-authors">Tong Zhang, Yifei Lyu, Christine R. Beck, Naseer Iqbal, Renee Barbosa, Alireza Ghanbarpour, Michael T. Laub</div>
+      <div class="paper-header-abstract">세균 면역 단백질 RAZR가 파지 단백질이 만드는 고리 구조를 감지해 24량체로 조립되며 RNA를 절단, 파지 증식을 억제하는 메커니즘을 규명했다.</div>
+    </div>
     <div class="post-card-body">
-      <div class="post-card-category">📄 페이퍼 픽 · Nature</div>
       <div class="post-card-title">세균은 어떻게 바이러스를 인식하는가 — 초분자 조립으로 켜지는 면역 스위치</div>
-      <div class="post-card-excerpt">
-  원문: Bacterial immune activation via supramolecular assembly with phage triggers
-저자: ...</div>
-      <div class="post-card-meta">
-        <span>2026-04-05</span>
-      </div>
       
       <div class="post-card-tags">
         
@@ -1557,26 +1475,20 @@
         
         <span class="tag-sm"># RAZR</span>
         
-        <span class="tag-sm"># 파지방어</span>
-        
-        <span class="tag-sm"># 올리고머화</span>
-        
       </div>
       
     </div>
   </a>
   
   <a class="post-card" href="/papers/picks/autoagents-framework/" data-tags="IJCAI,LLM,멀티에이전트,자동에이전트생성,협력AI" data-date="2026-04-05">
-    <div class="post-card-thumb-placeholder">📄</div>
+    <div class="paper-header">
+      <div class="paper-header-field">IJCAI · 2023-09-29</div>
+      <div class="paper-header-title">AutoAgents: A Framework for Automatic Agent Generation</div>
+      <div class="paper-header-authors">Guangyao Chen, Siwei Dong, Yu Shu, Ge Zhang, Jaward Sesay, Börje F. Karlsson, Jie Fu, Yemin Shi</div>
+      <div class="paper-header-abstract">고정 에이전트 대신 작업 내용을 분석해 필요한 전문 에이전트를 자동 생성한다. GPT-4 대비 76.3% 승률, 표준 방법 대비 최대 11.6% 성능 향상을 달성했다.</div>
+    </div>
     <div class="post-card-body">
-      <div class="post-card-category">📄 페이퍼 픽 · IJCAI</div>
       <div class="post-card-title">작업에 맞는 AI 에이전트 팀을 자동으로 구성하는 AutoAgents 프레임워크</div>
-      <div class="post-card-excerpt">
-  원문: AutoAgents: A Framework for Automatic Agent Generation
-저자: Guangyao Chen, Siwei ...</div>
-      <div class="post-card-meta">
-        <span>2026-04-05</span>
-      </div>
       
       <div class="post-card-tags">
         
@@ -1596,15 +1508,14 @@
   </a>
   
   <a class="post-card" href="/papers/picks/arena-hard-benchbuilder/" data-tags="ICML,LLM벤치마크,ChatbotArena,ArenaHard,BenchBuilder,LLM평가,자동파이프라인" data-date="2026-04-05">
-    <div class="post-card-thumb-placeholder">📄</div>
+    <div class="paper-header">
+      <div class="paper-header-field">ICML · 2024-06-17</div>
+      <div class="paper-header-title">From Crowdsourced Data to High-Quality Benchmarks: Arena-Hard and BenchBuilder Pipeline</div>
+      <div class="paper-header-authors">Tianle Li, Wei-Lin Chiang, Evan Frick, Lisa Dunlap, Tianhao Wu, Banghua Zhu, Joseph E. Gonzalez, Ion Stoica</div>
+      <div class="paper-header-abstract">Chatbot Arena 실사용 데이터로 LLM 벤치마크를 자동 생성. 500개 프롬프트로 전체 아레나 순위와 Spearman 0.91 상관계수 달성.</div>
+    </div>
     <div class="post-card-body">
-      <div class="post-card-category">📄 페이퍼 픽 · ICML</div>
       <div class="post-card-title">LLM 벤치마크를 자동으로 만든다 — Arena-Hard와 BenchBuilder 파이프라인</div>
-      <div class="post-card-excerpt">
-  원문: From Crowdsourced Data to High-Quality Benchmarks: Arena-Hard and BenchBuilder P...</div>
-      <div class="post-card-meta">
-        <span>2026-04-05</span>
-      </div>
       
       <div class="post-card-tags">
         
@@ -1620,23 +1531,20 @@
         
         <span class="tag-sm"># LLM평가</span>
         
-        <span class="tag-sm"># 자동파이프라인</span>
-        
       </div>
       
     </div>
   </a>
   
   <a class="post-card" href="/papers/picks/adaptive-activation-steering/" data-tags="WWW,LLM,환각완화,활성화조향,진실성,훈련프리,AI안전성" data-date="2026-04-05">
-    <div class="post-card-thumb-placeholder">📄</div>
+    <div class="paper-header">
+      <div class="paper-header-field">WWW · 2024-06-04</div>
+      <div class="paper-header-title">Adaptive Activation Steering: A Tuning-Free LLM Truthfulness Improvement Method for Diverse Hallucinations Categories</div>
+      <div class="paper-header-authors">Tianlong Wang, Xianfeng Jiao, Yinghao Zhu, Zhongzhi Chen, Yifan He, Xu Chu, Junyi Gao, Yasha Wang, Liantao Ma</div>
+      <div class="paper-header-abstract">추가 훈련 없이 LLM의 내부 활성화를 동적으로 조정해 환각을 완화하는 기법. LLaMA에서 진실성 142% 향상을 달성.</div>
+    </div>
     <div class="post-card-body">
-      <div class="post-card-category">📄 페이퍼 픽 · WWW</div>
       <div class="post-card-title">훈련 없이 LLM 내부 활성화를 조정해 환각을 줄이는 ACT 기법</div>
-      <div class="post-card-excerpt">
-  원문: Adaptive Activation Steering: A Tuning-Free LLM Truthfulness Improvement Method ...</div>
-      <div class="post-card-meta">
-        <span>2026-04-05</span>
-      </div>
       
       <div class="post-card-tags">
         
@@ -1652,24 +1560,20 @@
         
         <span class="tag-sm"># 훈련프리</span>
         
-        <span class="tag-sm"># AI안전성</span>
-        
       </div>
       
     </div>
   </a>
   
   <a class="post-card" href="/papers/picks/2d-gaussian-splatting/" data-tags="SIGGRAPH,가우시안스플래팅,3D재구성,신경렌더링,표면재구성,뷰합성,실시간렌더링" data-date="2026-04-05">
-    <div class="post-card-thumb-placeholder">📄</div>
+    <div class="paper-header">
+      <div class="paper-header-field">SIGGRAPH · 2024-03-26</div>
+      <div class="paper-header-title">2D Gaussian Splatting for Geometrically Accurate Radiance Fields</div>
+      <div class="paper-header-authors">Binbin Huang, Zehao Yu, Anpei Chen, Andreas Geiger, Shenghua Gao</div>
+      <div class="paper-header-abstract">3D 가우시안 스플래팅의 다중 뷰 불일치 문제를 2D 평면 가우시안으로 해결하여 빠른 렌더링과 기하학적 정확도를 동시에 달성. SIGGRAPH 2024 게재.</div>
+    </div>
     <div class="post-card-body">
-      <div class="post-card-category">📄 페이퍼 픽 · SIGGRAPH</div>
       <div class="post-card-title">3D 가우시안 스플래팅의 기하학 정확도를 높인 2DGS</div>
-      <div class="post-card-excerpt">
-  원문: 2D Gaussian Splatting for Geometrically Accurate Radiance Fields
-저자: Binbin Huan...</div>
-      <div class="post-card-meta">
-        <span>2026-04-05</span>
-      </div>
       
       <div class="post-card-tags">
         
@@ -1684,8 +1588,6 @@
         <span class="tag-sm"># 표면재구성</span>
         
         <span class="tag-sm"># 뷰합성</span>
-        
-        <span class="tag-sm"># 실시간렌더링</span>
         
       </div>
       
