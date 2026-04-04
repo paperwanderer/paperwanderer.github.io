@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="ko"><generator uri="https://jekyllrb.com/" version="3.10.0">Jekyll</generator><link href="https://paperwanderer.github.io/feed/paper-picks.xml" rel="self" type="application/atom+xml" /><link href="https://paperwanderer.github.io/" rel="alternate" type="text/html" hreflang="ko" /><updated>2026-04-04T18:03:40+09:00</updated><id>https://paperwanderer.github.io/feed/paper-picks.xml</id><title type="html">paperWanderer | Paper-picks</title><subtitle>자유로운 분석가의 공간 — 데이터, 인사이트, 그리고 세상의 모든 트렌드</subtitle><author><name>paperWanderer</name></author><entry><title type="html">초가공식품, 32가지 건강 위험과 연결됐다 — 역대 최대 규모 분석</title><link href="https://paperwanderer.github.io/papers/picks/2026-04-04-ultraprocessed-food-health/" rel="alternate" type="text/html" title="초가공식품, 32가지 건강 위험과 연결됐다 — 역대 최대 규모 분석" /><published>2026-04-04T00:00:00+09:00</published><updated>2026-04-04T00:00:00+09:00</updated><id>https://paperwanderer.github.io/papers/picks/ultraprocessed-food-health</id><content type="html" xml:base="https://paperwanderer.github.io/papers/picks/2026-04-04-ultraprocessed-food-health/"><![CDATA[<h2 id="무엇을-발견했나">무엇을 발견했나</h2>
+
+<p>45개의 메타분석(수백만 명 포함)을 통합해 초가공식품(UPF) 섭취와 각종 건강 지표의 관계를 분석했다. 높은 UPF 섭취는 심혈관 질환 사망 위험 50% 증가, 2형 당뇨 위험 12% 증가, 불안·우울 위험 53% 증가와 관련됐다. BMJ에 게재됐으며 인용 지수 7로 2024년 의학 논문 최상위권이다.</p>
+
+<h2 id="왜-주목받나">왜 주목받나</h2>
+
+<p>단일 식품이 아니라 “가공도”가 건강의 핵심 변수라는 주장을 45개 선행 연구를 한꺼번에 검토하는 방식으로 체계화했다. 에너지 음료·편의점 간편식·냉동식품이 일상화된 한국 식생활에 직접 연관되는 연구다. 정신건강 지표와의 연관성도 포함돼 있어 단순한 “다이어트 논문”을 넘어선다.</p>]]></content><author><name>paperWanderer</name></author><category term="초가공식품" /><category term="건강" /><category term="영양" /><category term="공중보건" /><category term="식생활" /><category term="만성질환" /><summary type="html"><![CDATA[45개 메타분석을 종합한 우산 리뷰. 초가공식품 섭취가 심혈관 질환·당뇨·암·정신건강 등 32개 건강 결과 악화와 연관됨을 보였다.]]></summary></entry><entry><title type="html">SFT는 외운다, RL은 이해한다 — AI 훈련 방식의 근본 차이</title><link href="https://paperwanderer.github.io/papers/picks/2026-04-04-sft-vs-rl-generalization/" rel="alternate" type="text/html" title="SFT는 외운다, RL은 이해한다 — AI 훈련 방식의 근본 차이" /><published>2026-04-04T00:00:00+09:00</published><updated>2026-04-04T00:00:00+09:00</updated><id>https://paperwanderer.github.io/papers/picks/sft-vs-rl-generalization</id><content type="html" xml:base="https://paperwanderer.github.io/papers/picks/2026-04-04-sft-vs-rl-generalization/"><![CDATA[<h2 id="무엇을-발견했나">무엇을 발견했나</h2>
+
+<p>같은 기반 모델을 지도 미세조정(SFT)과 강화학습(RL)으로 각각 훈련한 뒤 성능을 비교했다. SFT로 훈련된 모델은 훈련 분포 내에서는 잘 작동하지만 새로운 유형의 문제에서는 성능이 떨어졌다. 반면 RL로 훈련된 모델은 훈련 중 본 적 없는 구조의 문제에서도 더 잘 일반화했다. ICML 2025에 채택됐다.</p>
+
+<h2 id="왜-주목받나">왜 주목받나</h2>
+
+<p>“ChatGPT처럼 정답을 보여주고 따라 하게 하는” SFT 방식이 AI 업계의 표준이었다. 이 논문은 그 방식이 근본적으로 암기에 가깝다는 실험적 근거를 제시한다. AI 모델이 범용 추론 능력을 가지려면 RL이 필수적이라는 주장으로 이어지며, 실제로 DeepSeek-R1, o1 등 최신 추론 모델들이 RL을 채택하는 흐름과 정확히 맞아 떨어진다.</p>]]></content><author><name>paperWanderer</name></author><category term="AI" /><category term="LLM" /><category term="SFT" /><category term="강화학습" /><category term="일반화" /><category term="후훈련" /><category term="대형언어모델" /><summary type="html"><![CDATA[지도학습(SFT)은 훈련 데이터를 암기하는 반면 강화학습(RL)은 새로운 분포에서도 일반화한다는 것을 실험으로 보인 논문. AI 모델 후훈련 설계에 직접 영향을 준다.]]></summary></entry><entry><title type="html">양자 컴퓨터가 고전 컴퓨터를 이겼다 — 특정 물리 시뮬레이션에서</title><link href="https://paperwanderer.github.io/papers/picks/2026-04-04-quantum-simulation-beyond-classical/" rel="alternate" type="text/html" title="양자 컴퓨터가 고전 컴퓨터를 이겼다 — 특정 물리 시뮬레이션에서" /><published>2026-04-04T00:00:00+09:00</published><updated>2026-04-04T00:00:00+09:00</updated><id>https://paperwanderer.github.io/papers/picks/quantum-simulation-beyond-classical</id><content type="html" xml:base="https://paperwanderer.github.io/papers/picks/2026-04-04-quantum-simulation-beyond-classical/"><![CDATA[<h2 id="무엇을-발견했나">무엇을 발견했나</h2>
+
+<p>D-Wave의 양자 어닐러(5,000+ 큐비트)가 특정 자기 재료(스핀 유리)의 저온 상태를 시뮬레이션하는 과제에서, 같은 문제를 푸는 세계 최고 성능의 고전 컴퓨터 알고리즘보다 빠르고 정확한 결과를 냈다. “양자 우월성”이 범용 계산이 아닌 구체적인 물리 문제에서 처음으로 실험적으로 확인됐다. Science에 게재됐으며 인용 지수 4다.</p>
+
+<h2 id="왜-주목받나">왜 주목받나</h2>
+
+<p>구글의 2019년 “양자 우월성” 주장은 실용적 의미가 없는 무작위 회로 과제였다. 이번 연구는 재료 과학 시뮬레이션이라는 실제 응용 영역에서 고전 컴퓨터를 넘어섰다는 점에서 다르다. 아직 범용 연산의 우월성은 아니지만, 신소재·의약품 설계에 양자 컴퓨팅이 현실적으로 기여할 수 있다는 첫 실증 사례가 됐다.</p>
+
+<h2 id="한국-연결">한국 연결</h2>
+
+<p>아르테미스 2호와 한국산 K-라드큐브처럼, 우주·기초과학 분야에서 한국은 국제 공동 연구 참여를 넓히고 있다. 삼성전자와 SK하이닉스가 주목하는 차세대 컴퓨팅 패러다임 중 하나가 양자컴퓨팅이며, 이 논문은 그 전환점의 신호탄으로 거론된다.</p>]]></content><author><name>paperWanderer</name></author><category term="양자컴퓨팅" /><category term="양자우월성" /><category term="물리시뮬레이션" /><category term="양자어닐러" /><category term="기초과학" /><summary type="html"><![CDATA[D-Wave 양자 어닐러가 특정 자기 재료 시뮬레이션에서 세계 최고 성능의 고전 알고리즘을 처음으로 능가했다는 실험 결과. Science에 게재.]]></summary></entry><entry><title type="html">사람 뇌에서 미세플라스틱이 발견됐다</title><link href="https://paperwanderer.github.io/papers/picks/2026-04-04-microplastics-human-brain/" rel="alternate" type="text/html" title="사람 뇌에서 미세플라스틱이 발견됐다" /><published>2026-04-04T00:00:00+09:00</published><updated>2026-04-04T00:00:00+09:00</updated><id>https://paperwanderer.github.io/papers/picks/microplastics-human-brain</id><content type="html" xml:base="https://paperwanderer.github.io/papers/picks/2026-04-04-microplastics-human-brain/"><![CDATA[<h2 id="무엇을-발견했나">무엇을 발견했나</h2>
+
+<p>뇌졸중·치매 등으로 사망한 91명의 뇌 조직 샘플을 분석했다. 전원에서 미세플라스틱이 검출됐으며, 같은 사람의 간·신장 조직보다 뇌에서 농도가 더 높게 나왔다. 2016년 이전 사망자 대비 2024년 직전 사망자의 뇌에서 농도가 약 50% 높아, 환경 내 플라스틱 증가가 인체 뇌 축적으로 이어지는 경향을 시사했다. Nature Medicine에 게재됐다.</p>
+
+<h2 id="왜-주목받나">왜 주목받나</h2>
+
+<p>혈뇌장벽을 통과하지 못한다고 여겨졌던 미세플라스틱이 실제 뇌 조직에서 검출됐다는 점이 핵심이다. 신경 독성의 장기 영향은 아직 밝혀지지 않았지만, 이 연구는 “뇌가 외부 오염으로부터 안전한 구역”이라는 가정에 의문을 제기한다. 인용 지수 6으로 2025년 의학 논문 중 상위권이다.</p>]]></content><author><name>paperWanderer</name></author><category term="미세플라스틱" /><category term="환경오염" /><category term="뇌건강" /><category term="신경독성" /><category term="건강" /><category term="환경" /><summary type="html"><![CDATA[사망한 인간의 뇌 조직에서 미세플라스틱이 축적되어 있음을 처음으로 확인한 연구. 간·신장보다 뇌에 농도가 높았으며 최근 10년간 증가 추세였다.]]></summary></entry><entry><title type="html">의료 AI는 독약을 먹어도 모른다 — 데이터 오염 공격의 취약성</title><link href="https://paperwanderer.github.io/papers/picks/2026-04-04-medical-llm-data-poisoning/" rel="alternate" type="text/html" title="의료 AI는 독약을 먹어도 모른다 — 데이터 오염 공격의 취약성" /><published>2026-04-04T00:00:00+09:00</published><updated>2026-04-04T00:00:00+09:00</updated><id>https://paperwanderer.github.io/papers/picks/medical-llm-data-poisoning</id><content type="html" xml:base="https://paperwanderer.github.io/papers/picks/2026-04-04-medical-llm-data-poisoning/"><![CDATA[<h2 id="무엇을-발견했나">무엇을 발견했나</h2>
+
+<p>의료 진단 보조용 LLM에 훈련 데이터의 극히 일부(1% 미만)만 조작된 데이터를 삽입해도 특정 질환에 대한 모델의 진단 권고가 체계적으로 왜곡될 수 있음을 보였다. 공격자가 훈련 데이터 수집 단계에 접근할 수 있다면, 완성된 모델에는 눈에 보이는 흔적이 남지 않는다. Nature Medicine에 게재됐다.</p>
+
+<h2 id="왜-주목받나">왜 주목받나</h2>
+
+<p>데이터센터를 물리적으로 공격하지 않더라도, 학습 데이터를 오염시키는 것만으로 AI 시스템을 무력화할 수 있다는 점에서 AI 인프라 보안의 새로운 차원을 보여준다. 병원, 제약사, AI 스타트업이 외부에서 수집한 대규모 데이터로 모델을 훈련하는 현실에서 방어 수단이 아직 성숙하지 않았음을 지적한다.</p>
+
+<h2 id="한국-연결">한국 연결</h2>
+
+<p>이란이 미국 AI·클라우드 기업 18곳을 공격 대상으로 선언한 가운데, 사이버 위협의 실제 핵심은 데이터 레이어에도 있다. 물리적 데이터센터 타격보다 훨씬 은밀하게 AI 시스템을 훼손하는 경로가 이미 논문으로 입증됐다는 점이 주목할 만하다.</p>]]></content><author><name>paperWanderer</name></author><category term="AI" /><category term="의료AI" /><category term="데이터오염" /><category term="보안" /><category term="LLM취약성" /><category term="AI보안" /><summary type="html"><![CDATA[의료 목적으로 훈련된 대형 언어 모델이 소량의 악성 데이터를 훈련 세트에 섞는 것만으로 오진을 유도할 수 있음을 보인 연구. AI 인프라 보안의 새 맹점을 드러낸다.]]></summary></entry><entry><title type="html">세마글루타이드, 체중 감량 이면의 위험도 지도</title><link href="https://paperwanderer.github.io/papers/picks/2026-04-04-glp1-risks-mapping/" rel="alternate" type="text/html" title="세마글루타이드, 체중 감량 이면의 위험도 지도" /><published>2026-04-04T00:00:00+09:00</published><updated>2026-04-04T00:00:00+09:00</updated><id>https://paperwanderer.github.io/papers/picks/glp1-risks-mapping</id><content type="html" xml:base="https://paperwanderer.github.io/papers/picks/2026-04-04-glp1-risks-mapping/"><![CDATA[<h2 id="무엇을-발견했나">무엇을 발견했나</h2>
+
+<p>175만 명의 실세계 환자 데이터를 분석해 GLP-1 수용체 작용제(세마글루타이드 등)의 혜택과 위험을 동시에 정량화했다. 심혈관 위험 감소, 신장 보호, 치매 위험 감소 등 긍정적 효과가 확인됐다. 동시에 위장관 부작용, 시신경병증(시력 저하 위험), 관절 관련 문제가 대조군 대비 유의미하게 높았다. Nature Medicine에 게재됐다.</p>
+
+<h2 id="왜-주목받나">왜 주목받나</h2>
+
+<p>노보노디스크와 일라이 릴리의 GLP-1 약물이 “만능 약”처럼 알려진 상황에서, 175만 명 규모의 실사용 데이터가 처음으로 체계적인 위험 지도를 그렸다. 개별 임상시험에서는 잡히지 않았던 드문 부작용들이 대규모 코호트에서 통계적으로 유의하게 나타났다.</p>
+
+<h2 id="한국-연결">한국 연결</h2>
+
+<p>트럼프 행정부의 의약품 관세 부과로 셀트리온·삼성바이오로직스 등 K바이오가 GLP-1 바이오시밀러 시장 진출을 검토하는 시점에, 오리지널 약물의 위험 프로파일이 명확해진 것은 시장 전략에도 영향을 준다.</p>]]></content><author><name>paperWanderer</name></author><category term="GLP1" /><category term="세마글루타이드" /><category term="비만치료제" /><category term="임상" /><category term="부작용" /><category term="의약품" /><category term="K바이오" /><summary type="html"><![CDATA[175만 명 실사용 데이터로 GLP-1 계열 약물의 효과와 부작용을 동시에 지도화. 장점만 부각되던 기존 논의에서 소화기·안과 부작용 위험을 정량화했다.]]></summary></entry><entry><title type="html">5억 년의 진화를 언어 모델로 시뮬레이션하다</title><link href="https://paperwanderer.github.io/papers/picks/2026-04-04-evolving-500m-years-protein-lm/" rel="alternate" type="text/html" title="5억 년의 진화를 언어 모델로 시뮬레이션하다" /><published>2026-04-04T00:00:00+09:00</published><updated>2026-04-04T00:00:00+09:00</updated><id>https://paperwanderer.github.io/papers/picks/evolving-500m-years-protein-lm</id><content type="html" xml:base="https://paperwanderer.github.io/papers/picks/2026-04-04-evolving-500m-years-protein-lm/"><![CDATA[<h2 id="무엇을-발견했나">무엇을 발견했나</h2>
+
+<p>단백질 서열 진화를 자연어 처리와 유사하게 모델링한 ESM(Evolutionary Scale Modeling) 계열의 언어 모델이 5억 년에 걸친 단백질 진화 경로를 시뮬레이션했다. 모델은 진화 중 한 번도 자연에서 등장하지 않은 경로로도 기능성 단백질을 생성할 수 있었다. Science에 게재됐으며 인용 지수 6이다.</p>
+
+<h2 id="왜-주목받나">왜 주목받나</h2>
+
+<p>신약 개발에서 새로운 단백질을 설계하는 일은 수십 년이 걸리는 시행착오 과정이었다. AI가 진화를 빠르게 시뮬레이션해 “자연이 만들지 않은 단백질”을 설계할 수 있다면, 항체 치료제·효소 개발의 속도가 근본적으로 달라진다. 트럼프의 바이오 관세 충격 속에 신약 개발 파이프라인의 효율화가 K바이오 기업들의 생존 전략이 된 시점과 맞닿아 있다.</p>
+
+<h2 id="한국-연결">한국 연결</h2>
+
+<p>아르테미스 2호에 한국산 방사선 측정 큐브위성(K-라드큐브)이 탑재됐듯, 우주·생명과학의 경계에서 한국 연구진의 참여가 늘고 있다. 단백질 언어 모델 분야에서도 한국 연구 그룹의 논문이 증가하는 추세다.</p>]]></content><author><name>paperWanderer</name></author><category term="단백질설계" /><category term="계산생물학" /><category term="AI" /><category term="언어모델" /><category term="진화" /><category term="생명과학" /><category term="우주생물학" /><summary type="html"><![CDATA[단백질 서열을 언어처럼 학습한 모델로 5억 년에 걸친 자연 진화 궤적을 재현하고, 기존에 없던 기능성 단백질을 설계할 수 있음을 보인 연구.]]></summary></entry><entry><title type="html">강화학습만으로 AI 추론 능력을 끌어올린다 — DeepSeek-R1의 실험</title><link href="https://paperwanderer.github.io/papers/picks/2026-04-04-deepseek-r1-rl-reasoning/" rel="alternate" type="text/html" title="강화학습만으로 AI 추론 능력을 끌어올린다 — DeepSeek-R1의 실험" /><published>2026-04-04T00:00:00+09:00</published><updated>2026-04-04T00:00:00+09:00</updated><id>https://paperwanderer.github.io/papers/picks/deepseek-r1-rl-reasoning</id><content type="html" xml:base="https://paperwanderer.github.io/papers/picks/2026-04-04-deepseek-r1-rl-reasoning/"><![CDATA[<h2 id="무엇을-발견했나">무엇을 발견했나</h2>
+
+<p>DeepSeek 팀은 수천 개의 정답 레이블 데이터 없이, 순수 강화학습(RL)만으로 대형 언어 모델의 수학·논리 추론 능력을 대폭 향상시킬 수 있음을 보였다. 모델이 “생각하는 과정”을 스스로 길게 늘리는 행동이 학습 중 자발적으로 나타났다. AIME 2024 수학 경시대회에서 오픈AI o1과 동등한 수준에 도달했으며, 공개 가중치 모델로 배포됐다.</p>
+
+<h2 id="왜-주목받나">왜 주목받나</h2>
+
+<p>기존 통념은 “더 좋은 AI를 만들려면 더 많은 정답 데이터가 필요하다”는 것이었다. 이 논문은 그 전제를 흔든다. 데이터 수집 비용 없이 RL만으로 추론 성능을 끌어올릴 수 있다면, AI 학습의 병목이 데이터가 아니라 학습 알고리즘과 컴퓨팅 자원으로 옮겨간다. Nature 저널에 게재됐으며 인용 지수 8을 기록해 2025년 논문 중 최상위권이다.</p>
+
+<h2 id="한국-연결">한국 연결</h2>
+
+<p>삼성전자 DS 부문이 HBM4와 NPU 생태계로 AI 반도체 슈퍼사이클을 주도하는 가운데, RL 기반 학습은 기존 SFT 대비 훨씬 더 많은 GPU·메모리 자원을 소비한다. AI 학습 방법론의 전환은 곧 고대역폭 메모리 수요 증가로 이어진다.</p>]]></content><author><name>paperWanderer</name></author><category term="AI" /><category term="LLM" /><category term="강화학습" /><category term="추론" /><category term="DeepSeek" /><category term="대형언어모델" /><category term="AI반도체" /><summary type="html"><![CDATA[별도 감독 데이터 없이 강화학습만으로 수학·코딩 추론 성능을 GPT-4o 수준까지 끌어올린 DeepSeek-R1. AI 학습 방법론의 전환점으로 주목받는다.]]></summary></entry></feed>
