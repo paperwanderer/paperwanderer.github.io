@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="322" viewBox="0 0 800 322"
+     font-family="'Apple SD Gothic Neo', 'Malgun Gothic', Arial, sans-serif">
+  <rect width="800" height="322" fill="#f8f9fa" rx="12"/>
+  <text x="400" y="36" text-anchor="middle" font-size="19" font-weight="bold" fill="#2c3e50">아르테미스 2호·K-라드큐브 — 커뮤니티 반응</text>
+  <text x="400" y="54" text-anchor="middle" font-size="13" fill="#7f8c8d">뉴시스, ZDNet Korea | 2026-04-04 09:30 KST</text>
+  <!-- 범례 -->
+  <circle cx="496" cy="72" r="6" fill="#27ae60"/>
+  <text x="506" y="77" font-size="13" fill="#2c3e50">긍정</text>
+  <circle cx="554" cy="72" r="6" fill="#e74c3c"/>
+  <text x="564" y="77" font-size="13" fill="#2c3e50">부정</text>
+  <circle cx="612" cy="72" r="6" fill="#95a5a6"/>
+  <text x="622" y="77" font-size="13" fill="#2c3e50">중립</text>
+  <!-- Row 1: 뉴시스 -->
+  <text x="60" y="100" font-size="15" font-weight="bold" fill="#2c3e50">뉴시스 — 긍정 245건 / 부정 15건 / 중립 40건</text>
+  <rect x="60" y="110" width="555" height="28" fill="#27ae60" rx="3"/>
+  <rect x="615" y="110" width="34" height="28" fill="#e74c3c" rx="3"/>
+  <rect x="649" y="110" width="91" height="28" fill="#95a5a6" rx="3"/>
+  <text x="60" y="152" text-anchor="start" font-size="13" fill="#27ae60">긍정 75%</text>
+  <text x="400" y="152" text-anchor="middle" font-size="13" fill="#e74c3c">부정 5%</text>
+  <text x="740" y="152" text-anchor="end" font-size="13" fill="#7f8c8d">중립 20%</text>
+  <text x="60" y="168" font-size="13" fill="#555">💬 "K반도체 정말 자랑스럽다, 한국 기술 세계무대 인정"</text>
+  <!-- Row 2: ZDNet Korea -->
+  <text x="60" y="220" font-size="15" font-weight="bold" fill="#2c3e50">ZDNet Korea — 긍정 105건 / 부정 15건 / 중립 30건</text>
+  <rect x="60" y="230" width="476" height="28" fill="#27ae60" rx="3"/>
+  <rect x="536" y="230" width="68" height="28" fill="#e74c3c" rx="3"/>
+  <rect x="604" y="230" width="136" height="28" fill="#95a5a6" rx="3"/>
+  <text x="60" y="272" text-anchor="start" font-size="13" fill="#27ae60">긍정 70%</text>
+  <text x="400" y="272" text-anchor="middle" font-size="13" fill="#e74c3c">부정 10%</text>
+  <text x="740" y="272" text-anchor="end" font-size="13" fill="#7f8c8d">중립 20%</text>
+  <text x="60" y="288" font-size="13" fill="#555">💬 "우리 기술이 NASA 임무에 쓰인다니 정말 대단, 우주산업 미래 밝다"</text>
+  <!-- Footer -->
+  <text x="400" y="310" text-anchor="middle" font-size="12" fill="#bdc3c7">* 수치는 집계된 공감/반응 신호 기반 추산 | paperWanderer</text>
+</svg>

@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="440" viewBox="0 0 800 440"
+     font-family="'Apple SD Gothic Neo', 'Malgun Gothic', Arial, sans-serif">
+  <rect width="800" height="440" fill="#f8f9fa" rx="12"/>
+  <text x="400" y="36" text-anchor="middle" font-size="19" font-weight="bold" fill="#2c3e50">한화 풍산 탄약사업 — 커뮤니티 반응</text>
+  <text x="400" y="54" text-anchor="middle" font-size="13" fill="#7f8c8d">클리앙, 나무위키, 가생이닷컴 | 2026-04-04 09:33 KST</text>
+  <!-- 범례 -->
+  <rect x="490" y="66" width="12" height="12" fill="#27ae60" rx="2"/>
+  <text x="506" y="77" font-size="13" fill="#2c3e50">긍정</text>
+  <rect x="548" y="66" width="12" height="12" fill="#e74c3c" rx="2"/>
+  <text x="564" y="77" font-size="13" fill="#2c3e50">부정</text>
+  <rect x="606" y="66" width="12" height="12" fill="#95a5a6" rx="2"/>
+  <text x="622" y="77" font-size="13" fill="#2c3e50">중립</text>
+
+  <!-- Row 1: 클리앙 -->
+  <text x="60" y="100" font-size="15" font-weight="bold" fill="#2c3e50">클리앙 — 긍정 200건 / 부정 50건 / 중립 150건</text>
+  <rect x="60" y="110" width="340" height="28" fill="#27ae60" rx="3"/>
+  <rect x="400" y="110" width="85" height="28" fill="#e74c3c" rx="3"/>
+  <rect x="485" y="110" width="255" height="28" fill="#95a5a6" rx="3"/>
+  <text x="60" y="152" text-anchor="start" font-size="13" fill="#27ae60">긍정 50%</text>
+  <text x="400" y="152" text-anchor="middle" font-size="13" fill="#e74c3c">부정 12%</text>
+  <text x="740" y="152" text-anchor="end" font-size="13" fill="#7f8c8d">중립 38%</text>
+  <text x="60" y="168" font-size="13" fill="#555">💬 "골때리네요. 방산으로 먹고 사는 기업이 3세가..."</text>  <!-- Row 2: 나무위키 군사 갤러리 -->
+  <text x="60" y="220" font-size="15" font-weight="bold" fill="#2c3e50">나무위키 군사 갤러리 — 긍정 150건 / 부정 10건 / 중립 80건</text>
+  <rect x="60" y="230" width="425" height="28" fill="#27ae60" rx="3"/>
+  <rect x="485" y="230" width="28" height="28" fill="#e74c3c" rx="3"/>
+  <rect x="513" y="230" width="227" height="28" fill="#95a5a6" rx="3"/>
+  <text x="60" y="272" text-anchor="start" font-size="13" fill="#27ae60">긍정 62%</text>
+  <text x="400" y="272" text-anchor="middle" font-size="13" fill="#e74c3c">부정 4%</text>
+  <text x="740" y="272" text-anchor="end" font-size="13" fill="#7f8c8d">중립 34%</text>
+  <text x="60" y="288" font-size="13" fill="#555">💬 "골때리네요. 방산으로 먹고 사는 기업이 3세가..."</text>  <!-- Row 3: 가생이닷컴 -->
+  <text x="60" y="340" font-size="15" font-weight="bold" fill="#2c3e50">가생이닷컴 — 긍정 250건 / 부정 40건 / 중립 100건</text>
+  <rect x="60" y="350" width="436" height="28" fill="#27ae60" rx="3"/>
+  <rect x="496" y="350" width="70" height="28" fill="#e74c3c" rx="3"/>
+  <rect x="566" y="350" width="174" height="28" fill="#95a5a6" rx="3"/>
+  <text x="60" y="392" text-anchor="start" font-size="13" fill="#27ae60">긍정 64%</text>
+  <text x="400" y="392" text-anchor="middle" font-size="13" fill="#e74c3c">부정 10%</text>
+  <text x="740" y="392" text-anchor="end" font-size="13" fill="#7f8c8d">중립 26%</text>
+  <text x="60" y="408" font-size="13" fill="#555">💬 "골때리네요. 방산으로 먹고 사는 기업이 3세가..."</text>
+
+  <text x="400" y="426" text-anchor="middle" font-size="12" fill="#bdc3c7">* 수치는 집계된 공감/반응 신호 기반 추산 | paperWanderer</text>
+</svg>

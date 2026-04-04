@@ -1,0 +1,45 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="440" viewBox="0 0 800 440"
+     font-family="'Apple SD Gothic Neo', 'Malgun Gothic', Arial, sans-serif">
+  <rect width="800" height="440" fill="#f8f9fa" rx="12"/>
+  <text x="400" y="36" text-anchor="middle" font-size="19" font-weight="bold" fill="#2c3e50">이강인·홍명보 — 커뮤니티 반응</text>
+  <text x="400" y="54" text-anchor="middle" font-size="13" fill="#7f8c8d">네이버뉴스·디시인사이드·루리웹 | 2026-04-04 09:33 KST</text>
+  <!-- 범례 -->
+  <rect x="490" y="66" width="12" height="12" fill="#27ae60" rx="2"/>
+  <text x="506" y="77" font-size="13" fill="#2c3e50">긍정</text>
+  <rect x="548" y="66" width="12" height="12" fill="#e74c3c" rx="2"/>
+  <text x="564" y="77" font-size="13" fill="#2c3e50">부정</text>
+  <rect x="606" y="66" width="12" height="12" fill="#95a5a6" rx="2"/>
+  <text x="622" y="77" font-size="13" fill="#2c3e50">중립</text>
+  
+  <!-- Row 1: 이강인 아틀레티코 (pos=571, neg=65, neu=44) -->
+  <text x="60" y="100" font-size="15" font-weight="bold" fill="#2c3e50">이강인 아틀레티코 — 긍정 10,500건 / 부정 1,200건 / 중립 800건</text>
+  <rect x="60" y="110" width="571" height="28" fill="#27ae60" rx="3"/>
+  <rect x="631" y="110" width="65" height="28" fill="#e74c3c" rx="3"/>
+  <rect x="696" y="110" width="44" height="28" fill="#95a5a6" rx="3"/>
+  <text x="60" y="152" text-anchor="start" font-size="13" fill="#27ae60">긍정 84%</text>
+  <text x="400" y="152" text-anchor="middle" font-size="13" fill="#e74c3c">부정 10%</text>
+  <text x="740" y="152" text-anchor="end" font-size="13" fill="#7f8c8d">중립 6%</text>
+  <text x="60" y="168" font-size="13" fill="#555">💬 "역사적 이적이다" (디시인사이드)</text>
+  
+  <!-- Row 2: 홍명보 월드컵 준비 (pos=64, neg=510, neu=106) -->
+  <text x="60" y="220" font-size="15" font-weight="bold" fill="#2c3e50">홍명보 월드컵 준비 — 긍정 1,500건 / 부정 12,000건 / 중립 2,500건</text>
+  <rect x="60" y="230" width="64" height="28" fill="#27ae60" rx="3"/>
+  <rect x="124" y="230" width="510" height="28" fill="#e74c3c" rx="3"/>
+  <rect x="634" y="230" width="106" height="28" fill="#95a5a6" rx="3"/>
+  <text x="60" y="272" text-anchor="start" font-size="13" fill="#27ae60">긍정 9%</text>
+  <text x="400" y="272" text-anchor="middle" font-size="13" fill="#e74c3c">부정 75%</text>
+  <text x="740" y="272" text-anchor="end" font-size="13" fill="#7f8c8d">중립 16%</text>
+  <text x="60" y="288" font-size="13" fill="#555">💬 "감독 교체해야 한다" (네이버뉴스)</text>
+  
+  <!-- Row 3: 전체 여론 (pos=280, neg=320, neu=80) -->
+  <text x="60" y="340" font-size="15" font-weight="bold" fill="#2c3e50">전체 여론 — 긍정 10,500건 / 부정 12,000건 / 중립 3,000건</text>
+  <rect x="60" y="350" width="280" height="28" fill="#27ae60" rx="3"/>
+  <rect x="340" y="350" width="320" height="28" fill="#e74c3c" rx="3"/>
+  <rect x="660" y="350" width="80" height="28" fill="#95a5a6" rx="3"/>
+  <text x="60" y="392" text-anchor="start" font-size="13" fill="#27ae60">긍정 41%</text>
+  <text x="400" y="392" text-anchor="middle" font-size="13" fill="#e74c3c">부정 47%</text>
+  <text x="740" y="392" text-anchor="end" font-size="13" fill="#7f8c8d">중립 12%</text>
+  <text x="60" y="408" font-size="13" fill="#555">💬 "이강인은 좋지만 현재 팀 상황은 심각" (루리웹)</text>
+  
+  <text x="400" y="426" text-anchor="middle" font-size="12" fill="#bdc3c7">* 수치는 집계된 공감/반응 신호 기반 추산 | paperWanderer</text>
+</svg>
