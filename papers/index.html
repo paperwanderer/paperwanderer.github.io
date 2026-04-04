@@ -1,0 +1,2224 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>논문 | paperWanderer</title>
+  
+  <meta name="description" content="자유로운 분석가의 공간 — 데이터, 인사이트, 그리고 세상의 모든 트렌드">
+  <meta name="naver-site-verification" content="5ec7f741bd9f06cf3161b3dbf3374203197a44e7" />
+  <!-- Open Graph -->
+  <meta property="og:type" content="article">
+  <meta property="og:site_name" content="paperWanderer">
+  <meta property="og:title" content="논문">
+  <meta property="og:description" content="자유로운 분석가의 공간 — 데이터, 인사이트, 그리고 세상의 모든 트렌드">
+  <meta property="og:url" content="https://paperwanderer.github.io/papers/">
+  
+  <!-- Twitter Card -->
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:title" content="논문">
+  <meta name="twitter:description" content="자유로운 분석가의 공간 — 데이터, 인사이트, 그리고 세상의 모든 트렌드">
+  
+  <!-- Canonical -->
+  <link rel="canonical" href="https://paperwanderer.github.io/papers/">
+  <meta name="google-adsense-account" content="ca-pub-3019273513537920">
+  <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-3019273513537920" crossorigin="anonymous"></script>
+  <style>
+    :root {
+      --bg: #fdfdfd;
+      --surface: #ffffff;
+      --border: #e8e8e8;
+      --accent: #1a73e8;
+      --accent2: #c0392b;
+      --text: #2c2c2c;
+      --muted: #888;
+      --sidebar-bg: #f8f8f8;
+      --header-h: 56px;
+      --tag-bg: #eef2ff;
+      --tag-color: #3667d6;
+      --code-bg: #f5f5f5;
+    }
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    html { overflow-x: hidden; }
+    body { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Arial, sans-serif; background: var(--bg); color: var(--text); line-height: 1.7; overflow-x: hidden; }
+    img { max-width: 100%; height: auto; }
+
+    /* ── 파닉스 용어 툴팁 ── */
+    .pt {
+      border-bottom: 2px dotted #1a73e8;
+      cursor: help;
+      position: relative;
+      display: inline;
+      color: inherit;
+    }
+    /* .pt / .pterm CSS 툴팁 비활성화 — JS fixed 툴팁으로 대체 */
+    .pt::after, .pt::before { display: none !important; }
+    /* JS fixed 툴팁 */
+    .pw-tip {
+      position: fixed;
+      z-index: 99999;
+      background: #1e2a3a;
+      color: #f0f4ff;
+      font-size: 0.78em;
+      line-height: 1.55;
+      padding: 7px 11px;
+      border-radius: 7px;
+      white-space: pre-line;
+      max-width: 280px;
+      pointer-events: none;
+      box-shadow: 0 3px 12px rgba(0,0,0,0.35);
+      opacity: 0;
+      visibility: hidden;
+    }
+    a { color: var(--accent); text-decoration: none; }
+    a:hover { text-decoration: underline; }
+
+    /* ── Masthead ── */
+    #masthead {
+      background: #fff;
+      border-bottom: 1px solid var(--border);
+      position: sticky; top: 0; z-index: 100;
+      height: var(--header-h);
+      box-shadow: 0 1px 4px rgba(0,0,0,.06);
+    }
+    .masthead-inner {
+      max-width: 1280px; margin: 0 auto; padding: 0 24px;
+      height: 100%; display: flex; align-items: center; justify-content: space-between;
+    }
+    .site-title {
+      font-size: 1.18em; font-weight: 700; color: var(--text);
+      display: flex; align-items: center; gap: 8px;
+    }
+    .site-title:hover { text-decoration: none; color: var(--accent); }
+    .site-title .icon { color: var(--accent); }
+    .greedy-nav { display: flex; align-items: center; gap: 20px; }
+    .greedy-nav a { font-size: 0.88em; color: var(--muted); font-weight: 500; }
+    .greedy-nav a:hover { color: var(--accent); text-decoration: none; }
+
+    /* ── Page wrapper ── */
+    #main { max-width: 860px; margin: 0 auto; padding: 32px 24px; }
+    #content { width: 100%; }
+    .category-count { background: var(--tag-bg); color: var(--tag-color); font-size: 0.72em; padding: 1px 7px; border-radius: 10px; font-weight: 600; }
+    /* ── 파닉스 전문용어 호버 툴팁 ── */
+    .pterm { cursor: help; border-bottom: 1px dotted #4285F4; color: #1a73e8; font-weight: 600; position: relative; display: inline-block; }
+    .pterm::after { display: none !important; }
+    /* ── 파닉스 지문 ── */
+    .passage-line { display:flex; align-items:baseline; gap:8px; margin:3px 0; }
+    .passage-line span { font-style:italic; font-size:1.05em; }
+    .gt-btn { flex-shrink:0; font-size:1em; text-decoration:none; line-height:1; position:relative; cursor:pointer; background:none; border:none; padding:0; font-family:inherit; }
+    .gt-btn::after { content:'번역 보기'; position:absolute; bottom:calc(100% + 5px); left:0; transform:none; background:#1a1a2e; color:#fff; font-size:0.72em; padding:4px 8px; border-radius:4px; white-space:nowrap; display:none; z-index:300; pointer-events:none; }
+    .gt-btn:hover::after { display:block; }
+    /* ── 공유 버튼 (post-meta 인라인) ── */
+    .share-group { display:inline-flex; align-items:center; gap:4px; width:100%; }
+    .share-label { font-size:0.82em; color:var(--muted); font-weight:600; margin-right:2px; }
+    .meta-right { margin-left:auto; display:flex; gap:16px; }
+    .meta-share-btn { display:inline-flex; align-items:center; padding:1px 6px; border-radius:4px; font-size:0.82em; cursor:pointer; border:1px solid var(--border); background:var(--surface); color:var(--text); font-family:inherit; line-height:1.6; vertical-align:middle; }
+    .meta-share-btn:hover { background:var(--tag-bg); }
+    /* ── 파닉스 한국어 해석 호버 툴팁 ── */
+    .kor-trans { position: relative; cursor: pointer; font-size: 0.82em; padding: 2px 10px; border: 1px solid #ccc; border-radius: 4px; background: #fff; color: #555; display: inline-block; outline: none; }
+    .kor-trans::after { content: attr(data-t); position: absolute; left: 0; top: calc(100% + 6px); background: #f8f9fa; border: 1px solid #d0d0d0; border-radius: 6px; padding: 8px 12px; font-size: 1.1em; color: #444; white-space: normal; width: max-content; max-width: 320px; display: none; z-index: 200; line-height: 1.6; box-shadow: 0 2px 8px rgba(0,0,0,.1); }
+    .kor-trans:hover::after, .kor-trans:focus::after { display: block; }
+    .tag-more > summary.tag-more-summary { font-size: 0.82em; color: var(--muted); cursor: pointer; padding: 8px 0 4px; list-style: none; user-select: none; }
+    .tag-more > summary.tag-more-summary::-webkit-details-marker { display: none; }
+    .tag-more > summary.tag-more-summary:hover { color: var(--accent); }
+    .tag-cloud { display: flex; flex-wrap: wrap; gap: 6px; }
+    .tag-cloud a { background: var(--tag-bg); color: var(--tag-color); font-size: 0.78em; padding: 3px 10px; border-radius: 20px; }
+    .tag-cloud a:hover { background: var(--accent); color: #fff; text-decoration: none; }
+    .tag-cloud a.active { background: var(--accent); color: #fff; }
+
+    /* ── Nav Tree (bash tree style) ── */
+    .phonics-tree summary { cursor: pointer; list-style: none; display: flex; align-items: baseline; padding: 4px 0; user-select: none; }
+    .phonics-tree summary::-webkit-details-marker { display: none; }
+    .phonics-tree summary:hover { color: var(--accent); }
+
+    /* 깊이 1 — 루트 (전체) */
+    .phonics-tree > details > summary { font-size: 0.88em; font-weight: 700; color: var(--text); padding: 8px 0 6px; border-bottom: 2px solid var(--accent); margin-bottom: 6px; }
+
+    /* 수직선 + 들여쓰기 (깊이 2+) */
+    .phonics-tree details details { margin-left: 6px; padding-left: 12px; border-left: 1px solid #d4d4d4; }
+    .phonics-tree details details:last-child { border-left-color: transparent; }
+
+    /* 트리 연결선 — + / - */
+    .phonics-tree details details > summary::before { content: '+ '; font-size: 0.9em; color: #c8c8c8; flex-shrink: 0; }
+    .phonics-tree details details[open] > summary::before { content: '- '; }
+
+    /* 폰트 크기 레벨별 조정 */
+    .phonics-tree details details > summary { font-size: 0.84em; font-weight: 600; color: var(--text); }
+    .phonics-tree details details details > summary { font-size: 0.82em; font-weight: 500; }
+    .phonics-tree details details details details > summary { font-size: 0.80em; color: #555; }
+    .phonics-tree details details details details details > summary { font-size: 0.78em; color: var(--muted); }
+
+    /* 리프 노드 (레슨) */
+    .phonics-tree .lesson-list { list-style: none; padding-left: 0; margin: 2px 0; }
+    .phonics-tree .lesson-list li { display: flex; align-items: baseline; padding: 3px 0; }
+    .phonics-tree .lesson-list li::before { content: '... '; font-size: 0.8em; color: #c8c8c8; flex-shrink: 0; }
+    .phonics-tree .lesson-list a { font-size: 0.78em; color: #999; }
+    .phonics-tree .lesson-list a:hover { color: var(--accent); text-decoration: none; }
+    .phonics-tree .lesson-list a.active { color: var(--accent); font-weight: 600; }
+
+    /* ── Content area ── */
+    #content { flex: 1; min-width: 0; }
+
+    /* ── Page header ── */
+    .page-header { margin-bottom: 28px; padding-bottom: 16px; border-bottom: 1px solid var(--border); }
+    .page-header h1 { font-size: 1.5em; color: var(--text); }
+
+    /* ── Post card grid ── */
+    .post-grid { display: grid; gap: 20px; grid-template-columns: repeat(auto-fill, minmax(280px, 1fr)); }
+    .post-card { background: var(--surface); border: 1px solid var(--border); border-radius: 10px; overflow: hidden; transition: box-shadow 0.2s, transform 0.2s; display: block; color: inherit; }
+    .post-card:hover { box-shadow: 0 4px 20px rgba(0,0,0,.1); transform: translateY(-2px); text-decoration: none; }
+    .post-card-thumb { width: 100%; height: 160px; object-fit: cover; background: #f0f0f0; display: block; }
+    .post-card-thumb-placeholder { width: 100%; height: 160px; background: linear-gradient(135deg, #f0f4ff, #e8ecff); display: flex; align-items: center; justify-content: center; font-size: 2.5em; }
+    .post-card-body { padding: 16px 18px; }
+    .post-card-category { font-size: 0.7em; font-weight: 700; text-transform: uppercase; letter-spacing: 1.5px; color: var(--accent); margin-bottom: 6px; }
+    .post-card-title { font-size: 0.97em; font-weight: 700; color: var(--text); line-height: 1.4; margin-bottom: 8px; }
+    .post-card-excerpt { font-size: 0.82em; color: var(--muted); line-height: 1.5; margin-bottom: 12px; display: -webkit-box; -webkit-line-clamp: 2; -webkit-box-orient: vertical; overflow: hidden; }
+    .post-card-meta { font-size: 0.75em; color: #aaa; display: flex; justify-content: space-between; align-items: center; }
+    .post-card-tags { display: flex; gap: 4px; flex-wrap: wrap; margin-top: 8px; }
+    .tag-sm { background: var(--tag-bg); color: var(--tag-color); font-size: 0.7em; padding: 2px 7px; border-radius: 10px; text-decoration: none; white-space: nowrap; }
+    .tag-sm:hover { background: var(--accent); color: #fff; text-decoration: none; }
+    .tag-sm .tag-count { background: var(--accent); color: #fff; font-size: 0.85em; padding: 0 5px; border-radius: 8px; margin-left: 3px; }
+    .tag-sm:hover .tag-count { background: rgba(255,255,255,0.3); }
+    .tag-sm.tag-top { background: var(--accent); color: #fff; font-weight: 600; }
+    .tag-sm.tag-top:hover { background: #1558c0; }
+    .tag-sm.tag-key { background: transparent; border: 1.5px solid #e67e22; color: #e67e22; font-weight: 600; }
+    .tag-sm.tag-key:hover { background: #e67e22; color: #fff; }
+    .tag-legend { display: flex; gap: 12px; align-items: center; font-size: 0.72em; color: var(--muted); margin-bottom: 10px; flex-wrap: wrap; }
+    .tag-legend-item { display: flex; align-items: center; gap: 4px; }
+    .tag-legend-dot { display: inline-block; width: 10px; height: 10px; border-radius: 3px; }
+    .tag-legend-dot.top { background: var(--accent); }
+    .tag-legend-dot.key { background: transparent; border: 1.5px solid #e67e22; }
+    .tag-legend-dot.normal { background: var(--tag-bg); border: 1px solid var(--border); }
+    .post-tags-slider { display: flex; gap: 6px; overflow-x: scroll; flex-wrap: nowrap; padding-bottom: 8px; cursor: grab; user-select: none; scrollbar-width: thin; scrollbar-color: #bbb #eee; }
+    .post-tags-slider::-webkit-scrollbar { height: 6px; }
+    .post-tags-slider::-webkit-scrollbar-track { background: #eee; border-radius: 3px; }
+    .post-tags-slider::-webkit-scrollbar-thumb { background: #bbb; border-radius: 3px; }
+
+    /* ── Breadcrumb ── */
+    .nav-breadcrumb { font-size: 0.78em; color: var(--muted); margin-bottom: 10px; display: flex; align-items: center; gap: 5px; flex-wrap: wrap; }
+    .nav-breadcrumb span { color: #ccc; }
+
+    /* ── Single post ── */
+    .post-header { margin-bottom: 28px; }
+    .post-category-badge { display: inline-block; background: var(--accent); color: #fff; font-size: 0.72em; font-weight: 700; text-transform: uppercase; letter-spacing: 1.5px; padding: 3px 10px; border-radius: 4px; margin-bottom: 12px; }
+    .post-title { font-size: 1.9em; font-weight: 800; line-height: 1.25; color: var(--text); margin-bottom: 14px; }
+    .post-meta { font-size: 0.82em; color: var(--muted); display: flex; gap: 8px 16px; flex-wrap: wrap; align-items: center; margin-bottom: 12px; padding-bottom: 16px; border-bottom: 1px solid var(--border); }
+    .post-tags { display: flex; gap: 6px; flex-wrap: wrap; }
+    .post-thumbnail { width: 100%; border-radius: 10px; margin-bottom: 28px; box-shadow: 0 2px 12px rgba(0,0,0,.08); }
+
+    /* ── Post body typography ── */
+    .post-body { overflow-wrap: break-word; word-break: break-word; }
+    .post-body h1 { font-size: 1.5em; margin: 32px 0 12px; padding-bottom: 8px; border-bottom: 2px solid var(--border); color: var(--text); }
+    .post-body h2 { font-size: 1.2em; margin: 26px 0 10px; color: var(--accent); }
+    .post-body h3 { font-size: 1em; margin: 18px 0 8px; color: #444; font-weight: 700; }
+    .post-body p { margin-bottom: 14px; color: #333; font-size: 0.97em; }
+    .post-body ul, .post-body ol { padding-left: 22px; margin-bottom: 14px; }
+    .post-body li { margin-bottom: 5px; font-size: 0.97em; color: #333; }
+    .post-body strong { color: var(--text); }
+    .post-body svg { max-width: 100%; height: auto; display: block; margin: 16px auto; }
+    .post-body blockquote { border-left: 4px solid var(--accent); padding: 12px 18px; margin: 18px 0; background: var(--tag-bg); border-radius: 0 8px 8px 0; color: #555; font-style: italic; }
+    .table-scroll { overflow-x: auto; -webkit-overflow-scrolling: touch; margin: 18px 0; width: 100%; max-width: 100%; }
+    .chart-scroll { margin: 16px 0; text-align: center; }
+    .chart-scroll img { width: 100%; height: auto; display: block; margin: 0 auto; border-radius: 8px; }
+    .post-body table { width: 100%; border-collapse: collapse; font-size: 0.9em; }
+    .post-body th { background: #f0f4ff; color: var(--accent); padding: 10px 14px; text-align: left; border-bottom: 2px solid var(--accent); font-size: 0.88em; text-transform: uppercase; letter-spacing: 0.5px; }
+    .post-body td { padding: 10px 14px; border-bottom: 1px solid var(--border); color: #444; }
+    .post-body tr:hover td { background: #fafafa; }
+    .post-body pre { overflow-x: auto; -webkit-overflow-scrolling: touch; background: var(--code-bg); padding: 14px 16px; border-radius: 6px; margin: 14px 0; }
+    .post-body pre code { background: none; padding: 0; color: var(--text); font-size: 0.88em; white-space: pre; }
+    .post-body code { background: var(--code-bg); color: var(--accent2); padding: 2px 6px; border-radius: 4px; font-size: 0.86em; font-family: 'Courier New', monospace; }
+    .post-body hr { border: none; border-top: 1px solid var(--border); margin: 28px 0; }
+    .post-body img { max-width: 100%; height: auto; border-radius: 8px; margin: 16px 0; display: block; }
+    .post-body iframe { width: 100%; border-radius: 8px; margin: 16px 0; border: none; }
+    .post-body a img { display: block; border-radius: 8px; transition: opacity 0.2s; }
+    .post-body a img:hover { opacity: 0.85; }
+    .back-link { display: inline-flex; align-items: center; gap: 6px; font-size: 0.85em; color: var(--muted); margin-bottom: 20px; padding: 6px 14px; border: 1px solid var(--border); border-radius: 20px; transition: all 0.2s; }
+    .back-link:hover { color: var(--accent); border-color: var(--accent); text-decoration: none; background: var(--tag-bg); }
+    .edu-curriculum-nav { display: flex; gap: 8px; flex-wrap: wrap; margin-bottom: 10px; }
+    .section-slider { display: flex; gap: 8px; overflow-x: auto; padding-bottom: 4px; margin-bottom: 24px; scrollbar-width: none; }
+    .section-slider::-webkit-scrollbar { display: none; }
+    .section-btn { flex-shrink: 0; padding: 4px 12px; border: 1px solid var(--border); border-radius: 14px; background: var(--surface); color: var(--muted); font-size: 0.78em; font-weight: 500; text-decoration: none; transition: all 0.15s; white-space: nowrap; }
+    .section-btn:hover { border-color: var(--accent); color: var(--accent); text-decoration: none; }
+    .section-btn.active { background: var(--accent); border-color: var(--accent); color: #fff; font-weight: 700; }
+    .curriculum-btn { display: inline-flex; align-items: center; gap: 4px; font-size: 0.82em; font-weight: 600; color: var(--accent); background: var(--tag-bg); border: 1px solid var(--accent); padding: 4px 12px; border-radius: 20px; text-decoration: none; transition: all 0.2s; }
+    .curriculum-btn:hover { background: var(--accent); color: #fff; text-decoration: none; }
+    .curriculum-btn.active { background: var(--accent); color: #fff; }
+
+    /* ── Footer ── */
+    #footer { border-top: 1px solid var(--border); padding: 24px; text-align: center; font-size: 0.8em; color: var(--muted); background: var(--sidebar-bg); }
+
+    /* PC/태블릿: 차트는 고유 크기(800px) 유지, 중앙 정렬 */
+    @media(min-width: 861px) {
+      .chart-scroll img { width: auto; max-width: 100%; }
+    }
+
+    /* ── Responsive ── */
+    @media(max-width: 860px) {
+      /* 베이스 폰트 크기 확대 */
+      body { font-size: 17px; }
+
+      /* 레이아웃 */
+      #main { padding: 16px 14px; overflow-x: hidden; }
+
+      /* 헤더 */
+      .masthead-inner { padding: 0 14px; }
+      .site-title { font-size: 1.05em; }
+      .greedy-nav { gap: 14px; }
+      .greedy-nav a { font-size: 0.85em; }
+
+      /* 포스트 목록 */
+      .post-grid { grid-template-columns: 1fr; gap: 14px; }
+      .post-card-thumb { height: 180px; }
+
+      /* 포스트 본문 */
+      .post-title { font-size: 1.4em; line-height: 1.3; }
+      .post-thumbnail { border-radius: 6px; margin-bottom: 18px; }
+      .post-header { margin-bottom: 20px; }
+
+    }
+
+    @media(max-width: 480px) {
+      #main { padding: 12px 10px; }
+      .masthead-inner { padding: 0 10px; }
+      .post-title { font-size: 1.2em; }
+      .post-card-thumb { height: 160px; }
+      .post-body h1 { font-size: 1.25em; }
+      .post-body h2 { font-size: 1.05em; }
+      .post-meta { gap: 10px; font-size: 0.78em; }
+    }
+  </style>
+</head>
+<body>
+
+<div id="masthead">
+  <div class="masthead-inner">
+    <a class="site-title" href="/"><span class="icon">📄</span> paperWanderer</a>
+    <nav class="greedy-nav">
+      <a href="/">홈</a>
+      <a href="/about">소개</a>
+    </nav>
+  </div>
+</div>
+
+<div id="main">
+  <div id="content">
+    <div class="section-slider">
+      
+      
+      
+      
+      <a href="/" class="section-btn">📰 토픽 트렌드</a>
+      <a href="/papers/" class="section-btn active">📄 논문</a>
+      
+      
+      
+      <a href="/education/" class="section-btn">📚 파닉스</a>
+      
+      
+      
+      <a href="/vocabulary/" class="section-btn">📖 초등 필수 영단어</a>
+      
+    </div>
+    <div class="page-header">
+  <h1>📄 논문</h1>
+  <div id="filter-label" style="display:none; margin-top:8px; font-size:0.88em; color:var(--muted);">
+    필터: <strong id="filter-text"></strong>
+    &nbsp;<a href="/papers/" style="font-size:0.85em; color:var(--muted);">✕ 초기화</a>
+  </div>
+</div>
+
+<div class="collection-filter-bar">
+  <button class="collection-btn active" data-collection="all">전체</button>
+  <button class="collection-btn" data-collection="paper-pick">논문 Pick</button>
+  <button class="collection-btn" data-collection="paper-analysis">논문 분석</button>
+</div>
+
+<style>
+.collection-filter-bar { display: flex; gap: 5px; margin-bottom: 12px; }
+.collection-btn { padding: 4px 10px; border: 1px solid var(--border); border-radius: 20px; background: var(--surface); color: var(--muted); font-size: 0.78em; cursor: pointer; transition: all 0.15s; }
+.collection-btn:hover { border-color: var(--accent); color: var(--accent); }
+.collection-btn.active { background: var(--accent); border-color: var(--accent); color: #fff; font-weight: 600; }
+</style>
+
+<div class="date-filter-bar">
+  <button class="date-filter-btn active" data-range="all" title="전체">∞</button>
+  <span class="date-filter-spacer"></span>
+  <select id="tag-select" class="tag-select-box">
+    <option value="">태그 선택</option>
+  </select>
+</div>
+
+<style>
+.date-filter-bar { display: flex; align-items: center; gap: 5px; margin-bottom: 20px; }
+.date-filter-spacer { flex: 1; }
+.date-filter-btn { padding: 3px 8px; border: 1px solid var(--border); border-radius: 20px; background: var(--surface); color: var(--muted); font-size: 0.75em; cursor: pointer; transition: all 0.15s; min-width: 28px; text-align: center; }
+.date-filter-btn:hover { border-color: var(--accent); color: var(--accent); }
+.date-filter-btn.active { background: var(--accent); border-color: var(--accent); color: #fff; font-weight: 600; }
+.tag-select-box { padding: 3px 6px; border: 1px solid var(--border); border-radius: 20px; background: var(--surface); color: var(--text); font-size: 0.75em; cursor: pointer; outline: none; max-width: 120px; }
+.tag-select-box:focus { border-color: var(--accent); }
+</style>
+
+<script>
+(function() {
+  var cards = null;
+  var activeTag = null;
+  var activeCollection = 'all';
+
+  function getCards() {
+    if (!cards) cards = Array.from(document.querySelectorAll('#post-grid .post-card'));
+    return cards;
+  }
+
+  function applyFilters() {
+    getCards().forEach(function(card) {
+      var coll = card.dataset.collection || '';
+      var byCollection = (activeCollection === 'all') || (coll === activeCollection);
+      var byTag = !activeTag || (card.dataset.tags || '').split(',').indexOf(activeTag) !== -1;
+      card.style.display = (byCollection && byTag) ? '' : 'none';
+    });
+  }
+
+  function buildTagSelect() {
+    var visibleCards = getCards().filter(function(card) {
+      return card.style.display !== 'none';
+    });
+    var df = {};
+    visibleCards.forEach(function(card) {
+      var tags = (card.dataset.tags || '').split(',').filter(Boolean);
+      tags.forEach(function(tag) { df[tag] = (df[tag] || 0) + 1; });
+    });
+    var sorted = Object.keys(df).filter(function(t) {
+      return !/^\d{4}(-\d{2}(-\d{2})?)?$/.test(t);
+    }).sort(function(a, b) { return df[b] - df[a]; });
+
+    var sel = document.getElementById('tag-select');
+    while (sel.options.length > 1) sel.remove(1);
+    sorted.forEach(function(tag) {
+      var opt = document.createElement('option');
+      opt.value = tag;
+      opt.textContent = '# ' + tag;
+      sel.appendChild(opt);
+    });
+  }
+
+  document.addEventListener('DOMContentLoaded', function() {
+    var grid = document.getElementById('post-grid');
+    var sorted = getCards().slice().sort(function(a, b) {
+      var da = a.dataset.date || '', db = b.dataset.date || '';
+      return db.localeCompare(da);
+    });
+    sorted.forEach(function(card) { grid.appendChild(card); });
+    cards = null;
+
+    buildTagSelect();
+
+    document.querySelectorAll('.collection-btn').forEach(function(btn) {
+      btn.addEventListener('click', function() {
+        document.querySelectorAll('.collection-btn').forEach(function(b){ b.classList.remove('active'); });
+        btn.classList.add('active');
+        activeCollection = btn.dataset.collection;
+        activeTag = null;
+        document.getElementById('tag-select').value = '';
+        applyFilters();
+        buildTagSelect();
+      });
+    });
+
+    document.getElementById('tag-select').addEventListener('change', function() {
+      activeTag = this.value || null;
+      applyFilters();
+    });
+  });
+})();
+</script>
+
+
+
+
+
+<div class="post-grid" id="post-grid">
+  
+  
+  <a class="post-card" href="/papers/picks/worldsimbench-video-world-sim/" data-collection="paper-pick" data-category="papers" data-tags="ICML,비디오생성,세계시뮬레이터,벤치마크,embodied-AI,물리모델링,로봇조작" data-date="2026-04-05" data-rank="99" data-written="">
+    
+    <div class="post-card-thumb-placeholder">📄</div>
+    
+    <div class="post-card-body">
+      <div class="post-card-category">📄 논문 Pick</div>
+      <div class="post-card-title">비디오 생성 모델은 진짜 세계 시뮬레이터가 될 수 있을까 — WorldSimBench 평가 프레임워크</div>
+      <div class="post-card-excerpt">
+  원문: WorldSimBench: Towards Video Generation Models as World Simulators
+저자: Yiran Qin...</div>
+      <div class="post-card-meta">
+        <span>2026-04-05</span>
+        <span style="margin-left:6px; color:var(--accent); font-size:0.85em;">ICML</span>
+      </div>
+      
+      <div class="post-card-tags">
+        
+        <span class="tag-sm tag-top"># ICML</span>
+        
+        <span class="tag-sm tag-top"># 비디오생성</span>
+        
+        <span class="tag-sm tag-top"># 세계시뮬레이터</span>
+        
+        <span class="tag-sm"># 벤치마크</span>
+        
+        <span class="tag-sm"># embodied-AI</span>
+        
+        <span class="tag-sm"># 물리모델링</span>
+        
+        <span class="tag-sm"># 로봇조작</span>
+        
+      </div>
+      
+    </div>
+  </a>
+  
+  
+  <a class="post-card" href="/papers/picks/video-dpo-language-reward/" data-collection="paper-pick" data-category="papers" data-tags="DPO,비디오LLM,멀티모달,보상모델,RLHF" data-date="2026-04-05" data-rank="99" data-written="">
+    
+    <div class="post-card-thumb-placeholder">📄</div>
+    
+    <div class="post-card-body">
+      <div class="post-card-category">📄 논문 Pick</div>
+      <div class="post-card-title">동영상 AI를 저비용으로 정렬하는 캡션 기반 보상 모델</div>
+      <div class="post-card-excerpt">
+  원문: Direct Preference Optimization of Video Large Multimodal Models from Language Mo...</div>
+      <div class="post-card-meta">
+        <span>2026-04-05</span>
+        <span style="margin-left:6px; color:var(--accent); font-size:0.85em;">NAACL</span>
+      </div>
+      
+      <div class="post-card-tags">
+        
+        <span class="tag-sm tag-top"># DPO</span>
+        
+        <span class="tag-sm tag-top"># 비디오LLM</span>
+        
+        <span class="tag-sm tag-top"># 멀티모달</span>
+        
+        <span class="tag-sm"># 보상모델</span>
+        
+        <span class="tag-sm"># RLHF</span>
+        
+      </div>
+      
+    </div>
+  </a>
+  
+  
+  <a class="post-card" href="/papers/picks/unitime-cross-domain-forecasting/" data-collection="paper-pick" data-category="papers" data-tags="WWW,시계열예측,통합모델,크로스도메인,언어강화,제로샷학습,도메인적응" data-date="2026-04-05" data-rank="99" data-written="">
+    
+    <div class="post-card-thumb-placeholder">📄</div>
+    
+    <div class="post-card-body">
+      <div class="post-card-category">📄 논문 Pick</div>
+      <div class="post-card-title">시계열을 언어 작업으로 다루는 크로스 도메인 통합 예측 모델 UniTime</div>
+      <div class="post-card-excerpt">
+  원문: UniTime: A Language-Empowered Unified Model for Cross-Domain Time Series Forecas...</div>
+      <div class="post-card-meta">
+        <span>2026-04-05</span>
+        <span style="margin-left:6px; color:var(--accent); font-size:0.85em;">WWW</span>
+      </div>
+      
+      <div class="post-card-tags">
+        
+        <span class="tag-sm tag-top"># WWW</span>
+        
+        <span class="tag-sm tag-top"># 시계열예측</span>
+        
+        <span class="tag-sm tag-top"># 통합모델</span>
+        
+        <span class="tag-sm"># 크로스도메인</span>
+        
+        <span class="tag-sm"># 언어강화</span>
+        
+        <span class="tag-sm"># 제로샷학습</span>
+        
+        <span class="tag-sm"># 도메인적응</span>
+        
+      </div>
+      
+    </div>
+  </a>
+  
+  
+  <a class="post-card" href="/papers/picks/ufo-ui-agent-windows/" data-collection="paper-pick" data-category="papers" data-tags="AI에이전트,UI자동화,Windows,GPT-Vision,멀티모달" data-date="2026-04-05" data-rank="99" data-written="">
+    
+    <div class="post-card-thumb-placeholder">📄</div>
+    
+    <div class="post-card-body">
+      <div class="post-card-category">📄 논문 Pick</div>
+      <div class="post-card-title">자연어로 Windows를 조종하는 AI 에이전트, UFO</div>
+      <div class="post-card-excerpt">
+  원문: UFO: A UI-Focused Agent for Windows OS Interaction
+저자: Chaoyun Zhang, Liqun Li, ...</div>
+      <div class="post-card-meta">
+        <span>2026-04-05</span>
+        <span style="margin-left:6px; color:var(--accent); font-size:0.85em;">NAACL</span>
+      </div>
+      
+      <div class="post-card-tags">
+        
+        <span class="tag-sm tag-top"># AI에이전트</span>
+        
+        <span class="tag-sm tag-top"># UI자동화</span>
+        
+        <span class="tag-sm tag-top"># Windows</span>
+        
+        <span class="tag-sm"># GPT-Vision</span>
+        
+        <span class="tag-sm"># 멀티모달</span>
+        
+      </div>
+      
+    </div>
+  </a>
+  
+  
+  <a class="post-card" href="/papers/picks/tabular-foundation-model/" data-collection="paper-pick" data-category="papers" data-tags="AI,머신러닝,테이블데이터,파운데이션모델,AutoML,소규모데이터,사전학습" data-date="2026-04-05" data-rank="99" data-written="">
+    
+    <div class="post-card-thumb-placeholder">📄</div>
+    
+    <div class="post-card-body">
+      <div class="post-card-category">📄 논문 Pick</div>
+      <div class="post-card-title">소규모 데이터에서도 통한다 — 테이블 파운데이션 모델 TabPFN</div>
+      <div class="post-card-excerpt">
+  원문: Accurate predictions on small data with a tabular foundation model
+저자: Noah Holl...</div>
+      <div class="post-card-meta">
+        <span>2026-04-05</span>
+        <span style="margin-left:6px; color:var(--accent); font-size:0.85em;">Nature</span>
+      </div>
+      
+      <div class="post-card-tags">
+        
+        <span class="tag-sm tag-top"># AI</span>
+        
+        <span class="tag-sm tag-top"># 머신러닝</span>
+        
+        <span class="tag-sm tag-top"># 테이블데이터</span>
+        
+        <span class="tag-sm"># 파운데이션모델</span>
+        
+        <span class="tag-sm"># AutoML</span>
+        
+        <span class="tag-sm"># 소규모데이터</span>
+        
+        <span class="tag-sm"># 사전학습</span>
+        
+      </div>
+      
+    </div>
+  </a>
+  
+  
+  <a class="post-card" href="/papers/picks/stablemakeup-diffusion/" data-collection="paper-pick" data-category="papers" data-tags="SIGGRAPH,메이크업전이,확산모델,얼굴조작,생성모델,이미지합성" data-date="2026-04-05" data-rank="99" data-written="">
+    
+    <div class="post-card-thumb-placeholder">📄</div>
+    
+    <div class="post-card-body">
+      <div class="post-card-category">📄 논문 Pick</div>
+      <div class="post-card-title">확산 모델로 다양한 포즈와 조명에서도 안정적인 메이크업 전이를 실현한 Stable-Makeup</div>
+      <div class="post-card-excerpt">
+  원문: Stable-Makeup: When Real-World Makeup Transfer Meets Diffusion Model
+저자: Yuxuan ...</div>
+      <div class="post-card-meta">
+        <span>2026-04-05</span>
+        <span style="margin-left:6px; color:var(--accent); font-size:0.85em;">SIGGRAPH</span>
+      </div>
+      
+      <div class="post-card-tags">
+        
+        <span class="tag-sm tag-top"># SIGGRAPH</span>
+        
+        <span class="tag-sm tag-top"># 메이크업전이</span>
+        
+        <span class="tag-sm tag-top"># 확산모델</span>
+        
+        <span class="tag-sm"># 얼굴조작</span>
+        
+        <span class="tag-sm"># 생성모델</span>
+        
+        <span class="tag-sm"># 이미지합성</span>
+        
+      </div>
+      
+    </div>
+  </a>
+  
+  
+  <a class="post-card" href="/papers/picks/sparsevlm-visual-token/" data-collection="paper-pick" data-category="papers" data-tags="ICML,vision-language-model,token-sparsification,efficient-inference,attention,VLM" data-date="2026-04-05" data-rank="99" data-written="">
+    
+    <div class="post-card-thumb-placeholder">📄</div>
+    
+    <div class="post-card-body">
+      <div class="post-card-category">📄 논문 Pick</div>
+      <div class="post-card-title">시각적 토큰을 줄여도 성능은 그대로 — 훈련 없이 VLM 추론 비용을 절반으로</div>
+      <div class="post-card-excerpt">
+  원문: SparseVLM: Visual Token Sparsification for Efficient Vision-Language Model Infer...</div>
+      <div class="post-card-meta">
+        <span>2026-04-05</span>
+        <span style="margin-left:6px; color:var(--accent); font-size:0.85em;">ICML</span>
+      </div>
+      
+      <div class="post-card-tags">
+        
+        <span class="tag-sm tag-top"># ICML</span>
+        
+        <span class="tag-sm tag-top"># vision-language-model</span>
+        
+        <span class="tag-sm tag-top"># token-sparsification</span>
+        
+        <span class="tag-sm"># efficient-inference</span>
+        
+        <span class="tag-sm"># attention</span>
+        
+        <span class="tag-sm"># VLM</span>
+        
+      </div>
+      
+    </div>
+  </a>
+  
+  
+  <a class="post-card" href="/papers/picks/sleep-glymphatic-clearance/" data-collection="paper-pick" data-category="papers" data-tags="신경과학,수면,글림프계,노르에피네프린,뇌건강,혈관" data-date="2026-04-05" data-rank="99" data-written="">
+    
+    <div class="post-card-thumb-placeholder">📄</div>
+    
+    <div class="post-card-body">
+      <div class="post-card-category">📄 논문 Pick</div>
+      <div class="post-card-title">잠자는 동안 뇌를 청소하는 펌프의 정체 — 노르에피네프린이 혈관을 박동시킨다</div>
+      <div class="post-card-excerpt">
+  원문: Norepinephrine-mediated slow vasomotion drives glymphatic clearance during sleep...</div>
+      <div class="post-card-meta">
+        <span>2026-04-05</span>
+        <span style="margin-left:6px; color:var(--accent); font-size:0.85em;">Cell</span>
+      </div>
+      
+      <div class="post-card-tags">
+        
+        <span class="tag-sm tag-top"># 신경과학</span>
+        
+        <span class="tag-sm tag-top"># 수면</span>
+        
+        <span class="tag-sm tag-top"># 글림프계</span>
+        
+        <span class="tag-sm"># 노르에피네프린</span>
+        
+        <span class="tag-sm"># 뇌건강</span>
+        
+        <span class="tag-sm"># 혈관</span>
+        
+      </div>
+      
+    </div>
+  </a>
+  
+  
+  <a class="post-card" href="/papers/picks/screenai-ui-understanding/" data-collection="paper-pick" data-category="papers" data-tags="IJCAI,비전언어모델,UI이해,인포그래픽,멀티모달,구글리서치" data-date="2026-04-05" data-rank="99" data-written="">
+    
+    <div class="post-card-thumb-placeholder">📄</div>
+    
+    <div class="post-card-body">
+      <div class="post-card-category">📄 논문 Pick</div>
+      <div class="post-card-title">스마트폰 화면을 읽는 AI — 구글의 UI 이해 비전-언어 모델 ScreenAI</div>
+      <div class="post-card-excerpt">
+  원문: ScreenAI: A Vision-Language Model for UI and Infographics Understanding
+저자: Gill...</div>
+      <div class="post-card-meta">
+        <span>2026-04-05</span>
+        <span style="margin-left:6px; color:var(--accent); font-size:0.85em;">IJCAI</span>
+      </div>
+      
+      <div class="post-card-tags">
+        
+        <span class="tag-sm tag-top"># IJCAI</span>
+        
+        <span class="tag-sm tag-top"># 비전언어모델</span>
+        
+        <span class="tag-sm tag-top"># UI이해</span>
+        
+        <span class="tag-sm"># 인포그래픽</span>
+        
+        <span class="tag-sm"># 멀티모달</span>
+        
+        <span class="tag-sm"># 구글리서치</span>
+        
+      </div>
+      
+    </div>
+  </a>
+  
+  
+  <a class="post-card" href="/papers/picks/scaling-rectified-flow/" data-collection="paper-pick" data-category="papers" data-tags="ICML,이미지생성,확산모델,정류흐름,트랜스포머,스케일링,텍스트이미지" data-date="2026-04-05" data-rank="99" data-written="">
+    
+    <div class="post-card-thumb-placeholder">📄</div>
+    
+    <div class="post-card-body">
+      <div class="post-card-category">📄 논문 Pick</div>
+      <div class="post-card-title">8B 파라미터 정류 흐름 트랜스포머로 고해상도 이미지 생성 성능을 끌어올리다</div>
+      <div class="post-card-excerpt">
+  원문: Scaling Rectified Flow Transformers for High-Resolution Image Synthesis
+저자: Patr...</div>
+      <div class="post-card-meta">
+        <span>2026-04-05</span>
+        <span style="margin-left:6px; color:var(--accent); font-size:0.85em;">ICML</span>
+      </div>
+      
+      <div class="post-card-tags">
+        
+        <span class="tag-sm tag-top"># ICML</span>
+        
+        <span class="tag-sm tag-top"># 이미지생성</span>
+        
+        <span class="tag-sm tag-top"># 확산모델</span>
+        
+        <span class="tag-sm"># 정류흐름</span>
+        
+        <span class="tag-sm"># 트랜스포머</span>
+        
+        <span class="tag-sm"># 스케일링</span>
+        
+        <span class="tag-sm"># 텍스트이미지</span>
+        
+      </div>
+      
+    </div>
+  </a>
+  
+  
+  <a class="post-card" href="/papers/picks/rstar-math-small-llm-reasoning/" data-collection="paper-pick" data-category="papers" data-tags="ICML,수학추론,소형언어모델,MCTS,강화학습,자기진화,LLM" data-date="2026-04-05" data-rank="99" data-written="">
+    
+    <div class="post-card-thumb-placeholder">📄</div>
+    
+    <div class="post-card-body">
+      <div class="post-card-category">📄 논문 Pick</div>
+      <div class="post-card-title">소형 언어모델도 수학 올림피아드를 푼다 — 자기진화 심층 추론의 가능성</div>
+      <div class="post-card-excerpt">
+  원문: rStar-Math: Small LLMs Can Master Math Reasoning with Self-Evolved Deep Thinking...</div>
+      <div class="post-card-meta">
+        <span>2026-04-05</span>
+        <span style="margin-left:6px; color:var(--accent); font-size:0.85em;">ICML</span>
+      </div>
+      
+      <div class="post-card-tags">
+        
+        <span class="tag-sm tag-top"># ICML</span>
+        
+        <span class="tag-sm tag-top"># 수학추론</span>
+        
+        <span class="tag-sm tag-top"># 소형언어모델</span>
+        
+        <span class="tag-sm"># MCTS</span>
+        
+        <span class="tag-sm"># 강화학습</span>
+        
+        <span class="tag-sm"># 자기진화</span>
+        
+        <span class="tag-sm"># LLM</span>
+        
+      </div>
+      
+    </div>
+  </a>
+  
+  
+  <a class="post-card" href="/papers/picks/researchagent-idea-generation/" data-collection="paper-pick" data-category="papers" data-tags="연구자동화,LLM에이전트,학술그래프,아이디어생성,KAIST" data-date="2026-04-05" data-rank="99" data-written="">
+    
+    <div class="post-card-thumb-placeholder">📄</div>
+    
+    <div class="post-card-body">
+      <div class="post-card-category">📄 논문 Pick</div>
+      <div class="post-card-title">논문 한 편에서 새 연구 아이디어를 자동으로 만든다 — ResearchAgent</div>
+      <div class="post-card-excerpt">
+  원문: ResearchAgent: Iterative Research Idea Generation over Scientific Literature wit...</div>
+      <div class="post-card-meta">
+        <span>2026-04-05</span>
+        <span style="margin-left:6px; color:var(--accent); font-size:0.85em;">NAACL</span>
+      </div>
+      
+      <div class="post-card-tags">
+        
+        <span class="tag-sm tag-top"># 연구자동화</span>
+        
+        <span class="tag-sm tag-top"># LLM에이전트</span>
+        
+        <span class="tag-sm tag-top"># 학술그래프</span>
+        
+        <span class="tag-sm"># 아이디어생성</span>
+        
+        <span class="tag-sm"># KAIST</span>
+        
+      </div>
+      
+    </div>
+  </a>
+  
+  
+  <a class="post-card" href="/papers/picks/protein-equilibrium-generative/" data-collection="paper-pick" data-category="papers" data-tags="Science,단백질역학,생성모델,분자동역학,확산모델,약물발견,AI" data-date="2026-04-05" data-rank="99" data-written="">
+    
+    <div class="post-card-thumb-placeholder">📄</div>
+    
+    <div class="post-card-body">
+      <div class="post-card-category">📄 논문 Pick</div>
+      <div class="post-card-title">생성 AI로 단백질 역학 시뮬레이션을 10만 배 가속하다 — BioEmu</div>
+      <div class="post-card-excerpt">
+  원문: Scalable emulation of protein equilibrium ensembles with generative deep learnin...</div>
+      <div class="post-card-meta">
+        <span>2026-04-05</span>
+        <span style="margin-left:6px; color:var(--accent); font-size:0.85em;">Science</span>
+      </div>
+      
+      <div class="post-card-tags">
+        
+        <span class="tag-sm tag-top"># Science</span>
+        
+        <span class="tag-sm tag-top"># 단백질역학</span>
+        
+        <span class="tag-sm tag-top"># 생성모델</span>
+        
+        <span class="tag-sm"># 분자동역학</span>
+        
+        <span class="tag-sm"># 확산모델</span>
+        
+        <span class="tag-sm"># 약물발견</span>
+        
+        <span class="tag-sm"># AI</span>
+        
+      </div>
+      
+    </div>
+  </a>
+  
+  
+  <a class="post-card" href="/papers/picks/narrow-task-llm-misalignment/" data-collection="paper-pick" data-category="papers" data-tags="AI안전성,LLM,미세조정,오정렬,창발적오정렬,자연과학" data-date="2026-04-05" data-rank="99" data-written="">
+    
+    <div class="post-card-thumb-placeholder">📄</div>
+    
+    <div class="post-card-body">
+      <div class="post-card-category">📄 논문 Pick</div>
+      <div class="post-card-title">좁은 작업 미세조정이 전혀 무관한 영역에서도 AI 오정렬을 유발한다</div>
+      <div class="post-card-excerpt">
+  원문: Training large language models on narrow tasks can lead to broad misalignment
+저자...</div>
+      <div class="post-card-meta">
+        <span>2026-04-05</span>
+        <span style="margin-left:6px; color:var(--accent); font-size:0.85em;">Nature</span>
+      </div>
+      
+      <div class="post-card-tags">
+        
+        <span class="tag-sm tag-top"># AI안전성</span>
+        
+        <span class="tag-sm tag-top"># LLM</span>
+        
+        <span class="tag-sm tag-top"># 미세조정</span>
+        
+        <span class="tag-sm"># 오정렬</span>
+        
+        <span class="tag-sm"># 창발적오정렬</span>
+        
+        <span class="tag-sm"># 자연과학</span>
+        
+      </div>
+      
+    </div>
+  </a>
+  
+  
+  <a class="post-card" href="/papers/picks/motionctrl-video-generation/" data-collection="paper-pick" data-category="papers" data-tags="SIGGRAPH,영상생성,모션제어,확산모델,카메라모션,객체모션,비디오합성" data-date="2026-04-05" data-rank="99" data-written="">
+    
+    <div class="post-card-thumb-placeholder">📄</div>
+    
+    <div class="post-card-body">
+      <div class="post-card-category">📄 논문 Pick</div>
+      <div class="post-card-title">카메라와 객체 모션을 독립적으로 제어하는 영상 생성 모델 MotionCtrl</div>
+      <div class="post-card-excerpt">
+  원문: MotionCtrl: A Unified and Flexible Motion Controller for Video Generation
+저자: Zh...</div>
+      <div class="post-card-meta">
+        <span>2026-04-05</span>
+        <span style="margin-left:6px; color:var(--accent); font-size:0.85em;">SIGGRAPH</span>
+      </div>
+      
+      <div class="post-card-tags">
+        
+        <span class="tag-sm tag-top"># SIGGRAPH</span>
+        
+        <span class="tag-sm tag-top"># 영상생성</span>
+        
+        <span class="tag-sm tag-top"># 모션제어</span>
+        
+        <span class="tag-sm"># 확산모델</span>
+        
+        <span class="tag-sm"># 카메라모션</span>
+        
+        <span class="tag-sm"># 객체모션</span>
+        
+        <span class="tag-sm"># 비디오합성</span>
+        
+      </div>
+      
+    </div>
+  </a>
+  
+  
+  <a class="post-card" href="/papers/picks/memorag-long-context/" data-collection="paper-pick" data-category="papers" data-tags="WWW,RAG,장문맥처리,메모리증강,정보검색,LLM,KV압축" data-date="2026-04-05" data-rank="99" data-written="">
+    
+    <div class="post-card-thumb-placeholder">📄</div>
+    
+    <div class="post-card-body">
+      <div class="post-card-category">📄 논문 Pick</div>
+      <div class="post-card-title">글로벌 메모리로 100K+ 토큰 문서를 처리하는 RAG 프레임워크 MemoRAG</div>
+      <div class="post-card-excerpt">
+  원문: MemoRAG: Boosting Long Context Processing with Global Memory-Enhanced Retrieval ...</div>
+      <div class="post-card-meta">
+        <span>2026-04-05</span>
+        <span style="margin-left:6px; color:var(--accent); font-size:0.85em;">WWW</span>
+      </div>
+      
+      <div class="post-card-tags">
+        
+        <span class="tag-sm tag-top"># WWW</span>
+        
+        <span class="tag-sm tag-top"># RAG</span>
+        
+        <span class="tag-sm tag-top"># 장문맥처리</span>
+        
+        <span class="tag-sm"># 메모리증강</span>
+        
+        <span class="tag-sm"># 정보검색</span>
+        
+        <span class="tag-sm"># LLM</span>
+        
+        <span class="tag-sm"># KV압축</span>
+        
+      </div>
+      
+    </div>
+  </a>
+  
+  
+  <a class="post-card" href="/papers/picks/medrag-healthcare-copilot/" data-collection="paper-pick" data-category="papers" data-tags="WWW,RAG,지식그래프,의료AI,LLM,진단지원,멀티홉추론" data-date="2026-04-05" data-rank="99" data-written="">
+    
+    <div class="post-card-thumb-placeholder">📄</div>
+    
+    <div class="post-card-body">
+      <div class="post-card-category">📄 논문 Pick</div>
+      <div class="post-card-title">지식 그래프로 의료 AI 오진을 줄인다 — MedRAG의 진단 추론 접근</div>
+      <div class="post-card-excerpt">
+  원문: MedRAG: Enhancing Retrieval-augmented Generation with Knowledge Graph-Elicited R...</div>
+      <div class="post-card-meta">
+        <span>2026-04-05</span>
+        <span style="margin-left:6px; color:var(--accent); font-size:0.85em;">WWW</span>
+      </div>
+      
+      <div class="post-card-tags">
+        
+        <span class="tag-sm tag-top"># WWW</span>
+        
+        <span class="tag-sm tag-top"># RAG</span>
+        
+        <span class="tag-sm tag-top"># 지식그래프</span>
+        
+        <span class="tag-sm"># 의료AI</span>
+        
+        <span class="tag-sm"># LLM</span>
+        
+        <span class="tag-sm"># 진단지원</span>
+        
+        <span class="tag-sm"># 멀티홉추론</span>
+        
+      </div>
+      
+    </div>
+  </a>
+  
+  
+  <a class="post-card" href="/papers/picks/ltr-retrotransposon-yeast-centromeres/" data-collection="paper-pick" data-category="papers" data-tags="유전체학,효모,중심절,레트로트랜스포존,진화생물학,Ty5,비교유전체학,세포분열" data-date="2026-04-05" data-rank="99" data-written="">
+    
+    <div class="post-card-thumb-placeholder">📄</div>
+    
+    <div class="post-card-body">
+      <div class="post-card-category">📄 논문 Pick</div>
+      <div class="post-card-title">효모 염색체 분리의 열쇠, 중심절은 '점프 유전자'에서 왔다</div>
+      <div class="post-card-excerpt">
+  원문: Ancient co-option of LTR retrotransposons as yeast centromeres
+저자: Max A. B. Haa...</div>
+      <div class="post-card-meta">
+        <span>2026-04-05</span>
+        <span style="margin-left:6px; color:var(--accent); font-size:0.85em;">Nature</span>
+      </div>
+      
+      <div class="post-card-tags">
+        
+        <span class="tag-sm tag-top"># 유전체학</span>
+        
+        <span class="tag-sm tag-top"># 효모</span>
+        
+        <span class="tag-sm tag-top"># 중심절</span>
+        
+        <span class="tag-sm"># 레트로트랜스포존</span>
+        
+        <span class="tag-sm"># 진화생물학</span>
+        
+        <span class="tag-sm"># Ty5</span>
+        
+        <span class="tag-sm"># 비교유전체학</span>
+        
+        <span class="tag-sm"># 세포분열</span>
+        
+      </div>
+      
+    </div>
+  </a>
+  
+  
+  <a class="post-card" href="/papers/picks/llm-time-series-survey/" data-collection="paper-pick" data-category="papers" data-tags="IJCAI,LLM,시계열,서베이,예측,이상탐지" data-date="2026-04-05" data-rank="99" data-written="">
+    
+    <div class="post-card-thumb-placeholder">📄</div>
+    
+    <div class="post-card-body">
+      <div class="post-card-category">📄 논문 Pick</div>
+      <div class="post-card-title">LLM으로 시계열 데이터를 분석하는 다섯 가지 전략 — 최신 서베이</div>
+      <div class="post-card-excerpt">
+  원문: Large Language Models for Time Series: A Survey
+저자: Xiyuan Zhang, Ranak Roy Chow...</div>
+      <div class="post-card-meta">
+        <span>2026-04-05</span>
+        <span style="margin-left:6px; color:var(--accent); font-size:0.85em;">IJCAI</span>
+      </div>
+      
+      <div class="post-card-tags">
+        
+        <span class="tag-sm tag-top"># IJCAI</span>
+        
+        <span class="tag-sm tag-top"># LLM</span>
+        
+        <span class="tag-sm tag-top"># 시계열</span>
+        
+        <span class="tag-sm"># 서베이</span>
+        
+        <span class="tag-sm"># 예측</span>
+        
+        <span class="tag-sm"># 이상탐지</span>
+        
+      </div>
+      
+    </div>
+  </a>
+  
+  
+  <a class="post-card" href="/papers/picks/llm-representation-recommendation/" data-collection="paper-pick" data-category="papers" data-tags="WWW,추천시스템,LLM,협업필터링,표현학습,의미공간정렬" data-date="2026-04-05" data-rank="99" data-written="">
+    
+    <div class="post-card-thumb-placeholder">📄</div>
+    
+    <div class="post-card-body">
+      <div class="post-card-category">📄 논문 Pick</div>
+      <div class="post-card-title">LLM 표현 학습으로 협업 필터링 추천 정확도를 높인 RLMRec</div>
+      <div class="post-card-excerpt">
+  원문: Representation Learning with Large Language Models for Recommendation
+저자: Xubin ...</div>
+      <div class="post-card-meta">
+        <span>2026-04-05</span>
+        <span style="margin-left:6px; color:var(--accent); font-size:0.85em;">WWW</span>
+      </div>
+      
+      <div class="post-card-tags">
+        
+        <span class="tag-sm tag-top"># WWW</span>
+        
+        <span class="tag-sm tag-top"># 추천시스템</span>
+        
+        <span class="tag-sm tag-top"># LLM</span>
+        
+        <span class="tag-sm"># 협업필터링</span>
+        
+        <span class="tag-sm"># 표현학습</span>
+        
+        <span class="tag-sm"># 의미공간정렬</span>
+        
+      </div>
+      
+    </div>
+  </a>
+  
+  
+  <a class="post-card" href="/papers/picks/llm-multi-agents-survey/" data-collection="paper-pick" data-category="papers" data-tags="IJCAI,LLM,멀티에이전트,서베이,에이전트시스템" data-date="2026-04-05" data-rank="99" data-written="">
+    
+    <div class="post-card-thumb-placeholder">📄</div>
+    
+    <div class="post-card-body">
+      <div class="post-card-category">📄 논문 Pick</div>
+      <div class="post-card-title">LLM 멀티에이전트 시스템의 현황과 과제를 한 논문으로 정리하다</div>
+      <div class="post-card-excerpt">
+  원문: Large Language Model based Multi-Agents: A Survey of Progress and Challenges
+저자:...</div>
+      <div class="post-card-meta">
+        <span>2026-04-05</span>
+        <span style="margin-left:6px; color:var(--accent); font-size:0.85em;">IJCAI</span>
+      </div>
+      
+      <div class="post-card-tags">
+        
+        <span class="tag-sm tag-top"># IJCAI</span>
+        
+        <span class="tag-sm tag-top"># LLM</span>
+        
+        <span class="tag-sm tag-top"># 멀티에이전트</span>
+        
+        <span class="tag-sm"># 서베이</span>
+        
+        <span class="tag-sm"># 에이전트시스템</span>
+        
+      </div>
+      
+    </div>
+  </a>
+  
+  
+  <a class="post-card" href="/papers/picks/indirect-prompt-injection-defense/" data-collection="paper-pick" data-category="papers" data-tags="KDD,LLM보안,프롬프트주입,벤치마크,AI안전성,책임있는AI" data-date="2026-04-05" data-rank="99" data-written="">
+    
+    <div class="post-card-thumb-placeholder">📄</div>
+    
+    <div class="post-card-body">
+      <div class="post-card-category">📄 논문 Pick</div>
+      <div class="post-card-title">AI 어시스턴트의 보안 취약점 — 간접 프롬프트 주입 공격 벤치마크와 방어 방법</div>
+      <div class="post-card-excerpt">
+  원문: Benchmarking and Defending Against Indirect Prompt Injection Attacks on Large La...</div>
+      <div class="post-card-meta">
+        <span>2026-04-05</span>
+        <span style="margin-left:6px; color:var(--accent); font-size:0.85em;">KDD</span>
+      </div>
+      
+      <div class="post-card-tags">
+        
+        <span class="tag-sm tag-top"># KDD</span>
+        
+        <span class="tag-sm tag-top"># LLM보안</span>
+        
+        <span class="tag-sm tag-top"># 프롬프트주입</span>
+        
+        <span class="tag-sm"># 벤치마크</span>
+        
+        <span class="tag-sm"># AI안전성</span>
+        
+        <span class="tag-sm"># 책임있는AI</span>
+        
+      </div>
+      
+    </div>
+  </a>
+  
+  
+  <a class="post-card" href="/papers/picks/in-vivo-car-t-cell-generation/" data-collection="paper-pick" data-category="papers" data-tags="면역치료,CAR-T,지질나노입자,mRNA,자가면역,암치료,유전자치료" data-date="2026-04-05" data-rank="99" data-written="">
+    
+    <div class="post-card-thumb-placeholder">📄</div>
+    
+    <div class="post-card-body">
+      <div class="post-card-category">📄 논문 Pick</div>
+      <div class="post-card-title">주사 한 번으로 체내에서 CAR T 세포를 만든다 — 암·자가면역 치료의 새 접근</div>
+      <div class="post-card-excerpt">
+  원문: In vivo CAR T cell generation to treat cancer and autoimmune disease
+저자: Theresa...</div>
+      <div class="post-card-meta">
+        <span>2026-04-05</span>
+        <span style="margin-left:6px; color:var(--accent); font-size:0.85em;">Science</span>
+      </div>
+      
+      <div class="post-card-tags">
+        
+        <span class="tag-sm tag-top"># 면역치료</span>
+        
+        <span class="tag-sm tag-top"># CAR-T</span>
+        
+        <span class="tag-sm tag-top"># 지질나노입자</span>
+        
+        <span class="tag-sm"># mRNA</span>
+        
+        <span class="tag-sm"># 자가면역</span>
+        
+        <span class="tag-sm"># 암치료</span>
+        
+        <span class="tag-sm"># 유전자치료</span>
+        
+      </div>
+      
+    </div>
+  </a>
+  
+  
+  <a class="post-card" href="/papers/picks/icl-long-context-exploration/" data-collection="paper-pick" data-category="papers" data-tags="ICL,장문맥,LLM분석,프롬프팅,NLP" data-date="2026-04-05" data-rank="99" data-written="">
+    
+    <div class="post-card-thumb-placeholder">📄</div>
+    
+    <div class="post-card-body">
+      <div class="post-card-category">📄 논문 Pick</div>
+      <div class="post-card-title">시연 수천 개가 효과 있을까? 장문맥 ICL의 실체</div>
+      <div class="post-card-excerpt">
+  원문: In-Context Learning with Long-Context Models: An In-Depth Exploration
+저자: Amanda...</div>
+      <div class="post-card-meta">
+        <span>2026-04-05</span>
+        <span style="margin-left:6px; color:var(--accent); font-size:0.85em;">NAACL</span>
+      </div>
+      
+      <div class="post-card-tags">
+        
+        <span class="tag-sm tag-top"># ICL</span>
+        
+        <span class="tag-sm tag-top"># 장문맥</span>
+        
+        <span class="tag-sm tag-top"># LLM분석</span>
+        
+        <span class="tag-sm"># 프롬프팅</span>
+        
+        <span class="tag-sm"># NLP</span>
+        
+      </div>
+      
+    </div>
+  </a>
+  
+  
+  <a class="post-card" href="/papers/picks/hyperacute-oncolytic-virus-cancer/" data-collection="paper-pick" data-category="papers" data-tags="종양학,바이러스면역치료,종양용해바이러스,임상시험,암면역치료,초급성거부반응" data-date="2026-04-05" data-rank="99" data-written="">
+    
+    <div class="post-card-thumb-placeholder">📄</div>
+    
+    <div class="post-card-body">
+      <div class="post-card-category">📄 논문 Pick</div>
+      <div class="post-card-title">초급성 거부반응을 이용한 종양용해 바이러스로 난치성 암 환자 임상시험 성공</div>
+      <div class="post-card-excerpt">
+  원문: Hyperacute rejection-engineered oncolytic virus for interventional clinical tria...</div>
+      <div class="post-card-meta">
+        <span>2026-04-05</span>
+        <span style="margin-left:6px; color:var(--accent); font-size:0.85em;">Cell</span>
+      </div>
+      
+      <div class="post-card-tags">
+        
+        <span class="tag-sm tag-top"># 종양학</span>
+        
+        <span class="tag-sm tag-top"># 바이러스면역치료</span>
+        
+        <span class="tag-sm tag-top"># 종양용해바이러스</span>
+        
+        <span class="tag-sm"># 임상시험</span>
+        
+        <span class="tag-sm"># 암면역치료</span>
+        
+        <span class="tag-sm"># 초급성거부반응</span>
+        
+      </div>
+      
+    </div>
+  </a>
+  
+  
+  <a class="post-card" href="/papers/picks/global-soil-toxic-metals/" data-collection="paper-pick" data-category="papers" data-tags="Science,토양오염,중금속,식량안보,공중보건,기계학습,환경과학" data-date="2026-04-05" data-rank="99" data-written="">
+    
+    <div class="post-card-thumb-placeholder">📄</div>
+    
+    <div class="post-card-body">
+      <div class="post-card-category">📄 논문 Pick</div>
+      <div class="post-card-title">전 세계 경작지 14~17%, 독성 금속 오염 — 9억~14억 명이 위험 지역 거주</div>
+      <div class="post-card-excerpt">
+  원문: Global soil pollution by toxic metals threatens agriculture and human health
+저자:...</div>
+      <div class="post-card-meta">
+        <span>2026-04-05</span>
+        <span style="margin-left:6px; color:var(--accent); font-size:0.85em;">Science</span>
+      </div>
+      
+      <div class="post-card-tags">
+        
+        <span class="tag-sm tag-top"># Science</span>
+        
+        <span class="tag-sm tag-top"># 토양오염</span>
+        
+        <span class="tag-sm tag-top"># 중금속</span>
+        
+        <span class="tag-sm"># 식량안보</span>
+        
+        <span class="tag-sm"># 공중보건</span>
+        
+        <span class="tag-sm"># 기계학습</span>
+        
+        <span class="tag-sm"># 환경과학</span>
+        
+      </div>
+      
+    </div>
+  </a>
+  
+  
+  <a class="post-card" href="/papers/picks/geroscience-precision-geromedicine/" data-collection="paper-pick" data-category="papers" data-tags="생물학,노화,지로사이언스,정밀의학,세놀리틱스,바이오마커,Cell" data-date="2026-04-05" data-rank="99" data-written="">
+    
+    <div class="post-card-thumb-placeholder">📄</div>
+    
+    <div class="post-card-body">
+      <div class="post-card-category">📄 논문 Pick</div>
+      <div class="post-card-title">노화 과학에서 정밀 노화 의학으로 — 개인 맞춤형 노화 관리의 틀</div>
+      <div class="post-card-excerpt">
+  원문: From geroscience to precision geromedicine: Understanding and managing aging
+저자:...</div>
+      <div class="post-card-meta">
+        <span>2026-04-05</span>
+        <span style="margin-left:6px; color:var(--accent); font-size:0.85em;">Cell</span>
+      </div>
+      
+      <div class="post-card-tags">
+        
+        <span class="tag-sm tag-top"># 생물학</span>
+        
+        <span class="tag-sm tag-top"># 노화</span>
+        
+        <span class="tag-sm tag-top"># 지로사이언스</span>
+        
+        <span class="tag-sm"># 정밀의학</span>
+        
+        <span class="tag-sm"># 세놀리틱스</span>
+        
+        <span class="tag-sm"># 바이오마커</span>
+        
+        <span class="tag-sm"># Cell</span>
+        
+      </div>
+      
+    </div>
+  </a>
+  
+  
+  <a class="post-card" href="/papers/picks/generative-model-inorganic-materials/" data-collection="paper-pick" data-category="papers" data-tags="AI소재설계,MatterGen,무기소재,생성모델,결정구조,머신러닝,소재발견,Microsoft" data-date="2026-04-05" data-rank="99" data-written="">
+    
+    <div class="post-card-thumb-placeholder">📄</div>
+    
+    <div class="post-card-body">
+      <div class="post-card-category">📄 논문 Pick</div>
+      <div class="post-card-title">AI가 신소재를 설계한다 — Microsoft MatterGen, 기존 모델 대비 2배 이상 안정적 구조 생성</div>
+      <div class="post-card-excerpt">
+  원문: A generative model for inorganic materials design
+저자: Claudio Zeni, Robert Pinsl...</div>
+      <div class="post-card-meta">
+        <span>2026-04-05</span>
+        <span style="margin-left:6px; color:var(--accent); font-size:0.85em;">Nature</span>
+      </div>
+      
+      <div class="post-card-tags">
+        
+        <span class="tag-sm tag-top"># AI소재설계</span>
+        
+        <span class="tag-sm tag-top"># MatterGen</span>
+        
+        <span class="tag-sm tag-top"># 무기소재</span>
+        
+        <span class="tag-sm"># 생성모델</span>
+        
+        <span class="tag-sm"># 결정구조</span>
+        
+        <span class="tag-sm"># 머신러닝</span>
+        
+        <span class="tag-sm"># 소재발견</span>
+        
+        <span class="tag-sm"># Microsoft</span>
+        
+      </div>
+      
+    </div>
+  </a>
+  
+  
+  <a class="post-card" href="/papers/picks/evolvepro-protein-evolution/" data-collection="paper-pick" data-category="papers" data-tags="Science,단백질공학,지향성진화,언어모델,CRISPR,항체설계,AI" data-date="2026-04-05" data-rank="99" data-written="">
+    
+    <div class="post-card-thumb-placeholder">📄</div>
+    
+    <div class="post-card-body">
+      <div class="post-card-category">📄 논문 Pick</div>
+      <div class="post-card-title">4라운드 실험으로 단백질 특성 최대 100배 개선 — EVOLVEpro</div>
+      <div class="post-card-excerpt">
+  원문: Rapid in silico directed evolution by a protein language model with EVOLVEpro
+저자...</div>
+      <div class="post-card-meta">
+        <span>2026-04-05</span>
+        <span style="margin-left:6px; color:var(--accent); font-size:0.85em;">Science</span>
+      </div>
+      
+      <div class="post-card-tags">
+        
+        <span class="tag-sm tag-top"># Science</span>
+        
+        <span class="tag-sm tag-top"># 단백질공학</span>
+        
+        <span class="tag-sm tag-top"># 지향성진화</span>
+        
+        <span class="tag-sm"># 언어모델</span>
+        
+        <span class="tag-sm"># CRISPR</span>
+        
+        <span class="tag-sm"># 항체설계</span>
+        
+        <span class="tag-sm"># AI</span>
+        
+      </div>
+      
+    </div>
+  </a>
+  
+  
+  <a class="post-card" href="/papers/picks/esm3-500m-years-evolution/" data-collection="paper-pick" data-category="papers" data-tags="Science,단백질공학,AI,언어모델,진화시뮬레이션,GFP,생명과학" data-date="2026-04-05" data-rank="99" data-written="">
+    
+    <div class="post-card-thumb-placeholder">📄</div>
+    
+    <div class="post-card-body">
+      <div class="post-card-category">📄 논문 Pick</div>
+      <div class="post-card-title">언어 모델로 5억 년의 단백질 진화를 시뮬레이션하다</div>
+      <div class="post-card-excerpt">
+  원문: Simulating 500 million years of evolution with a language model
+저자: Thomas Hayes...</div>
+      <div class="post-card-meta">
+        <span>2026-04-05</span>
+        <span style="margin-left:6px; color:var(--accent); font-size:0.85em;">Science</span>
+      </div>
+      
+      <div class="post-card-tags">
+        
+        <span class="tag-sm tag-top"># Science</span>
+        
+        <span class="tag-sm tag-top"># 단백질공학</span>
+        
+        <span class="tag-sm tag-top"># AI</span>
+        
+        <span class="tag-sm"># 언어모델</span>
+        
+        <span class="tag-sm"># 진화시뮬레이션</span>
+        
+        <span class="tag-sm"># GFP</span>
+        
+        <span class="tag-sm"># 생명과학</span>
+        
+      </div>
+      
+    </div>
+  </a>
+  
+  
+  <a class="post-card" href="/papers/picks/diffusion-as-shader-3d-video/" data-collection="paper-pick" data-category="papers" data-tags="SIGGRAPH,비디오생성,확산모델,3D추적,카메라제어,모션전이,포인트클라우드" data-date="2026-04-05" data-rank="99" data-written="">
+    
+    <div class="post-card-thumb-placeholder">📄</div>
+    
+    <div class="post-card-body">
+      <div class="post-card-category">📄 논문 Pick</div>
+      <div class="post-card-title">3D 추적 신호 하나로 카메라·모션·편집을 통합 제어하는 비디오 생성 모델</div>
+      <div class="post-card-excerpt">
+  원문: Diffusion as Shader: 3D-aware Video Diffusion for Versatile Video Generation Con...</div>
+      <div class="post-card-meta">
+        <span>2026-04-05</span>
+        <span style="margin-left:6px; color:var(--accent); font-size:0.85em;">SIGGRAPH</span>
+      </div>
+      
+      <div class="post-card-tags">
+        
+        <span class="tag-sm tag-top"># SIGGRAPH</span>
+        
+        <span class="tag-sm tag-top"># 비디오생성</span>
+        
+        <span class="tag-sm tag-top"># 확산모델</span>
+        
+        <span class="tag-sm"># 3D추적</span>
+        
+        <span class="tag-sm"># 카메라제어</span>
+        
+        <span class="tag-sm"># 모션전이</span>
+        
+        <span class="tag-sm"># 포인트클라우드</span>
+        
+      </div>
+      
+    </div>
+  </a>
+  
+  
+  <a class="post-card" href="/papers/picks/continual-learning-pretrained-survey/" data-collection="paper-pick" data-category="papers" data-tags="IJCAI,지속학습,사전학습모델,대재앙적망각,머신러닝" data-date="2026-04-05" data-rank="99" data-written="">
+    
+    <div class="post-card-thumb-placeholder">📄</div>
+    
+    <div class="post-card-body">
+      <div class="post-card-category">📄 논문 Pick</div>
+      <div class="post-card-title">사전학습 모델로 '망각 없이' 계속 배우는 법 — 지속 학습 서베이</div>
+      <div class="post-card-excerpt">
+  원문: Continual Learning with Pre-Trained Models: A Survey
+저자: Da-Wei Zhou, Hai-Long S...</div>
+      <div class="post-card-meta">
+        <span>2026-04-05</span>
+        <span style="margin-left:6px; color:var(--accent); font-size:0.85em;">IJCAI</span>
+      </div>
+      
+      <div class="post-card-tags">
+        
+        <span class="tag-sm tag-top"># IJCAI</span>
+        
+        <span class="tag-sm tag-top"># 지속학습</span>
+        
+        <span class="tag-sm tag-top"># 사전학습모델</span>
+        
+        <span class="tag-sm"># 대재앙적망각</span>
+        
+        <span class="tag-sm"># 머신러닝</span>
+        
+      </div>
+      
+    </div>
+  </a>
+  
+  
+  <a class="post-card" href="/papers/picks/classroom-simulation-llm/" data-collection="paper-pick" data-category="papers" data-tags="교육AI,멀티에이전트,LLM,교실시뮬레이션,EdTech" data-date="2026-04-05" data-rank="99" data-written="">
+    
+    <div class="post-card-thumb-placeholder">📄</div>
+    
+    <div class="post-card-body">
+      <div class="post-card-category">📄 논문 Pick</div>
+      <div class="post-card-title">LLM 에이전트로 실제 교실을 시뮬레이션한다 — SimClass</div>
+      <div class="post-card-excerpt">
+  원문: Simulating Classroom Education with LLM-Empowered Agents
+저자: Zheyuan Zhang, Dani...</div>
+      <div class="post-card-meta">
+        <span>2026-04-05</span>
+        <span style="margin-left:6px; color:var(--accent); font-size:0.85em;">NAACL</span>
+      </div>
+      
+      <div class="post-card-tags">
+        
+        <span class="tag-sm tag-top"># 교육AI</span>
+        
+        <span class="tag-sm tag-top"># 멀티에이전트</span>
+        
+        <span class="tag-sm tag-top"># LLM</span>
+        
+        <span class="tag-sm"># 교실시뮬레이션</span>
+        
+        <span class="tag-sm"># EdTech</span>
+        
+      </div>
+      
+    </div>
+  </a>
+  
+  
+  <a class="post-card" href="/papers/picks/cell-membrane-cholesterol-asymmetry/" data-collection="paper-pick" data-category="papers" data-tags="Cell,세포막,인지질,콜레스테롤,막생물물리학,비대칭성,지질" data-date="2026-04-05" data-rank="99" data-written="">
+    
+    <div class="post-card-thumb-placeholder">📄</div>
+    
+    <div class="post-card-body">
+      <div class="post-card-category">📄 논문 Pick</div>
+      <div class="post-card-title">콜레스테롤이 세포막의 불균형을 유지하는 열역학적 구동력임을 규명</div>
+      <div class="post-card-excerpt">
+  원문: Cell membranes sustain phospholipid imbalance via cholesterol asymmetry
+저자: Milk...</div>
+      <div class="post-card-meta">
+        <span>2026-04-05</span>
+        <span style="margin-left:6px; color:var(--accent); font-size:0.85em;">Cell</span>
+      </div>
+      
+      <div class="post-card-tags">
+        
+        <span class="tag-sm tag-top"># Cell</span>
+        
+        <span class="tag-sm tag-top"># 세포막</span>
+        
+        <span class="tag-sm tag-top"># 인지질</span>
+        
+        <span class="tag-sm"># 콜레스테롤</span>
+        
+        <span class="tag-sm"># 막생물물리학</span>
+        
+        <span class="tag-sm"># 비대칭성</span>
+        
+        <span class="tag-sm"># 지질</span>
+        
+      </div>
+      
+    </div>
+  </a>
+  
+  
+  <a class="post-card" href="/papers/picks/cast-3d-scene-reconstruction/" data-collection="paper-pick" data-category="papers" data-tags="SIGGRAPH,3D재구성,단일이미지,컴포넌트분해,3D생성,컴퓨터비전,장면이해" data-date="2026-04-05" data-rank="99" data-written="">
+    
+    <div class="post-card-thumb-placeholder">📄</div>
+    
+    <div class="post-card-body">
+      <div class="post-card-category">📄 논문 Pick</div>
+      <div class="post-card-title">단일 RGB 이미지에서 편집 가능한 3D 장면을 재구성하는 CAST</div>
+      <div class="post-card-excerpt">
+  원문: CAST: Component-Aligned 3D Scene Reconstruction from an RGB Image
+저자: Kaixin Yao...</div>
+      <div class="post-card-meta">
+        <span>2026-04-05</span>
+        <span style="margin-left:6px; color:var(--accent); font-size:0.85em;">SIGGRAPH</span>
+      </div>
+      
+      <div class="post-card-tags">
+        
+        <span class="tag-sm tag-top"># SIGGRAPH</span>
+        
+        <span class="tag-sm tag-top"># 3D재구성</span>
+        
+        <span class="tag-sm tag-top"># 단일이미지</span>
+        
+        <span class="tag-sm"># 컴포넌트분해</span>
+        
+        <span class="tag-sm"># 3D생성</span>
+        
+        <span class="tag-sm"># 컴퓨터비전</span>
+        
+        <span class="tag-sm"># 장면이해</span>
+        
+      </div>
+      
+    </div>
+  </a>
+  
+  
+  <a class="post-card" href="/papers/picks/bat-merbecovirus-hku5-human-ace2/" data-collection="paper-pick" data-category="papers" data-tags="코로나바이러스,메르베코바이러스,HKU5,ACE2,박쥐바이러스,인수공통감염,구조생물학,Cell" data-date="2026-04-05" data-rank="99" data-written="">
+    
+    <div class="post-card-thumb-placeholder">📄</div>
+    
+    <div class="post-card-body">
+      <div class="post-card-category">📄 논문 Pick</div>
+      <div class="post-card-title">박쥐 코로나바이러스 HKU5가 인간 ACE2 수용체를 사용할 수 있다</div>
+      <div class="post-card-excerpt">
+  원문: Bat-infecting merbecovirus HKU5-CoV lineage 2 can use human ACE2 as a cell entry...</div>
+      <div class="post-card-meta">
+        <span>2026-04-05</span>
+        <span style="margin-left:6px; color:var(--accent); font-size:0.85em;">Cell</span>
+      </div>
+      
+      <div class="post-card-tags">
+        
+        <span class="tag-sm tag-top"># 코로나바이러스</span>
+        
+        <span class="tag-sm tag-top"># 메르베코바이러스</span>
+        
+        <span class="tag-sm tag-top"># HKU5</span>
+        
+        <span class="tag-sm"># ACE2</span>
+        
+        <span class="tag-sm"># 박쥐바이러스</span>
+        
+        <span class="tag-sm"># 인수공통감염</span>
+        
+        <span class="tag-sm"># 구조생물학</span>
+        
+        <span class="tag-sm"># Cell</span>
+        
+      </div>
+      
+    </div>
+  </a>
+  
+  
+  <a class="post-card" href="/papers/picks/bacterial-immune-phage-triggers/" data-collection="paper-pick" data-category="papers" data-tags="미생물학,항파지면역,세균면역,초분자조립,선천면역,RAZR,파지방어,올리고머화" data-date="2026-04-05" data-rank="99" data-written="">
+    
+    <div class="post-card-thumb-placeholder">📄</div>
+    
+    <div class="post-card-body">
+      <div class="post-card-category">📄 논문 Pick</div>
+      <div class="post-card-title">세균은 어떻게 바이러스를 인식하는가 — 초분자 조립으로 켜지는 면역 스위치</div>
+      <div class="post-card-excerpt">
+  원문: Bacterial immune activation via supramolecular assembly with phage triggers
+저자: ...</div>
+      <div class="post-card-meta">
+        <span>2026-04-05</span>
+        <span style="margin-left:6px; color:var(--accent); font-size:0.85em;">Nature</span>
+      </div>
+      
+      <div class="post-card-tags">
+        
+        <span class="tag-sm tag-top"># 미생물학</span>
+        
+        <span class="tag-sm tag-top"># 항파지면역</span>
+        
+        <span class="tag-sm tag-top"># 세균면역</span>
+        
+        <span class="tag-sm"># 초분자조립</span>
+        
+        <span class="tag-sm"># 선천면역</span>
+        
+        <span class="tag-sm"># RAZR</span>
+        
+        <span class="tag-sm"># 파지방어</span>
+        
+        <span class="tag-sm"># 올리고머화</span>
+        
+      </div>
+      
+    </div>
+  </a>
+  
+  
+  <a class="post-card" href="/papers/picks/autoagents-framework/" data-collection="paper-pick" data-category="papers" data-tags="IJCAI,LLM,멀티에이전트,자동에이전트생성,협력AI" data-date="2026-04-05" data-rank="99" data-written="">
+    
+    <div class="post-card-thumb-placeholder">📄</div>
+    
+    <div class="post-card-body">
+      <div class="post-card-category">📄 논문 Pick</div>
+      <div class="post-card-title">작업에 맞는 AI 에이전트 팀을 자동으로 구성하는 AutoAgents 프레임워크</div>
+      <div class="post-card-excerpt">
+  원문: AutoAgents: A Framework for Automatic Agent Generation
+저자: Guangyao Chen, Siwei ...</div>
+      <div class="post-card-meta">
+        <span>2026-04-05</span>
+        <span style="margin-left:6px; color:var(--accent); font-size:0.85em;">IJCAI</span>
+      </div>
+      
+      <div class="post-card-tags">
+        
+        <span class="tag-sm tag-top"># IJCAI</span>
+        
+        <span class="tag-sm tag-top"># LLM</span>
+        
+        <span class="tag-sm tag-top"># 멀티에이전트</span>
+        
+        <span class="tag-sm"># 자동에이전트생성</span>
+        
+        <span class="tag-sm"># 협력AI</span>
+        
+      </div>
+      
+    </div>
+  </a>
+  
+  
+  <a class="post-card" href="/papers/picks/arena-hard-benchbuilder/" data-collection="paper-pick" data-category="papers" data-tags="ICML,LLM벤치마크,ChatbotArena,ArenaHard,BenchBuilder,LLM평가,자동파이프라인" data-date="2026-04-05" data-rank="99" data-written="">
+    
+    <div class="post-card-thumb-placeholder">📄</div>
+    
+    <div class="post-card-body">
+      <div class="post-card-category">📄 논문 Pick</div>
+      <div class="post-card-title">LLM 벤치마크를 자동으로 만든다 — Arena-Hard와 BenchBuilder 파이프라인</div>
+      <div class="post-card-excerpt">
+  원문: From Crowdsourced Data to High-Quality Benchmarks: Arena-Hard and BenchBuilder P...</div>
+      <div class="post-card-meta">
+        <span>2026-04-05</span>
+        <span style="margin-left:6px; color:var(--accent); font-size:0.85em;">ICML</span>
+      </div>
+      
+      <div class="post-card-tags">
+        
+        <span class="tag-sm tag-top"># ICML</span>
+        
+        <span class="tag-sm tag-top"># LLM벤치마크</span>
+        
+        <span class="tag-sm tag-top"># ChatbotArena</span>
+        
+        <span class="tag-sm"># ArenaHard</span>
+        
+        <span class="tag-sm"># BenchBuilder</span>
+        
+        <span class="tag-sm"># LLM평가</span>
+        
+        <span class="tag-sm"># 자동파이프라인</span>
+        
+      </div>
+      
+    </div>
+  </a>
+  
+  
+  <a class="post-card" href="/papers/picks/adaptive-activation-steering/" data-collection="paper-pick" data-category="papers" data-tags="WWW,LLM,환각완화,활성화조향,진실성,훈련프리,AI안전성" data-date="2026-04-05" data-rank="99" data-written="">
+    
+    <div class="post-card-thumb-placeholder">📄</div>
+    
+    <div class="post-card-body">
+      <div class="post-card-category">📄 논문 Pick</div>
+      <div class="post-card-title">훈련 없이 LLM 내부 활성화를 조정해 환각을 줄이는 ACT 기법</div>
+      <div class="post-card-excerpt">
+  원문: Adaptive Activation Steering: A Tuning-Free LLM Truthfulness Improvement Method ...</div>
+      <div class="post-card-meta">
+        <span>2026-04-05</span>
+        <span style="margin-left:6px; color:var(--accent); font-size:0.85em;">WWW</span>
+      </div>
+      
+      <div class="post-card-tags">
+        
+        <span class="tag-sm tag-top"># WWW</span>
+        
+        <span class="tag-sm tag-top"># LLM</span>
+        
+        <span class="tag-sm tag-top"># 환각완화</span>
+        
+        <span class="tag-sm"># 활성화조향</span>
+        
+        <span class="tag-sm"># 진실성</span>
+        
+        <span class="tag-sm"># 훈련프리</span>
+        
+        <span class="tag-sm"># AI안전성</span>
+        
+      </div>
+      
+    </div>
+  </a>
+  
+  
+  <a class="post-card" href="/papers/picks/2d-gaussian-splatting/" data-collection="paper-pick" data-category="papers" data-tags="SIGGRAPH,가우시안스플래팅,3D재구성,신경렌더링,표면재구성,뷰합성,실시간렌더링" data-date="2026-04-05" data-rank="99" data-written="">
+    
+    <div class="post-card-thumb-placeholder">📄</div>
+    
+    <div class="post-card-body">
+      <div class="post-card-category">📄 논문 Pick</div>
+      <div class="post-card-title">3D 가우시안 스플래팅의 기하학 정확도를 높인 2DGS</div>
+      <div class="post-card-excerpt">
+  원문: 2D Gaussian Splatting for Geometrically Accurate Radiance Fields
+저자: Binbin Huan...</div>
+      <div class="post-card-meta">
+        <span>2026-04-05</span>
+        <span style="margin-left:6px; color:var(--accent); font-size:0.85em;">SIGGRAPH</span>
+      </div>
+      
+      <div class="post-card-tags">
+        
+        <span class="tag-sm tag-top"># SIGGRAPH</span>
+        
+        <span class="tag-sm tag-top"># 가우시안스플래팅</span>
+        
+        <span class="tag-sm tag-top"># 3D재구성</span>
+        
+        <span class="tag-sm"># 신경렌더링</span>
+        
+        <span class="tag-sm"># 표면재구성</span>
+        
+        <span class="tag-sm"># 뷰합성</span>
+        
+        <span class="tag-sm"># 실시간렌더링</span>
+        
+      </div>
+      
+    </div>
+  </a>
+  
+  
+  <a class="post-card" href="/papers/analysis/medicine/2026-04-04-glp1-risks-trump-tariff-kbio/" data-collection="paper-analysis" data-category="medicine" data-tags="GLP1,세마글루타이드,비만치료제,임상,부작용,K바이오,관세,바이오시밀러,셀트리온,삼성바이오로직스" data-date="2026-04-04" data-rank="99" data-written="">
+    
+    <div class="post-card-thumb-placeholder">📄</div>
+    
+    <div class="post-card-body">
+      <div class="post-card-category">🔬 논문 분석</div>
+      <div class="post-card-title">GLP-1 비만치료제, 175만 명 데이터가 그린 위험 지도 — 트럼프 관세와 K바이오의 교차점</div>
+      <div class="post-card-excerpt">트럼프 대통령이 수입 특허의약품에 최대 100% 관세를 부과하는 행정명령에 서명한 가운데, 셀트리온과 삼성바이오로직스 등 K바이오 기업들이 GLP-1 계열 ...</div>
+      <div class="post-card-meta">
+        <span>2026-04-04</span>
+        <span style="margin-left:6px; color:var(--accent); font-size:0.85em;">medicine</span>
+      </div>
+      
+      <div class="post-card-tags">
+        
+        <span class="tag-sm tag-top"># GLP1</span>
+        
+        <span class="tag-sm tag-top"># 세마글루타이드</span>
+        
+        <span class="tag-sm tag-top"># 비만치료제</span>
+        
+        <span class="tag-sm"># 임상</span>
+        
+        <span class="tag-sm"># 부작용</span>
+        
+        <span class="tag-sm"># K바이오</span>
+        
+        <span class="tag-sm"># 관세</span>
+        
+        <span class="tag-sm"># 바이오시밀러</span>
+        
+        <span class="tag-sm"># 셀트리온</span>
+        
+        <span class="tag-sm"># 삼성바이오로직스</span>
+        
+      </div>
+      
+    </div>
+  </a>
+  
+  
+  <a class="post-card" href="/papers/analysis/ai/2026-04-04-deepseek-r1-samsung-hbm-demand/" data-collection="paper-analysis" data-category="ai" data-tags="AI,LLM,강화학습,DeepSeek,HBM,삼성전자,NPU,메모리반도체,AI반도체" data-date="2026-04-04" data-rank="99" data-written="">
+    
+    <div class="post-card-thumb-placeholder">📄</div>
+    
+    <div class="post-card-body">
+      <div class="post-card-category">🔬 논문 분석</div>
+      <div class="post-card-title">소형 LLM이 대형 모델을 대체하면 HBM 수요는 어떻게 되나 — DeepSeek-R1과 삼성전자 반도체 슈퍼사이클</div>
+      <div class="post-card-excerpt">삼성전자가 2026년 1분기에 영업이익 50조원을 돌파할 것이라는 전망이 쏟아지는 가운데, 그 핵심 동력인 HBM(고대역폭 메모리) 수요의 지속 가능성에 의...</div>
+      <div class="post-card-meta">
+        <span>2026-04-04</span>
+        <span style="margin-left:6px; color:var(--accent); font-size:0.85em;">ai</span>
+      </div>
+      
+      <div class="post-card-tags">
+        
+        <span class="tag-sm tag-top"># AI</span>
+        
+        <span class="tag-sm tag-top"># LLM</span>
+        
+        <span class="tag-sm tag-top"># 강화학습</span>
+        
+        <span class="tag-sm"># DeepSeek</span>
+        
+        <span class="tag-sm"># HBM</span>
+        
+        <span class="tag-sm"># 삼성전자</span>
+        
+        <span class="tag-sm"># NPU</span>
+        
+        <span class="tag-sm"># 메모리반도체</span>
+        
+        <span class="tag-sm"># AI반도체</span>
+        
+      </div>
+      
+    </div>
+  </a>
+  
+  
+  <a class="post-card" href="/papers/analysis/ai-security/2026-04-04-medical-llm-poisoning-datacenter-attack/" data-collection="paper-analysis" data-category="ai-security" data-tags="AI보안,의료AI,데이터오염,LLM취약성,데이터센터,이란,사이버전쟁,AI인프라" data-date="2026-04-04" data-rank="99" data-written="">
+    
+    <div class="post-card-thumb-placeholder">📄</div>
+    
+    <div class="post-card-body">
+      <div class="post-card-category">🔬 논문 분석</div>
+      <div class="post-card-title">데이터센터를 공격하지 않아도 AI를 무너뜨릴 수 있다 — 의료 LLM 데이터 오염과 AI 인프라 보안</div>
+      <div class="post-card-excerpt">이란 혁명수비대가 미국 AI·클라우드 기업 18곳을 공격 대상으로 선언하고 바레인의 아마존 클라우드 센터와 두바이 오라클 데이터센터를 타격했다고 주장한 사건...</div>
+      <div class="post-card-meta">
+        <span>2026-04-04</span>
+        <span style="margin-left:6px; color:var(--accent); font-size:0.85em;">ai-security</span>
+      </div>
+      
+      <div class="post-card-tags">
+        
+        <span class="tag-sm tag-top"># AI보안</span>
+        
+        <span class="tag-sm tag-top"># 의료AI</span>
+        
+        <span class="tag-sm tag-top"># 데이터오염</span>
+        
+        <span class="tag-sm"># LLM취약성</span>
+        
+        <span class="tag-sm"># 데이터센터</span>
+        
+        <span class="tag-sm"># 이란</span>
+        
+        <span class="tag-sm"># 사이버전쟁</span>
+        
+        <span class="tag-sm"># AI인프라</span>
+        
+      </div>
+      
+    </div>
+  </a>
+  
+</div>
+
+  </div>
+</div>
+
+<div id="footer">
+  &copy; 2026 paperWanderer &mdash; 자유로운 분석가의 공간
+</div>
+
+<script>
+/* ── 사이드바 카테고리/태그 필터링 ── */
+(function() {
+  function filterPosts(cat, tag, date) {
+    var grid = document.getElementById('post-grid');
+    if (!grid) return false; // 홈페이지 아님
+
+    var label = document.getElementById('filter-label');
+    var filterText = document.getElementById('filter-text');
+    if (cat || tag || date) {
+      var catLabel = cat ? (document.querySelector('.cat-filter[href="/?category=' + encodeURIComponent(cat) + '"]') || {}).textContent || cat : null;
+      filterText.textContent = cat ? '카테고리: ' + (catLabel || cat) : tag ? '태그: #' + tag : '날짜: ' + date;
+      label.style.display = 'block';
+    } else {
+      label.style.display = 'none';
+    }
+
+    grid.querySelectorAll('.post-card').forEach(function(card) {
+      var show = true;
+      if (cat && card.dataset.category !== cat) show = false;
+      if (tag) {
+        var tags = card.dataset.tags ? card.dataset.tags.split(',').map(function(t){ return t.trim(); }) : [];
+        if (tags.indexOf(tag) === -1) show = false;
+      }
+      if (date && card.dataset.date !== date) show = false;
+      card.style.display = show ? '' : 'none';
+    });
+
+    document.querySelectorAll('.cat-filter').forEach(function(a) {
+      a.classList.toggle('active', !!(cat && a.getAttribute('href') === '/?category=' + encodeURIComponent(cat)));
+    });
+    document.querySelectorAll('.tag-filter').forEach(function(a) {
+      a.classList.toggle('active', !!(tag && a.getAttribute('href') === '/?tag=' + encodeURIComponent(tag)));
+    });
+
+    return true;
+  }
+
+  // 페이지 로드 시 URL 파라미터 반영
+  var p = new URLSearchParams(window.location.search);
+  filterPosts(p.get('category'), p.get('tag'), p.get('date'));
+
+  // 사이드바 링크 클릭 인터셉트 (홈페이지만)
+  document.addEventListener('click', function(e) {
+    var a = e.target.closest('.cat-filter, .tag-filter');
+    if (!a) return;
+    var href = a.getAttribute('href');
+    if (!href) return;
+    var url = new URL(href, location.origin);
+    var cat = url.searchParams.get('category');
+    var tag = url.searchParams.get('tag');
+    var date = url.searchParams.get('date');
+    if (!filterPosts(cat, tag, date)) return; // 홈 아니면 일반 이동
+    e.preventDefault();
+    history.pushState({}, '', href);
+  });
+
+  // 브라우저 뒤로가기/앞으로가기
+  window.addEventListener('popstate', function() {
+    var p = new URLSearchParams(window.location.search);
+    filterPosts(p.get('category'), p.get('tag'), p.get('date'));
+  });
+})();
+
+/* ── 모바일: 테이블 스크롤 래퍼 ── */
+document.querySelectorAll('.post-body table').forEach(function(t) {
+  var wrap = document.createElement('div');
+  wrap.className = 'table-scroll';
+  t.parentNode.insertBefore(wrap, t);
+  wrap.appendChild(t);
+  t.style.margin = '0';
+});
+/* ── 반응 차트 SVG: 너비 100% 래퍼 ── */
+document.querySelectorAll('.post-body img[src$="-reactions.svg"]').forEach(function(img) {
+  var wrap = document.createElement('div');
+  wrap.className = 'chart-scroll';
+  img.parentNode.insertBefore(wrap, img);
+  wrap.appendChild(img);
+});
+
+/* ── 태그 슬라이더: BM25 순서 유지 (frontmatter 순서 그대로) ── */
+
+/* ── 태그 슬라이더 마우스 드래그 ── */
+document.querySelectorAll('.post-tags-slider').forEach(function(slider) {
+  var isDown = false, startX, scrollLeft;
+  slider.addEventListener('mousedown', function(e) {
+    isDown = true;
+    startX = e.pageX - slider.offsetLeft;
+    scrollLeft = slider.scrollLeft;
+    slider.style.cursor = 'grabbing';
+  });
+  document.addEventListener('mouseup', function() {
+    isDown = false;
+    slider.style.cursor = '';
+  });
+  slider.addEventListener('mousemove', function(e) {
+    if (!isDown) return;
+    e.preventDefault();
+    var x = e.pageX - slider.offsetLeft;
+    slider.scrollLeft = scrollLeft - (x - startX);
+  });
+});
+
+/* ── 툴팁: position fixed — overflow 완전 차단 ── */
+(function() {
+  var tip = document.createElement('div');
+  tip.className = 'pw-tip';
+  document.body.appendChild(tip);
+
+  function show(el) {
+    var text = el.getAttribute('data-tip');
+    if (!text) return;
+    tip.textContent = text;
+    // 숨긴 채로 크기 측정
+    tip.style.visibility = 'hidden';
+    tip.style.opacity = '1';
+    tip.style.left = '0px';
+    tip.style.top = '0px';
+    var tw = tip.offsetWidth, th = tip.offsetHeight;
+    var r = el.getBoundingClientRect();
+    var vw = window.innerWidth;
+    var t = r.top - th - 10;
+    var l = r.left + r.width / 2 - tw / 2;
+    if (t < 8) t = r.bottom + 10;
+    if (l < 8) l = 8;
+    if (l + tw > vw - 8) l = vw - tw - 8;
+    tip.style.left = l + 'px';
+    tip.style.top = t + 'px';
+    tip.style.visibility = 'visible';
+  }
+
+  function hide() {
+    tip.style.opacity = '0';
+    tip.style.visibility = 'hidden';
+  }
+
+  document.addEventListener('mouseover', function(e) {
+    var el = e.target && e.target.closest ? e.target.closest('.pt, .pterm') : null;
+    if (el) show(el);
+  });
+  document.addEventListener('mouseout', function(e) {
+    var to = e.relatedTarget;
+    if (!to || !to.closest || !to.closest('.pt, .pterm')) hide();
+  });
+  document.addEventListener('touchstart', function(e) {
+    var el = e.target && e.target.closest ? e.target.closest('.pt, .pterm') : null;
+    if (el) { show(el); setTimeout(hide, 2500); }
+  }, {passive: true});
+})();
+
+/* ── 🔊 gt-btn: href 제거 → JS 클릭 처리 (브라우저 URL 상태바 표시 방지) ── */
+document.querySelectorAll('a.gt-btn').forEach(function(el) {
+  var url = el.href;
+  el.removeAttribute('href');
+  el.setAttribute('role', 'button');
+  el.setAttribute('tabindex', '0');
+  el.addEventListener('click', function() { window.open(url, '_blank', 'noopener'); });
+  el.addEventListener('keydown', function(e) { if (e.key === 'Enter' || e.key === ' ') { e.preventDefault(); window.open(url, '_blank', 'noopener'); } });
+});
+
+/* ── 공유 버튼 ── */
+(function() {
+  // 네이티브 공유 (모바일 — 카카오톡·인스타·문자 등 설치 앱 전부 뜸)
+  var nativeBtn = document.getElementById('share-native-btn');
+  if (nativeBtn && navigator.share) {
+    nativeBtn.style.display = '';
+    nativeBtn.addEventListener('click', function() {
+      navigator.share({
+        title: document.querySelector('h1.post-title') ? document.querySelector('h1.post-title').textContent.trim() : document.title.split(' | ')[0],
+        url: location.href
+      });
+    });
+  }
+
+  var copyBtn = document.getElementById('share-copy-btn');
+  if (copyBtn) {
+    copyBtn.addEventListener('click', function() {
+      var url = location.href;
+      var origText = copyBtn.textContent;
+      function done() { copyBtn.textContent = '✓ 복사됨'; setTimeout(function() { copyBtn.textContent = origText; }, 2000); }
+      if (navigator.clipboard) {
+        navigator.clipboard.writeText(url).then(done).catch(function() {
+          var tmp = document.createElement('input'); tmp.value = url; document.body.appendChild(tmp); tmp.select(); document.execCommand('copy'); document.body.removeChild(tmp); done();
+        });
+      } else {
+        var tmp = document.createElement('input'); tmp.value = url; document.body.appendChild(tmp); tmp.select(); document.execCommand('copy'); document.body.removeChild(tmp); done();
+      }
+    });
+  }
+
+
+})();
+</script>
+
+
+
+</body>
+</html>
