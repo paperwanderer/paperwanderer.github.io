@@ -3,24 +3,24 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>SFT는 외운다, RL은 이해한다 — AI 훈련 방식의 근본 차이 | paperWanderer</title>
+  <title>3D 추적 신호 하나로 카메라·모션·편집을 통합 제어하는 비디오 생성 모델 | paperWanderer</title>
   
-  <meta name="description" content="지도학습(SFT)은 훈련 데이터를 암기하는 반면 강화학습(RL)은 새로운 분포에서도 일반화한다는 것을 실험으로 보인 논문. AI 모델 후훈련 설계에 직접 영향을 준다.">
+  <meta name="description" content="3D 추적 비디오를 단일 제어 신호로 삼아 카메라 조작·모션 전이·객체 편집을 하나의 모델에서 수행. 기존 태스크별 전용 모델을 성능 면에서 능가.">
   <meta name="naver-site-verification" content="5ec7f741bd9f06cf3161b3dbf3374203197a44e7" />
   <!-- Open Graph -->
   <meta property="og:type" content="article">
   <meta property="og:site_name" content="paperWanderer">
-  <meta property="og:title" content="SFT는 외운다, RL은 이해한다 — AI 훈련 방식의 근본 차이">
-  <meta property="og:description" content="지도학습(SFT)은 훈련 데이터를 암기하는 반면 강화학습(RL)은 새로운 분포에서도 일반화한다는 것을 실험으로 보인 논문. AI 모델 후훈련 설계에 직접 영향을 준다.">
-  <meta property="og:url" content="https://paperwanderer.github.io/papers/picks/2026-04-04-sft-vs-rl-generalization/">
+  <meta property="og:title" content="3D 추적 신호 하나로 카메라·모션·편집을 통합 제어하는 비디오 생성 모델">
+  <meta property="og:description" content="3D 추적 비디오를 단일 제어 신호로 삼아 카메라 조작·모션 전이·객체 편집을 하나의 모델에서 수행. 기존 태스크별 전용 모델을 성능 면에서 능가.">
+  <meta property="og:url" content="https://paperwanderer.github.io/papers/picks/diffusion-as-shader-3d-video/">
   
   <!-- Twitter Card -->
   <meta name="twitter:card" content="summary">
-  <meta name="twitter:title" content="SFT는 외운다, RL은 이해한다 — AI 훈련 방식의 근본 차이">
-  <meta name="twitter:description" content="지도학습(SFT)은 훈련 데이터를 암기하는 반면 강화학습(RL)은 새로운 분포에서도 일반화한다는 것을 실험으로 보인 논문. AI 모델 후훈련 설계에 직접 영향을 준다.">
+  <meta name="twitter:title" content="3D 추적 신호 하나로 카메라·모션·편집을 통합 제어하는 비디오 생성 모델">
+  <meta name="twitter:description" content="3D 추적 비디오를 단일 제어 신호로 삼아 카메라 조작·모션 전이·객체 편집을 하나의 모델에서 수행. 기존 태스크별 전용 모델을 성능 면에서 능가.">
   
   <!-- Canonical -->
-  <link rel="canonical" href="https://paperwanderer.github.io/papers/picks/2026-04-04-sft-vs-rl-generalization/">
+  <link rel="canonical" href="https://paperwanderer.github.io/papers/picks/diffusion-as-shader-3d-video/">
   <meta name="google-adsense-account" content="ca-pub-3019273513537920">
   <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-3019273513537920" crossorigin="anonymous"></script>
   <style>
@@ -326,7 +326,7 @@
       트렌드 <span>›</span> 논문
     </nav>
     
-    <h1 class="post-title">SFT는 외운다, RL은 이해한다 — AI 훈련 방식의 근본 차이</h1>
+    <h1 class="post-title">3D 추적 신호 하나로 카메라·모션·편집을 통합 제어하는 비디오 생성 모델</h1>
     <div class="post-meta">
       <span class="share-group">
         <span class="share-label">페이지 공유</span>
@@ -334,7 +334,7 @@
         <button class="meta-share-btn sb-copy" id="share-copy-btn">🔗</button>
       </span>
       <span class="meta-right">
-        <a href="/?date=2026-04-04" style="color:inherit; text-decoration:none;">📅 2026년 04월 04일</a>
+        <a href="/?date=" style="color:inherit; text-decoration:none;">📅 </a>
         <span>✍️ paperWanderer</span>
       </span>
     </div>
@@ -353,43 +353,43 @@
         
         
         
-      <a href="/?tag=AI" class="tag-sm tag-top"># AI <span class="tag-count">5</span></a>
+      <a href="/?tag=SIGGRAPH" class="tag-sm tag-top"># SIGGRAPH <span class="tag-count">0</span></a>
       
         
         
         
         
-      <a href="/?tag=LLM" class="tag-sm tag-top"># LLM <span class="tag-count">6</span></a>
+      <a href="/?tag=%EB%B9%84%EB%94%94%EC%98%A4%EC%83%9D%EC%84%B1" class="tag-sm tag-top"># 비디오생성 <span class="tag-count">0</span></a>
       
         
         
         
         
-      <a href="/?tag=SFT" class="tag-sm tag-top"># SFT <span class="tag-count">0</span></a>
+      <a href="/?tag=%ED%99%95%EC%82%B0%EB%AA%A8%EB%8D%B8" class="tag-sm tag-top"># 확산모델 <span class="tag-count">0</span></a>
       
         
         
         
         
-      <a href="/?tag=%EA%B0%95%ED%99%94%ED%95%99%EC%8A%B5" class="tag-sm"># 강화학습 <span class="tag-count">0</span></a>
+      <a href="/?tag=3D%EC%B6%94%EC%A0%81" class="tag-sm"># 3D추적 <span class="tag-count">0</span></a>
       
         
         
         
         
-      <a href="/?tag=%EC%9D%BC%EB%B0%98%ED%99%94" class="tag-sm"># 일반화 <span class="tag-count">0</span></a>
+      <a href="/?tag=%EC%B9%B4%EB%A9%94%EB%9D%BC%EC%A0%9C%EC%96%B4" class="tag-sm"># 카메라제어 <span class="tag-count">0</span></a>
       
         
         
         
         
-      <a href="/?tag=%ED%9B%84%ED%9B%88%EB%A0%A8" class="tag-sm"># 후훈련 <span class="tag-count">0</span></a>
+      <a href="/?tag=%EB%AA%A8%EC%85%98%EC%A0%84%EC%9D%B4" class="tag-sm"># 모션전이 <span class="tag-count">0</span></a>
       
         
         
         
         
-      <a href="/?tag=%EB%8C%80%ED%98%95%EC%96%B8%EC%96%B4%EB%AA%A8%EB%8D%B8" class="tag-sm"># 대형언어모델 <span class="tag-count">0</span></a>
+      <a href="/?tag=%ED%8F%AC%EC%9D%B8%ED%8A%B8%ED%81%B4%EB%9D%BC%EC%9A%B0%EB%93%9C" class="tag-sm"># 포인트클라우드 <span class="tag-count">0</span></a>
       
     </div>
     
@@ -399,13 +399,27 @@
   
 
   <div class="post-body">
-    <h2 id="무엇을-발견했나">무엇을 발견했나</h2>
+    <blockquote>
+  <p><strong>원문:</strong> Diffusion as Shader: 3D-aware Video Diffusion for Versatile Video Generation Control
+<strong>저자:</strong> Zekai Gu, Rui Yan, Jiahao Lu, Peng Li, Zhiyang Dou, Chenyang Si, Zhen Dong, Qifeng Liu, Cheng Lin, Ziwei Liu, Wenping Wang, Yuan Liu
+<strong>게재:</strong> SIGGRAPH 2025, 2025-01-07</p>
+</blockquote>
 
-<p>같은 기반 모델을 지도 미세조정(SFT)과 강화학습(RL)으로 각각 훈련한 뒤 성능을 비교했다. SFT로 훈련된 모델은 훈련 분포 내에서는 잘 작동하지만 새로운 유형의 문제에서는 성능이 떨어졌다. 반면 RL로 훈련된 모델은 훈련 중 본 적 없는 구조의 문제에서도 더 잘 일반화했다. ICML 2025에 채택됐다.</p>
+<h2 id="저자-소개">저자 소개</h2>
 
-<h2 id="왜-주목받나">왜 주목받나</h2>
+<p>주저자 Zekai Gu는 홍콩과학기술대학교(HKUST) 지능 그래픽스 랩(IGL)의 박사과정 연구원으로, 3D 인식 비디오 생성과 확산 모델을 주 연구 분야로 삼고 있다. 공저자에는 NTU MMLab의 Ziwei Liu 부교수(PAMI Mark Everingham Prize 수상, MIT TR 아시아태평양 35세 이하 혁신가)와, 피에르 베지에 상(2023) 수상자이자 ACM·IEEE 펠로인 Texas A&amp;M 대학의 Wenping Wang 교수가 참여했다. 3D 그래픽스와 생성 AI 양쪽의 최고 전문가들이 합류한 협업이다.</p>
 
-<p>“ChatGPT처럼 정답을 보여주고 따라 하게 하는” SFT 방식이 AI 업계의 표준이었다. 이 논문은 그 방식이 근본적으로 암기에 가깝다는 실험적 근거를 제시한다. AI 모델이 범용 추론 능력을 가지려면 RL이 필수적이라는 주장으로 이어지며, 실제로 DeepSeek-R1, o1 등 최신 추론 모델들이 RL을 채택하는 흐름과 정확히 맞아 떨어진다.</p>
+<h2 id="무엇을-발견했나">무엇을 발견했나</h2>
+
+<p>기존 비디오 생성 확산 모델은 텍스트·이미지에서 고품질 영상을 만들지만, 카메라 경로 지정이나 특정 객체 움직임 편집처럼 정밀한 제어에 약하다. 대부분은 2D 제어 신호를 쓰기 때문에 작업 유형마다 별도 모델이 필요했다. 이 연구에서 제안한 DaS(Diffusion as Shader)는 포인트 클라우드(공간에 분포한 3D 점 집합)로부터 렌더링한 <strong>3D 추적 비디오</strong>를 단일 제어 신호로 사용한다. 각 점의 색상이 정규화된 3D 좌표를 RGB로 인코딩하므로, 한 신호 안에 기하·모션·폐색 정보가 모두 담긴다. CogVideoX 모델을 베이스로 훈련 가능한 조건 DiT를 추가했으며, 10,000개 미만의 비디오와 8개 H800 GPU로 3일 파인튜닝에 그쳤다. 카메라 제어 벤치마크에서 큰 움직임 조건의 회전 오차는 10.40도로, CameraCtrl의 29.70도를 크게 밑돌았다. 모션 전이에서는 CLIP 점수 32.6, 시간적 일관성 0.971을 기록하며 TokenFlow(31.9 / 0.956)를 앞섰다.</p>
+
+<h2 id="이-논문의-가치">이 논문의 가치</h2>
+
+<p>하나의 모델로 메시-투-비디오(3D 메시를 실사 영상으로 변환), 카메라 제어, 모션 전이, 객체 조작을 모두 처리한다는 점이 기존 연구와 가장 다른 부분이다. 태스크마다 전용 모델을 개발하던 방식을 탈피해, 3D 추적 비디오라는 범용 제어 표현으로 통합한다. 콘텐츠 제작 파이프라인에서 별도의 제어 모듈 없이 다양한 편집 작업을 단일 모델로 처리할 수 있다는 실용적 의미가 있다.</p>
+
+<h2 id="한계와-전망">한계와 전망</h2>
+
+<p>저자들은 입력 이미지와 3D 추적 비디오의 호환성이 중요하며, 호환되지 않는 추적 비디오를 입력하면 장면 전환이 발생할 수 있다고 밝혔다. 3D 추적 점이 없는 영역에서는 생성 결과가 제어되지 않아 부자연스러운 영상이 나올 수 있다. 현재는 애니메이션 메시나 기존 비디오에서 추적 비디오를 얻어야 하며, 향후 확산 모델로 3D 추적 비디오 자체를 생성하는 방향으로 확장할 계획이라고 저자들은 제시했다.</p>
 
   </div>
 </article>
