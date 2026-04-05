@@ -3,24 +3,24 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>소형 LLM이 대형 모델을 대체하면 HBM 수요는 어떻게 되나 — DeepSeek-R1과 삼성전자 반도체 슈퍼사이클 | paperWanderer</title>
+  <title>7B 모델이 GPT를 이기면, 삼성의 NPU 전략은 맞는 걸까 | paperWanderer</title>
   
-  <meta name="description" content="강화학습만으로 GPT-4o 수준에 도달한 DeepSeek-R1. 소형 모델의 추론 성능 도약이 HBM 중심 메모리 슈퍼사이클에 미치는 영향을 분석한다.">
+  <meta name="description" content="7B 소형 모델이 o1-preview를 수학 추론에서 능가. 소형 모델 시대가 열리면 삼성 NPUaaS와 온디바이스 AI 전략에 어떤 의미가 있는지 분석한다.">
   <meta name="naver-site-verification" content="5ec7f741bd9f06cf3161b3dbf3374203197a44e7" />
   <!-- Open Graph -->
   <meta property="og:type" content="article">
   <meta property="og:site_name" content="paperWanderer">
-  <meta property="og:title" content="소형 LLM이 대형 모델을 대체하면 HBM 수요는 어떻게 되나 — DeepSeek-R1과 삼성전자 반도체 슈퍼사이클">
-  <meta property="og:description" content="강화학습만으로 GPT-4o 수준에 도달한 DeepSeek-R1. 소형 모델의 추론 성능 도약이 HBM 중심 메모리 슈퍼사이클에 미치는 영향을 분석한다.">
-  <meta property="og:url" content="https://paperwanderer.github.io/tech-on-trend/ai/2026-04-04-deepseek-r1-samsung-hbm-demand/">
+  <meta property="og:title" content="7B 모델이 GPT를 이기면, 삼성의 NPU 전략은 맞는 걸까">
+  <meta property="og:description" content="7B 소형 모델이 o1-preview를 수학 추론에서 능가. 소형 모델 시대가 열리면 삼성 NPUaaS와 온디바이스 AI 전략에 어떤 의미가 있는지 분석한다.">
+  <meta property="og:url" content="https://paperwanderer.github.io/tech-on-trend/ai/2026-04-04-small-llm-npu-samsung-supercycle/">
   <meta property="og:image" content="https://paperwanderer.github.io/assets/images/2026-04-04-0933-samsung-q1-record-profit.jpg">
   <!-- Twitter Card -->
   <meta name="twitter:card" content="summary_large_image">
-  <meta name="twitter:title" content="소형 LLM이 대형 모델을 대체하면 HBM 수요는 어떻게 되나 — DeepSeek-R1과 삼성전자 반도체 슈퍼사이클">
-  <meta name="twitter:description" content="강화학습만으로 GPT-4o 수준에 도달한 DeepSeek-R1. 소형 모델의 추론 성능 도약이 HBM 중심 메모리 슈퍼사이클에 미치는 영향을 분석한다.">
+  <meta name="twitter:title" content="7B 모델이 GPT를 이기면, 삼성의 NPU 전략은 맞는 걸까">
+  <meta name="twitter:description" content="7B 소형 모델이 o1-preview를 수학 추론에서 능가. 소형 모델 시대가 열리면 삼성 NPUaaS와 온디바이스 AI 전략에 어떤 의미가 있는지 분석한다.">
   <meta name="twitter:image" content="https://paperwanderer.github.io/assets/images/2026-04-04-0933-samsung-q1-record-profit.jpg">
   <!-- Canonical -->
-  <link rel="canonical" href="https://paperwanderer.github.io/tech-on-trend/ai/2026-04-04-deepseek-r1-samsung-hbm-demand/">
+  <link rel="canonical" href="https://paperwanderer.github.io/tech-on-trend/ai/2026-04-04-small-llm-npu-samsung-supercycle/">
   <meta name="google-adsense-account" content="ca-pub-3019273513537920">
   <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-3019273513537920" crossorigin="anonymous"></script>
   <style>
@@ -332,7 +332,7 @@
       트렌드 <span>›</span> AI
     </nav>
     
-    <h1 class="post-title">소형 LLM이 대형 모델을 대체하면 HBM 수요는 어떻게 되나 — DeepSeek-R1과 삼성전자 반도체 슈퍼사이클</h1>
+    <h1 class="post-title">7B 모델이 GPT를 이기면, 삼성의 NPU 전략은 맞는 걸까</h1>
     <div class="post-meta">
       <span class="share-group">
         <span class="share-label">페이지 공유</span>
@@ -371,25 +371,7 @@
         
         
         
-      <a href="/?tag=%EA%B0%95%ED%99%94%ED%95%99%EC%8A%B5" class="tag-sm tag-top"># 강화학습 <span class="tag-count">0</span></a>
-      
-        
-        
-        
-        
-      <a href="/?tag=DeepSeek" class="tag-sm"># DeepSeek <span class="tag-count">0</span></a>
-      
-        
-        
-        
-        
-      <a href="/?tag=HBM" class="tag-sm"># HBM <span class="tag-count">31</span></a>
-      
-        
-        
-        
-        
-      <a href="/?tag=%EC%82%BC%EC%84%B1%EC%A0%84%EC%9E%90" class="tag-sm"># 삼성전자 <span class="tag-count">83</span></a>
+      <a href="/?tag=%EC%86%8C%ED%98%95%EB%AA%A8%EB%8D%B8" class="tag-sm tag-top"># 소형모델 <span class="tag-count">0</span></a>
       
         
         
@@ -401,13 +383,37 @@
         
         
         
-      <a href="/?tag=%EB%A9%94%EB%AA%A8%EB%A6%AC%EB%B0%98%EB%8F%84%EC%B2%B4" class="tag-sm"># 메모리반도체 <span class="tag-count">11</span></a>
+      <a href="/?tag=%EC%82%BC%EC%84%B1%EC%A0%84%EC%9E%90" class="tag-sm"># 삼성전자 <span class="tag-count">83</span></a>
       
         
         
         
         
-      <a href="/?tag=AI%EB%B0%98%EB%8F%84%EC%B2%B4" class="tag-sm"># AI반도체 <span class="tag-count">26</span></a>
+      <a href="/?tag=HBM" class="tag-sm"># HBM <span class="tag-count">31</span></a>
+      
+        
+        
+        
+        
+      <a href="/?tag=%EC%98%A8%EB%94%94%EB%B0%94%EC%9D%B4%EC%8A%A4AI" class="tag-sm"># 온디바이스AI <span class="tag-count">2</span></a>
+      
+        
+        
+        
+        
+      <a href="/?tag=MCTS" class="tag-sm"># MCTS <span class="tag-count">0</span></a>
+      
+        
+        
+        
+        
+      <a href="/?tag=%EC%88%98%ED%95%99%EC%B6%94%EB%A1%A0" class="tag-sm"># 수학추론 <span class="tag-count">0</span></a>
+      
+        
+        
+        
+        
+      <a href="/?tag=%EB%A9%94%EB%AA%A8%EB%A6%AC%EB%B0%98%EB%8F%84%EC%B2%B4" class="tag-sm"># 메모리반도체 <span class="tag-count">11</span></a>
       
     </div>
     
@@ -415,47 +421,35 @@
   </div>
 
   
-  <img class="post-thumbnail" src="/assets/images/2026-04-04-0933-samsung-q1-record-profit.jpg" alt="소형 LLM이 대형 모델을 대체하면 HBM 수요는 어떻게 되나 — DeepSeek-R1과 삼성전자 반도체 슈퍼사이클">
+  <img class="post-thumbnail" src="/assets/images/2026-04-04-0933-samsung-q1-record-profit.jpg" alt="7B 모델이 GPT를 이기면, 삼성의 NPU 전략은 맞는 걸까">
   
 
   <div class="post-body">
-    <p>삼성전자가 2026년 1분기에 영업이익 50조원을 돌파할 것이라는 전망이 쏟아지는 가운데, 그 핵심 동력인 HBM(고대역폭 메모리) 수요의 지속 가능성에 의문을 던지는 논문이 AI 연구자들 사이에서 빠르게 주목받고 있다. DeepSeek 팀이 공개한 R1 연구는 “더 적은 자원으로 더 나은 추론”이라는 방향을 학술적으로 입증했다. 이 흐름이 실제 산업으로 이어진다면, 지금의 메모리 슈퍼사이클 서사는 수정될 수 있다.</p>
+    <p>삼성전자가 1분기 영업이익 50조원을 돌파할 것이라는 전망이 쏟아진다. DS부문 단독으로 48~49조원, 전체의 90%를 반도체가 채운다. HBM4 양산, D램 가격 87% 급등 — AI 메모리 슈퍼사이클의 정점이라는 진단이다. 그런데 같은 시기, 학계에서는 정반대 방향의 연구가 주목받고 있다. 거대 모델이 아니라 소형 모델만으로도 최상위 추론이 가능하다는 실험 결과다.</p>
 
 <h2 id="논문이-말하는-것">논문이 말하는 것</h2>
 
-<p>DeepSeek-R1은 AI 모델에게 수학 문제를 풀거나 코드를 짜는 능력을 가르치는 방법에 대한 연구다. 기존 방식은 전문가가 정답을 레이블링한 수천~수만 건의 학습 데이터를 모델에 먹이는 것(지도 학습, SFT)이었다. 이 연구팀은 그 과정 없이 순수하게 강화학습(RL)만으로—즉, 모델이 스스로 문제를 풀어보고 정답이면 보상을 받는 방식으로—추론 성능을 끌어올릴 수 있음을 보였다.</p>
+<p>Microsoft Research Asia와 베이징대 공동 연구팀이 발표한 rStar-Math는 7B(70억 파라미터) 규모의 소형 언어모델이 OpenAI o1-preview를 수학 추론에서 능가할 수 있음을 보였다. 방법은 GPT 같은 대형 모델의 지식을 증류(distillation, 큰 모델의 답을 작은 모델에 가르치는 것)하는 기존 방식이 아니다. 몬테카를로 트리 탐색(MCTS)이라는 알파고에서 유명해진 기법을 활용해, 소형 모델 스스로 수학 문제의 풀이 경로를 탐색하고 검증하는 자기진화 방식이다.</p>
 
-<p>결과는 의미심장하다. AIME 2024(미국 수학 초청 경시대회)에서 오픈AI o1과 동등한 수준에 도달했다. 더 주목할 점은, 연구팀이 대형 모델(671B 파라미터)의 추론 능력을 소형 모델(1.5B~70B)로 ‘증류(distillation)’하는 데도 성공했다는 것이다. 증류된 소형 모델이 기존 대형 오픈소스 모델보다 추론 성능이 높게 나왔다.</p>
-
-<p>“생각하는 과정”이라는 표현을 쓴 것은 비유가 아니다. 모델이 강화학습 중 자발적으로 문제를 여러 단계로 나눠 생각하는 행동, 즉 ‘확장된 추론 체인(extended chain of thought)’을 스스로 학습했다. 이 현상은 연구팀도 사전에 설계하지 않았다고 밝혔다.</p>
+<p>구체적으로 Qwen2.5-Math-7B는 MATH 벤치마크에서 58.8%에서 90.0%로, 미국 수학 올림피아드(AIME)에서는 평균 53.3%(15문제 중 8문제)를 맞혀 상위 20% 고등학생 수준에 도달했다. 이 모든 과정에서 GPT-4 수준의 외부 모델은 사용되지 않았다. 747,000개 수학 문제에서 수백만 개의 합성 풀이를 스스로 생성하고 검증한 결과다.</p>
 
 <h2 id="왜-지금-주목받나">왜 지금 주목받나</h2>
 
-<p>이 논문이 주목받는 이유는 두 가지 전제를 동시에 흔들기 때문이다.</p>
-
-<p>첫 번째 전제: “더 좋은 AI를 만들려면 더 많은 정답 데이터가 필요하다.” 이 연구는 데이터 수집 비용 없이도 성능 향상이 가능함을 보였다. AI 학습의 병목이 데이터에서 학습 알고리즘으로 이동할 수 있다는 시사다.</p>
-
-<p>두 번째 전제: “고성능 AI는 대형 모델이어야 한다.” 소형 모델 증류 결과가 기존 대형 오픈소스 모델을 앞선다면, 추론 성능과 모델 크기의 상관관계는 더 이상 고정된 법칙이 아니다. 이 논문이 등장하기 전부터 마이크로소프트의 BitNet처럼 연산을 극단적으로 줄이는 방향의 연구가 진행되고 있었는데, DeepSeek-R1은 그 흐름에 학술적 무게를 더했다.</p>
-
-<p>인용 지수 면에서도 2025년 논문 중 최상위권에 올라 있다. 공개 가중치(오픈소스)로 배포된 것도 확산 속도를 높인 요인이다.</p>
+<p>AI 업계의 통념은 “추론 능력은 모델 크기에 비례한다”였다. OpenAI o1이 그 대표 사례다. 그러나 rStar-Math는 7B 모델이 MCTS라는 탐색 알고리즘과 결합하면, 테스트 시점에서의 연산량(test-time compute)을 늘려 대형 모델의 추론 능력을 따라잡을 수 있음을 보여줬다. 필자의 해석으로는, 이는 “모델을 키울 것인가, 추론 시간을 늘릴 것인가”라는 새로운 트레이드오프를 제시한 것이다.</p>
 
 <h2 id="한국에-어떤-의미인가">한국에 어떤 의미인가</h2>
 
-<p>삼성전자의 1분기 실적 전망은 HBM4 선점 출하와 D램 가격 급등이 맞물린 결과다. 메리츠증권 분석에 따르면 D램 판매 가격이 전 분기 대비 87% 상승했다. 이 수치는 AI 데이터센터 인프라 투자가 메모리 수급을 구조적으로 바꿨음을 보여준다.</p>
+<p>삼성전자의 50조원 실적은 HBM 수요가 만든 것이다. 대형 AI 모델을 훈련하고 서빙하려면 고대역폭 메모리가 필수적이고, 그 수요가 D램 가격을 끌어올렸다. 하지만 rStar-Math가 보여주는 방향 — 소형 모델의 추론 능력 강화 — 은 메모리 수요의 성격을 바꿀 수 있다.</p>
 
-<p>그런데 HBM 수요의 구조적 근거는 ‘대형 모델 학습과 추론에 초고속 메모리가 대량으로 필요하다’는 것이다. DeepSeek-R1이 보여준 것처럼 소형 모델로도 유사한 추론 성능을 낼 수 있다면, 그리고 그 소형 모델을 기업들이 채택하기 시작한다면, 고대역폭 메모리 수요의 증가 속도는 현재 예측보다 둔화될 수 있다.</p>
+<p>삼성SDS가 7월 출시할 NPUaaS(FuriosaAI 국산 NPU 기반 클라우드 서비스)는 바로 이 소형 모델 시나리오에 최적화된 전략이다. GPU 대비 전력 효율이 높은 NPU에서 7B급 모델을 돌리는 것이 경제적으로 합리적이기 때문이다. 정부의 ‘K-엔비디아’ 프로젝트(5년간 50조원)도 같은 맥락에 있다.</p>
 
-<p>글로벌이코노믹이 같은 시기 “마이크로소프트 1비트 LLM이 HBM의 장기 수요를 위협할 수 있다”고 보도한 맥락도 같은 논리다. 소프트웨어 혁신이 하드웨어 수요를 줄이는 역방향 압력이 현실화되고 있다는 신호다.</p>
-
-<p>다만 현재 시점에서 이 압력은 단기 실적보다는 중기 전략의 문제다. 기업들이 소형 모델을 채택하기까지는 기술 검증, 인프라 전환, 비용 분석의 시간이 필요하다. 삼성SDS가 추진하는 국산 NPU 기반 NPUaaS 서비스는 바로 이 전환기를 겨냥한 포지셔닝으로 읽힌다. GPU 중심의 대형 모델 추론 인프라에서 NPU 기반 경량 모델 서비스로의 이동을 삼성 그룹 내부에서 선제적으로 준비하는 구도다.</p>
+<p>필자의 해석으로는, 삼성전자의 양면 전략 — HBM으로 대형 모델 시장을 먹으면서, NPU로 소형 모델 시장도 선점하는 — 이 현재 학계의 흐름과 정확히 맞물린다. 다만 소형 모델이 더 많은 영역에서 대형 모델을 대체할수록, HBM 슈퍼사이클의 지속 기간에 대한 재평가는 불가피하다.</p>
 
 <h2 id="paperwanderer-시각">paperWanderer 시각</h2>
 
-<p>DeepSeek-R1의 한계부터 짚어야 한다. 이 연구는 수학·코딩·논리 추론 태스크에서의 성능을 보인 것이다. 자연어 이해, 맥락 추론, 창의적 생성 같은 영역에서 소형 모델이 대형 모델을 동등하게 대체할 수 있다는 주장은 이 논문의 범위를 넘어선다. 증류된 소형 모델이 모든 유형의 AI 작업에서 대형 모델을 대체할 수 있다고 해석하는 것은 과잉 일반화다.</p>
+<p>rStar-Math의 한계도 명확하다. 저자들은 기하학 문제처럼 시각적 이해가 필요한 영역은 지원하지 못한다고 밝혔고, 합성 데이터의 품질 문제도 남아 있다. 수학이라는 정답이 명확한 도메인에서의 성공이 범용 추론으로 곧바로 이어지지는 않는다.</p>
 
-<p>HBM 수요에 대한 전망도 신중해야 한다. 소형 모델 추론 비용이 낮아지면, 기업들은 더 많은 태스크에 AI를 도입할 가능성이 높다. 수요의 단위당 효율이 올라가더라도 총수요가 줄지 않는 구조—경제학의 ‘리바운드 효과’—가 메모리 시장에서도 작동할 수 있다. 즉, 소형 모델이 대형 모델을 대체한다고 해서 곧바로 HBM 수요가 줄어든다는 인과관계는 성립하지 않는다.</p>
-
-<p>필자의 해석으로는, 이 논문이 삼성전자 반도체 부문에 단기 리스크를 만들기보다는 중기 제품 전략을 재편해야 할 신호를 보내고 있다. HBM4의 성능 우위가 대형 모델 시장을 계속 겨냥할 것이라면, NPUaaS와 경량 모델 생태계는 그다음 사이클을 위한 별도 포트폴리오로 구축해야 한다. 두 시장은 대체 관계가 아니라 병렬 전환 관계일 가능성이 높다.</p>
+<p>그러나 방향성은 분명하다. 추론 능력이 반드시 모델 크기에 비례하지 않는다는 증거가 쌓이고 있고, 이는 AI 반도체 시장의 수요 구조에 장기적 변수를 제공한다. 삼성전자의 50조원 실적은 현재의 정점이자, 동시에 다음 구조 변화의 출발점일 수 있다.</p>
 
   </div>
 </article>
