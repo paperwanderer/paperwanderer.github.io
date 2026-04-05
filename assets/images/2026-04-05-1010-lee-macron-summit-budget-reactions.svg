@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="204" viewBox="0 0 800 204"
+     font-family="'Apple SD Gothic Neo', 'Malgun Gothic', Arial, sans-serif">
+  <rect width="800" height="204" fill="#f8f9fa" rx="12"/>
+  <text x="400" y="36" text-anchor="middle" font-size="19" font-weight="bold" fill="#2c3e50">이재명·마크롱 정상회담 — 커뮤니티 반응</text>
+  <text x="400" y="54" text-anchor="middle" font-size="13" fill="#7f8c8d">클리앙 | 2026-04-05 10:10 KST</text>
+  <!-- 범례 -->
+  <rect x="490" y="66" width="12" height="12" fill="#27ae60" rx="2"/>
+  <text x="506" y="77" font-size="13" fill="#2c3e50">긍정</text>
+  <rect x="548" y="66" width="12" height="12" fill="#e74c3c" rx="2"/>
+  <text x="564" y="77" font-size="13" fill="#2c3e50">부정</text>
+  <rect x="606" y="66" width="12" height="12" fill="#95a5a6" rx="2"/>
+  <text x="622" y="77" font-size="13" fill="#2c3e50">중립</text>
+  <!-- Row 1: 클리앙 -->
+  <text x="60" y="100" font-size="15" font-weight="bold" fill="#2c3e50">클리앙 — 긍정 43건 / 부정 6건 / 중립 12건</text>
+  <rect x="60" y="110" width="479" height="28" fill="#27ae60" rx="3"/>
+  <rect x="539" y="110" width="67" height="28" fill="#e74c3c" rx="3"/>
+  <rect x="606" y="110" width="134" height="28" fill="#95a5a6" rx="3"/>
+  <text x="60" y="152" text-anchor="start" font-size="13" fill="#27ae60">긍정 70%</text>
+  <text x="400" y="152" text-anchor="middle" font-size="13" fill="#e74c3c">부정 10%</text>
+  <text x="740" y="152" text-anchor="end" font-size="13" fill="#7f8c8d">중립 20%</text>
+  <text x="60" y="168" font-size="13" fill="#555">💬 "우리나라 기자들은 뭐하러갔대요?"</text>
+  <text x="400" y="190" text-anchor="middle" font-size="12" fill="#bdc3c7">* 수치는 집계된 공감/반응 신호 기반 | paperWanderer</text>
+</svg>
